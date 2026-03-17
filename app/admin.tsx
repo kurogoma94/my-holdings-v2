@@ -30,6 +30,7 @@ import {
   verifyAdminPassword,
   getGoogleApiKey,
   setGoogleApiKey,
+  importShops,
 } from '@/constants/DataStore';
 import { searchPlace, PlaceSearchResult } from '@/constants/PlacesService';
 
@@ -233,9 +234,39 @@ export default function AdminScreen() {
 
   // APIキー保存
   const handleSaveApiKey = () => {
-    setGoogleApiKey(apiKey);
-    showAlert('保存完了 ✅', 'Google APIキーを保存しました');
     setMode('list');
+  };
+
+  // CSVインポート処理
+  const handleCSVImport = () => {
+    if (Platform.OS !== 'web') {
+      showAlert('エラー', 'CSVインポートはWebブラウザ環境のみ対応しています');
+      return;
+    }
+
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.csv';
+    input.onchange = (e: any) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (event: any) => {
+        const text = event.target.result;
+        const result = importShops(text);
+        
+        loadShops(); // 一覧を再読み込み
+
+        let message = `${result.success}件のインポートに成功しました！`;
+        if (result.failed > 0) {
+          message += `\n\n⚠️ ${result.failed}件が失敗しました。以下のエラーを確認してください：\n` + result.errors.join('\n');
+        }
+        showAlert('インポート結果', message);
+      };
+      reader.readAsText(file);
+    };
+    input.click();
   };
 
   // =============== ログイン画面 ===============
@@ -497,6 +528,12 @@ export default function AdminScreen() {
       <View style={styles.headerBar}>
         <Text style={[styles.pageTitle, { color: colors.text }]}>🏮 店舗管理</Text>
         <View style={styles.headerActions}>
+          <TouchableOpacity
+            style={[styles.smallButton, { backgroundColor: Colors.primary }]}
+            onPress={handleCSVImport}
+          >
+            <Text style={styles.smallButtonText}>📥 CSV</Text>
+          </TouchableOpacity>
           <TouchableOpacity
             style={[styles.smallButton, { backgroundColor: '#666' }]}
             onPress={() => setMode('settings')}

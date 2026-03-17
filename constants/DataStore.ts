@@ -129,3 +129,80 @@ export function resetToMockData(): void {
   if (!isStorageAvailable()) return;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(MOCK_SHOPS));
 }
+
+// CSVインポート
+import { AREAS, GENRES, AreaCode, GenreCode } from './Types';
+
+export function importShops(csvText: string): { success: number; failed: number; errors: string[] } {
+  const lines = csvText.split(/\r?\n/).filter(line => line.trim() !== '');
+  if (lines.length <= 1) return { success: 0, failed: 0, errors: ['データが空か、ヘッダーのみです'] };
+
+  // ヘッダーをスキップ
+  const dataLines = lines.slice(1);
+  const shops = getAllShops();
+  let successCount = 0;
+  let errorCount = 0;
+  const errors: string[] = [];
+
+  dataLines.forEach((line, index) => {
+    // 簡易的なCSVパース（カンマ区切り、引用符は考慮しない簡易版）
+    const parts = line.split(',').map(p => p.trim());
+    
+    // 基本的なバリデーション
+    if (parts.length < 3) {
+      errorCount++;
+      errors.push(`行 ${index + 2}: 項目が足りません`);
+      return;
+    }
+
+    const [name, areaLabel, genreLabel, budgetMinStr, budgetMaxStr, comment, ratingStr, mapsUrl] = parts;
+
+    // エリア・ジャンルの変換
+    const area = AREAS.find(a => a.label.includes(areaLabel))?.code;
+    const genre = GENRES.find(g => g.label.includes(genreLabel))?.code;
+
+    if (!area || !genre) {
+      errorCount++;
+      errors.push(`行 ${index + 2}: エリアまたはジャンルが正しくありません (${areaLabel}, ${genreLabel})`);
+      return;
+    }
+
+    const budgetMin = parseInt(budgetMinStr, 10) || 0;
+    const budgetMax = budgetMaxStr ? parseInt(budgetMaxStr, 10) : undefined;
+    const rating = Math.min(5, Math.max(1, parseInt(ratingStr, 10) || 3));
+
+    const shopData: Omit<Shop, 'id' | 'createdAt'> = {
+      name,
+      area: area as AreaCode,
+      genre: genre as GenreCode,
+      budgetMin,
+      budgetMax,
+      comment: comment || '',
+      rating,
+      googleMapsUrl: mapsUrl || '',
+      isActive: true,
+    };
+
+    // 重複チェック（店名）
+    const existingIndex = shops.findIndex(s => s.name === name);
+    if (existingIndex !== -1) {
+      shops[existingIndex] = {
+        ...shops[existingIndex],
+        ...shopData,
+      };
+    } else {
+      shops.push({
+        ...shopData,
+        id: (Date.now() + index).toString(),
+        createdAt: new Date().toISOString().split('T')[0],
+      });
+    }
+    successCount++;
+  });
+
+  if (successCount > 0) {
+    saveShops(shops);
+  }
+
+  return { success: successCount, failed: errorCount, errors };
+}
