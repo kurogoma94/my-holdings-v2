@@ -141,7 +141,7 @@ export default function RouletteScreen() {
       {/* ヘッダー */}
       <View style={styles.header}>
         <Text style={[styles.welcomeText, { color: colors.textSecondary }]}>
-          Welcome, Takahiro (Black Sesame HD)
+          Welcome, Sakekasu!!
         </Text>
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
           <Text style={[styles.appTitle, { color: Colors.primary }]}>🏮</Text>
