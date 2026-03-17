@@ -15,7 +15,6 @@ jobs:
           node-version: 20
       - name: Install dependencies
         run: npm install
-        working-directory: app/src
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
         with:
@@ -23,4 +22,3 @@ jobs:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: '--prod'
-          working-directory: app/src
