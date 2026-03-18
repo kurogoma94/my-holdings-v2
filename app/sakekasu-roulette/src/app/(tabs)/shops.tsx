@@ -414,7 +414,7 @@ const styles = StyleSheet.create({
   },
   listContent: {
     padding: 16,
-    paddingBottom: 100,
+    paddingBottom: 140,
   },
   shopCard: {
     flexDirection: 'row',

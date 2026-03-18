@@ -8,34 +8,25 @@ export default function Root({ children }: { children: React.ReactNode }) {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
-
-        {/* SEO */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="manifest" href="/manifest.json" />
         <title>大阪ディープ居酒屋ルーレット | 今日の一軒をルーレットで決めよう</title>
         <meta name="description" content="大阪の厳選居酒屋をルーレットでランダムに紹介！天満・難波・新世界など、実際に足を運んだディープなお店だけを収録。一人飲みの新しいお店探しに。" />
-
-        {/* OGP - SNSでシェアしたときの表示設定 */}
         <meta property="og:title" content="大阪ディープ居酒屋ルーレット 🏮" />
         <meta property="og:description" content="今日の一軒をルーレットで決めよう！大阪のディープな居酒屋を厳選収録。" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/ogp.png" />
         <meta property="og:locale" content="ja_JP" />
-
-        {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="大阪ディープ居酒屋ルーレット 🏮" />
         <meta name="twitter:description" content="今日の一軒をルーレットで決めよう！" />
-
-        {/* PWA 対応 */}
         <meta name="theme-color" content="#1A1A2E" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <link rel="manifest" href="/manifest.json" />
-
-        {/* Google Fonts - 日本語フォント */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-
         <ScrollViewStyleReset />
         <style dangerouslySetInnerHTML={{ __html: globalStyles }} />
       </head>

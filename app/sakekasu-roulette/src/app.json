@@ -36,6 +36,8 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "androidAppId": "ca-app-pub-8899707832109693~4886983522",
+    "iosAppId": "ca-app-pub-8899707832109693~4886983522"
   }
 }

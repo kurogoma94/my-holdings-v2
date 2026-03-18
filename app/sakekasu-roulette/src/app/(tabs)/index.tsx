@@ -25,6 +25,7 @@ import {
   getGenreLabel,
   formatBudget,
 } from '@/constants/Types';
+import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
@@ -371,8 +372,19 @@ export default function RouletteScreen() {
         </Animated.View>
       )}
 
+      {/* 広告エリア */}
+      <View style={{ alignItems: 'center', marginVertical: 20 }}>
+        <BannerAd
+          unitId="ca-app-pub-8899707832109693/7429386387"
+          size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+          requestOptions={{
+            requestNonPersonalizedAdsOnly: true,
+          }}
+        />
+      </View>
+
       {/* 下部スペース */}
-      <View style={{ height: 40 }} />
+      <View style={{ height: 80 }} />
     </ScrollView>
   );
 }

@@ -7,7 +7,8 @@
 ---
 
 ## 💻 Step 1: データの保存先（Google ドライブ）の準備
-Googleカレンダーのデータを受け取るためには、PC内のローカルフォルダ（`my-holdings`）と、Googleドライブを連携させる必要があります。
+
+Google ドライブ パソコン版 をインストールし、Googleアカウントでログインします。
 
 1. [Google ドライブ パソコン版](https://workspace.google.co.jp/intl/ja/products/drive/) をインストールし、Googleアカウントでログインします。
 2. Googleドライブ（Gドライブなど）がPC上にマウント（表示）されます。
@@ -17,6 +18,7 @@ Googleカレンダーのデータを受け取るためには、PC内のローカ
 ---
 
 ## 📜 Step 2: Google Apps Script (GAS) の設定
+
 Googleカレンダーの予定を毎晩深夜に自動取得し、テキストファイルとして出力するプログラム（スクリプト）を設定します。
 
 1. [Google Apps Script](https://script.google.com/home) にアクセスします。
@@ -100,6 +102,7 @@ function exportWeeklySchedule() {
 ---
 
 ## ⏱️ Step 4: 毎晩深夜に自動実行させる設定（トリガー）
+
 最後に、このスクリプトが人間が操作しなくても勝手に動くようにタイマーを設定します。
 
 1. GASのエディタ左側にあるメニューから「トリガー（時計のアイコン）」をクリックします。
@@ -115,6 +118,7 @@ function exportWeeklySchedule() {
 ---
 
 ## ✅ 準備完了！
+
 これで設定はすべて完了です！
 
 今後は、**毎日深夜0時〜1時の間**に、Googleカレンダーの今日から1週間分の予定が読み取られ、Googleドライブの `AI_Schedule` フォルダ内の `schedule.md` というファイルに自動で書き出されます。
