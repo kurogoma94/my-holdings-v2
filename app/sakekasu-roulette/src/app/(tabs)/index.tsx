@@ -26,6 +26,43 @@ import {
   formatBudget,
 } from '@/constants/Types';
 import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+import { Platform } from 'react-native';
+
+// Web版用のGoogle AdSenseコンポーネント
+const WebBannerAd = () => {
+  useEffect(() => {
+    try {
+      // @ts-ignore
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error('AdSense error:', e);
+    }
+  }, []);
+
+  return (
+    <View style={{ width: '100%', height: 100, backgroundColor: '#eee', justifyContent: 'center', alignItems: 'center' }}>
+      {/* 
+        Google AdSense の広告タグ
+        注: data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" と data-ad-slot="YYYYYYYYYY" を
+        自分のAdSense管理画面から取得した値に書き換えてください。
+      */}
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-8899707832109693"
+                 data-ad-slot="1501184542"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+          `,
+        }}
+        style={{ width: '100%' }}
+      />
+      <Text style={{ fontSize: 10, color: '#999', position: 'absolute', bottom: 2 }}>Advertisement</Text>
+    </View>
+  );
+};
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
@@ -374,13 +411,17 @@ export default function RouletteScreen() {
 
       {/* 広告エリア */}
       <View style={{ alignItems: 'center', marginVertical: 20 }}>
-        <BannerAd
-          unitId="ca-app-pub-8899707832109693/7429386387"
-          size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
-          requestOptions={{
-            requestNonPersonalizedAdsOnly: true,
-          }}
-        />
+        {Platform.OS === 'web' ? (
+          <WebBannerAd />
+        ) : (
+          <BannerAd
+            unitId="ca-app-pub-8899707832109693/7429386387"
+            size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+            requestOptions={{
+              requestNonPersonalizedAdsOnly: true,
+            }}
+          />
+        )}
       </View>
 
       {/* 下部スペース */}
