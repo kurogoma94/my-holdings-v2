@@ -48,6 +48,7 @@ body {
   font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
+  padding-bottom: env(safe-area-inset-bottom);
   -webkit-font-smoothing: antialiased;
 }
 @media (prefers-color-scheme: dark) {

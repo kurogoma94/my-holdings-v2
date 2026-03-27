@@ -424,8 +424,8 @@ export default function RouletteScreen() {
         )}
       </View>
 
-      {/* 下部スペース */}
-      <View style={{ height: 80 }} />
+      {/* 下部スペース（iPhoneツールバー被り対策 + safe-area-inset-bottom補完） */}
+      <View style={{ height: 140 }} />
     </ScrollView>
   );
 }
