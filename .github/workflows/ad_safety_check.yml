@@ -1,0 +1,38 @@
+name: Ad Safety Validate
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  ad-safety-check:
+    name: Validate AdSense & AdMob Test IDs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Check for Hardcoded Production Ad IDs
+        run: |
+          # 🚨 The presence of unauthorized `ca-pub-*` or `ca-app-pub-*` strings 
+          # in the repository (excluding test IDs) will fail the CI process.
+          # Test ID for AdMob: ca-app-pub-3940256099942544~1458002511
+          # Test ID for AdSense: ca-pub-0000000000000000 (example)
+          
+          # Find potentially hardcoded ad ids
+          FOUND_STRAY_IDS=$(grep -rEl "ca-app-pub-[0-9]+|ca-pub-[0-9]+" ./app/sakekasu-roulette/src/ || true)
+          
+          # Filter out the known AdMob test publisher ID from the search results
+          if [ ! -z "$FOUND_STRAY_IDS" ]; then
+             BAD_IDS=$(grep -rEl "ca-app-pub-[0-9]+|ca-pub-[0-9]+" ./app/sakekasu-roulette/src/ | grep -v "3940256099942544" || true)
+             if [ ! -z "$BAD_IDS" ]; then
+                echo "::error::❌ Vercel or Production AdSense IDs detected in source code! To prevent account bans, DO NOT hardcode production Ad IDs. Proceed via Environment Variables."
+                echo "Files containing suspicious Ad IDs:"
+                echo "$BAD_IDS"
+                exit 1
+             fi
+          fi
+          
+          echo "✅ Ad Safety Check passed. No hardcoded production IDs detected."
