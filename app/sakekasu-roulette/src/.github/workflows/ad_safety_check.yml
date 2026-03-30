@@ -1,0 +1,24 @@
+name: Ad Safety Check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  safety-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Check for Hardcoded AdSense IDs
+        run: |
+          echo "Scanning for hardcoded AdSense IDs (ca-pub-)..."
+          # src 内のコードを検索し、直書きが存在したらブロックする
+          if grep -r "ca-pub-[0-9]" ./app/sakekasu-roulette/src; then
+            echo "::error::🚨 FATAL: Hardcoded AdSense ID found! AdSense IDs must be injected via environment variables to prevent account bans."
+            exit 1
+          else
+            echo "✅ Safety Check Passed: No hardcoded AdSense IDs."
+          fi
