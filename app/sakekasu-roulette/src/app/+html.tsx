@@ -28,6 +28,8 @@ export default function Root({ children }: { children: React.ReactNode }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
         {/* Google AdSense - Web広告用（環境変数が存在する場合のみ読み込み） */}
+        {/* ※審査（所有権確認）を通すため、所有権確認用metaタグのみ必ず出力する */}
+        <meta name="google-adsense-account" content="ca-pub-8899707832109693" />
         {process.env.EXPO_PUBLIC_ADSENSE_CLIENT_ID && (
           <script
             async
