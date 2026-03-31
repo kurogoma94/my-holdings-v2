@@ -1,12 +1,12 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-03-31T07:24:25.435Z';
+export const MOCK_DATA_UPDATED_AT = '2026-03-31T10:58:16.173Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
     "name": "Chop Hits Barbecue",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -14,7 +14,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chop%20Hits%20Barbecue",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒550-0013 大阪府大阪市西区新町２丁目１２−１２ 新町ビル 1F ナカモリ",
+    "phone": "06-6695-7539"
   },
   {
     "id": "2",
@@ -53,7 +55,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E3%83%89%E3%82%AB%E7%9B%9B%E3%82%8A%E3%83%9E%E3%83%B3%E3%83%A2%E3%82%B9%E5%BC%81%E5%BD%93%20%E6%B7%A1%E8%B7%AF%E7%B7%8F%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒533-0022 大阪府大阪市東淀川区菅原３丁目４−２",
+    "phone": "06-6195-9560"
   },
   {
     "id": "5",
@@ -78,8 +82,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イタリア料理",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%A3%9F%E5%A0%82%20Necco",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒612-8046 京都府京都市伏見区塩屋町２２１−１",
+    "phone": "075-623-4139"
   },
   {
     "id": "7",
@@ -105,12 +111,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E9%A2%A8%E6%83%A3%E8%8F%9C%20%E3%82%A2%E3%83%90(%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1)",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒577-0817 大阪府東大阪市近江堂１丁目４−２４",
+    "phone": "06-6723-7717"
   },
   {
     "id": "9",
     "name": "ラーメン ギタギタ",
-    "area": "other",
+    "area": "kitahama",
     "genre": "ramen",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -118,12 +126,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%82%AE%E3%82%BF%E3%82%AE%E3%82%BF",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒321-0158 栃木県宇都宮市西川田本町３丁目９−８",
+    "phone": "028-688-8627"
   },
   {
     "id": "10",
     "name": "ベンジャミーナ",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -131,7 +141,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%9F%E3%83%BC%E3%83%8A",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0001 大阪府大阪市北区梅田１丁目８−１６ ヒルトンプラザ大阪EAST",
+    "phone": "06-6347-7710"
   },
   {
     "id": "11",
@@ -144,12 +156,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%83%86%E3%82%A3%E3%83%96%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81%20genso",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒556-0023 大阪府大阪市浪速区稲荷２丁目７−１８",
+    "phone": "06-6567-0555"
   },
   {
     "id": "12",
     "name": "豆ふと鮨と和食 ひとひ",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -157,12 +171,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%86%E3%81%B5%E3%81%A8%E9%AE%A8%E3%81%A8%E5%92%8C%E9%A3%9F%20%E3%81%B2%E3%81%A8%E3%81%B2",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0017 大阪府大阪市北区角田町８ 阪急グランドビル 32番街 30F",
+    "phone": "06-6312-2345"
   },
   {
     "id": "13",
     "name": "うどん屋 きすけ",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -170,12 +186,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%A9%E3%82%93%E5%B1%8B%20%E3%81%8D%E3%81%99%E3%81%91",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0014 大阪府大阪市北区鶴野町４−１",
+    "phone": "06-6375-5656"
   },
   {
     "id": "14",
     "name": "うどん 兎麦 umugi",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -183,7 +201,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%A9%E3%82%93%20%E5%85%8E%E9%BA%A6%20umugi",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0012 大阪府大阪市北区芝田１丁目１−３ 阪急三番街 南館 B2",
+    "phone": "06-6372-1813"
   },
   {
     "id": "15",
@@ -195,8 +215,9 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "4.3(35) 商業地",
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8A%98%E9%B6%B4%E4%BC%9A%E9%A4%A8",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒615-0012 京都府京都市右京区西院高山寺町１５"
   },
   {
     "id": "16",
@@ -222,7 +243,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%8F%AF%E8%8F%9C%E9%A4%A8%20%E4%B8%80%E7%95%AA",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒556-0014 大阪府大阪市浪速区大国２丁目５−３",
+    "phone": "06-6641-7758"
   },
   {
     "id": "18",
@@ -234,13 +257,15 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラーメン",
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%B9%E8%A3%BD%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%81%A8%E3%82%93%E5%90%89",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒620-0045 京都府福知山市天田２２４",
+    "phone": "0773-23-6328"
   },
   {
     "id": "19",
     "name": "炭焼きイタリアン Black",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -248,7 +273,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%84%BC%E3%81%8D%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%B3%20Black",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0075 大阪府大阪市中央区難波千日前５−３０ 三陽グリーンハイツ 1F",
+    "phone": "090-4057-7233"
   },
   {
     "id": "20",
@@ -261,12 +288,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E9%A3%9F%E5%A0%82%20%E7%A5%9E%E8%B1%9A%20%E5%A4%A7%E6%9D%B1%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒574-0013 大阪府大東市中垣内２丁目１７−１７",
+    "phone": "050-1808-0145"
   },
   {
     "id": "21",
     "name": "羊の結論",
-    "area": "other",
+    "area": "umeda",
     "genre": "izakaya",
     "budgetMin": 3000,
     "budgetMax": 4000,
@@ -274,7 +303,8 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8A%E3%81%AE%E7%B5%90%E8%AB%96",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0027 大阪府北区堂山町６−１４ 天満松栄会館 第一 301"
   },
   {
     "id": "22",
@@ -287,12 +317,13 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=NASQUILLO%EF%BC%88%E3%83%8A%E3%82%B9%E3%82%AD%E3%83%AD%EF%BC%89",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒160-0022 東京都新宿区新宿１丁目１８−１６ サンパーク花園 2階"
   },
   {
     "id": "23",
     "name": "STUN.S スタンス",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "other",
     "budgetMin": 4000,
     "budgetMax": 5000,
@@ -300,7 +331,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=STUN.S%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒534-0024 大阪府大阪市都島区東野田町３丁目７−１７ 2F",
+    "phone": "06-6232-8912"
   },
   {
     "id": "24",
@@ -313,7 +346,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E5%B0%8F%E7%9A%BF%E6%96%99%E7%90%86%20%E5%BD%A9%E4%B8%83%20%E4%BB%8A%E9%87%8C%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒537-0013 大阪府大阪市東成区大今里南１丁目２２−１４ 今里ビル",
+    "phone": "06-6977-2348"
   },
   {
     "id": "25",
@@ -326,12 +361,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B8%B8%E7%8E%84%E4%BA%AD%20%E3%83%9B%E3%83%86%E3%83%AB%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AA%E3%83%BC%E3%82%BF%E3%83%8B%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒540-0001 大阪府大阪市中央区城見１丁目４−１ ホテルニューオータニ大阪3F",
+    "phone": "06-6944-8989"
   },
   {
     "id": "26",
     "name": "近江屋 本店",
-    "area": "other",
+    "area": "shinsekai",
     "genre": "kushikatsu",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -339,7 +376,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%BF%91%E6%B1%9F%E5%B1%8B%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒556-0002 大阪府大阪市浪速区恵美須東２丁目３−１８",
+    "phone": "06-6641-7412"
   },
   {
     "id": "27",
@@ -351,8 +390,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "和菓子屋",
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%B6%E3%82%8A%E9%A4%85%20%E6%9C%AC%E5%AE%B6%20%E6%A0%B9%E5%85%83%20%E3%81%8B%E3%81%96%E3%82%8A%E3%82%84",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒603-8243 京都府京都市北区紫野今宮町９６",
+    "phone": "075-491-9402"
   },
   {
     "id": "28",
@@ -365,7 +406,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%BF%E3%82%AB%E3%83%A0%E3%83%A9%E3%83%AF%E3%82%A4%E3%83%B3%EF%BC%86%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒550-0002 大阪府大阪市西区江戸堀２丁目２−１８",
+    "phone": "06-6443-3519"
   },
   {
     "id": "29",
@@ -378,7 +421,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20stand%20R%26R2%E5%8F%B7%20%E8%A5%BF%E6%B7%80%E5%B7%9D%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒555-0025 大阪府大阪市西淀川区姫里２丁目１７−２３",
+    "phone": "06-6473-7050"
   },
   {
     "id": "30",
@@ -403,8 +448,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "4.1(90) イタリア料理",
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AC%E3%82%B8%E3%83%A3%E3%83%AB%E3%83%87%E3%82%A3%E3%83%BC%E3%83%8E",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒662-0051 兵庫県西宮市羽衣町５−１２ 夙川プレイスビル ６F",
+    "phone": "0798-26-7174"
   },
   {
     "id": "32",
@@ -417,12 +464,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%92542-0012%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%B0%B7%E7%94%BA%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%91%EF%BC%90%20%E3%81%99%E3%81%8B%E3%82%93%E3%81%BD",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0012 大阪府大阪市中央区谷町６丁目３−１０ 広橋ビル ２階",
+    "phone": "06-6764-4643"
   },
   {
     "id": "33",
     "name": "立ち鮨ひでぞう",
-    "area": "other",
+    "area": "namba",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -430,12 +479,13 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E9%AE%A8%E3%81%B2%E3%81%A7%E3%81%9E%E3%81%86",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0071 大阪府大阪市中央区道頓堀１丁目２−１２"
   },
   {
     "id": "34",
     "name": "魚屋 ひでぞう 立ち呑み店",
-    "area": "other",
+    "area": "namba",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 3000,
@@ -443,7 +493,8 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E5%B1%8B%20%E3%81%B2%E3%81%A7%E3%81%9E%E3%81%86%20%E7%AB%8B%E3%81%A1%E5%91%91%E3%81%BF%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0075 大阪府大阪市中央区難波千日前９−１"
   },
   {
     "id": "35",
@@ -456,7 +507,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A1%E3%82%BE%E3%83%B3%20%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%9C%E3%82%AD%E3%83%A5%E3%83%BC%E3%82%BA",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒150-0033 東京都渋谷区猿楽町１７−１６ 代官山フォーラム B1F",
+    "phone": "03-5458-6324"
   },
   {
     "id": "36",
@@ -487,7 +540,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "38",
     "name": "パンとエスプレッソと南森町交差点",
-    "area": "other",
+    "area": "tenma",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -495,12 +548,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%91%E3%83%B3%E3%81%A8%E3%82%A8%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%82%BD%E3%81%A8%E5%8D%97%E6%A3%AE%E7%94%BA%E4%BA%A4%E5%B7%AE%E7%82%B9",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0054 大阪府大阪市北区南森町１丁目３−１９",
+    "phone": "06-6365-8900"
   },
   {
     "id": "39",
     "name": "Dal Brigante",
-    "area": "other",
+    "area": "fukushima",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -508,7 +563,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dal%20Brigante",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒553-0003 大阪府大阪市福島区福島３丁目６−１４",
+    "phone": "06-6451-4605"
   },
   {
     "id": "40",
@@ -526,7 +583,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "41",
     "name": "回転寿し仁 あべのハルカスダイニング店",
-    "area": "other",
+    "area": "abeno",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 3000,
@@ -534,7 +591,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9E%E8%BB%A2%E5%AF%BF%E3%81%97%E4%BB%81%20%E3%81%82%E3%81%B9%E3%81%AE%E3%83%8F%E3%83%AB%E3%82%AB%E3%82%B9%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒545-6013 大阪府大阪市阿倍野区阿倍野筋１丁目１−４３ 13F あべのハルカス近鉄本店タワー館",
+    "phone": "06-6627-9505"
   },
   {
     "id": "42",
@@ -547,7 +606,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%AB%20%E3%82%A4%20%E3%82%A2%E3%83%A2%E3%83%BC%E3%83%AB",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒150-0034 東京都渋谷区代官山町１２−１９ B1階",
+    "phone": "050-1809-8226"
   },
   {
     "id": "43",
@@ -565,7 +626,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "44",
     "name": "焼肉・ホルモン 踊ル",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -573,12 +634,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%83%BB%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E8%B8%8A%E3%83%AB",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒534-0025 大阪府大阪市都島区片町２丁目５−７ ロッソ京橋 2階",
+    "phone": "06-6467-4333"
   },
   {
     "id": "45",
     "name": "立ち呑み とおる",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "tachinomi",
     "budgetMin": 2000,
     "budgetMax": 3000,
@@ -586,12 +649,13 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E5%91%91%E3%81%BF%20%E3%81%A8%E3%81%8A%E3%82%8B",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒534-0024 大阪府大阪市都島区東野田町５丁目７−１ 千両ビル"
   },
   {
     "id": "46",
     "name": "PaNOTTO コーヒー＆ベーカリー",
-    "area": "other",
+    "area": "abeno",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -599,7 +663,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PaNOTTO%20%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%EF%BC%86%E3%83%99%E3%83%BC%E3%82%AB%E3%83%AA%E3%83%BC",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒543-0052 大阪府大阪市天王寺区大道４丁目１−２３",
+    "phone": "06-6772-5225"
   },
   {
     "id": "47",
@@ -617,7 +683,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "48",
     "name": "ロウリーズ・ザ・プライムリブ 大阪",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "budgetMin": 10000,
     "budgetMax": 20000,
@@ -625,7 +691,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%82%A6%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0%E3%83%AA%E3%83%96%20%E5%A4%A7%E9%98%AA",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0001 大阪府大阪市北区梅田２丁目２−２２ ハービスPLAZA ENT 5F",
+    "phone": "050-1807-6650"
   },
   {
     "id": "49",
@@ -643,7 +711,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "50",
     "name": "法善寺 浅草",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "budgetMin": 10000,
     "budgetMax": 20000,
@@ -651,7 +719,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%96%84%E5%AF%BA%20%E6%B5%85%E8%8D%89",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0076 大阪府大阪市中央区難波１丁目１−１２",
+    "phone": "050-5485-8428"
   },
   {
     "id": "51",
@@ -669,7 +739,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "52",
     "name": "ツバクロすっぽん食堂 大阪店",
-    "area": "other",
+    "area": "tenma",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -677,12 +747,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%84%E3%83%90%E3%82%AF%E3%83%AD%E3%81%99%E3%81%A3%E3%81%BD%E3%82%93%E9%A3%9F%E5%A0%82%20%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0053 大阪府大阪市北区末広町２−２４",
+    "phone": "06-6940-0206"
   },
   {
     "id": "53",
     "name": "ふぐ久",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -690,7 +762,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B5%E3%81%90%E4%B9%85",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒537-0024 大阪府大阪市東成区東小橋３丁目１４−２４",
+    "phone": "06-6972-5029"
   },
   {
     "id": "54",
@@ -715,8 +789,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "バー",
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%BF%E3%83%84%E3%83%AA%E3%82%AD%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒670-0927 兵庫県姫路市駅前町１８８−１",
+    "phone": "079-221-3562"
   },
   {
     "id": "56",
@@ -728,8 +804,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "4.4(19) モダン居酒屋レストラン",
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E5%A0%82%E3%81%82%E3%82%80%E3%81%99",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒670-0903 兵庫県姫路市立町14第17 6F",
+    "phone": "079-280-7634"
   },
   {
     "id": "57",
@@ -741,13 +819,15 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鶏料理",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%E3%81%8D%20And's%20(%20%E3%81%82%E3%82%93%E3%81%9A%20)",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒670-0916 兵庫県姫路市久保町４５ ２F",
+    "phone": "079-287-8039"
   },
   {
     "id": "58",
     "name": "寿司処 眞",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -755,7 +835,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E5%8F%B8%E5%87%A6%20%E7%9C%9E",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒537-0024 大阪府大阪市東成区東小橋３丁目２０−３１ 丸小市場連合",
+    "phone": "090-3288-8799"
   },
   {
     "id": "59",
@@ -768,7 +850,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E5%90%8D%E4%BB%A3%20%E5%90%89%E5%A1%9A%E3%81%86%E3%81%AA%E3%81%8E%E5%B1%8B",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒810-0801 福岡県福岡市博多区中洲２丁目８−２７",
+    "phone": "092-271-0700"
   },
   {
     "id": "60",
@@ -781,7 +865,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%AB%E5%95%8F%E5%B1%8B",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒596-0078 大阪府岸和田市南上町２丁目２３−１",
+    "phone": "050-5487-0608"
   },
   {
     "id": "61",
@@ -794,7 +880,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B6%8FSoba%20%E5%BA%A7%E9%8A%80%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒550-0002 大阪府大阪市西区江戸堀１丁目１９−２",
+    "phone": "06-6447-5661"
   },
   {
     "id": "62",
@@ -807,12 +895,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%E3%81%B2%E3%82%8D%E5%96%9C%20%E9%87%8E%E6%B1%9F%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒536-0007 大阪府大阪市城東区成育２丁目１３−４",
+    "phone": "06-6932-2112"
   },
   {
     "id": "63",
     "name": "株式会社スズヤ",
-    "area": "other",
+    "area": "kitahama",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -820,7 +910,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%B9%E3%82%BA%E3%83%A4",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒541-0046 大阪府大阪市中央区平野町１丁目３−８",
+    "phone": "06-6203-6695"
   },
   {
     "id": "64",
@@ -838,7 +930,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "65",
     "name": "MON CRULLER モンクルーラー",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "budgetMin": 1,
     "budgetMax": 1000,
@@ -846,7 +938,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MON%20CRULLER%20%E3%83%A2%E3%83%B3%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%A9%E3%83%BC",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目６−１３ ニューセントラルビル 103",
+    "phone": "070-1462-5193"
   },
   {
     "id": "66",
@@ -858,8 +952,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "定食屋",
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%B5%E3%81%8B%E3%81%91%E3%81%94%E9%A3%AF%E5%B0%82%E9%96%80%E5%BA%97%20%E4%BD%86%E7%86%8A",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒668-0363 兵庫県豊岡市但東町栗尾９１６",
+    "phone": "0796-55-0901"
   },
   {
     "id": "67",
@@ -877,7 +973,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "68",
     "name": "手作りハンバーグ卵 せんびる店",
-    "area": "other",
+    "area": "kitahama",
     "genre": "bar",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -885,12 +981,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E4%BD%9C%E3%82%8A%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0%E5%8D%B5%20%E3%81%9B%E3%82%93%E3%81%B3%E3%82%8B%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒541-0055 大阪府大阪市中央区船場中央１丁目４−３ 船場センタービル 3号館地下２階",
+    "phone": "06-6224-0057"
   },
   {
     "id": "69",
     "name": "いわ志 本店",
-    "area": "other",
+    "area": "fukushima",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -898,7 +996,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E5%BF%97%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒553-0003 大阪府大阪市福島区福島７丁目２２−１７ ＢＲＡＶＩ 4F",
+    "phone": "06-6454-9555"
   },
   {
     "id": "70",
@@ -911,7 +1011,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8A%E6%96%99%E7%90%86%20%E3%81%82%E3%81%8A%E5%B1%B1",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0015 大阪府大阪市北区中崎西１丁目６−２４ 201",
+    "phone": "090-4308-3927"
   },
   {
     "id": "71",
@@ -924,7 +1026,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%AA%E3%83%AB%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E3%82%84%E3%81%AE",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒581-0017 大阪府八尾市高美町４丁目１３−３",
+    "phone": "072-993-0363"
   },
   {
     "id": "72",
@@ -936,8 +1040,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "定食屋",
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E5%AD%90%E7%84%BC%20%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E6%B3%89%E5%B1%8B",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒673-0034 兵庫県明石市林２丁目１５−１５",
+    "phone": "078-922-8176"
   },
   {
     "id": "73",
@@ -963,7 +1069,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E6%AD%A3%E9%A4%83%E5%AD%90%E5%BA%97%20%E9%98%AA%E5%A5%88%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒574-0033 大阪府大東市扇町５−２",
+    "phone": "072-874-3960"
   },
   {
     "id": "75",
@@ -981,7 +1089,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "76",
     "name": "墨や",
-    "area": "other",
+    "area": "namba",
     "genre": "sushi",
     "budgetMin": 10000,
     "budgetMax": 20000,
@@ -989,7 +1097,8 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A2%A8%E3%82%84",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0076 大阪府大阪市中央区難波４丁目３−２３"
   },
   {
     "id": "77",
@@ -1007,7 +1116,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "78",
     "name": "Wine Bar Base",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "bar",
     "budgetMin": 4000,
     "budgetMax": 5000,
@@ -1015,7 +1124,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wine%20Bar%20Base",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒534-0025 大阪府大阪市都島区片町６ クローバービル 2階, ２丁目-６-２",
+    "phone": "06-6881-1134"
   },
   {
     "id": "79",
@@ -1033,7 +1144,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "80",
     "name": "すし処 広川",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "sushi",
     "budgetMin": 10000,
     "budgetMax": 20000,
@@ -1041,7 +1152,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E5%87%A6%20%E5%BA%83%E5%B7%9D",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒536-0016 大阪府大阪市城東区蒲生１丁目８−３９",
+    "phone": "06-7410-5343"
   },
   {
     "id": "81",
@@ -1080,7 +1193,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%9A%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒460-0008 愛知県名古屋市中区栄１丁目５−６",
+    "phone": "052-231-1909"
   },
   {
     "id": "84",
@@ -1098,7 +1213,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "85",
     "name": "和食処 民芸酒房 牧水",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1106,7 +1221,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A3%9F%E5%87%A6%20%E6%B0%91%E8%8A%B8%E9%85%92%E6%88%BF%20%E7%89%A7%E6%B0%B4",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0076 大阪府大阪市中央区難波１丁目６−６ やわらか",
+    "phone": "050-5486-0744"
   },
   {
     "id": "86",
@@ -1124,7 +1241,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "87",
     "name": "八起亭",
-    "area": "other",
+    "area": "namba",
     "genre": "yakitori",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1132,12 +1249,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E8%B5%B7%E4%BA%AD",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0076 大阪府大阪市中央区難波３丁目８−５",
+    "phone": "06-6632-7894"
   },
   {
     "id": "88",
     "name": "お食事処にしかわ",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1145,7 +1264,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E9%A3%9F%E4%BA%8B%E5%87%A6%E3%81%AB%E3%81%97%E3%81%8B%E3%82%8F",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒556-0022 大阪府大阪市浪速区桜川１丁目２−９ 食事処にしかわ",
+    "phone": "06-6567-2415"
   },
   {
     "id": "89",
@@ -1158,7 +1279,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E3%81%A8%E6%97%A5%E6%9C%AC%E9%85%92%E3%81%AE%E5%A5%A2%E9%85%8C%E6%A5%BD(%E3%82%B8%E3%83%A3%E3%82%B0%E3%83%A9%E3%83%BC%20%E5%8D%97%E8%88%B9%E5%A0%B4",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0081 大阪府大阪市中央区南船場２丁目１０−１７",
+    "phone": "070-4801-5200"
   },
   {
     "id": "90",
@@ -1171,7 +1294,8 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=THE%20MUSEN%20IN%20SHOCK",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0081 大阪府大阪市中央区南船場４丁目１１−２５"
   },
   {
     "id": "91",
@@ -1183,8 +1307,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "4.0(1,958) 日帰り温泉",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E3%82%88%E3%81%8B%E3%81%9F%E3%82%93%20(%E9%81%93%E3%81%AE%E9%A7%85%20%E3%82%88%E3%81%8B%E3%82%8F)",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒673-1114 兵庫県三木市吉川町吉安２２２",
+    "phone": "0794-76-2401"
   },
   {
     "id": "92",
@@ -1196,8 +1322,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "4.2(216) 日帰り温泉",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8D%E5%8B%95%E6%B8%A9%E6%B3%89",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "address": "〒606-8294 京都府京都市左京区北白川地蔵谷町１−２４４",
+    "phone": "075-781-5480"
   },
   {
     "id": "93",
@@ -1223,12 +1351,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria%20Vispa",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒536-0002 大阪府大阪市城東区今福東２丁目４−３ 泰平コーポ 104",
+    "phone": "090-8993-4697"
   },
   {
     "id": "95",
     "name": "ムスヒ",
-    "area": "other",
+    "area": "kitahama",
     "genre": "izakaya",
     "budgetMin": 3000,
     "budgetMax": 4000,
@@ -1236,7 +1366,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A0%E3%82%B9%E3%83%92",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0062 大阪府大阪市中央区上本町西３丁目３−２５",
+    "phone": "090-5496-8804"
   },
   {
     "id": "96",
@@ -1249,12 +1381,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%B5%E3%82%B3%E5%AE%B6(%E3%83%B6)",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0081 大阪府大阪市中央区南船場１丁目１８−２４ アクシス南船場ビル 1階",
+    "phone": "06-4708-6020"
   },
   {
     "id": "97",
     "name": "高田揚揚（たかだのあげあげ）",
-    "area": "other",
+    "area": "namba",
     "genre": "kushikatsu",
     "budgetMin": 2000,
     "budgetMax": 3000,
@@ -1262,12 +1396,13 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E7%94%B0%E6%8F%9A%E6%8F%9A%EF%BC%88%E3%81%9F%E3%81%8B%E3%81%A0%E3%81%AE%E3%81%82%E3%81%92%E3%81%82%E3%81%92%EF%BC%89",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0075 大阪府大阪市中央区難波千日前４−３５"
   },
   {
     "id": "98",
     "name": "我恵你好",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 3000,
@@ -1275,12 +1410,13 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%91%E6%81%B5%E4%BD%A0%E5%A5%BD",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒542-0074 大阪府大阪市中央区千日前２丁目４−１２"
   },
   {
     "id": "99",
     "name": "ピッツェリア プルチーノ",
-    "area": "other",
+    "area": "kitahama",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1288,7 +1424,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%94%E3%83%83%E3%83%84%E3%82%A7%E3%83%AA%E3%82%A2%20%E3%83%97%E3%83%AB%E3%83%81%E3%83%BC%E3%83%8E",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒541-0048 大阪府大阪市中央区瓦町４丁目７−４ 南星瓦町ビル 1F",
+    "phone": "06-4400-2668"
   },
   {
     "id": "100",
@@ -1301,7 +1439,8 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B3%E3%83%A1%E3%82%B8%E3%83%AB%E3%82%B7%20%E7%82%8A%E3%81%8D%E3%81%9F%E3%81%A6%E3%83%93%E3%83%AA%E3%83%A4%E3%83%8B%E5%B0%82%E9%96%80%E5%BA%97%E3%80%81%E3%81%9D%E3%81%97%E3%81%A6%E3%83%8A%E3%83%81%E3%83%A5%E3%83%A9%E3%83%AB%E3%83%AF%E3%82%A4%E3%83%B3%E3%81%A8%E6%97%A5%E6%9C%AC%E9%85%92",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒531-0074 大阪府大阪市北区本庄東１丁目３−５ ロイヤルハイツモリ １階"
   },
   {
     "id": "101",
@@ -1314,7 +1453,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%B7%9D%E5%86%85%E6%B8%A9%E6%B3%89%E3%81%8B%E3%81%98%E3%81%8B%E8%8D%98",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒899-0215 鹿児島県出水市武本２０６０",
+    "phone": "0996-68-0085"
   },
   {
     "id": "102",
@@ -1327,12 +1468,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=TACO%20BITEZ",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒590-0940 大阪府堺市堺区車之町西３丁１−３１",
+    "phone": "080-4495-0508"
   },
   {
     "id": "103",
     "name": "天婦羅・一品料理 新喜楽 東店",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -1340,12 +1483,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%A9%A6%E7%BE%85%E3%83%BB%E4%B8%80%E5%93%81%E6%96%99%E7%90%86%20%E6%96%B0%E5%96%9C%E6%A5%BD%20%E6%9D%B1%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0017 大阪府大阪市北区角田町９−２６",
+    "phone": "06-6361-4659"
   },
   {
     "id": "104",
     "name": "スタンド Nagumo",
-    "area": "other",
+    "area": "umeda",
     "genre": "tachinomi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1353,7 +1498,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20Nagumo",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒530-0012 大阪府大阪市北区芝田１丁目６−１１ 1階",
+    "phone": "06-6147-9605"
   },
   {
     "id": "105",
@@ -1418,7 +1565,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%92550-0003%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E4%BA%AC%E7%94%BA%E5%A0%80%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%97%E2%88%92%EF%BC%93%20%EF%BC%A3%EF%BD%89%EF%BD%95%EF%BD%83%EF%BD%81%EF%BD%94%EF%BD%85",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒550-0003 大阪府大阪市西区京町堀１丁目１７−３",
+    "phone": "06-6441-2202"
   },
   {
     "id": "110",
@@ -1436,7 +1585,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "111",
     "name": "めし処 ゑノゐ-enoi-",
-    "area": "other",
+    "area": "kitahama",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1444,7 +1593,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%81%E3%81%97%E5%87%A6%20%E3%82%91%E3%83%8E%E3%82%90-enoi-",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒541-0048 大阪府大阪市中央区瓦町４丁目５−６ 2F",
+    "phone": "06-7777-5072"
   },
   {
     "id": "112",
@@ -1457,7 +1608,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AA%E3%81%94%E3%82%84%E3%81%8B%E4%BA%AD%20%E5%AE%88%E5%B1%B1%E3%81%88%E3%82%93%E3%81%BE%E5%A0%82%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "〒524-0042 滋賀県守山市焔魔堂町１２４",
+    "phone": "077-514-3715"
   },
   {
     "id": "113",

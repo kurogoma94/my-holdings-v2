@@ -2,16 +2,18 @@
 
 // エリアのマスターデータ
 export const AREAS = [
-  { code: 'tenma', label: '天満・天神橋筋' },
-  { code: 'namba', label: '難波・道頓堀' },
-  { code: 'tsuruhashi', label: '鶴橋・桃谷' },
   { code: 'umeda', label: '梅田・北新地' },
+  { code: 'fukushima', label: '福島' },
+  { code: 'shinsaibashi', label: '心斎橋・堀江' },
+  { code: 'namba', label: '難波・道頓堀' },
+  { code: 'tenma', label: '天満・天神橋筋' },
+  { code: 'tsuruhashi', label: '鶴橋・桃谷' },
   { code: 'shinsekai', label: '新世界・西成' },
   { code: 'kyobashi', label: '京橋' },
   { code: 'abeno', label: '阿倍野・天王寺' },
   { code: 'kitahama', label: '北浜・淀屋橋' },
   { code: 'other', label: 'その他' },
-] as const;
+];
 
 // ジャンルのマスターデータ
 export const GENRES = [
