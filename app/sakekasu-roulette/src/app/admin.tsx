@@ -31,6 +31,7 @@ import {
   getGoogleApiKey,
   setGoogleApiKey,
   importShops,
+  resetToMockData,
 } from '@/constants/DataStore';
 import { searchPlace, PlaceSearchResult } from '@/constants/PlacesService';
 
@@ -267,6 +268,15 @@ export default function AdminScreen() {
       reader.readAsText(file);
     };
     input.click();
+  };
+
+  // 初期データにリセット
+  const handleReset = () => {
+    showConfirm('リセット確認', '現在のデータをすべて消去し、最新の初期データ（25店舗）に戻しますか？', () => {
+      resetToMockData();
+      loadShops();
+      showAlert('リセット完了', '最新のデータにリセットしました！');
+    });
   };
 
   // =============== ログイン画面 ===============
@@ -528,6 +538,12 @@ export default function AdminScreen() {
       <View style={styles.headerBar}>
         <Text style={[styles.pageTitle, { color: colors.text }]}>🏮 店舗管理</Text>
         <View style={styles.headerActions}>
+          <TouchableOpacity
+            style={[styles.smallButton, { backgroundColor: '#FF8800' }]}
+            onPress={handleReset}
+          >
+            <Text style={styles.smallButtonText}>🔄 リセット</Text>
+          </TouchableOpacity>
           <TouchableOpacity
             style={[styles.smallButton, { backgroundColor: Colors.primary }]}
             onPress={handleCSVImport}
