@@ -45,11 +45,11 @@ const fs = require('fs');
 
         console.log(`Scrolled... current items found: ${result.items}, container height: ${result.height}`);
         
-        await new Promise(r => setTimeout(r, 2500)); // slightly longer wait
+        await new Promise(r => setTimeout(r, 4000)); // wait longer
         
         if (result.height === previousHeight) {
             retries++;
-            if (retries >= 5) { // more retries for safety
+            if (retries >= 15) { // much more retries
                 console.log('Reached bottom of the list or slow load.');
                 break;
             }

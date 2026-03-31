@@ -26,7 +26,22 @@ const GENRES = [
 // Load data
 const rawData = JSON.parse(fs.readFileSync('extracted_restaurants.json', 'utf8'));
 
-const shops = rawData.map((item, index) => {
+// Non-Osaka keywords to filter out
+const EXCLUDE_KEYWORDS = ['京都', '兵庫', '滋賀', '三重', '奈良', '和歌山', '徳島', '香川', '愛媛', '高知', '姫路', '淡路', '三宮', '中京区', '下京区', '上京区', '左京区', '右京区', '伏見区'];
+
+const processedData = rawData.filter(item => {
+    const combinedText = (item.name + ' ' + item.snippet).toLowerCase();
+    // Exclude if it hits an exclude keyword, UNLESS it also explicitly mentions "大阪"
+    // (though in practice, "大阪" often appears in Osaka addresses, not Kyoto one)
+    const isExcluded = EXCLUDE_KEYWORDS.some(k => combinedText.includes(k));
+    const isExplicitlyOsaka = combinedText.includes('大阪');
+    
+    return !isExcluded || isExplicitlyOsaka;
+});
+
+console.log(`Original: ${rawData.length}, After Osaka Filter: ${processedData.length}`);
+
+const shops = processedData.map((item, index) => {
     const { name, url, snippet } = item;
     
     // Default values
@@ -71,13 +86,11 @@ const shops = rawData.map((item, index) => {
         }
     }
 
-    // Extra mapping for specific genres in snippet after prices
-    // Example: "￥1,000～2,000 · うなぎ料理店"
+    // Extra mapping for specific genres in snippet
     if (genre === 'other') {
-        if (snippet.includes('うどん') || snippet.includes('そば')) genre = 'other'; // keep as other for now or maybe add a genre?
         if (snippet.includes('寿司') || snippet.includes('鮨')) genre = 'sushi';
         if (snippet.includes('居酒屋')) genre = 'izakaya';
-        if (snippet.includes('ラーメン')) genre = 'ramen';
+        if (snippet.includes('ラーメン') || snippet.includes('中華そば')) genre = 'ramen';
         if (snippet.includes('焼肉') || snippet.includes('焼き肉')) genre = 'yakiniku';
         if (snippet.includes('バー') || snippet.includes('バル')) genre = 'bar';
     }
@@ -100,13 +113,19 @@ const shops = rawData.map((item, index) => {
     };
 });
 
-// Generate MockData.ts content
+// Generate MockData.ts content with versioning support
 const fileHeader = `// [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
+export const MOCK_DATA_UPDATED_AT = '${new Date().toISOString()}';
 export const MOCK_SHOPS: Shop[] = `;
 
 const fileContent = fileHeader + JSON.stringify(shops, null, 2) + ';\n';
 
 fs.writeFileSync('../src/constants/MockData.ts', fileContent);
 console.log(`Successfully generated MockData.ts with ${shops.length} shops.`);
+
+// Save excluded data separately just in case
+const excludedRaw = rawData.filter(item => !processedData.includes(item));
+fs.writeFileSync('excluded_restaurants.json', JSON.stringify(excludedRaw, null, 2));
+console.log(`Excluded ${excludedRaw.length} locations to excluded_restaurants.json`);
