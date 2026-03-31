@@ -2,9 +2,10 @@
 // [注意] 将来的にFirestoreに移行する際は、このファイルのAPI関数だけ書き換えればOK
 import { Platform } from 'react-native';
 import { Shop } from './Types';
-import { MOCK_SHOPS } from './MockData';
+import { MOCK_SHOPS, MOCK_DATA_UPDATED_AT } from './MockData';
 
 const STORAGE_KEY = 'izakaya_roulette_shops';
+const STORAGE_VERSION_KEY = 'izakaya_roulette_data_version';
 const ADMIN_PASSWORD_KEY = 'izakaya_roulette_admin_pw';
 const API_KEY_STORAGE = 'izakaya_roulette_gapi_key';
 
@@ -28,15 +29,19 @@ function isStorageAvailable(): boolean {
 export function getAllShops(): Shop[] {
   if (!isStorageAvailable()) return MOCK_SHOPS;
 
-  const stored = localStorage.getItem(STORAGE_KEY);
-  if (!stored) {
-    // 初回起動時: MockDataをストレージに保存
+  const storedVersion = localStorage.getItem(STORAGE_VERSION_KEY);
+  const storedShops = localStorage.getItem(STORAGE_KEY);
+
+  // 初回起動時、またはデータが更新されている場合
+  if (!storedShops || storedVersion !== MOCK_DATA_UPDATED_AT) {
+    console.log('Synchronizing with new MockData version:', MOCK_DATA_UPDATED_AT);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(MOCK_SHOPS));
+    localStorage.setItem(STORAGE_VERSION_KEY, MOCK_DATA_UPDATED_AT);
     return MOCK_SHOPS;
   }
 
   try {
-    return JSON.parse(stored) as Shop[];
+    return JSON.parse(storedShops) as Shop[];
   } catch {
     return MOCK_SHOPS;
   }
@@ -128,6 +133,7 @@ export function setGoogleApiKey(key: string): void {
 export function resetToMockData(): void {
   if (!isStorageAvailable()) return;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(MOCK_SHOPS));
+  localStorage.setItem(STORAGE_VERSION_KEY, MOCK_DATA_UPDATED_AT);
 }
 
 // CSVインポート
