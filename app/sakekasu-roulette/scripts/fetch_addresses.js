@@ -4,7 +4,7 @@ const path = require('path');
 
 // --- Configuration ---
 const BATCH_SIZE = 100;
-const OUTPUT_FILE = path.join(__dirname, '../refined_data_batch2.json');
+const OUTPUT_FILE = path.join(__dirname, '../refined_data_batch3.json');
 const MOCK_DATA_PATH = path.join(__dirname, '../src/constants/MockData.ts');
 
 // --- Area Mapping Rules ---
@@ -31,7 +31,7 @@ async function run() {
     }
 
     const allShops = JSON.parse(shopsMatch[1]);
-    const otherShops = allShops.filter(s => s.area === 'other').slice(0, BATCH_SIZE);
+    const otherShops = allShops.filter(s => s.area === 'other' && s.address === undefined).slice(0, BATCH_SIZE);
     
     console.log(`Targeting ${otherShops.length} shops for refinement.`);
 
@@ -85,6 +85,8 @@ async function run() {
                 
                 if (phone) {
                     shop.phone = phone.replace(/[\n]/g, ' ').trim();
+                } else {
+                    shop.phone = '';
                 }
 
                 // Filter out non-Osaka shops
@@ -103,6 +105,8 @@ async function run() {
                 }
             } else {
                 console.log('  Address not found.');
+                shop.address = ''; // Mark as tried
+                shop.phone = '';
             }
 
             results.push(shop);

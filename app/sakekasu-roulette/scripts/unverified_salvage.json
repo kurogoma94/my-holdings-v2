@@ -1,0 +1,92 @@
+[
+  {
+    "id": "121",
+    "name": "浪芳庵",
+    "address": "大阪府大阪市浪速区敷津東１丁目７−３１",
+    "area": "namba"
+  },
+  {
+    "id": "124",
+    "name": "和果 北堀江店",
+    "address": "大阪府大阪市西区北堀江１丁目１１−６",
+    "area": "shinsaibashi"
+  },
+  {
+    "id": "125",
+    "name": "パティスリーBOIS OSAKA",
+    "area": "other",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "Takahiroおすすめの店舗。",
+    "rating": 4,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%91%E3%83%86%E3%82%A3%E3%82%B9%E3%83%AA%E3%83%BCBOIS%20OSAKA",
+    "isActive": true,
+    "createdAt": "2026-03-31"
+  },
+  {
+    "id": "127",
+    "name": "Eric Rose Cafe OSAKA",
+    "area": "other",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "Takahiroおすすめの店舗。",
+    "rating": 4,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Eric%20Rose%20Cafe%20OSAKA",
+    "isActive": true,
+    "createdAt": "2026-03-31"
+  },
+  {
+    "id": "138",
+    "name": "らくだ坂納豆工房",
+    "area": "other",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "Takahiroおすすめの店舗。",
+    "rating": 4,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%81%8F%E3%81%A0%E5%9D%82%E7%B4%8D%E8%B1%86%E5%B7%A5%E6%88%BF",
+    "isActive": true,
+    "createdAt": "2026-03-31"
+  },
+  {
+    "id": "153",
+    "name": "アカデミーカフェ（& Gallery, Dog ok )",
+    "area": "other",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "Takahiroおすすめの店舗。",
+    "rating": 4,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E3%82%AB%E3%83%95%E3%82%A7%EF%BC%88%26%20Gallery%2C%20Dog%20ok%20)",
+    "isActive": true,
+    "createdAt": "2026-03-31"
+  },
+  {
+    "id": "154",
+    "name": "SAKImotobakery and more 扇町店",
+    "area": "tenma",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "Takahiroおすすめの店舗。",
+    "rating": 4,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SAKImotobakery%20and%20more%20%E6%89%87%E7%94%BA%E5%BA%97",
+    "isActive": true,
+    "createdAt": "2026-03-31"
+  },
+  {
+    "id": "211",
+    "name": "Ntown -Onigiri shop-",
+    "area": "other",
+    "genre": "other",
+    "budgetMin": 1000,
+    "budgetMax": 2000,
+    "comment": "レストラン",
+    "rating": 4.6,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ntown%20-Onigiri%20shop-",
+    "isActive": true,
+    "createdAt": "2026-03-31"
+  }
+]

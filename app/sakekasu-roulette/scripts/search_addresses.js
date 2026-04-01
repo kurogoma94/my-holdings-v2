@@ -7,14 +7,16 @@ const OUTPUT_FILE = path.join(__dirname, 'refined_data_search.json');
 const BATCH_SIZE = 30; // Initial test batch
 
 const AREA_MAPPING = [
-    { code: 'umeda', keywords: ['北区梅田', '曽根崎', '芝田', '茶屋町', '鶴野町', '角田町', '小松原町', '堂山町', '神山町', '太融寺町', '兎我野町', '曽根崎新地', '堂島', '大深町', '中之島', '福島区福島', '福島区玉川', '北区大淀'] },
-    { code: 'namba', keywords: ['中央区難波', '難波千日前', '千日前', '道頓堀', '心斎橋筋', '西心斎橋', '東心斎橋', '宗右衛門町', '日本橋', '湊町', '中央区難波', '西区新町', '西区立売堀', '西区南堀江', '西区北堀江', '浪速区桜川', '中央区道頓堀'] },
+    { code: 'umeda', keywords: ['北区梅田', '北区曽根崎', '芝田', '茶屋町', '鶴野町', '角田町', '小松原町', '堂山町', '神山町', '太融寺町', '兎我野町', '曽根崎新地', '堂島', '大深町', '中之島', '北区大淀'] },
+    { code: 'fukushima', keywords: ['福島区福島', '福島区玉川', '福島駅', '新福島'] },
+    { code: 'shinsaibashi', keywords: ['心斎橋筋', '西心斎橋', '東心斎橋', '心斎橋駅', '西区新町', '西区立売堀', '西区南堀江', '西区北堀江'] },
+    { code: 'namba', keywords: ['中央区難波', '難波千日前', '千日前', '道頓堀', '宗右衛門町', '日本橋', '湊町', '難波駅', '浪速区桜川', '中央区道頓堀', '天王寺区難波', '浪速区稲荷', '元町', '敷津東', '敷津西'] },
     { code: 'tenma', keywords: ['北区天神橋', '北区天満', '池田町', '山崎町', '浪花町', '菅栄町', '錦町', '末広町', '与力町', '同心', '南森町', '紅梅町', '東天満'] },
     { code: 'kyobashi', keywords: ['都島区東野田町', '新喜多', '蒲生', '都島区片町', '網島町', '都島区中野町'] },
     { code: 'abeno', keywords: ['阿倍野筋', '松崎町', '阿倍野区旭町', '堀越町', '悲田院町', '茶臼山町', '天王寺町北', '大阪市天王寺区'] },
     { code: 'tsuruhashi', keywords: ['生野区鶴橋', '生野区桃谷', '味原町', '舟橋町', '下寺町', '中道', '玉造', '東成区東小橋'] },
     { code: 'kitahama', keywords: ['北浜', '淀屋橋', '伏見町', '道修町', '平野町', '淡路町', '瓦町', '備後町', '安土町', '本町', '南本町', '船場中央', '久太郎町', '北久太郎町', '中央区大手通', '内平野町'] },
-    { code: 'shinsekai', keywords: ['浪速区恵美須東', '西成区太子', '西成区山王', '萩之茶屋', '新世界', '西心斎橋'] }
+    { code: 'shinsekai', keywords: ['浪速区恵美須東', '西成区太子', '西成区山王', '萩之茶屋', '新世界'] }
 ];
 
 async function run() {
@@ -40,7 +42,7 @@ async function run() {
     });
 
     const results = [];
-    const targetShops = shops.filter(s => s.area === 'other').slice(0, BATCH_SIZE);
+    const targetShops = shops.filter(s => s.area === 'other' && !s.address).slice(0, BATCH_SIZE);
     
     console.log(`Searching addresses for ${targetShops.length} shops (Lite Mode)...`);
 
@@ -51,27 +53,33 @@ async function run() {
         console.log(`[${i+1}/${targetShops.length}] Searching: ${target.name}...`);
         
         try {
-            const query = encodeURIComponent(`${target.name} 大阪 住所`);
+            const query = encodeURIComponent(`${target.name} 住所`);
             await page.goto(`https://www.google.com/search?q=${query}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
             
-            // Random wait 2-5 seconds to avoid being blocked
-            const waitTime = Math.floor(Math.random() * 3000) + 2000;
+            // Random wait 4-8 seconds to avoid being blocked
+            const waitTime = Math.floor(Math.random() * 4000) + 4000;
             await new Promise(r => setTimeout(r, waitTime));
 
             const info = await page.evaluate(() => {
                 const results = { address: '', phone: '' };
-                // Common selectors for address in Knowledge Graph / Local Pack
-                const selectors = ['.Lrzca', '[data-item-id="address"]', '.s069db', '.zVqyZc', '.x0qU4b'];
+                // Updated selectors based on latest findings
+                const selectors = [
+                    '[data-attrid="kc:/location/location:address"]',
+                    '.Lrzca',
+                    '[data-item-id="address"]',
+                    '.s069db'
+                ];
                 for (const sel of selectors) {
                     const el = document.querySelector(sel);
-                    if (el && el.innerText.trim()) {
-                        results.address = el.innerText.trim();
+                    if (el && el.innerText.trim() && (el.innerText.includes('府') || el.innerText.includes('県') || el.innerText.includes('都'))) {
+                        // Clean up the label if present (e.g. "所在地: ")
+                        results.address = el.innerText.replace(/所在地[:：]\s*/, '').trim();
                         break;
                     }
                 }
                 
                 // Phone
-                const phoneSelectors = ['.Lpw90', '[data-item-id^="phone"]', '.B6p9X'];
+                const phoneSelectors = ['span.Lpw90', '[data-item-id^="phone"]', '.B6p9X'];
                 for (const sel of phoneSelectors) {
                     const el = document.querySelector(sel);
                     if (el && el.innerText.trim()) {
@@ -85,17 +93,17 @@ async function run() {
 
             if (info.address) {
                 console.log(`  Found: ${info.address}`);
-                // Find and update in finalShops
                 const idx = finalShops.findIndex(s => s.id === target.id);
                 if (idx !== -1) {
                     finalShops[idx].address = info.address;
                     if (info.phone) finalShops[idx].phone = info.phone;
 
-                    // Re-classify
+                    // Re-classify using the same logic as the local script
                     for (const area of AREA_MAPPING) {
-                        if (area.keywords.some(k => info.address.includes(k) || target.name.includes(k))) {
+                        const searchTarget = (info.address || '') + (target.name || '');
+                        if (area.keywords.some(k => searchTarget.includes(k))) {
                             finalShops[idx].area = area.code;
-                            console.log(`  => ${area.code}`);
+                            console.log(`  => Classified: ${area.code}`);
                             break;
                         }
                     }
@@ -104,15 +112,22 @@ async function run() {
                 console.log(`  No address found via search.`);
             }
 
-            if ((i + 1) % 20 === 0) {
-                fs.writeFileSync(OUTPUT_FILE, JSON.stringify(finalShops, null, 2));
-            }
+            // Write to refined_data_search.json per success (for safety)
+            fs.writeFileSync(OUTPUT_FILE, JSON.stringify(finalShops, null, 2));
+            
         } catch (e) {
             console.error(`  Error: ${e.message}`);
         }
     }
 
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(finalShops, null, 2));
+    // Finally, update MockData.ts directly if we found anything
+    const updatedAny = finalShops.some((s, idx) => s.address !== shops[idx].address);
+    if (updatedAny) {
+        console.log('Writing updates to MockData.ts...');
+        const updatedContent = fs.readFileSync(MOCK_DATA_PATH, 'utf8').replace(/export const MOCK_SHOPS: Shop\[\] = (\[[\s\S]*?\]);/, `export const MOCK_SHOPS: Shop[] = ${JSON.stringify(finalShops, null, 2)};`);
+        fs.writeFileSync(MOCK_DATA_PATH, updatedContent);
+    }
+
     await browser.close();
     console.log('Search refinement completed.');
 }
