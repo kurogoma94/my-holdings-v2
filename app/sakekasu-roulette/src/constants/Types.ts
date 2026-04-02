@@ -12,6 +12,7 @@ export const AREAS = [
   { code: 'kyobashi', label: '京橋' },
   { code: 'abeno', label: '阿倍野・天王寺' },
   { code: 'kitahama', label: '北浜・淀屋橋' },
+  { code: 'nishinakajima', label: '西中島・新大阪' },
   { code: 'other', label: 'その他' },
 ];
 
@@ -48,6 +49,8 @@ export interface Shop {
   phone?: string;
   openingHours?: string[];
   googleRating?: number;
+  hasLunch: boolean;
+  hasDinner: boolean;
   isActive: boolean;
   createdAt: string;
 }

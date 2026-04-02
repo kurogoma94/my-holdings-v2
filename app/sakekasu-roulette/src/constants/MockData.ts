@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-04-01T05:43:52.926Z';
+export const MOCK_DATA_UPDATED_AT = '2026-04-02T04:14:00.354Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -16,7 +16,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒550-0013 大阪府大阪市西区新町２丁目１２−１２ 新町ビル 1F ナカモリ",
-    "phone": "06-6695-7539"
+    "phone": "06-6695-7539",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "4",
@@ -31,7 +33,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒533-0022 大阪府大阪市東淀川区菅原３丁目４−２",
-    "phone": "06-6195-9560"
+    "phone": "06-6195-9560",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "8",
@@ -46,7 +50,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒577-0817 大阪府東大阪市近江堂１丁目４−２４",
-    "phone": "06-6723-7717"
+    "phone": "06-6723-7717",
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "10",
@@ -61,7 +67,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0001 大阪府大阪市北区梅田１丁目８−１６ ヒルトンプラザ大阪EAST",
-    "phone": "06-6347-7710"
+    "phone": "06-6347-7710",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "11",
@@ -76,7 +84,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒556-0023 大阪府大阪市浪速区稲荷２丁目７−１８",
-    "phone": "06-6567-0555"
+    "phone": "06-6567-0555",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "12",
@@ -91,7 +101,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0017 大阪府大阪市北区角田町８ 阪急グランドビル 32番街 30F",
-    "phone": "06-6312-2345"
+    "phone": "06-6312-2345",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "13",
@@ -106,7 +118,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0014 大阪府大阪市北区鶴野町４−１",
-    "phone": "06-6375-5656"
+    "phone": "06-6375-5656",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "14",
@@ -121,7 +135,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0012 大阪府大阪市北区芝田１丁目１−３ 阪急三番街 南館 B2",
-    "phone": "06-6372-1813"
+    "phone": "06-6372-1813",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "17",
@@ -136,7 +152,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒556-0014 大阪府大阪市浪速区大国２丁目５−３",
-    "phone": "06-6641-7758"
+    "phone": "06-6641-7758",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "19",
@@ -151,7 +169,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0075 大阪府大阪市中央区難波千日前５−３０ 三陽グリーンハイツ 1F",
-    "phone": "090-4057-7233"
+    "phone": "090-4057-7233",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "20",
@@ -166,7 +186,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒574-0013 大阪府大東市中垣内２丁目１７−１７",
-    "phone": "050-1808-0145"
+    "phone": "050-1808-0145",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "21",
@@ -180,7 +202,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8A%E3%81%AE%E7%B5%90%E8%AB%96",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0027 大阪府北区堂山町６−１４ 天満松栄会館 第一 301"
+    "address": "〒530-0027 大阪府北区堂山町６−１４ 天満松栄会館 第一 301",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "23",
@@ -195,7 +219,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒534-0024 大阪府大阪市都島区東野田町３丁目７−１７ 2F",
-    "phone": "06-6232-8912"
+    "phone": "06-6232-8912",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "24",
@@ -210,7 +236,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒537-0013 大阪府大阪市東成区大今里南１丁目２２−１４ 今里ビル",
-    "phone": "06-6977-2348"
+    "phone": "06-6977-2348",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "25",
@@ -225,7 +253,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒540-0001 大阪府大阪市中央区城見１丁目４−１ ホテルニューオータニ大阪3F",
-    "phone": "06-6944-8989"
+    "phone": "06-6944-8989",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "26",
@@ -240,7 +270,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒556-0002 大阪府大阪市浪速区恵美須東２丁目３−１８",
-    "phone": "06-6641-7412"
+    "phone": "06-6641-7412",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "27",
@@ -255,7 +287,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": false,
     "createdAt": "2026-03-31",
     "address": "〒603-8243 京都府京都市北区紫野今宮町９６",
-    "phone": "075-491-9402"
+    "phone": "075-491-9402",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "28",
@@ -270,7 +304,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒550-0002 大阪府大阪市西区江戸堀２丁目２−１８",
-    "phone": "06-6443-3519"
+    "phone": "06-6443-3519",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "29",
@@ -285,7 +321,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒555-0025 大阪府大阪市西淀川区姫里２丁目１７−２３",
-    "phone": "06-6473-7050"
+    "phone": "06-6473-7050",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "32",
@@ -300,7 +338,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0012 大阪府大阪市中央区谷町６丁目３−１０ 広橋ビル ２階",
-    "phone": "06-6764-4643"
+    "phone": "06-6764-4643",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "33",
@@ -314,7 +354,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E9%AE%A8%E3%81%B2%E3%81%A7%E3%81%9E%E3%81%86",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0071 大阪府大阪市中央区道頓堀１丁目２−１２"
+    "address": "〒542-0071 大阪府大阪市中央区道頓堀１丁目２−１２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "34",
@@ -328,7 +370,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E5%B1%8B%20%E3%81%B2%E3%81%A7%E3%81%9E%E3%81%86%20%E7%AB%8B%E3%81%A1%E5%91%91%E3%81%BF%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0075 大阪府大阪市中央区難波千日前９−１"
+    "address": "〒542-0075 大阪府大阪市中央区難波千日前９−１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "38",
@@ -343,7 +387,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0054 大阪府大阪市北区南森町１丁目３−１９",
-    "phone": "06-6365-8900"
+    "phone": "06-6365-8900",
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "39",
@@ -358,7 +404,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒553-0003 大阪府大阪市福島区福島３丁目６−１４",
-    "phone": "06-6451-4605"
+    "phone": "06-6451-4605",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "41",
@@ -373,7 +421,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒545-6013 大阪府大阪市阿倍野区阿倍野筋１丁目１−４３ 13F あべのハルカス近鉄本店タワー館",
-    "phone": "06-6627-9505"
+    "phone": "06-6627-9505",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "44",
@@ -388,7 +438,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒534-0025 大阪府大阪市都島区片町２丁目５−７ ロッソ京橋 2階",
-    "phone": "06-6467-4333"
+    "phone": "06-6467-4333",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "45",
@@ -402,7 +454,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E5%91%91%E3%81%BF%20%E3%81%A8%E3%81%8A%E3%82%8B",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒534-0024 大阪府大阪市都島区東野田町５丁目７−１ 千両ビル"
+    "address": "〒534-0024 大阪府大阪市都島区東野田町５丁目７−１ 千両ビル",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "46",
@@ -417,7 +471,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒543-0052 大阪府大阪市天王寺区大道４丁目１−２３",
-    "phone": "06-6772-5225"
+    "phone": "06-6772-5225",
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "48",
@@ -432,7 +488,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0001 大阪府大阪市北区梅田２丁目２−２２ ハービスPLAZA ENT 5F",
-    "phone": "050-1807-6650"
+    "phone": "050-1807-6650",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "50",
@@ -447,7 +505,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0076 大阪府大阪市中央区難波１丁目１−１２",
-    "phone": "050-5485-8428"
+    "phone": "050-5485-8428",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "52",
@@ -462,7 +522,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0053 大阪府大阪市北区末広町２−２４",
-    "phone": "06-6940-0206"
+    "phone": "06-6940-0206",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "53",
@@ -477,7 +539,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒537-0024 大阪府大阪市東成区東小橋３丁目１４−２４",
-    "phone": "06-6972-5029"
+    "phone": "06-6972-5029",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "58",
@@ -492,7 +556,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒537-0024 大阪府大阪市東成区東小橋３丁目２０−３１ 丸小市場連合",
-    "phone": "090-3288-8799"
+    "phone": "090-3288-8799",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "60",
@@ -507,7 +573,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒596-0078 大阪府岸和田市南上町２丁目２３−１",
-    "phone": "050-5487-0608"
+    "phone": "050-5487-0608",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "61",
@@ -522,7 +590,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒550-0002 大阪府大阪市西区江戸堀１丁目１９−２",
-    "phone": "06-6447-5661"
+    "phone": "06-6447-5661",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "62",
@@ -537,7 +607,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒536-0007 大阪府大阪市城東区成育２丁目１３−４",
-    "phone": "06-6932-2112"
+    "phone": "06-6932-2112",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "63",
@@ -552,7 +624,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒541-0046 大阪府大阪市中央区平野町１丁目３−８",
-    "phone": "06-6203-6695"
+    "phone": "06-6203-6695",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "65",
@@ -567,7 +641,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目６−１３ ニューセントラルビル 103",
-    "phone": "070-1462-5193"
+    "phone": "070-1462-5193",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "68",
@@ -582,7 +658,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒541-0055 大阪府大阪市中央区船場中央１丁目４−３ 船場センタービル 3号館地下２階",
-    "phone": "06-6224-0057"
+    "phone": "06-6224-0057",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "69",
@@ -597,7 +675,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒553-0003 大阪府大阪市福島区福島７丁目２２−１７ ＢＲＡＶＩ 4F",
-    "phone": "06-6454-9555"
+    "phone": "06-6454-9555",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "70",
@@ -612,7 +692,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0015 大阪府大阪市北区中崎西１丁目６−２４ 201",
-    "phone": "090-4308-3927"
+    "phone": "090-4308-3927",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "71",
@@ -627,7 +709,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒581-0017 大阪府八尾市高美町４丁目１３−３",
-    "phone": "072-993-0363"
+    "phone": "072-993-0363",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "74",
@@ -642,7 +726,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒574-0033 大阪府大東市扇町５−２",
-    "phone": "072-874-3960"
+    "phone": "072-874-3960",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "76",
@@ -656,7 +742,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A2%A8%E3%82%84",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0076 大阪府大阪市中央区難波４丁目３−２３"
+    "address": "〒542-0076 大阪府大阪市中央区難波４丁目３−２３",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "78",
@@ -671,7 +759,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒534-0025 大阪府大阪市都島区片町６ クローバービル 2階, ２丁目-６-２",
-    "phone": "06-6881-1134"
+    "phone": "06-6881-1134",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "80",
@@ -686,7 +776,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒536-0016 大阪府大阪市城東区蒲生１丁目８−３９",
-    "phone": "06-7410-5343"
+    "phone": "06-7410-5343",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "85",
@@ -701,7 +793,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0076 大阪府大阪市中央区難波１丁目６−６ やわらか",
-    "phone": "050-5486-0744"
+    "phone": "050-5486-0744",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "87",
@@ -716,7 +810,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0076 大阪府大阪市中央区難波３丁目８−５",
-    "phone": "06-6632-7894"
+    "phone": "06-6632-7894",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "88",
@@ -731,12 +827,14 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒556-0022 大阪府大阪市浪速区桜川１丁目２−９ 食事処にしかわ",
-    "phone": "06-6567-2415"
+    "phone": "06-6567-2415",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "89",
     "name": "魚と日本酒の奢酌楽(ジャグラー 南船場",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 3000,
@@ -746,12 +844,14 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0081 大阪府大阪市中央区南船場２丁目１０−１７",
-    "phone": "070-4801-5200"
+    "phone": "070-4801-5200",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "90",
     "name": "THE MUSEN IN SHOCK",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "tachinomi",
     "budgetMin": 2000,
     "budgetMax": 3000,
@@ -760,7 +860,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=THE%20MUSEN%20IN%20SHOCK",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0081 大阪府大阪市中央区南船場４丁目１１−２５"
+    "address": "〒542-0081 大阪府大阪市中央区南船場４丁目１１−２５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "94",
@@ -775,7 +877,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒536-0002 大阪府大阪市城東区今福東２丁目４−３ 泰平コーポ 104",
-    "phone": "090-8993-4697"
+    "phone": "090-8993-4697",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "95",
@@ -790,12 +894,14 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0062 大阪府大阪市中央区上本町西３丁目３−２５",
-    "phone": "090-5496-8804"
+    "phone": "090-5496-8804",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "96",
     "name": "スタンド サコ家(ヶ)",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "tachinomi",
     "budgetMin": 4000,
     "budgetMax": 5000,
@@ -805,7 +911,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0081 大阪府大阪市中央区南船場１丁目１８−２４ アクシス南船場ビル 1階",
-    "phone": "06-4708-6020"
+    "phone": "06-4708-6020",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "97",
@@ -819,7 +927,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E7%94%B0%E6%8F%9A%E6%8F%9A%EF%BC%88%E3%81%9F%E3%81%8B%E3%81%A0%E3%81%AE%E3%81%82%E3%81%92%E3%81%82%E3%81%92%EF%BC%89",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0075 大阪府大阪市中央区難波千日前４−３５"
+    "address": "〒542-0075 大阪府大阪市中央区難波千日前４−３５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "98",
@@ -833,7 +943,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%91%E6%81%B5%E4%BD%A0%E5%A5%BD",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0074 大阪府大阪市中央区千日前２丁目４−１２"
+    "address": "〒542-0074 大阪府大阪市中央区千日前２丁目４−１２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "99",
@@ -848,7 +960,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒541-0048 大阪府大阪市中央区瓦町４丁目７−４ 南星瓦町ビル 1F",
-    "phone": "06-4400-2668"
+    "phone": "06-4400-2668",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "100",
@@ -862,7 +976,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B3%E3%83%A1%E3%82%B8%E3%83%AB%E3%82%B7%20%E7%82%8A%E3%81%8D%E3%81%9F%E3%81%A6%E3%83%93%E3%83%AA%E3%83%A4%E3%83%8B%E5%B0%82%E9%96%80%E5%BA%97%E3%80%81%E3%81%9D%E3%81%97%E3%81%A6%E3%83%8A%E3%83%81%E3%83%A5%E3%83%A9%E3%83%AB%E3%83%AF%E3%82%A4%E3%83%B3%E3%81%A8%E6%97%A5%E6%9C%AC%E9%85%92",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒531-0074 大阪府大阪市北区本庄東１丁目３−５ ロイヤルハイツモリ １階"
+    "address": "〒531-0074 大阪府大阪市北区本庄東１丁目３−５ ロイヤルハイツモリ １階",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "102",
@@ -877,7 +993,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒590-0940 大阪府堺市堺区車之町西３丁１−３１",
-    "phone": "080-4495-0508"
+    "phone": "080-4495-0508",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "103",
@@ -892,7 +1010,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0017 大阪府大阪市北区角田町９−２６",
-    "phone": "06-6361-4659"
+    "phone": "06-6361-4659",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "104",
@@ -907,7 +1027,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0012 大阪府大阪市北区芝田１丁目６−１１ 1階",
-    "phone": "06-6147-9605"
+    "phone": "06-6147-9605",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "109",
@@ -922,7 +1044,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒550-0003 大阪府大阪市西区京町堀１丁目１７−３",
-    "phone": "06-6441-2202"
+    "phone": "06-6441-2202",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "111",
@@ -937,7 +1061,9 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒541-0048 大阪府大阪市中央区瓦町４丁目５−６ 2F",
-    "phone": "06-7777-5072"
+    "phone": "06-7777-5072",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "142",
@@ -950,12 +1076,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Entrance%20Kitchen%20%E5%A4%A7%E9%98%AA%E5%BF%83%E6%96%8E%E6%A9%8B%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "188",
     "name": "4坪牡蠣小屋 キヨリト大阪福島店",
-    "area": "other",
+    "area": "fukushima",
     "genre": "tachinomi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -963,7 +1091,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=4%E5%9D%AA%E7%89%A1%E8%A0%A3%E5%B0%8F%E5%B1%8B%20%E3%82%AD%E3%83%A8%E3%83%AA%E3%83%88%E5%A4%A7%E9%98%AA%E7%A6%8F%E5%B3%B6%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "237",
@@ -976,7 +1106,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%82%AB%E3%82%A4%E3%83%8E%E3%82%AA%E3%82%A2%E3%82%B7%E3%82%B9%EF%BC%AB%EF%BC%A9%EF%BC%B4%EF%BC%B4%EF%BC%A5%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "298",
@@ -989,12 +1121,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E9%89%84%E7%A0%B2%20%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "314",
     "name": "らーめん チョンマゲ 大阪梅田店",
-    "area": "other",
+    "area": "umeda",
     "genre": "ramen",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -1002,7 +1136,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E3%83%81%E3%83%A7%E3%83%B3%E3%83%9E%E3%82%B2%20%E5%A4%A7%E9%98%AA%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "342",
@@ -1015,7 +1151,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E9%85%92%E8%94%B5%E5%A4%A7%E9%98%AA%20%E3%81%AA%E3%82%93%E3%81%B0%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "352",
@@ -1028,7 +1166,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E3%81%BE%E3%82%93%E3%81%B7%E3%81%8F%E5%A0%82",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "354",
@@ -1041,7 +1181,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%AE%BF%E7%84%BC%E8%82%89%20%E7%89%9B%E3%81%9F%E3%82%93%E3%81%AE%E6%AA%B8%E6%AA%AC%20%E5%A4%A7%E9%98%AA%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "372",
@@ -1054,7 +1196,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%81%A0%E3%82%8F%E3%82%8A%E9%A3%9F%E6%9D%90%E5%B8%82%E5%A0%B4%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E4%B8%AD%E5%A4%AE%E5%8D%B8%E5%A3%B2%E5%B8%82%E5%A0%B4%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81%E5%8D%B8%E5%A3%B2%E5%95%86%E6%A5%AD%E5%8D%94%E5%90%8C%E7%B5%84%E5%90%88",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "404",
@@ -1067,7 +1211,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%85%E9%85%92%E5%B1%8B%E5%8D%81%E6%9C%88%E4%BA%8C%E6%97%A5%20%E7%A6%8F%E5%B3%B6%E5%8C%BA",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "430",
@@ -1080,7 +1226,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%A4%A7%E8%A1%86%E5%B1%85%E9%85%92%E5%B1%8B%20%E9%A3%AF%E3%81%A8%E9%85%92%E3%81%A8%E9%9F%B3%20almalio",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "451",
@@ -1093,7 +1241,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%83%81%E3%83%A7%E3%83%B3%E3%83%9E%E3%82%B2%20%E5%A4%A7%E9%98%AA%E5%A4%A9%E5%85%AD%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "511",
@@ -1106,7 +1256,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E5%A3%B2%E3%81%AE%E3%82%B8%E3%83%A7%E3%83%BC%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D%E7%AC%AC%E4%B8%89%E3%83%93%E3%83%AB%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "559",
@@ -1119,7 +1271,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%81%A8%E5%AF%BF%E5%8F%B8%E5%85%AD%20%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D%E7%AC%AC2%E3%83%93%E3%83%AB%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "578",
@@ -1132,7 +1286,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%AD%A3%E4%BA%94%E5%B9%B4%E5%89%B5%E6%A5%AD%20%E4%B8%B2%E3%81%8B%E3%81%A4%20%E3%81%8E%E3%81%B5%E3%82%84%E6%9C%AC%E5%AE%B6%20%E5%A4%A7%E9%98%AA%E6%96%B0%E4%B8%96%E7%95%8C%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "580",
@@ -1145,7 +1301,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%92556-0002%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E6%B5%AA%E9%80%9F%E5%8C%BA%E6%81%B5%E7%BE%8E%E9%A0%88%E6%9D%B1%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%99",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "584",
@@ -1158,7 +1316,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BA%80%E5%AE%AE%20%E9%AE%A8%E3%81%A8%E3%82%88%E3%81%AA%E3%81%8C",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "602",
@@ -1171,7 +1331,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E5%B1%8B%20%E5%B8%86%E3%81%AE%E3%82%8B%E5%A4%A7%E9%98%AA%E3%81%AA%E3%82%93%E3%81%B0%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "626",
@@ -1184,7 +1346,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E7%89%9B%E3%82%BF%E3%83%B3%E6%AC%A1%E9%83%8E%20%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BA%80%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "630",
@@ -1197,7 +1361,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E4%BB%99%E9%85%A2%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "677",
@@ -1210,7 +1376,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E3%81%86%E3%81%A9%E3%82%93%20%E3%81%84%E3%81%AA%E3%81%AE%E8%B7%AF",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "709",
@@ -1223,12 +1391,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%AD%E3%83%B3%E5%8D%B5%E3%81%A8%E7%A7%81%20%E3%83%AB%E3%82%AF%E3%82%A2%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "719",
     "name": "ホルモン千葉 大阪梅田店",
-    "area": "other",
+    "area": "umeda",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1236,7 +1406,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%E5%8D%83%E8%91%89%20%E5%A4%A7%E9%98%AA%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "51",
@@ -1245,7 +1417,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "namba",
     "comment": "ラードニキが行きたいお店",
     "rating": 4,
-    "genre": "sushi"
+    "genre": "sushi",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "54",
@@ -1254,7 +1428,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "umeda",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
-    "genre": "sushi"
+    "genre": "sushi",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "64",
@@ -1263,7 +1439,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "kitahama",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.7,
-    "genre": "other"
+    "genre": "other",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "67",
@@ -1272,7 +1450,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "umeda",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.4,
-    "genre": "izakaya"
+    "genre": "izakaya",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "117",
@@ -1281,7 +1461,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "namba",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.6,
-    "genre": "yakiniku"
+    "genre": "yakiniku",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "118",
@@ -1290,7 +1472,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "umeda",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.3,
-    "genre": "other"
+    "genre": "other",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "119",
@@ -1299,7 +1483,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "tenma",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.8,
-    "genre": "yakiniku"
+    "genre": "yakiniku",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "120",
@@ -1308,7 +1494,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "kyobashi",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
-    "genre": "izakaya"
+    "genre": "izakaya",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "122",
@@ -1317,7 +1505,9 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "tenma",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.2,
-    "genre": "yakiniku"
+    "genre": "yakiniku",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "123",
@@ -1326,59 +1516,73 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "tenma",
     "comment": "ラードニキが行きたいお店",
     "rating": 3.2,
-    "genre": "other"
+    "genre": "other",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "126",
     "name": "ダテダチ",
-    "area": "other",
+    "area": "namba",
     "genre": "tachinomi",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.7,
+    "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%80%E3%83%86%E3%83%80%E3%83%81",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市中央区千日前2-4-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "128",
     "name": "裏ヒロヤ",
-    "area": "other",
+    "area": "tenma",
+    "genre": "izakaya",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "ラードニキが行きたいお店",
+    "rating": 3.7,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A3%8F%E3%83%92%E3%83%AD%E3%83%A4",
+    "isActive": true,
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市北区池田町5-1",
+    "hasLunch": false,
+    "hasDinner": true
+  },
+  {
+    "id": "129",
+    "name": "Ristorante e Pizzeria SANTA LUCIA",
+    "area": "kitahama",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
     "rating": 3.6,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A3%8F%E3%83%92%E3%83%AD%E3%83%A4",
-    "isActive": true,
-    "createdAt": "2026-03-31"
-  },
-  {
-    "id": "129",
-    "name": "Ristorante e Pizzeria SANTA LUCIA",
-    "area": "other",
-    "genre": "other",
-    "budgetMin": 2000,
-    "budgetMax": 4000,
-    "comment": "ラードニキが行きたいお店",
-    "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ristorante%20e%20Pizzeria%20SANTA%20LUCIA",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市西区京町堀1-9-17",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "130",
     "name": "Bar Asumo バーアスモ お初天神店",
-    "area": "other",
+    "area": "umeda",
     "genre": "bar",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.3,
+    "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Asumo%20%E3%83%90%E3%83%BC%E3%82%A2%E3%82%B9%E3%83%A2%20%E3%81%8A%E5%88%9D%E5%A4%A9%E7%A5%9E%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市北区曽根崎2-5-20",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "133",
@@ -1390,21 +1594,26 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A4%E3%83%9E%E3%83%80%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "134",
     "name": "おばんざい鈴",
-    "area": "other",
+    "area": "tenma",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.2,
+    "rating": 3.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B0%E3%82%93%E3%81%96%E3%81%84%E9%88%B4",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市北区天神橋1-18-9",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "136",
@@ -1416,8 +1625,10 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AA%E3%82%B4%E3%83%AC%E3%83%83%E3%83%88",
-    "isActive": true,
-    "createdAt": "2026-03-31"
+    "isActive": false,
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "137",
@@ -1427,54 +1638,66 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.3,
+    "rating": 3.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%82%93%E3%81%B1%E3%81%A1%E9%A3%9F%E5%A0%82JR%E4%BA%AC%E6%A9%8B%E9%A7%85%E5%89%8D%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市都島区東野田町3丁目10-3",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "139",
     "name": "鮨MANABU",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.8,
+    "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8MANABU",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市東成区東小橋3-17-9",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "140",
     "name": "やっこ",
-    "area": "other",
-    "genre": "kushikatsu",
+    "area": "kitahama",
+    "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.5,
+    "rating": 3.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%81%A3%E3%81%93",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市中央区北浜1-1-28",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "141",
     "name": "牡蠣乃家 岸和田店",
     "area": "other",
-    "genre": "sushi",
+    "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%A1%E8%A0%A3%E4%B9%83%E5%AE%B6%20%E5%B2%B8%E5%92%8C%E7%94%B0%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府岸和田市吉井町1-22-16",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "144",
     "name": "グリル マルヨシ",
-    "area": "other",
+    "area": "abeno",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1482,72 +1705,90 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%AA%E3%83%AB%20%E3%83%9E%E3%83%AB%E3%83%A8%E3%82%B7",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市阿倍野区阿倍野筋1-6-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "147",
     "name": "元祖ぶっち切り寿司 魚心 本店",
-    "area": "other",
-    "genre": "yakitori",
+    "area": "umeda",
+    "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.3,
+    "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E3%81%B6%E3%81%A3%E3%81%A1%E5%88%87%E3%82%8A%E5%AF%BF%E5%8F%B8%20%E9%AD%9A%E5%BF%83%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市北区堂山町5-4",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "148",
     "name": "三国そば",
     "area": "other",
-    "genre": "yakitori",
+    "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%9B%BD%E3%81%9D%E3%81%B0",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市淀川区西三国4-8-19",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "149",
     "name": "ののじ",
-    "area": "other",
-    "genre": "yakitori",
+    "area": "kitahama",
+    "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 4.2,
+    "rating": 3.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AE%E3%81%AE%E3%81%98",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市淀川区十三本町1-7-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "150",
     "name": "PISOLA 守口大日店",
     "area": "other",
-    "genre": "yakitori",
+    "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 4.1,
+    "rating": 3.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PISOLA%20%E5%AE%88%E5%8F%A3%E5%A4%A7%E6%97%A5%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府守口市大日東町46-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "151",
     "name": "御影郷ふくじゅ",
-    "area": "other",
-    "genre": "yakitori",
+    "area": "umeda",
+    "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 4.2,
+    "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%BD%B1%E9%83%B7%E3%81%B5%E3%81%8F%E3%81%98%E3%82%85",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "address": "大阪府大阪市北区梅田1-3-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "156",
@@ -1560,7 +1801,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%83%E3%82%B5%E3%83%BB%E3%82%B8%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B5%E3%83%B3",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "157",
@@ -1573,7 +1816,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%86%E3%82%A4%E3%82%B9%E3%83%88",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "158",
@@ -1586,7 +1831,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EF%BC%93%E3%81%A1%E3%82%83%E3%82%93%E5%B1%8B",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "169",
@@ -1599,7 +1846,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9B%E3%81%9B%E3%82%8A%E8%92%B2%E7%84%BC%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%99%E5%85%AB%E3%81%A8%E3%82%8A2%E5%8F%B7%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "170",
@@ -1612,7 +1861,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E4%B8%96%E9%A3%9F%E5%A0%82",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "171",
@@ -1625,7 +1876,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8E%E3%82%87%E3%81%86%E3%81%96%E5%87%A6%E3%81%A0%E3%81%84%E3%81%8D%E3%81%A1",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "172",
@@ -1638,7 +1891,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E9%85%92%E5%AE%B6%20%E8%8F%9C%E9%83%BD",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "173",
@@ -1651,7 +1906,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Petit%20Luxe",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "174",
@@ -1664,7 +1921,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20%E8%B1%86%E3%81%B5%E5%B1%8B%20%E3%82%84%E3%81%99%E3%81%BE%E3%82%8B%20%EF%BD%9E%E8%B1%86%E5%AF%8C%E3%81%A8%E9%AE%A8%E3%81%A8%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%EF%BD%9E%2FTennoji%20Tofuya%20Yasumaru%22Tofu%2C%20Edomae%20Sushi%2C%20and%20Japanese%20Cuisine%22",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "175",
@@ -1677,7 +1936,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%97%E4%BA%95Jr.",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "176",
@@ -1690,7 +1951,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%BE%E4%B8%80%20%E8%82%A5%E5%BE%8C%E6%A9%8B%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "177",
@@ -1703,7 +1966,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%81%A1%E8%94%B5",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "178",
@@ -1716,7 +1981,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B7%8F%E5%A4%A7%E9%86%A4",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "180",
@@ -1729,7 +1996,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B3%A5%E6%82%9F",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "181",
@@ -1742,7 +2011,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%BB%E8%A3%BD%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%85%92%E5%A0%B4%20%E4%BA%AC%E6%A9%8B%20ORA%EF%BC%88%E3%82%AA%E3%83%BC%E3%83%A9%EF%BC%89",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "182",
@@ -1755,7 +2026,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E9%A3%B2%E3%81%BF%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%83%93%E3%83%BC%E3%83%AB%E9%85%92%E5%A0%B4%20%E3%83%93%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%83%A2%E3%83%AB%E3%83%88!!%20%E9%98%AA%E6%80%A5%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "183",
@@ -1768,12 +2041,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B2%E3%81%8B%E3%81%A4%20%E9%B3%A5%E3%81%AE%E5%B7%A3",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "184",
     "name": "福島金魚",
-    "area": "other",
+    "area": "fukushima",
     "genre": "yakitori",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1781,12 +2056,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B3%B6%E9%87%91%E9%AD%9A",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "185",
     "name": "大衆ビストロ うらきんぎょ 福島",
-    "area": "other",
+    "area": "fukushima",
     "genre": "yakitori",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1794,12 +2071,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E3%83%93%E3%82%B9%E3%83%88%E3%83%AD%20%E3%81%86%E3%82%89%E3%81%8D%E3%82%93%E3%81%8E%E3%82%87%20%E7%A6%8F%E5%B3%B6",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "186",
     "name": "麦と林檎のイタリア酒場 福島事変",
-    "area": "other",
+    "area": "fukushima",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1807,12 +2086,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%A6%E3%81%A8%E6%9E%97%E6%AA%8E%E3%81%AE%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%85%92%E5%A0%B4%20%E7%A6%8F%E5%B3%B6%E4%BA%8B%E5%A4%89",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "187",
     "name": "鈍◯酒場 福島店",
-    "area": "other",
+    "area": "fukushima",
     "genre": "tachinomi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1820,7 +2101,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%88%8D%E2%97%AF%E9%85%92%E5%A0%B4%20%E7%A6%8F%E5%B3%B6%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "190",
@@ -1833,7 +2116,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BF%E3%81%A4%E3%82%8F%E3%82%84%E9%85%92%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "193",
@@ -1846,12 +2131,14 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8B%E5%8F%B0%E3%81%8A%E3%81%A7%E3%82%93",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "194",
     "name": "昭和町 串揚げ はなおか",
-    "area": "other",
+    "area": "abeno",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1859,7 +2146,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%AD%E5%92%8C%E7%94%BA%20%E4%B8%B2%E6%8F%9A%E3%81%92%20%E3%81%AF%E3%81%AA%E3%81%8A%E3%81%8B",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "196",
@@ -1872,7 +2161,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%98%E5%85%9A%20%E3%81%8A%E5%A5%BD%E3%81%BF%E7%84%BC%20%E3%81%8B%E3%81%8F%E5%BA%84",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "197",
@@ -1885,7 +2176,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%8F%E3%81%8B%E3%81%B0",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "198",
@@ -1898,7 +2191,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%A4%AA%E9%83%8E%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "199",
@@ -1911,7 +2206,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%90%E6%98%9F%20%E3%82%A6%E3%83%A9%E3%81%AA%E3%82%93%E3%81%B0%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "200",
@@ -1924,7 +2221,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%88%88%E5%AF%BF%E5%8F%B8%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "201",
@@ -1937,7 +2236,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%98%E3%82%85%E3%81%82%E3%82%8B%E3%81%8B%E3%81%A3%E3%81%BD%E3%83%BCTSUKUSI",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "202",
@@ -1950,7 +2251,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A0%BA%E7%AD%8B%E6%9C%AC%E7%94%BA%E7%B5%A6%E6%B2%B9%E6%89%80%20%E4%B8%80%E5%8F%B7%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "203",
@@ -1963,7 +2266,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A1%E5%AE%A4%E9%85%92%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "204",
@@ -1976,7 +2281,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%20%E7%AB%8B%E5%B1%B1%20%E6%A2%85%E7%94%B0%E5%BA%97%EF%BC%88%E9%A3%B2%E9%A3%9F%E5%B0%82%E9%96%80%E5%BA%97%EF%BC%89",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "205",
@@ -1989,7 +2296,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%A3%B2%E8%8C%B6%20%E6%98%9F%E8%A1%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "206",
@@ -2002,7 +2311,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E4%B8%B2%E3%82%AB%E3%83%84%E9%85%92%E5%A0%B4%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E5%B8%83%E6%96%BD",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "207",
@@ -2015,7 +2326,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%E3%81%AE%E5%BA%97%20%E3%82%82%E3%82%82",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "208",
@@ -2028,7 +2341,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%81%BE%E3%81%AE%E3%82%84",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "209",
@@ -2041,7 +2356,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%A2%E3%83%8D%E3%83%AA%E3%82%A2%20%E3%83%99%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%BF%20%E3%82%AE%E3%83%A7%E3%82%AF%E3%83%AD",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "210",
@@ -2054,7 +2371,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%BE%8D%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E6%88%8E%E6%A9%8B%E7%AD%8B%E5%BA%97",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "213",
@@ -2067,7 +2386,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E5%A4%AA%E5%AF%BF%E5%8F%B8",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "214",
@@ -2080,7 +2401,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E3%81%A8%E8%82%89%20%E3%81%A0%E3%81%84%E3%81%A4%E3%82%8B",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "215",
@@ -2093,7 +2416,9 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A2%A8%E3%82%82%E3%81%A4%E6%96%99%E7%90%86%E3%81%82%E3%82%89%E3%81%9F",
     "isActive": true,
-    "createdAt": "2026-03-31"
+    "createdAt": "2026-03-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "216",
@@ -2107,12 +2432,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%AE%AE%E3%81%A8%E5%B9%BB%E9%A4%83%E5%AD%90%20%E3%81%BC%E3%81%A1%E3%81%BC%E3%81%A1",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒550-0002 大阪府大阪市西区江戸堀１丁目１９−２４"
+    "address": "〒550-0002 大阪府大阪市西区江戸堀１丁目１９−２４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "217",
     "name": "ゆうすけ",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2121,7 +2448,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%86%E3%81%86%E3%81%99%E3%81%91",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒532-0011 大阪府大阪市淀川区西中島３丁目１５−３"
+    "address": "〒532-0011 大阪府大阪市淀川区西中島３丁目１５−３",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "218",
@@ -2135,7 +2464,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E7%A9%BA%E6%B5%B7%E6%B8%A9%E6%B3%89",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "address": "〒563-0123 大阪府豊能郡能勢町下田尻８０１"
+    "address": "〒563-0123 大阪府豊能郡能勢町下田尻８０１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "219",
@@ -2149,7 +2480,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%81%B2%E3%81%A0%E3%81%BE%E3%82%8A%20%E9%81%93%E3%81%AE%E9%A7%85%20%E8%83%BD%E5%8B%A2%EF%BC%88%E3%81%8F%E3%82%8A%E3%81%AE%E9%83%B7%EF%BC%89",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒563-0351 大阪府豊能郡能勢町栗栖７０"
+    "address": "〒563-0351 大阪府豊能郡能勢町栗栖７０",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "220",
@@ -2163,7 +2496,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B1%E3%81%99%E3%81%9F%E5%B1%8B%E3%81%97%E3%81%8B%E3%81%A1%E3%82%83%E3%82%93",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒553-0003 大阪府大阪市福島区福島７丁目１１−５１"
+    "address": "〒553-0003 大阪府大阪市福島区福島７丁目１１−５１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "221",
@@ -2177,7 +2512,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%90%E3%83%AA%E3%83%90%E3%83%BC%E3%83%AB%20%E7%A6%8F%E5%B3%B6%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒553-0003 大阪府大阪市福島区福島７丁目１１−５１"
+    "address": "〒553-0003 大阪府大阪市福島区福島７丁目１１−５１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "222",
@@ -2191,7 +2528,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=DE%20FRITES%20STAAN",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0086 大阪府大阪市中央区西心斎橋１丁目１３−２１"
+    "address": "〒542-0086 大阪府大阪市中央区西心斎橋１丁目１３−２１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "223",
@@ -2205,7 +2544,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%8E%20HEP%E3%83%8A%E3%83%93%E3%82%AA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0017 大阪府大阪市北区角田町７−１０ HEP NAVIO 7F"
+    "address": "〒530-0017 大阪府大阪市北区角田町７−１０ HEP NAVIO 7F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "224",
@@ -2219,7 +2560,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SAYAMISTYLE(%E3%82%B5%E3%83%A4%E3%83%9F%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB)%20%E9%9B%A3%E6%B3%A2%E3%81%AE%E7%AB%8B%E3%81%A1%E9%A3%B2%E3%81%BF",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0075 大阪府大阪市中央区難波千日前７−１２"
+    "address": "〒542-0075 大阪府大阪市中央区難波千日前７−１２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "225",
@@ -2233,7 +2576,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%20%E5%AF%BA%E7%94%B0",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒543-0052 大阪府大阪市天王寺区大道１丁目５−１３"
+    "address": "〒543-0052 大阪府大阪市天王寺区大道１丁目５−１３",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "226",
@@ -2247,7 +2592,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E9%A3%9F%E5%B1%8B%20%E3%81%B5%E3%81%98%E5%AE%B6",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒540-0028 大阪府大阪市中央区槍屋町２丁目２−１"
+    "address": "〒540-0028 大阪府大阪市中央区槍屋町２丁目２−１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "227",
@@ -2261,7 +2608,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%BE%E3%81%94%E3%81%AE%E3%81%A6",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒531-0072 大阪府大阪市北区豊崎３丁目１０−２"
+    "address": "〒531-0072 大阪府大阪市北区豊崎３丁目１０−２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "228",
@@ -2275,7 +2624,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E5%B1%8B%E3%81%B8%E3%81%A1%E3%81%8B%E3%82%93",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0041 大阪府大阪市北区天神橋４丁目１２−１７"
+    "address": "〒530-0041 大阪府大阪市北区天神橋４丁目１２−１７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "229",
@@ -2289,12 +2640,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E3%81%97%E3%82%8F%E3%81%92%E3%82%93%E3%81%9B",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0082 大阪府大阪市中央区島之内２丁目１３−２７"
+    "address": "〒542-0082 大阪府大阪市中央区島之内２丁目１３−２７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "230",
     "name": "しっとう屋",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2303,7 +2656,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%81%A3%E3%81%A8%E3%81%86%E5%B1%8B",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒532-0011 大阪府大阪市淀川区西中島３丁目１７−１０"
+    "address": "〒532-0011 大阪府大阪市淀川区西中島３丁目１７−１０",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "231",
@@ -2317,7 +2672,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A2%A8%E5%9B%BD%E5%9B%9E%E8%BB%A2%E9%B6%8F%E6%96%99%E7%90%86",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0033 大阪府大阪市北区池田町８−４"
+    "address": "〒530-0033 大阪府大阪市北区池田町８−４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "232",
@@ -2331,7 +2688,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%83%BC%E3%83%8A",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0022 大阪府大阪市北区浪花町５−１４"
+    "address": "〒530-0022 大阪府大阪市北区浪花町５−１４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "233",
@@ -2345,7 +2704,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E9%AD%9A%E5%87%A6%20%E8%97%81%E3%83%A4%E3%82%AD%E7%82%AD%E3%83%92%E3%83%87",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒550-0003 大阪府大阪市西区京町堀１丁目１２−１１"
+    "address": "〒550-0003 大阪府大阪市西区京町堀１丁目１２−１１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "234",
@@ -2359,7 +2720,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E7%94%B0%20%E3%81%A1%E3%82%87%E3%81%86%E3%81%A4%E3%81%8C%E3%81%B2",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0017 大阪府大阪市北区角田町８−４７ 阪急32番街 28F"
+    "address": "〒530-0017 大阪府大阪市北区角田町８−４７ 阪急32番街 28F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "235",
@@ -2373,7 +2736,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E6%96%B0%E6%A5%BD%E4%BA%95",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒544-0034 大阪府大阪市生野区桃谷２丁目１５−１２"
+    "address": "〒544-0034 大阪府大阪市生野区桃谷２丁目１５−１２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "236",
@@ -2387,7 +2752,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MONIQUE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0015 大阪府大阪市北区中崎西２丁目４−３５"
+    "address": "〒530-0015 大阪府大阪市北区中崎西２丁目４−３５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "238",
@@ -2401,7 +2768,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%91%E3%83%AB%E3%83%AC",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0015 大阪府大阪市北区中崎西４丁目３−４５"
+    "address": "〒530-0015 大阪府大阪市北区中崎西４丁目３−４５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "239",
@@ -2415,12 +2784,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BF%83%E5%8E%9A%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E3%82%88%E3%81%97%E7%94%B0%20%E5%BF%83%E6%96%8E%E6%A9%8B%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目６−１５"
+    "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目６−１５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "243",
     "name": "お初の十忠八九",
-    "area": "other",
+    "area": "umeda",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2429,7 +2800,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E5%88%9D%E3%81%AE%E5%8D%81%E5%BF%A0%E5%85%AB%E4%B9%9D",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0057 大阪府大阪市北区曽根崎２丁目１３−１７"
+    "address": "〒530-0057 大阪府大阪市北区曽根崎２丁目１３−１７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "244",
@@ -2443,7 +2816,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%98%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%A6%E3%82%A7%E3%82%A4",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒554-0052 大阪府大阪市此花区常吉２丁目１３−１８"
+    "address": "〒554-0052 大阪府大阪市此花区常吉２丁目１３−１８",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "247",
@@ -2457,7 +2832,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grill%20Cafe%20Excellent",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒595-0814 大阪府泉北郡忠岡町新浜２丁目５"
+    "address": "〒595-0814 大阪府泉北郡忠岡町新浜２丁目５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "258",
@@ -2471,7 +2848,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%82%E3%81%A4%E7%84%BC%E3%81%AE%E3%82%93%E3%81%8D",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目１６−１３"
+    "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目１６−１３",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "261",
@@ -2485,7 +2864,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PANAME%20Cr%C3%AApes%20de%20Paris%20%EF%BC%86%20Caf%C3%A9%20Bar%20(Osaka)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−４１"
+    "address": "〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−４１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "262",
@@ -2499,7 +2880,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=n%C2%B029%EF%BC%88%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%8B%E3%83%BC%E3%82%AD%E3%83%A5%E3%83%BC)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒550-0013 大阪府大阪市西区新町１丁目２４−８"
+    "address": "〒550-0013 大阪府大阪市西区新町１丁目２４−８",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "263",
@@ -2513,7 +2896,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%96%AC%E8%96%97(%E3%82%84%E3%81%8F%E3%81%88%E3%82%93)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0043 大阪府大阪市北区天満３丁目１−５"
+    "address": "〒530-0043 大阪府大阪市北区天満３丁目１−５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "264",
@@ -2527,7 +2912,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%85%E9%85%92%E5%B1%8B%20%E3%81%9F%E3%81%93%E3%81%97%E3%81%92",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１２−８"
+    "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１２−８",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "265",
@@ -2541,7 +2928,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E5%86%B7%E9%BA%BA%20%E8%82%89%E4%BA%94%E9%83%8E%20%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E6%9D%91%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１０−３１"
+    "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１０−３１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "266",
@@ -2555,7 +2944,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KOME%20MAME",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0012 大阪府大阪市中央区谷町７丁目１−１１"
+    "address": "〒542-0012 大阪府大阪市中央区谷町７丁目１−１１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "267",
@@ -2569,7 +2960,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sweet%20Check",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "address": "〒542-0086 大阪府大阪市中央区西心斎橋１丁目６−１７"
+    "address": "〒542-0086 大阪府大阪市中央区西心斎橋１丁目６−１７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "270",
@@ -2583,7 +2976,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KILN%20THE%20BEER%20HOUSE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0012 大阪府大阪市北区芝田１丁目８−１"
+    "address": "〒530-0012 大阪府大阪市北区芝田１丁目８−１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "271",
@@ -2597,7 +2992,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%81%9F%E3%82%84",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒598-0021 大阪府泉佐野市日根野５９４−１"
+    "address": "〒598-0021 大阪府泉佐野市日根野５９４−１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "272",
@@ -2611,7 +3008,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E5%91%91%E3%81%BF%E5%87%A6%20%E3%81%9F%E3%82%88%E3%81%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0076 大阪府大阪市中央区難波３丁目２−２６"
+    "address": "〒542-0076 大阪府大阪市中央区難波３丁目２−２６",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "273",
@@ -2625,7 +3024,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%82%81%E3%81%A8%E3%81%AF%E3%81%AA%20(%E5%AF%BA%E8%A5%BF%E5%AE%B6%E7%94%BA%E5%AE%B6%E8%94%B5%20)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒545-0011 大阪府大阪市阿倍野区昭和町１丁目９−２１"
+    "address": "〒545-0011 大阪府大阪市阿倍野区昭和町１丁目９−２１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "274",
@@ -2639,7 +3040,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%ADkappo%20hirac",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目５−８"
+    "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目５−８",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "275",
@@ -2653,7 +3056,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E3%83%95%E3%83%A9%E3%83%B3%E8%BB%92",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0081 大阪府大阪市中央区北久宝寺町３丁目５−３"
+    "address": "〒542-0081 大阪府大阪市中央区北久宝寺町３丁目５−３",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "276",
@@ -2667,7 +3072,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AB%E3%82%93%E3%81%AB%E3%81%8F%E9%B6%8F%E7%84%BC%E8%82%89%E3%82%B5%E3%83%B3",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１０−３１"
+    "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１０−３１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "277",
@@ -2681,7 +3088,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%AA%E3%83%AB%20%E3%83%AD%E3%83%B3",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区芝田1丁目1-3 阪急三番街 B2F"
+    "address": "大阪府大阪市北区芝田1丁目1-3 阪急三番街 B2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "278",
@@ -2695,7 +3104,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20continue",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東成区大今里4丁目23-15"
+    "address": "大阪府大阪市東成区大今里4丁目23-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "279",
@@ -2709,7 +3120,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%E3%81%AE%E4%B8%AD%E5%BA%84%20%E5%BF%83%E6%96%8E%E6%A9%8B%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区東心斎橋1-17-15 丸清ビル1F"
+    "address": "大阪府大阪市中央区東心斎橋1-17-15 丸清ビル1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "280",
@@ -2723,7 +3136,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E3%81%AE%E6%B4%8B%E9%A3%9F%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%A8%E3%82%93%E5%8A%A9",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市住之江区中加賀屋3-1-22"
+    "address": "大阪府大阪市住之江区中加賀屋3-1-22",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "281",
@@ -2737,7 +3152,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%9F%E7%94%B0",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東成区大今里西2丁目8-12"
+    "address": "大阪府大阪市東成区大今里西2丁目8-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "282",
@@ -2751,7 +3168,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E6%B4%8B%E9%85%92%E8%8F%9C%20%E3%81%B2%E3%81%A7",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区心斎橋筋2丁目1-3"
+    "address": "大阪府大阪市中央区心斎橋筋2丁目1-3",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "283",
@@ -2765,7 +3184,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E5%A0%B4%20%E3%82%84%E3%81%BE%E3%81%A8",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区小松原町2-4 大阪富国生命ビル B2F"
+    "address": "大阪府大阪市北区小松原町2-4 大阪富国生命ビル B2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "284",
@@ -2779,7 +3200,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E9%A3%9F%E7%B1%B3%E9%96%80%20%E6%A2%85%E7%94%B0",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区梅田2-2-22 ハービス PLAZA ENT 5F"
+    "address": "大阪府大阪市北区梅田2-2-22 ハービス PLAZA ENT 5F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "285",
@@ -2793,7 +3216,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%8B%E5%AE%89%E8%A3%BD%E4%BD%9C%E6%89%80%20Cafe%20%26%20Bar%20%E9%98%BF%E5%80%8D%E9%87%8E",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市阿倍野区阿倍野筋2-3-8"
+    "address": "大阪府大阪市阿倍野区阿倍野筋2-3-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "286",
@@ -2807,7 +3232,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E9%81%93%E5%AE%B6%E7%9B%B4%E7%B3%BB%20%E6%88%91%E9%81%93%E5%AE%B6%20OSAKA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市浪速区湊町1丁目3-1 B1F"
+    "address": "大阪府大阪市浪速区湊町1丁目3-1 B1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "287",
@@ -2821,7 +3248,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E5%8F%B8%20%E5%B8%B8",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区天神橋2丁目4-3"
+    "address": "大阪府大阪市北区天神橋2丁目4-3",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "288",
@@ -2835,7 +3264,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8F%AF%E9%A2%A8%E6%96%99%E7%90%86%20%E4%B8%80%E8%8A%B3%E4%BA%AD%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市浪速区難波中2-6-22"
+    "address": "大阪府大阪市浪速区難波中2-6-22",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "289",
@@ -2849,7 +3280,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E3%81%BE%E3%81%A4%E3%81%88",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東淀川区小松4丁目9-26"
+    "address": "大阪府大阪市東淀川区小松4丁目9-26",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "290",
@@ -2863,7 +3296,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PIZZERIA%20NAPOLETANA%20ASSO%20DA%20YAMAGUCHI%E4%B8%AD%E5%B4%8E%E7%94%BA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区黒崎町9-5 1階"
+    "address": "大阪府大阪市北区黒崎町9-5 1階",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "291",
@@ -2877,7 +3312,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E3%81%93%E3%81%A6%E3%81%A4%EF%BC%88%E6%97%A7%EF%BC%9A%E7%84%BC%E8%82%89%E5%AE%B6%E3%81%AD%E3%81%8E%E3%81%A1%E3%82%83%E3%82%93%EF%BC%89",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市阿倍野区天王寺町北2丁目2-5"
+    "address": "大阪府大阪市阿倍野区天王寺町北2丁目2-5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "292",
@@ -2891,7 +3328,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%B3%20%E3%83%81%E3%83%A3%E3%82%A4%E3%83%8A%E3%83%90%E3%83%AB%E6%9D%91%E5%A1%BE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区難波千日前14-18 ピースフィールドビル 1F"
+    "address": "大阪府大阪市中央区難波千日前14-18 ピースフィールドビル 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "295",
@@ -2905,7 +3344,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A9%8B%E6%9C%AC%E5%B1%8B",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区南船場2丁目2-21ｰ101"
+    "address": "大阪府大阪市中央区南船場2丁目2-21ｰ101",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "297",
@@ -2919,7 +3360,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%86%A4%E6%B2%B9%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E5%B0%82%E9%96%80%20%E9%87%91%E4%B9%85%E5%8F%B3%E8%A1%9B%E9%96%80%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東成区深江北3丁目2-8 シティメゾン深江"
+    "address": "大阪府大阪市東成区深江北3丁目2-8 シティメゾン深江",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "299",
@@ -2933,12 +3376,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%8D%E7%84%BC%E3%81%8D%E3%83%BB%E3%81%97%E3%82%83%E3%81%B6%E3%81%97%E3%82%83%E3%81%B6%20%E3%81%8D%E3%82%88%E5%8A%A9",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区上本町西1丁目3-28"
+    "address": "大阪府大阪市中央区上本町西1丁目3-28",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "300",
     "name": "鮨 なかみせ",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2947,7 +3392,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%AA%E3%81%8B%E3%81%BF%E3%81%9B",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区曽根崎2丁目5-40"
+    "address": "大阪府大阪市北区曽根崎2丁目5-40",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "301",
@@ -2961,7 +3408,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%89%84%E6%9D%BF%E7%84%BC%E3%81%8D%20%E3%82%A4%E3%83%AB%E3%83%86%E3%83%A9%20%EF%BC%88%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%B3%EF%BC%89",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区中崎西4丁目2-30"
+    "address": "大阪府大阪市北区中崎西4丁目2-30",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "302",
@@ -2975,7 +3424,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Udon%20Kyutaro",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区久太郎町3-1-16 丼池繊維会館 1F"
+    "address": "大阪府大阪市中央区久太郎町3-1-16 丼池繊維会館 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "304",
@@ -2989,7 +3440,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AF%E3%83%8B%E3%83%BC%E3%82%BA%E3%83%BB%E5%8D%97%E6%B2%B3%E7%94%9F%E9%AE%AE%E5%B8%82%E5%A0%B4",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府羽曳野市西浦3丁目6-920-1"
+    "address": "大阪府羽曳野市西浦3丁目6-920-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "305",
@@ -3003,7 +3456,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%82%84",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市城東区中央1丁目13-18 角屋がもよんビル 5F"
+    "address": "大阪府大阪市城東区中央1丁目13-18 角屋がもよんビル 5F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "307",
@@ -3017,7 +3472,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E9%8A%80%E4%BA%AD%20%E3%82%A4%E3%83%88%E3%82%A5%E3%83%93%E3%83%AB%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区南本町3丁目6-14 イトゥビル B2F"
+    "address": "大阪府大阪市中央区南本町3丁目6-14 イトゥビル B2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "311",
@@ -3031,7 +3488,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E5%87%A6%20%E6%99%BA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市城東区中央1-8-30"
+    "address": "大阪府大阪市城東区中央1-8-30",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "312",
@@ -3045,7 +3504,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E9%A3%9F%E5%A0%82%20%E3%82%B4%E3%83%A1%E3%83%B3%E3%83%8DJIRO",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府吹田市佐井寺南が丘15-8"
+    "address": "大阪府吹田市佐井寺南が丘15-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "313",
@@ -3059,7 +3520,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E5%90%8C%E5%BF%83%E4%BA%AD",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府守口市寺内町1丁目8-8"
+    "address": "大阪府守口市寺内町1丁目8-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "315",
@@ -3073,7 +3536,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%9F%E3%82%80%E3%82%89%201%E5%8F%B7%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区谷町7-1-24"
+    "address": "大阪府大阪市中央区谷町7-1-24",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "316",
@@ -3087,7 +3552,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%B4%E3%81%8A%E3%81%8B%E9%A3%9F%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府東大阪市宝持4-2-19"
+    "address": "大阪府東大阪市宝持4-2-19",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "317",
@@ -3101,7 +3568,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E5%B1%85%E9%85%92%E5%B1%8B%20%E3%81%AF%E3%82%8B%E3%81%B4%E3%82%93",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市住之江区中加賀屋3-1-22"
+    "address": "大阪府大阪市住之江区中加賀屋3-1-22",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "318",
@@ -3115,7 +3584,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8B%E5%8F%B0%E6%8B%85%E6%8B%85%E9%BA%BA%E3%81%9F%E3%81%B6%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東成区大今里西2-8-12"
+    "address": "大阪府大阪市東成区大今里西2-8-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "319",
@@ -3129,7 +3600,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%B4%E3%82%A3%E3%83%B4%E3%82%A1%E3%83%83%E3%82%AB%E3%82%B9",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区南船場2-2-21ｰ101"
+    "address": "大阪府大阪市中央区南船場2-2-21ｰ101",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "321",
@@ -3143,7 +3616,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%AF%E3%81%90%E3%82%8C%E9%9B%B2%E3%81%AA%E3%82%93%E3%81%B0",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東成区深江北3-2-8"
+    "address": "大阪府大阪市東成区深江北3-2-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "322",
@@ -3157,12 +3632,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=y%2FOU%20donut%EF%BC%88%E3%83%A6%E3%83%BC%E3%83%89%E3%83%BC%E3%83%8A%E3%83%83%E3%83%84%EF%BC%89",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区上本町西1-3-28"
+    "address": "大阪府大阪市中央区上本町西1-3-28",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "323",
     "name": "熟成鮨利他",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3171,7 +3648,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%9F%E6%88%90%E9%AE%A8%E5%88%A9%E4%BB%96",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区曽根崎2-5-40"
+    "address": "大阪府大阪市北区曽根崎2-5-40",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "324",
@@ -3185,7 +3664,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E6%A7%BB%E5%A4%A7%E8%A1%86%E3%83%8D%E3%82%AA%E3%83%B3%E5%B1%85%E9%85%92%E5%B1%8B%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%A2",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区中崎西4-2-30"
+    "address": "大阪府大阪市北区中崎西4-2-30",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "325",
@@ -3199,7 +3680,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E9%85%92%E3%81%A0%E3%81%84%E3%81%AB%E3%82%93%E3%81%90%E3%82%84%E3%81%99",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区久太郎町3-1-16"
+    "address": "大阪府大阪市中央区久太郎町3-1-16",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "327",
@@ -3213,7 +3696,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E5%A0%82%20%E9%BB%92%E3%81%86%E3%81%95%E3%81%8E",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府羽曳野市西浦3丁目6-920-1"
+    "address": "大阪府羽曳野市西浦3丁目6-920-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "328",
@@ -3227,7 +3712,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%94%90%E9%BB%8D%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市城東区中央1丁目13-18"
+    "address": "大阪府大阪市城東区中央1丁目13-18",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "330",
@@ -3241,7 +3728,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KURODARUMA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区南本町3-6-14"
+    "address": "大阪府大阪市中央区南本町3-6-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "332",
@@ -3255,7 +3744,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=liminal",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府貝塚市二色南町3-1"
+    "address": "大阪府貝塚市二色南町3-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "333",
@@ -3269,7 +3760,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%83%93%E3%82%A2%E9%86%B8%E9%80%A0%E6%89%80%20%E3%81%AA%E3%82%93%E3%81%B0CITY",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市淀川区宮原5丁目3-41"
+    "address": "大阪府大阪市淀川区宮原5丁目3-41",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "334",
@@ -3283,7 +3776,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=casa%20di%20kudos",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区梅田2丁目5-1"
+    "address": "大阪府大阪市北区梅田2丁目5-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "335",
@@ -3297,7 +3792,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%82%89%20%E3%81%8A%E3%81%95%E3%81%8B%E3%81%AA%E5%B8%82%E5%A0%B4",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区梅田1丁目1-3 大阪駅前第3ビル B1-54"
+    "address": "大阪府大阪市北区梅田1丁目1-3 大阪駅前第3ビル B1-54",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "339",
@@ -3311,7 +3808,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%8C%E3%82%84%E3%81%8D%E3%83%80%E3%82%A4%E3%83%8A%E3%83%BC",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒531-0075 大阪府大阪市北区大淀南１丁目３−１７"
+    "address": "〒531-0075 大阪府大阪市北区大淀南１丁目３−１７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "340",
@@ -3325,7 +3824,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E7%94%B0%E6%97%A5%E6%9C%AC%E9%85%92%E3%82%A8%E3%83%93%E3%82%B9",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0026 大阪府大阪市北区神山町１５−１０"
+    "address": "〒530-0026 大阪府大阪市北区神山町１５−１０",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "341",
@@ -3339,7 +3840,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B9%E3%81%AB%E3%81%8F%E3%82%89%E3%81%92",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒540-0029 大阪府大阪市中央区本町橋５−４"
+    "address": "〒540-0029 大阪府大阪市中央区本町橋５−４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "343",
@@ -3353,7 +3856,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%89%84%E6%9D%BF%E7%84%BC%E8%82%89%20%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%E3%81%BE%E3%81%8D%E3%81%AE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0027 大阪府大阪市北区堂山町１１−１４"
+    "address": "〒530-0027 大阪府大阪市北区堂山町１１−１４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "344",
@@ -3367,7 +3872,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E3%81%B7%E3%82%89%E5%A4%A7%E5%90%89%20%E3%81%AA%E3%82%93%E3%81%B0%E3%81%93%E3%82%81%E3%81%98%E3%82%8B%E3%81%97%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒556-0011 大阪府大阪市浪速区難波中２丁目１０−２５"
+    "address": "〒556-0011 大阪府大阪市浪速区難波中２丁目１０−２５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "345",
@@ -3381,7 +3888,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%85%E9%85%92%E5%B1%8B%20%E3%81%AA%E3%81%8C%E3%81%BB%E3%82%8A",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0082 大阪府大阪市中央区島之内１丁目１１−５"
+    "address": "〒542-0082 大阪府大阪市中央区島之内１丁目１１−５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "347",
@@ -3395,7 +3904,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%81%BF%E3%82%84",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒544-0034 大阪府大阪市生野区桃谷２丁目９−４"
+    "address": "〒544-0034 大阪府大阪市生野区桃谷２丁目９−４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "349",
@@ -3409,12 +3920,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%96%99%E7%90%86%20%E3%81%8A%E3%81%B0%E3%82%93%E3%81%96%E3%81%84%20%E5%B0%8F%E3%82%88%E3%81%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目１３−１２"
+    "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目１３−１２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "350",
     "name": "湯どうふ うえ川 南店",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3423,7 +3936,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%A9%E3%81%86%E3%81%B5%20%E3%81%86%E3%81%88%E5%B7%9D%20%E5%8D%97%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0084 大阪府大阪市中央区宗右衛門町３−１１"
+    "address": "〒542-0084 大阪府大阪市中央区宗右衛門町３−１１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "351",
@@ -3437,7 +3952,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%9B%B8%E5%85%AB",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0071 大阪府大阪市中央区道頓堀１丁目５−１０"
+    "address": "〒542-0071 大阪府大阪市中央区道頓堀１丁目５−１０",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "353",
@@ -3451,7 +3968,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8E%E3%82%87%E3%81%86%E3%81%96%E3%81%AE%E7%84%BC%E5%90%89",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒553-0003 大阪府大阪市福島区福島５丁目１１−２０"
+    "address": "〒553-0003 大阪府大阪市福島区福島５丁目１１−２０",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "356",
@@ -3465,7 +3984,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E7%BE%8A%E7%BE%8A%E8%82%89%E4%B8%B2%E5%BA%97%20BLACK%20SHEEP",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0033 大阪府大阪市北区池田町７−８"
+    "address": "〒530-0033 大阪府大阪市北区池田町７−８",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "357",
@@ -3479,7 +4000,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D%26BAR%20%E3%83%97%E3%83%AB%E3%83%97%20takoyaki%26bar%20poulpe",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0083 大阪府大阪市中央区東心斎橋２丁目１−１３"
+    "address": "〒542-0083 大阪府大阪市中央区東心斎橋２丁目１−１３",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "358",
@@ -3493,7 +4016,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E3%81%8B%E3%81%94",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0027 大阪府大阪市北区堂山町８−１０"
+    "address": "〒530-0027 大阪府大阪市北区堂山町８−１０",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "359",
@@ -3507,7 +4032,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E5%96%B0%E3%81%84%E5%AF%BF%E5%8F%B8%20%E3%82%B2%E3%83%B3%E3%83%A4%E5%80%B6%E6%A5%BD%E9%83%A8",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒532-0023 大阪府大阪市淀川区十三東３丁目２８−４"
+    "address": "〒532-0023 大阪府大阪市淀川区十三東３丁目２８−４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "360",
@@ -3521,7 +4048,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%96%B0%E5%9C%B0%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A%20%E5%A4%9C%E3%81%AE%E4%B8%80%E7%B2%92",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目３−２４"
+    "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目３−２４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "361",
@@ -3535,7 +4064,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%B5%E3%81%8B%E3%81%91%E3%82%81%E3%81%97%20%E8%82%89%E3%81%99%E3%81%84%E5%B0%82%E9%96%80%20%E3%82%84%E3%81%BE%E3%82%84",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0027 大阪府大阪市北区堂山町１７−７"
+    "address": "〒530-0027 大阪府大阪市北区堂山町１７−７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "362",
@@ -3549,7 +4080,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%82%83%E3%81%B6%E9%95%B7",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目１５−２５"
+    "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目１５−２５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "363",
@@ -3563,7 +4096,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8F%9A%E5%AD%90%E6%B1%9F%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E5%90%8D%E9%96%80",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0027 大阪府大阪市北区堂山町１７−１"
+    "address": "〒530-0027 大阪府大阪市北区堂山町１７−１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "366",
@@ -3577,7 +4112,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%9D%E9%AE%AE%E6%B5%9C%E7%84%BC%E3%81%8D%E3%83%90%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%20%E3%81%82%E3%81%BF%E6%B5%9C%E9%A3%9F%E5%A0%82",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "address": "〒530-0012 大阪府大阪市北区芝田１丁目１−３"
+    "address": "〒530-0012 大阪府大阪市北区芝田１丁目１−３",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "367",
@@ -3591,7 +4128,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AA%E3%81%AB%E3%82%8F%E8%80%8C%E6%A5%BD",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目５−７"
+    "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目５−７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "369",
@@ -3605,7 +4144,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%82%89%E3%81%BE%E3%82%93",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0027 大阪府大阪市北区堂山町６−６"
+    "address": "〒530-0027 大阪府大阪市北区堂山町６−６",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "370",
@@ -3619,7 +4160,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E9%A3%B2%E3%81%BF%E3%82%84%E3%81%BF%E3%83%BC",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "〒530-0027 大阪府大阪市北区堂山町１７−５"
+    "address": "〒530-0027 大阪府大阪市北区堂山町１７−５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "373",
@@ -3633,7 +4176,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%8B%E3%81%9C%E3%81%AE%E3%81%8E",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区南船場3丁目8-2"
+    "address": "大阪府大阪市中央区南船場3丁目8-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "374",
@@ -3647,7 +4192,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%82%E3%81%95%E3%81%B2",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市西区新町1-22-12"
+    "address": "大阪府大阪市西区新町1-22-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "375",
@@ -3661,7 +4208,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%8A%E3%82%93%E3%81%94%E5%B1%8B%20%E8%A5%BF%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区梅田1丁目3-1"
+    "address": "大阪府大阪市北区梅田1丁目3-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "377",
@@ -3675,7 +4224,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%95%E3%81%BF%E4%BA%AD%20%E3%83%9E%E3%83%84%E3%83%90%E3%83%A4",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区南船場3丁目8-1"
+    "address": "大阪府大阪市中央区南船場3丁目8-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "379",
@@ -3689,12 +4240,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%B9%B3%20%E5%8C%97%E6%96%B0%E5%9C%B0%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区曽根崎新地1丁目8-12"
+    "address": "大阪府大阪市北区曽根崎新地1丁目8-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "380",
     "name": "ワイン酒場トマト",
-    "area": "other",
+    "area": "umeda",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3703,12 +4256,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AF%E3%82%A4%E3%83%B3%E9%85%92%E5%A0%B4%E3%83%88%E3%83%9E%E3%83%88",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区曽根崎1丁目7-15"
+    "address": "大阪府大阪市北区曽根崎1丁目7-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "381",
     "name": "阿蘇溶岩石焼 といとい 穴座",
-    "area": "other",
+    "area": "umeda",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3717,7 +4272,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E8%98%87%E6%BA%B6%E5%B2%A9%E7%9F%B3%E7%84%BC%20%E3%81%A8%E3%81%84%E3%81%A8%E3%81%84%20%E7%A9%B4%E5%BA%A7",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区曽根崎1丁目7-10"
+    "address": "大阪府大阪市北区曽根崎1丁目7-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "384",
@@ -3731,7 +4288,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9C%E6%99%AF%20%E3%82%B7%E3%83%A5%E3%83%A9%E3%82%B9%E3%82%B3%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%20%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区小松原町1-27"
+    "address": "大阪府大阪市北区小松原町1-27",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "385",
@@ -3745,7 +4304,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%BF%E3%83%9E%E3%82%B4%E3%81%AE%E3%82%A4%E3%82%B6%E3%82%AB%E3%83%A4%20Atama",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市淀川区十三本町1-2-10"
+    "address": "大阪府大阪市淀川区十三本町1-2-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "386",
@@ -3759,7 +4320,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=XEX%20WEST%20Salvatore%20Cuomo%20Bros.%EF%BC%8FThe%20BAR",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区梅田2丁目2-22"
+    "address": "大阪府大阪市北区梅田2丁目2-22",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "389",
@@ -3773,7 +4336,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%89%E7%AB%AF%E3%81%A8%E3%81%8A%E3%81%A7%E3%82%93%20%E5%91%BC%E7%82%89%E5%87%AA%E6%9D%A5%20%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区堂山町7-7"
+    "address": "大阪府大阪市北区堂山町7-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "390",
@@ -3787,7 +4352,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E5%A5%BD%E3%81%BF%E7%84%BC%E3%81%8D%20%E8%8A%B1",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市都島区東野田町4-2-15"
+    "address": "大阪府大阪市都島区東野田町4-2-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "391",
@@ -3801,7 +4368,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A4%E3%81%91%E9%BA%BA%20%E3%81%B2%E3%82%89%E3%81%AE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東小橋1丁目1-6"
+    "address": "大阪府大阪市東小橋1丁目1-6",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "392",
@@ -3815,7 +4384,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%AA%E3%82%BF%E3%83%8B%E5%95%86%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区谷町6丁目2-41"
+    "address": "大阪府大阪市中央区谷町6丁目2-41",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "393",
@@ -3829,7 +4400,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%A5%8F",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区西心斎橋1丁目10-3"
+    "address": "大阪府大阪市中央区西心斎橋1丁目10-3",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "394",
@@ -3843,7 +4416,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8E%E3%83%89%E3%83%9C%E3%83%88%E3%82%B1%E3%80%81%E4%B8%8A%E3%83%AB",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区天神橋4-5-7"
+    "address": "大阪府大阪市北区天神橋4-5-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "395",
@@ -3857,7 +4432,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A9%BA%E6%8E%98%E3%83%88%E3%83%BC%E3%82%B9%E3%83%88%E3%82%AB%E3%83%95%E3%82%A7%20%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区松屋町5-5"
+    "address": "大阪府大阪市中央区松屋町5-5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "396",
@@ -3871,7 +4448,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B2%E7%84%BC%E3%81%8D%E7%8C%BF",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区道頓堀2-4-5"
+    "address": "大阪府大阪市中央区道頓堀2-4-5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "397",
@@ -3885,7 +4464,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%AE%9A(%E3%81%95%E3%82%93%E3%81%95%E3%81%A0)",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東成区東小橋1丁目6-7"
+    "address": "大阪府大阪市東成区東小橋1丁目6-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "399",
@@ -3899,7 +4480,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%80%20%E6%9C%AC%E7%94%BA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区久太郎町3-4-10"
+    "address": "大阪府大阪市中央区久太郎町3-4-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "402",
@@ -3913,7 +4496,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=UWASASTORE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区小松原町1-20"
+    "address": "大阪府大阪市北区小松原町1-20",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "403",
@@ -3927,7 +4512,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AD%E3%83%B3%E3%83%91%E3%83%AB",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市大正区千島１丁目２３−１１５"
+    "address": "大阪府大阪市大正区千島１丁目２３−１１５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "405",
@@ -3941,7 +4528,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%93%E3%82%B9%E3%83%88%E3%83%AD%E3%83%AA%E3%82%A2%E3%83%B3",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市旭区高殿７丁目７−３"
+    "address": "大阪府大阪市旭区高殿７丁目７−３",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "406",
@@ -3955,7 +4544,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%81%E3%83%A3%E3%83%88%E3%83%BC%E3%83%AC%20%E3%83%A4%E3%83%9E%E3%82%AC%E3%83%9F",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区豊崎４丁目３−１"
+    "address": "大阪府大阪市北区豊崎４丁目３−１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "407",
@@ -3969,7 +4560,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ristorante%20%E8%BF%AB",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区末広町３−２"
+    "address": "大阪府大阪市北区末広町３−２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "408",
@@ -3983,7 +4576,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MAKIBI",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区西天満３丁目１−２７"
+    "address": "大阪府大阪市北区西天満３丁目１−２７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "409",
@@ -3997,7 +4592,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E7%94%B0%20%E6%B5%B7%E9%AE%AE%E5%B1%85%E9%85%92%E5%B1%8B%E3%81%84%E3%81%93%E3%81%86",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区太融寺町２−２１"
+    "address": "大阪府大阪市北区太融寺町２−２１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "410",
@@ -4011,7 +4608,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9F%E4%B9%83%E9%87%8C%20de%20%E3%83%90%E3%83%AB",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区北久宝寺町２丁目６−７"
+    "address": "大阪府大阪市中央区北久宝寺町２丁目６−７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "412",
@@ -4025,7 +4624,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%BB%E9%AD%9A%E5%AF%BF%E5%8F%B8%20%E5%B2%B8%E5%92%8C%E7%94%B0%E4%BB%8A%E6%9C%A8%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府岸和田市今木町１５−１"
+    "address": "大阪府岸和田市今木町１５−１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "413",
@@ -4039,7 +4640,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KITASHINCHI%20%E9%89%84%E6%9D%BF%E7%84%BC%20sia",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区曾根崎新地１−１１−４"
+    "address": "大阪府大阪市北区曾根崎新地１−１１−４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "414",
@@ -4053,7 +4656,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%90%E3%83%BC%20%E3%81%9F%E3%81%BE%E3%82%8A%E3%81%B0",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区天神橋３丁目７−３０"
+    "address": "大阪府大阪市北区天神橋３丁目７−３０",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "417",
@@ -4067,7 +4672,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AF",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区曾根崎新地１−５−２１"
+    "address": "大阪府大阪市北区曾根崎新地１−５−２１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "419",
@@ -4081,7 +4688,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%BA%A7%E5%B1%8B",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区梅田１丁目２−２"
+    "address": "大阪府大阪市北区梅田１丁目２−２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "420",
@@ -4095,7 +4704,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BF%E3%81%A1%E3%81%8F%E3%81%95%E8%83%BD%E5%8B%A2",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府豊能郡能勢町下田尻８０１"
+    "address": "大阪府豊能郡能勢町下田尻８０１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "421",
@@ -4109,7 +4720,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%AA%E3%83%AB%20%E5%A4%AA%E5%B9%B3",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市生野区田島４丁目４−６５"
+    "address": "大阪府大阪市生野区田島４丁目４−６５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "422",
@@ -4123,7 +4736,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%80%E3%82%A4%E3%83%8A%E3%83%9F%E3%83%83%E3%82%AF%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%EF%BC%86%E3%83%90%E3%83%BC%20%E7%87%A6%EF%BC%8DSUN%EF%BC%8D%20OBP%E3%83%84%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%AF%E3%83%BC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区城見２丁目１−６１"
+    "address": "大阪府大阪市中央区城見２丁目１−６１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "423",
@@ -4137,7 +4752,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B9%E3%83%AB%E3%82%AB%E3%83%95%E3%82%A7(%E6%97%A7%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%82%AB%E3%83%95%E3%82%A7%E3%83%86%E3%83%AA%E3%82%A2)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区城見１丁目２−２７"
+    "address": "大阪府大阪市中央区城見１丁目２−２７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "424",
@@ -4151,7 +4768,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Oh%EF%BC%81%E3%83%9E%E3%82%A4%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区心斎橋筋１丁目３−２９"
+    "address": "大阪府大阪市中央区心斎橋筋１丁目３−２９",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "425",
@@ -4165,7 +4784,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Back%20Street%20Coffee",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市城東区中央２丁目１−１２"
+    "address": "大阪府大阪市城東区中央２丁目１−１２",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "426",
@@ -4179,7 +4800,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=BEER%20BELLY%20%E5%A4%A9%E6%BA%80",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区池田町７−４"
+    "address": "大阪府大阪市北区池田町７−４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "427",
@@ -4193,7 +4816,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%84%E5%A0%82%20%E5%8D%97%E6%A3%AE%E7%94%BA%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区天神橋２丁目２−８"
+    "address": "大阪府大阪市北区天神橋２丁目２−８",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "428",
@@ -4207,7 +4832,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%20%E7%82%AD%E9%81%94%E7%A3%A8",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区豊崎３丁目３−１４"
+    "address": "大阪府大阪市北区豊崎３丁目３−１４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "429",
@@ -4221,7 +4848,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E7%99%BD",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区東天満１丁目１１−１５"
+    "address": "大阪府大阪市北区東天満１丁目１１−１５",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "431",
@@ -4235,7 +4864,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AC%AC%E4%B8%80%E6%97%AD%20%E9%96%A2%E7%9B%AE%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市城東区関目２丁目１２−２４"
+    "address": "大阪府大阪市城東区関目２丁目１２−２４",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "432",
@@ -4249,7 +4880,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A5%82%E9%A3%A9%E5%B7%A5%E6%88%BF%20%E3%81%86%E3%81%B0%E3%82%89",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市中央区谷町６丁目１５−１７"
+    "address": "大阪府大阪市中央区谷町６丁目１５−１７",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "434",
@@ -4263,7 +4896,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%AE%AE%E5%B1%85%E9%85%92%E5%B1%8B%20%E6%B5%B7%E9%8D%8B%E4%BA%AD(%E3%81%86%E3%81%BF%E3%81%AA%E3%81%B9%E4%BA%AD)%20%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区太融寺町２−２１"
+    "address": "大阪府大阪市北区太融寺町２−２１",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "435",
@@ -4273,11 +4908,13 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.5,
+    "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B0%B7%E7%94%BA%20%E3%81%B5%E3%82%8B%E9%87%8C",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区高津3丁目2-30"
+    "address": "大阪府大阪市中央区高津3-2-30",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "436",
@@ -4287,11 +4924,13 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 4,
+    "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%A8%E5%A4%A9%E3%81%B7%E3%82%89%20%E3%81%8B%E3%82%89%E3%81%99",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市浪速区恵美須西3丁目3-26 3F"
+    "address": "大阪府大阪市浪速区恵美須西3-3-26",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "437",
@@ -4301,11 +4940,13 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 4,
+    "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%9C%8B%E6%9D%BE",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府八尾市東本町5丁目10-5"
+    "address": "大阪府八尾市東本町5-10-5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "438",
@@ -4319,7 +4960,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%8F%E3%83%9E%E3%83%A4%20%E7%93%A6%E7%94%BA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区瓦町4丁目3-10"
+    "address": "大阪府大阪市中央区瓦町4-3-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "441",
@@ -4329,11 +4972,13 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.2,
+    "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SEA%20%26%20FARM%20by%20YANMAR%20MARCH%C3%89",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区茶屋町1-32 12F"
+    "address": "大阪府大阪市北区茶屋町1-32",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "442",
@@ -4343,11 +4988,13 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.4,
+    "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A0%E3%81%97%E5%B7%BB%E3%81%8D%E7%8E%89%E5%AD%90%E5%B0%82%E9%96%80%E5%BA%97%20%E7%99%BE%E8%8A%B1",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市天王寺区四天王寺1丁目14-27"
+    "address": "大阪府大阪市天王寺区四天王寺1-14-27",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "443",
@@ -4357,11 +5004,13 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 4,
+    "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E9%85%92%E5%A0%B4%E3%81%8B%E3%81%A9%E5%8D%87",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区曾根崎2丁目14-13"
+    "address": "大阪府大阪市北区曽根崎2-14-13",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "444",
@@ -4371,25 +5020,29 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.5,
+    "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%91%E3%83%B3%E3%81%A8%E3%82%A8%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%82%BD%E3%81%A8%E5%A0%BA%E7%AD%8B%E4%BF%B1%E6%A5%BD%E9%83%A8",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区南船場1丁目15-12"
+    "address": "大阪府大阪市中央区南船場1-15-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "445",
     "name": "洋食の店 もなみ",
-    "area": "kitahama",
+    "area": "namba",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.5,
+    "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E9%A3%9F%E3%81%AE%E5%BA%97%20%E3%82%82%E3%81%AA%E3%81%BF",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区谷町6丁目3-14"
+    "address": "大阪府大阪市中央区谷町6-3-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "446",
@@ -4403,7 +5056,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A9%B4%E5%A0%B4%20%E5%A4%A9%E6%BA%80%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区天神橋4丁目12-7"
+    "address": "大阪府大阪市北区天神橋4-12-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "447",
@@ -4417,7 +5072,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%99%E6%AF%94%E5%98%89%E3%81%8F%E3%82%93%E3%80%82",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市都島区東野田町5丁目8-19"
+    "address": "大阪府大阪市都島区東野田町5-8-19",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "448",
@@ -4427,11 +5084,13 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.4,
+    "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%97%A9%E5%B7%9D%E3%83%9E%E3%82%B9%E9%87%A3%E3%82%8A%E5%A0%B4",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府南河内郡千早赤阪村大字千早1262-4"
+    "address": "大阪府南河内郡千早赤阪村1262-4",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "449",
@@ -4441,25 +5100,29 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 4,
+    "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E5%91%91%E3%81%BF%E3%83%93%E3%82%B9%E3%83%88%E3%83%AD%E3%82%84%E3%81%BE%E3%82%82%E3%81%A8",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区池田町10-10"
+    "address": "大阪府大阪市北区池田町10-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "452",
     "name": "すざき",
-    "area": "kitahama",
+    "area": "shinsaibashi",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.5,
+    "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%96%E3%81%8D",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区北浜1-8-16 B1F"
+    "address": "大阪府大阪市中央区南船場2-6-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "453",
@@ -4469,17 +5132,19 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 4.2,
+    "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E9%80%A0%E3%82%8A%E3%81%86%E3%81%A9%E3%82%93%20%E6%A5%BD%E3%80%85",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府交野市幾野6丁目6-1"
+    "address": "大阪府交野市郡津5-12-5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "454",
     "name": "中華そば 光洋軒",
     "area": "tsuruhashi",
-    "genre": "other",
+    "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
@@ -4487,7 +5152,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E5%85%89%E6%B4%8B%E8%BB%92",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市東成区深江南3丁目20-14"
+    "address": "大阪府大阪市東成区深江南3-20-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "456",
@@ -4499,9 +5166,11 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E9%B3%A5%20%E6%97%A5%E5%92%8C",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区高麗橋2丁目2-2"
+    "address": "大阪府大阪市中央区高麗橋2丁目2-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "458",
@@ -4511,11 +5180,13 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.6,
+    "rating": 3.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E9%A3%9F%E5%B1%8B%20%E3%82%B0%E3%83%AA%E3%83%AB%E3%81%93%E3%81%A3%E3%81%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府豊中市中桜塚2丁目18-12"
+    "address": "大阪府豊中市中桜塚2-18-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "462",
@@ -4525,17 +5196,19 @@ export const MOCK_SHOPS: Shop[] = [
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
-    "rating": 3.5,
+    "rating": 3.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wine%20shop%20Lami",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区黒崎町2-2"
+    "address": "大阪府大阪市北区黒崎町2-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "464",
     "name": "平和樓",
     "area": "umeda",
-    "genre": "ramen",
+    "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
     "comment": "ラードニキが行きたいお店",
@@ -4543,7 +5216,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E5%92%8C%E6%A8%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区角田町9-26"
+    "address": "大阪府大阪市北区角田町9-26",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "466",
@@ -4557,7 +5232,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BF%97%E6%B4%A5%E5%8F%AF%20(%E3%82%B7%E3%82%BA%E3%82%AB)",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区西天満1丁目13-7"
+    "address": "大阪府大阪市北区西天満1丁目13-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "467",
@@ -4571,7 +5248,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A8%E3%82%AF%E3%83%81%E3%83%A5%E3%82%A2%20%E3%81%8B%E3%82%89%E3%81%BB%E3%82%8A%EF%BD%A2%E8%94%B5%EF%BD%A3%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区谷町6丁目17-43"
+    "address": "大阪府大阪市中央区谷町6丁目17-43",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "468",
@@ -4585,12 +5264,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%82%A4%E3%83%AD%E3%83%B3%E3%82%AB%E3%83%AA%E3%83%BC",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区南船場1丁目13-4"
+    "address": "大阪府大阪市中央区南船場1丁目13-4",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "470",
     "name": "縄寿司",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -4599,7 +5280,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B8%84%E5%AF%BF%E5%8F%B8",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区曽根崎2丁目14-1"
+    "address": "大阪府大阪市北区曽根崎2丁目14-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "471",
@@ -4613,7 +5296,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%80%E4%B8%8A%20%E5%8C%97%E6%96%B0%E5%9C%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区曽根崎新地1丁目5-6"
+    "address": "大阪府大阪市北区曽根崎新地1丁目5-6",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "474",
@@ -4627,7 +5312,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B2%E3%82%AB%E3%83%84%20%E6%AD%A6%E7%94%B0",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市平野区平野本町1丁目5"
+    "address": "大阪府大阪市平野区平野本町1丁目5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "475",
@@ -4641,7 +5328,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AA%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%B3%E9%A3%9F%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市都島区東野田町2丁目2-2 2階"
+    "address": "大阪府大阪市都島区東野田町2丁目2-2 2階",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "476",
@@ -4655,7 +5344,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B8%83%E6%96%BD%E3%83%90%E3%83%AB%20%E3%82%AA%E3%83%AB%E3%83%A2",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府東大阪市長堂1丁目2-3 1階"
+    "address": "大阪府東大阪市長堂1丁目2-3 1階",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "477",
@@ -4669,7 +5360,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%9F%E3%83%A4%E3%82%B3%20%E7%AB%8B%E3%81%A1%E5%91%91%E3%81%BF",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市都島区東野田町3丁目4-15"
+    "address": "大阪府大阪市都島区東野田町3丁目4-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "478",
@@ -4683,7 +5376,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%B4%A5%E3%83%96%E3%83%AB%E3%83%AF%E3%83%AA%E3%83%BC",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区中津3丁目18-7"
+    "address": "大阪府大阪市北区中津3丁目18-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "479",
@@ -4697,7 +5392,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%AE%E3%81%BF%E3%81%A1%E5%B1%8B",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区曾根崎新地1丁目9-8"
+    "address": "大阪府大阪市北区曾根崎新地1丁目9-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "481",
@@ -4711,7 +5408,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B0%B7%E7%94%BA%20%E4%B8%80%E5%91%B3%E7%A6%85",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区谷町7丁目3-4"
+    "address": "大阪府大阪市中央区谷町7丁目3-4",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "482",
@@ -4725,7 +5424,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E4%BA%95",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市西区北堀江3丁目6-14"
+    "address": "大阪府大阪市西区北堀江3丁目6-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "483",
@@ -4739,7 +5440,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%82%BF%E3%83%9F%E3%83%8A%E3%81%84%E3%81%A1%E3%81%B0%E3%82%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市生野区生野東4丁目7-12"
+    "address": "大阪府大阪市生野区生野東4丁目7-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "484",
@@ -4753,7 +5456,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E3%81%97%E3%82%87%E3%81%86%E3%81%8C%E3%81%86%E3%81%A9%E3%82%93Taiyo",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区天神橋3丁目8-10"
+    "address": "大阪府大阪市北区天神橋3丁目8-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "485",
@@ -4767,7 +5472,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A3%8F%E9%9B%A3%E6%B3%A2%E3%82%B9%E3%82%B7%E3%83%88%E3%83%95%E3%82%B8",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区千日前2丁目5-7 2F"
+    "address": "大阪府大阪市中央区千日前2丁目5-7 2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "486",
@@ -4781,12 +5488,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%A5%BD%E5%B1%8B%E5%95%86%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区伏見町2丁目2-10"
+    "address": "大阪府大阪市中央区伏見町2丁目2-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "487",
     "name": "まんしゅう 西中島店",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "ramen",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -4795,7 +5504,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%93%E3%81%97%E3%82%85%E3%81%86%20%E8%A5%BF%E4%B8%AD%E5%B3%B6%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市淀川区西中島3丁目14-7"
+    "address": "大阪府大阪市淀川区西中島3丁目14-7",
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "488",
@@ -4809,7 +5520,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%93%E3%81%86%E4%BB%8B",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区芝田1丁目8-1 D.D.HOUSE 1F"
+    "address": "大阪府大阪市北区芝田1丁目8-1 D.D.HOUSE 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "489",
@@ -4823,7 +5536,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E5%87%A6%20%E3%81%B2%E3%81%A7%E3%81%BE%E3%82%8B",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区天神橋4丁目1-2"
+    "address": "大阪府大阪市北区天神橋4丁目1-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "490",
@@ -4837,7 +5552,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%88%E5%B1%B1%E7%A5%90%E5%AF%BF%E5%8F%B8",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市此花区梅香3丁目33-10"
+    "address": "大阪府大阪市此花区梅香3丁目33-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "491",
@@ -4851,7 +5568,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B6%8F%E7%82%AD%E7%84%BC%E9%BA%BA%E5%B0%82%E9%96%80%E5%BA%97%20%E7%94%B0%E6%9D%91%E5%AE%B6%20%E8%8C%A8%E6%9C%A8%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府茨木市園田町6-3"
+    "address": "大阪府茨木市園田町6-3",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "492",
@@ -4865,7 +5584,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E3%83%90%E3%83%AA%E3%83%A5%E3%83%BC%20%E9%96%80%E7%9C%9F%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府門真市柳町20-11"
+    "address": "大阪府門真市柳町20-11",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "493",
@@ -4879,7 +5600,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%84%BC%E3%81%8D%E6%88%90%E5%90%89%E6%80%9D%E6%B1%97%20%E3%82%84%E3%81%BE%E3%81%8B",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区東天満1丁目2-15"
+    "address": "大阪府大阪市北区東天満1丁目2-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "494",
@@ -4893,7 +5616,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E5%91%91%E6%97%AC%E9%AE%AE%20%E3%81%99%E3%83%BC%E3%81%95%E3%82%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区東天満1丁目11-15"
+    "address": "大阪府大阪市北区東天満1丁目11-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "499",
@@ -4907,7 +5632,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%9E%E9%A3%9F%E5%A0%82%20%E9%BB%92%E9%BE%8D%E5%A4%A9%E7%A5%9E%E6%A8%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区天神橋4丁目2-12"
+    "address": "大阪府大阪市北区天神橋4丁目2-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "500",
@@ -4921,7 +5648,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E3%82%B3%E3%83%BC%E3%81%95%E3%82%93%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市大正区千島3丁目4-1"
+    "address": "大阪府大阪市大正区千島3丁目4-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "503",
@@ -4935,7 +5664,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E5%8C%A0%20%E6%9F%B3",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市鶴見区横堤1丁目11-45"
+    "address": "大阪府大阪市鶴見区横堤1丁目11-45",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "504",
@@ -4949,7 +5680,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E5%B8%8C",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区東心斎橋1丁目13-9"
+    "address": "大阪府大阪市中央区東心斎橋1丁目13-9",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "505",
@@ -4963,7 +5696,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E5%91%B3%E5%90%89%E5%9C%92",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府寝屋川市楠根南町13-10"
+    "address": "大阪府寝屋川市楠根南町13-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "506",
@@ -4977,7 +5712,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%AE%E9%AD%9A%20%E9%AD%9A%E8%B1%8A",
     "isActive": false,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区日本橋2丁目11-21"
+    "address": "大阪府大阪市中央区日本橋2丁目11-21",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "507",
@@ -4991,7 +5728,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%A9%E3%82%93%E3%81%A1%E3%82%8A%E6%9C%AC%E5%AE%B6%20%E3%81%AB%E3%81%97%E5%AE%B6%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区東心斎橋1丁目18-18"
+    "address": "大阪府大阪市中央区東心斎橋1丁目18-18",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "508",
@@ -5005,7 +5744,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%E3%81%A6%E3%82%93%E3%81%BB%E3%81%86%EF%BC%81",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市此花区西九条3丁目14-2"
+    "address": "大阪府大阪市此花区西九条3丁目14-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "510",
@@ -5019,7 +5760,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%82%E3%81%A4%E7%84%BC%E3%81%8D%E3%81%AE%E3%82%8A%E3%81%A1%E3%82%83%E3%82%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市福島区大開1丁目20-4"
+    "address": "大阪府大阪市福島区大開1丁目20-4",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "514",
@@ -5033,7 +5776,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%E4%BB%8A%E4%BA%95%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区道頓堀1丁目7-22"
+    "address": "大阪府大阪市中央区道頓堀1丁目7-22",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "516",
@@ -5047,7 +5792,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E6%A5%B5%20%E7%B7%8F%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市阿倍野区旭町1丁目1-26"
+    "address": "大阪府大阪市阿倍野区旭町1丁目1-26",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "517",
@@ -5061,7 +5808,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A3%9F%E5%87%A6%20%E5%A4%A7%E7%A6%8F",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府東大阪市長堂2丁目4-2"
+    "address": "大阪府東大阪市長堂2丁目4-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "518",
@@ -5075,7 +5824,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%A6%8F%E5%B1%8B",
     "isActive": false,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区梅田1丁目3-1 第1ビル"
+    "address": "大阪府大阪市北区梅田1丁目3-1 第1ビル",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "519",
@@ -5089,7 +5840,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E3%81%A6%E3%81%A4%E8%85%95",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市浪速区難波中1丁目17-16"
+    "address": "大阪府大阪市浪速区難波中1丁目17-16",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "520",
@@ -5103,7 +5856,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A5%B5%E9%A3%9F%E5%A0%82%20%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%B3%E6%A8%AA%E4%B8%81%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市浪速区恵美須東3丁目4-7"
+    "address": "大阪府大阪市浪速区恵美須東3丁目4-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "521",
@@ -5117,7 +5872,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%81%BE%E3%81%AA%E3%81%8C%E3%81%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区芝田1丁目1-3 阪急三番街"
+    "address": "大阪府大阪市北区芝田1丁目1-3 阪急三番街",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "522",
@@ -5131,7 +5888,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%20%E3%83%A2%E3%83%80%E3%83%B3%E7%84%BC%20%E3%81%AD%E3%81%8E%E7%84%BC%20%E3%81%82%E3%81%B9%E3%81%A8%E3%82%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市天王寺区堀越町 アベノ地下街"
+    "address": "大阪府大阪市天王寺区堀越町 アベノ地下街",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "523",
@@ -5145,7 +5904,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%8B%E3%81%BE%E3%81%A1%E3%82%83%E3%82%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市生野区勝山北1丁目1-2"
+    "address": "大阪府大阪市生野区勝山北1丁目1-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "524",
@@ -5159,7 +5920,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%93%E3%81%A4%E3%81%BC%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市阿倍野区阿倍野筋2丁目4-48"
+    "address": "大阪府大阪市阿倍野区阿倍野筋2丁目4-48",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "525",
@@ -5173,7 +5936,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%AE%AE%E9%85%92%E5%A0%B4%20%E3%81%86%E3%81%8A%E3%81%B7%E3%81%8F",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区堂山町4-12 3F"
+    "address": "大阪府大阪市北区堂山町4-12 3F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "526",
@@ -5187,7 +5952,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%87%E3%81%99%E3%81%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区天神橋4丁目12-10"
+    "address": "大阪府大阪市北区天神橋4丁目12-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "527",
@@ -5201,7 +5968,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%B6%E5%92%8C%E3%82%89%E3%81%8E%20%E5%BF%83%E6%96%8E%E6%A9%8B%20%E5%92%8C%E9%A3%9F",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区心斎橋筋1丁目3-12 田毎プラザビル 1F"
+    "address": "大阪府大阪市中央区心斎橋筋1丁目3-12 田毎プラザビル 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "528",
@@ -5215,7 +5984,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CAFE%20Bar%20ONE%20PEACE",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区堂山町6-10 第二名門ビル 5F"
+    "address": "大阪府大阪市北区堂山町6-10 第二名門ビル 5F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "529",
@@ -5229,7 +6000,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%8D%E3%81%99%E3%81%97%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区難波千日前4-21"
+    "address": "大阪府大阪市中央区難波千日前4-21",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "531",
@@ -5243,7 +6016,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Viande%20wood%20%E3%83%B4%E3%82%A3%E3%82%A2%E3%83%B3%E3%83%89%20%E3%82%A6%E3%83%83%E3%83%89",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市西成区玉出中2丁目16-6"
+    "address": "大阪府大阪市西成区玉出中2丁目16-6",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "532",
@@ -5257,7 +6032,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BD%A9%E8%8F%AF%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E5%B8%83%E6%96%BD%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府東大阪市足代3丁目1-15"
+    "address": "大阪府東大阪市足代3丁目1-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "534",
@@ -5271,7 +6048,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%20%E3%81%98%E3%82%93%E7%94%B0",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区池田町7-6"
+    "address": "大阪府大阪市北区池田町7-6",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "535",
@@ -5285,7 +6064,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E3%90%82%E8%88%8C%20%E3%81%8D%E3%81%9F%E3%82%93%20%E6%B3%95%E5%96%84%E5%AF%BA%20Yakiniku%20Kitan%20Hozenji",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区道頓堀1丁目7-12"
+    "address": "大阪府大阪市中央区道頓堀1丁目7-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "536",
@@ -5299,7 +6080,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20old%20bridge",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市天王寺区舟橋町20-21"
+    "address": "大阪府大阪市天王寺区舟橋町20-21",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "538",
@@ -5313,7 +6096,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%B7%9D%E3%81%AB%E3%81%97%E3%82%84",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市浪速区難波中1丁目17-16"
+    "address": "大阪府大阪市浪速区難波中1丁目17-16",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "539",
@@ -5327,7 +6112,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%94%E3%83%8E%E3%82%AD%E3%82%AA",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区天神橋3丁目2-33"
+    "address": "大阪府大阪市北区天神橋3丁目2-33",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "540",
@@ -5341,7 +6128,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%81%E3%82%93%E5%87%A6%20%E7%AB%B9%E3%81%A1%E3%82%83%E3%82%93",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区瓦屋町2丁目10-14"
+    "address": "大阪府大阪市中央区瓦屋町2丁目10-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "542",
@@ -5355,7 +6144,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MAKE%20ONE%20TWO%20(%E3%83%A1%E3%82%A4%E3%82%AF%E3%83%AF%E3%83%B3%E3%83%84%E3%83%BC%EF%BC%89",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区平野町2丁目2-12 生駒ビルヂング 1F"
+    "address": "大阪府大阪市中央区平野町2丁目2-12 生駒ビルヂング 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "543",
@@ -5369,7 +6160,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20W",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区宗右衛門町2-16"
+    "address": "大阪府大阪市中央区宗右衛門町2-16",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "544",
@@ -5383,7 +6176,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E5%8F%A3%E3%81%84%E3%81%AA%E3%82%8A%E3%82%80%E3%82%8D%E3%82%84%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市西区南堀江2丁目1-17"
+    "address": "大阪府大阪市西区南堀江2丁目1-17",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "545",
@@ -5397,7 +6192,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%83%8A%E3%83%AA%E3%83%9E",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区浮田2丁目6-13 メゾンまさみ"
+    "address": "大阪府大阪市北区浮田2丁目6-13 メゾンまさみ",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "546",
@@ -5411,7 +6208,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E6%88%BF%20%E3%83%AF%E3%83%93%E3%82%B9%E3%82%B1%20%E3%83%AB%E3%82%B7%E3%82%A2%E3%82%B9%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市阿倍野区阿倍野筋1丁目5-1 ルシアスビル B1F"
+    "address": "大阪府大阪市阿倍野区阿倍野筋1丁目5-1 ルシアスビル B1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "548",
@@ -5425,7 +6224,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%20%E5%A4%A9%E7%8E%8B%E5%AF%BA%E9%A7%85%E5%89%8D%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市天王寺区堀越町16-9 毎日シルバービルディング 7F"
+    "address": "大阪府大阪市天王寺区堀越町16-9 毎日シルバービルディング 7F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "549",
@@ -5439,7 +6240,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E7%84%BC%E8%82%89%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E3%81%AB%E3%81%8F%E3%81%95%E3%82%8F%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区千日前2丁目5-7"
+    "address": "大阪府大阪市中央区千日前2丁目5-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "550",
@@ -5453,7 +6256,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E3%81%8D%E9%B3%A5%20%E5%B0%8F%E6%9D%BE",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市福島区福島4丁目2-65"
+    "address": "大阪府大阪市福島区福島4丁目2-65",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "551",
@@ -5467,7 +6272,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AF%9B%E5%B0%82%E9%96%80%E5%BA%97%20%E5%BE%B3%E3%81%BE%E3%81%99",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市西区江戸堀1丁目17-4 Art Lab. 1971"
+    "address": "大阪府大阪市西区江戸堀1丁目17-4 Art Lab. 1971",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "552",
@@ -5481,7 +6288,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E6%AC%A1%E9%83%8E%20%E4%BA%AC%E6%A9%8B%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市都島区東野田町2丁目3-3"
+    "address": "大阪府大阪市都島区東野田町2丁目3-3",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "553",
@@ -5495,7 +6304,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%AE%AE%E4%B8%BC%E5%B0%82%E9%96%80%E5%BA%97%20%E6%9C%A8%E6%B4%A5%20%E9%AD%9A%E5%B8%82%E9%A3%9F%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市浪速区敷津東2丁目2-8"
+    "address": "大阪府大阪市浪速区敷津東2丁目2-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "554",
@@ -5509,7 +6320,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E8%97%A4%E3%82%82%E3%81%A8%20%E5%A4%A7%E5%90%89%E5%95%86%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市福島区福島2丁目7-17"
+    "address": "大阪府大阪市福島区福島2丁目7-17",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "555",
@@ -5523,7 +6336,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E3%81%AE%E5%8A%A9%20%E5%8C%97%E6%B5%9C%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区淡路町2丁目2-2 タケウチ アバクスビル 2階"
+    "address": "大阪府大阪市中央区淡路町2丁目2-2 タケウチ アバクスビル 2階",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "556",
@@ -5537,7 +6352,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%A4%A7%E6%88%A6%E4%BA%89%20%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区堂山町15-14"
+    "address": "大阪府大阪市北区堂山町15-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "557",
@@ -5551,7 +6368,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8F%AF%E8%8B%91%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区島之内1-8-17"
+    "address": "大阪府大阪市中央区島之内1-8-17",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "558",
@@ -5565,7 +6384,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%E9%B3%A5%20%E4%B8%80%E5%85%86%20%E6%97%A5%E6%9C%AC%E6%A9%8B%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市浪速区日本橋東1-2-2"
+    "address": "大阪府大阪市浪速区日本橋東1-2-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "560",
@@ -5579,7 +6400,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%90%E3%81%82%E3%81%BD%E3%81%99%20guapos",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市天王寺区東高津町3-13"
+    "address": "大阪府大阪市天王寺区東高津町3-13",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "561",
@@ -5593,7 +6416,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E3%82%B8%E3%83%93%E3%82%A8%20%E6%98%8E%E6%98%9F",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区千日前1-2-9"
+    "address": "大阪府大阪市中央区千日前1-2-9",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "562",
@@ -5607,7 +6432,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E6%96%99%E7%90%86%E3%81%A0%E3%81%84%E3%81%A1",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区千日前1-6-14"
+    "address": "大阪府大阪市中央区千日前1-6-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "563",
@@ -5621,7 +6448,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%8D%E3%83%AD%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区天神橋5-8-9"
+    "address": "大阪府大阪市北区天神橋5-8-9",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "564",
@@ -5635,7 +6464,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dal%20Donnaiolo",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区西天満5-13-12"
+    "address": "大阪府大阪市北区西天満5-13-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "565",
@@ -5649,7 +6480,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%AB%E3%83%87%E3%83%B3%E3%83%86%E5%A4%A7%E5%B1%B1",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区西天満3-8-18"
+    "address": "大阪府大阪市北区西天満3-8-18",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "566",
@@ -5663,7 +6496,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A0%E3%83%A9%E3%82%BF%E6%96%99%E7%90%86%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市阿倍野区文の里3-2-15"
+    "address": "大阪府大阪市阿倍野区文の里3-2-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "567",
@@ -5677,7 +6512,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%83%BB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%AC",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区堂島浜2-1-13"
+    "address": "大阪府大阪市北区堂島浜2-1-13",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "568",
@@ -5691,7 +6528,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%83%B4%E3%82%A1%E3%83%AA%E3%82%A8",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区中之島3-3-23"
+    "address": "大阪府大阪市北区中之島3-3-23",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "570",
@@ -5705,7 +6544,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SINAE%20%E3%82%B7%E3%83%8A%E3%82%A8",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区伏見町2-4-12"
+    "address": "大阪府大阪市中央区伏見町2-4-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "571",
@@ -5719,7 +6560,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AA%E3%81%AB%E3%82%8F%E9%BA%BA%E6%AC%A1%E9%83%8E",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区難波4-1-17"
+    "address": "大阪府大阪市中央区難波4-1-17",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "572",
@@ -5733,7 +6576,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E4%BD%9C%E6%96%99%E7%90%86%20%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%81%E3%83%A3",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市中央区東心斎橋1-13-11"
+    "address": "大阪府大阪市中央区東心斎橋1-13-11",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "573",
@@ -5747,7 +6592,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%20%E8%A3%8F%E5%A4%A9%E7%8E%8B%E5%AF%BA",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市天王寺区堀越町13-6"
+    "address": "大阪府大阪市天王寺区堀越町13-6",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "575",
@@ -5761,7 +6608,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%85%E9%87%8E%E6%97%A5%E6%9C%AC%E9%85%92%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区太融寺町2-17"
+    "address": "大阪府大阪市北区太融寺町2-17",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "576",
@@ -5775,7 +6624,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AC%E3%82%8B%E7%87%97%E4%BD%90%E8%97%A4%20%E5%A4%A7%E5%9D%82",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区大深町4-20"
+    "address": "大阪府大阪市北区大深町4-20",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "579",
@@ -5789,7 +6640,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A6%E3%82%93%E3%81%90",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市浪速区恵美須東3-4-12"
+    "address": "大阪府大阪市浪速区恵美須東3-4-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "581",
@@ -5803,7 +6656,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%B5%E8%94%B5",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市西成区太子1-13-17"
+    "address": "大阪府大阪市西成区太子1-13-17",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "582",
@@ -5817,7 +6672,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%BC%E3%83%8B%E3%82%B0%E3%83%AA%E3%83%AB%20%E5%A4%A9%E7%8E%8B%E5%AF%BA%E9%A7%85%E5%89%8D%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市阿倍野区阿倍野筋1-2-8"
+    "address": "大阪府大阪市阿倍野区阿倍野筋1-2-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "583",
@@ -5831,7 +6688,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E5%9D%82%E4%B8%8A%20%E6%A2%85%E7%94%B0%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区堂山町16-14"
+    "address": "大阪府大阪市北区堂山町16-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "585",
@@ -5845,12 +6704,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A2%A8%E9%9D%A1",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区東天満1-12-10"
+    "address": "大阪府大阪市北区東天満1-12-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "586",
     "name": "鮨割烹 のの 梅田お初天神店",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5859,7 +6720,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E5%89%B2%E7%83%B9%20%E3%81%AE%E3%81%AE%20%E6%A2%85%E7%94%B0%E3%81%8A%E5%88%9D%E5%A4%A9%E7%A5%9E%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区曽根崎2-12-4"
+    "address": "大阪府大阪市北区曽根崎2-12-4",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "587",
@@ -5873,7 +6736,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E6%89%93%E3%81%A1%E3%81%86%E3%81%A9%E3%82%93%20%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府交野市私部2-11-31"
+    "address": "大阪府交野市私部2-11-31",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "588",
@@ -5887,7 +6752,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%85%E3%81%97%E3%82%85%E3%81%A8%E3%81%86%E3%81%A8%E3%81%86",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区堂島1-5-2"
+    "address": "大阪府大阪市北区堂島1-5-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "589",
@@ -5901,7 +6768,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E6%AF%9B%E5%92%8C%E7%89%9B%E3%82%BF%E3%83%B3%E3%81%A8%E3%83%8F%E3%83%A9%E3%83%9F%E7%84%BC%E8%82%89%E3%81%94%E3%82%8A%E3%81%A1%E3%82%83%E3%82%93%E7%A6%8F%E5%B3%B6%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市福島区福島5-8-14"
+    "address": "大阪府大阪市福島区福島5-8-14",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "590",
@@ -5915,7 +6784,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E6%AF%9B%E5%92%8C%E7%89%9B%E3%82%BF%E3%83%B3%E3%81%A8%E3%83%8F%E3%83%A9%E3%83%9F%E7%84%BC%E8%82%89%E3%81%94%E3%82%8A%E3%81%A1%E3%82%83%E3%82%93%E6%A2%85%E7%94%B0%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-01",
-    "address": "大阪府大阪市北区堂山町8-21"
+    "address": "大阪府大阪市北区堂山町8-21",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "591",
@@ -5929,7 +6800,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BA%90%E5%85%B5%E8%A1%9B%20%E3%81%AA%E3%82%93%E3%81%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市浪速区難波中2-4-5"
+    "address": "大阪府大阪市浪速区難波中2-4-5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "592",
@@ -5943,7 +6816,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E3%81%AE%E5%A4%A9%E6%BA%80%E5%B1%8B%20%E7%A5%9E%E6%A5%BD%E4%BA%AD",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区天神橋4-11-10"
+    "address": "大阪府大阪市北区天神橋4-11-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "593",
@@ -5957,7 +6832,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E6%94%BF%20%E4%B8%AD%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区天神橋5-6-19"
+    "address": "大阪府大阪市北区天神橋5-6-19",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "594",
@@ -5971,7 +6848,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E7%95%AA",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市西成区山王3-5-25"
+    "address": "大阪府大阪市西成区山王3-5-25",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "600",
@@ -5985,7 +6864,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E5%A5%BD%E3%81%BF%E7%84%BC%E3%81%8D%20%E4%B8%B8%E7%A6%8F%20%E4%BB%8A%E9%87%8C%E5%BA%97%20%E5%A7%89%E5%A6%B9%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区大今里4-2-1"
+    "address": "大阪府大阪市東成区大今里4-2-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "601",
@@ -5999,7 +6880,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E5%B1%8B%E8%BC%AA%E2%80%90%E3%82%8A%E3%82%93-%E7%8E%89%E9%80%A0%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市天王寺区玉造元町3-19"
+    "address": "大阪府大阪市天王寺区玉造元町3-19",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "603",
@@ -6013,7 +6896,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=HICARU%20COFFEE%20ROASTER",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区上汐1-1-23"
+    "address": "大阪府大阪市中央区上汐1-1-23",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "605",
@@ -6027,7 +6912,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BF%E3%81%8B%E3%82%93%20%E4%BB%8A%E9%87%8C%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区大今里南1-11-3 ロイヤル大今里1F"
+    "address": "大阪府大阪市東成区大今里南1-11-3 ロイヤル大今里1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "606",
@@ -6041,7 +6928,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%84%BC%E3%81%8D%E3%81%86%E3%81%AA%E3%81%8E%E3%81%AE%E9%AD%9A%E4%BC%8A%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市旭区高殿4-8-10"
+    "address": "大阪府大阪市旭区高殿4-8-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "607",
@@ -6055,7 +6944,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B6%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%B3%E3%83%92",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府八尾市刑部2-386"
+    "address": "大阪府八尾市刑部2-386",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "609",
@@ -6069,7 +6960,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E3%81%A8%E3%81%9B%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区難波千日前8-1"
+    "address": "大阪府大阪市中央区難波千日前8-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "611",
@@ -6083,7 +6976,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E5%A0%82%20%E4%BA%8C%E5%8D%81",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曽根崎新地1-5-29"
+    "address": "大阪府大阪市北区曽根崎新地1-5-29",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "612",
@@ -6097,7 +6992,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E6%83%A3%E4%BA%94%E9%83%8E",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曽根崎新地1-3-11"
+    "address": "大阪府大阪市北区曽根崎新地1-3-11",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "613",
@@ -6111,7 +7008,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9F%E3%83%B3%E3%83%A2%E3%82%A2%E3%83%8F%E3%82%A6%E3%82%B9",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曽根崎新地1-11-9"
+    "address": "大阪府大阪市北区曽根崎新地1-11-9",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "614",
@@ -6125,7 +7024,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%E2%80%99occas%20-%20bar%20%C3%A0%20vin%20-%20%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%90%E3%83%BC%20%E3%83%AD%E3%82%AB%E3%82%B9",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市西区新町1-23-9"
+    "address": "大阪府大阪市西区新町1-23-9",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "615",
@@ -6139,7 +7040,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B1%9F%E6%88%B8%E5%89%8D%E3%81%AB%E3%81%8E%E3%82%8A%E5%AF%BF%E3%81%97%20%E6%98%A5%E9%A7%92%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区天神橋5-5-2"
+    "address": "大阪府大阪市北区天神橋5-5-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "616",
@@ -6153,7 +7056,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%96%E3%83%AB",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市住吉区沢之町2-8-18"
+    "address": "大阪府大阪市住吉区沢之町2-8-18",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "617",
@@ -6167,7 +7072,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%82%80%E3%82%89%20Chez%20Deuxieme%EF%BC%88%E3%82%A4%E3%83%AF%E3%83%A0%E3%83%A9%20%E3%82%B7%E3%82%A7%20%E3%83%89%E3%82%A5%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%A0%EF%BC%89",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区西天満4-6-13"
+    "address": "大阪府大阪市北区西天満4-6-13",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "618",
@@ -6181,7 +7088,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%AA%E3%81%95%E5%AF%BF%E5%8F%B8",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府八尾市本町5-1-1"
+    "address": "大阪府八尾市本町5-1-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "619",
@@ -6195,7 +7104,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B3%EF%BC%AE%EF%BC%AF%E3%82%B3%EF%BC%AE%EF%BC%AF%E3%82%B3",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区難波3-7-3"
+    "address": "大阪府大阪市中央区難波3-7-3",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "621",
@@ -6209,7 +7120,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%81%81%E3%81%BF%E3%81%AA%EF%BC%81%EF%BC%88%E7%95%A5%E7%A7%B0%EF%BC%89",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府東大阪市新池島町3-12-12"
+    "address": "大阪府東大阪市新池島町3-12-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "622",
@@ -6223,7 +7136,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%AA%E3%81%8B%E3%82%82%E3%81%A8",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区難波千日前4-35"
+    "address": "大阪府大阪市中央区難波千日前4-35",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "623",
@@ -6237,7 +7152,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E9%A3%9F%E4%BA%8B%E5%87%A6%20%E7%BE%8E%E7%99%BB%E9%87%8C",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区中道3-14-11"
+    "address": "大阪府大阪市東成区中道3-14-11",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "624",
@@ -6251,7 +7168,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E5%AE%9F%E7%B4%80%20Sushi%20Minoki",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曽根崎新地1-2-6 新松リンデンビル1F"
+    "address": "大阪府大阪市北区曽根崎新地1-2-6 新松リンデンビル1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "627",
@@ -6265,7 +7184,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%9C%E5%B1%B1",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区東小橋3-12-15"
+    "address": "大阪府大阪市東成区東小橋3-12-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "628",
@@ -6279,7 +7200,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A9%E3%82%93%E3%81%9F%E3%81%8F%E5%A0%82%E5%B1%B1%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区堂山町16-12"
+    "address": "大阪府大阪市北区堂山町16-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "629",
@@ -6293,7 +7216,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E9%87%8D%E5%8B%9D",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市浪速区恵美須東3-4-13"
+    "address": "大阪府大阪市浪速区恵美須東3-4-13",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "631",
@@ -6307,7 +7232,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%96%E3%83%B3%E3%82%B4%20%E7%A6%8F%E5%B3%B6%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市福島区福島7-11-51 ふくろうじ商店街47号"
+    "address": "大阪府大阪市福島区福島7-11-51 ふくろうじ商店街47号",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "633",
@@ -6321,7 +7248,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%91%E3%82%93%E3%81%A9%E3%81%86%E5%AF%BF%E5%8F%B8%20%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%A0%B4%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市福島区野田1-1-86"
+    "address": "大阪府大阪市福島区野田1-1-86",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "638",
@@ -6335,7 +7264,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%99%8E%E9%80%A3%E5%9D%8A%20%E3%83%92%E3%83%AB%E3%83%88%E3%83%B3%E3%83%97%E3%83%A9%E3%82%B6%E3%82%A6%E3%82%A8%E3%82%B9%E3%83%88%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区梅田2-2-2 ヒルトンプラザウエストB2F"
+    "address": "大阪府大阪市北区梅田2-2-2 ヒルトンプラザウエストB2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "639",
@@ -6349,7 +7280,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E4%B8%A1%20%E5%8D%97%E6%A3%AE%E7%94%BA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区南森町1-2-14 ロイヤルハイツ1F"
+    "address": "大阪府大阪市北区南森町1-2-14 ロイヤルハイツ1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "641",
@@ -6363,7 +7296,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E6%96%99%E7%90%86%20casa%20bianca(%E3%82%AB%E3%83%BC%E3%82%B5%E3%83%93%E3%82%A2%E3%83%B3%E3%82%AB)",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東住吉区南田辺3丁目"
+    "address": "大阪府大阪市東住吉区南田辺3丁目",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "643",
@@ -6377,7 +7312,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E5%8F%B8%E3%81%A8%E5%A4%A9%E3%81%B7%E3%82%89%20%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%84%E3%83%AB%E3%83%9E%E3%83%84",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区千日前2-7-22"
+    "address": "大阪府大阪市中央区千日前2-7-22",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "644",
@@ -6391,7 +7328,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%8F%E3%82%89%E3%81%BE%E3%81%95",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区難波千日前14-25"
+    "address": "大阪府大阪市中央区難波千日前14-25",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "645",
@@ -6405,7 +7344,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SAKE%20NERD%20(%E3%82%B5%E3%82%B1%E3%83%8A%E3%83%BC%E3%83%89)",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市浪速区幸町1-2-8 82minatomachi 3F"
+    "address": "大阪府大阪市浪速区幸町1-2-8 82minatomachi 3F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "646",
@@ -6419,7 +7360,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC%E7%84%BC%E8%82%89%E3%81%86%E3%81%97%E3%81%99%E3%81%8D",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曾根崎新地1-8-3 遅ビル 3F"
+    "address": "大阪府大阪市北区曾根崎新地1-8-3 遅ビル 3F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "647",
@@ -6433,7 +7376,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E8%8F%9C%20OIL(%E3%82%AA%E3%82%A4%E3%83%AB)",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市福島区福島6-19-12"
+    "address": "大阪府大阪市福島区福島6-19-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "648",
@@ -6447,7 +7392,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%E5%B7%A5%E6%88%BF%20%E3%83%A6%E3%83%BC%E3%83%9F%E3%83%B3",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市天王寺区空堀町6-1"
+    "address": "大阪府大阪市天王寺区空堀町6-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "649",
@@ -6461,7 +7408,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B8%A1%E9%82%8A%E5%92%96%E5%96%B1%20%E6%A2%85%E7%94%B0%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曾根崎新地2-2-5"
+    "address": "大阪府大阪市北区曾根崎新地2-2-5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "650",
@@ -6475,7 +7424,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E3%81%B2%E3%81%B5%E3%81%BF",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曾根崎新地1-6-28"
+    "address": "大阪府大阪市北区曾根崎新地1-6-28",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "651",
@@ -6489,7 +7440,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%AB%E8%8C%B6%E3%83%AB%E3%83%97%E3%83%A9%EF%BD%9CLupra's%20Roasting%20Factory%20%26%20caf%C3%A9",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市天王寺区小橋町8-15"
+    "address": "大阪府大阪市天王寺区小橋町8-15",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "652",
@@ -6503,7 +7456,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%83%AD%E3%83%AA%E3%83%BC%E3%83%9D%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E9%9B%A3%E6%B3%A2%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区難波5-1-60 なんばCITY本館 B1F"
+    "address": "大阪府大阪市中央区難波5-1-60 なんばCITY本館 B1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "653",
@@ -6517,7 +7472,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E5%8F%B8%E3%81%A8%E3%81%97%E3%82%83%E3%81%B6%E3%81%97%E3%82%83%E3%81%B6%20No.8%20%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区堂山町6-1 3F"
+    "address": "大阪府大阪市北区堂山町6-1 3F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "654",
@@ -6531,7 +7488,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E9%B3%A5%E3%82%A8%E3%83%8A%E3%83%9F",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区西天満5-6-8"
+    "address": "大阪府大阪市北区西天満5-6-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "657",
@@ -6545,12 +7504,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A8%E3%83%8D%E3%83%A4%20%E6%A2%85%E7%94%B0%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区角田町梅田地下街2-5 ホワイティうめだノースモール1"
+    "address": "大阪府大阪市北区角田町梅田地下街2-5 ホワイティうめだノースモール1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "658",
     "name": "立ち寿司 杉尾 西中島店",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -6559,7 +7520,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E5%AF%BF%E5%8F%B8%20%E6%9D%89%E5%B0%BE%20%E8%A5%BF%E4%B8%AD%E5%B3%B6%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市淀川区西中島3-19-7 第一ユヤマビル"
+    "address": "大阪府大阪市淀川区西中島3-19-7 第一ユヤマビル",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "659",
@@ -6573,7 +7536,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%82%8D%E3%81%97%E3%82%92",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市大正区三軒家西1-17-2"
+    "address": "大阪府大阪市大正区三軒家西1-17-2",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "660",
@@ -6587,7 +7552,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%9C%E3%82%82%E3%81%BF%E3%81%98",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市平野区平野西5-9-28 コーポ神田1F"
+    "address": "大阪府大阪市平野区平野西5-9-28 コーポ神田1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "661",
@@ -6601,7 +7568,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%84%BC%E3%81%8D%E3%81%A8%E3%81%8A%E3%81%A7%E3%82%93%E7%8C%AA%E9%A0%AD%20%E6%A2%85%E7%94%B0%EF%BD%9C%E5%85%8E%E6%88%91%E9%87%8E%E7%94%BA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区兎我野町11-19 本社浪速ビル1F"
+    "address": "大阪府大阪市北区兎我野町11-19 本社浪速ビル1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "662",
@@ -6615,7 +7584,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9A%E3%81%84%E3%81%8D",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区兎我野町13-6"
+    "address": "大阪府大阪市北区兎我野町13-6",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "663",
@@ -6629,7 +7600,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E7%9C%9F",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府堺市西区浜寺船尾町東3-377"
+    "address": "大阪府堺市西区浜寺船尾町東3-377",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "664",
@@ -6643,7 +7616,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%99%E3%81%86%E3%81%A9%E3%82%93%20%E3%81%86%E3%81%AE%E3%81%9F%E3%81%91",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区西心斎橋2-9-5 日宝三ツ寺会館 2F"
+    "address": "大阪府大阪市中央区西心斎橋2-9-5 日宝三ツ寺会館 2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "665",
@@ -6657,7 +7632,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B3%E4%BA%95",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区上汐2-4-6"
+    "address": "大阪府大阪市中央区上汐2-4-6",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "666",
@@ -6671,7 +7648,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%B0%E6%B5%B7",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区堂島1-3-29 日宝新地レジャービル 1F"
+    "address": "大阪府大阪市北区堂島1-3-29 日宝新地レジャービル 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "667",
@@ -6685,7 +7664,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AB%E3%81%8F%E3%81%95%E3%81%B6%E3%82%8D%E3%81%86",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市西区九条南1-3-16 レアレア九条56番館 1F"
+    "address": "大阪府大阪市西区九条南1-3-16 レアレア九条56番館 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "668",
@@ -6699,7 +7680,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E4%B8%87%E5%8D%83",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区島之内2-13-9 第一右田ビル 1F"
+    "address": "大阪府大阪市中央区島之内2-13-9 第一右田ビル 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "671",
@@ -6713,7 +7696,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%84%E9%A2%A8%E9%A4%A8",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区堂山町3-12 ステージスカラブビル 2F"
+    "address": "大阪府大阪市北区堂山町3-12 ステージスカラブビル 2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "672",
@@ -6727,7 +7712,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%82%82%E3%81%A4%E9%8D%8B%E5%B0%82%E9%96%80%E5%BA%97%E3%82%84%E3%81%BE%E6%9C%AC%20%E4%BA%AC%E6%A9%8B%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市城東区蒲生1-1-22"
+    "address": "大阪府大阪市城東区蒲生1-1-22",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "673",
@@ -6741,7 +7728,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%82%82%E3%81%A4%E3%81%A9%E3%81%A6%E9%8D%8B%20%E3%81%BE%E3%81%A4%E3%81%84%E4%BA%AD",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市都島区東野田町3-13-6"
+    "address": "大阪府大阪市都島区東野田町3-13-6",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "674",
@@ -6755,7 +7744,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%90%E3%83%AB%E3%82%B3%E3%83%A9%E3%83%A1%E3%83%B3%E3%83%88",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区茶屋町14-7"
+    "address": "大阪府大阪市北区茶屋町14-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "675",
@@ -6769,7 +7760,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E9%B3%A5%E3%81%88%E3%82%93%E3%82%84%20%E4%B8%AD%E6%B4%A5%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区豊崎3-6-11 エイトビル1階"
+    "address": "大阪府大阪市北区豊崎3-6-11 エイトビル1階",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "676",
@@ -6783,7 +7776,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A5%82%E9%A3%A9%E3%81%A8%E3%81%8A%E9%85%92%20%E3%81%8B%E3%82%89%E3%81%BB%E3%82%8A%20%E3%81%8D%E3%81%AC%E5%B7%9D",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区谷町7-6-35"
+    "address": "大阪府大阪市中央区谷町7-6-35",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "678",
@@ -6797,7 +7792,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Lanterna%20di%20Genova",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区中崎3-2-8"
+    "address": "大阪府大阪市北区中崎3-2-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "681",
@@ -6811,12 +7808,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%9A%E8%B6%B3%E3%81%AE%E3%81%8B%E3%81%A9%E3%82%84",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市浪速区難波中1-4-15 南松竹マンション1F"
+    "address": "大阪府大阪市浪速区難波中1-4-15 南松竹マンション1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "682",
     "name": "焼肉ギャング",
-    "area": "other",
+    "area": "umeda",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -6825,7 +7824,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%B0",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曽根崎2-10-21 日宝曽根崎イースト1F"
+    "address": "大阪府大阪市北区曽根崎2-10-21 日宝曽根崎イースト1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "683",
@@ -6839,7 +7840,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Macauda",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区常盤町2-1-3 ハイネス常盤101"
+    "address": "大阪府大阪市中央区常盤町2-1-3 ハイネス常盤101",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "684",
@@ -6853,7 +7856,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E6%9C%A8%E3%81%A8",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区瓦屋町1-2-11 からほりかわらやえん101"
+    "address": "大阪府大阪市中央区瓦屋町1-2-11 からほりかわらやえん101",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "685",
@@ -6867,7 +7872,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B1%A0%E7%94%B0%E9%8A%80%E3%81%AA%E3%81%B9%20%E5%8C%97%E6%96%B0%E5%9C%B0",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曽根崎新地1-2-13 北新地タムラビル2F"
+    "address": "大阪府大阪市北区曽根崎新地1-2-13 北新地タムラビル2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "686",
@@ -6881,7 +7888,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B8%81%20il%20legame",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区深江南3-16-1"
+    "address": "大阪府大阪市東成区深江南3-16-1",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "687",
@@ -6895,7 +7904,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%99%E3%83%88%E3%82%B3%E3%83%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E6%96%B0%E4%BA%AC",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府高槻市寿町1-6-19"
+    "address": "大阪府高槻市寿町1-6-19",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "688",
@@ -6909,7 +7920,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E3%81%A8%E9%86%B8%E3%81%97%20%E9%BC%93%E9%81%93",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府吹田市千里山西4-37-3 1F"
+    "address": "大阪府吹田市千里山西4-37-3 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "689",
@@ -6923,7 +7936,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%86%E3%82%AD%E4%BA%AD",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区東小橋1-1-11"
+    "address": "大阪府大阪市東成区東小橋1-1-11",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "690",
@@ -6937,7 +7952,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E3%80%85%E6%98%AF%E5%A5%BD%E6%97%A5",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市天王寺区空堀町11-8"
+    "address": "大阪府大阪市天王寺区空堀町11-8",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "691",
@@ -6951,7 +7968,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%82%AC%E3%82%B6%E3%83%B3%20%E3%83%89%20%E3%82%A8%E3%82%AF%E3%83%A9",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府高槻市明野町15-29"
+    "address": "大阪府高槻市明野町15-29",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "692",
@@ -6965,7 +7984,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%97%E3%82%82%E3%82%93",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区梅田1-3-1 大阪駅前第一ビルB2F"
+    "address": "大阪府大阪市北区梅田1-3-1 大阪駅前第一ビルB2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "694",
@@ -6979,7 +8000,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=THE%20ALLEY%20%E6%A2%85%E7%94%B0%E3%82%A8%E3%82%B9%E3%83%88%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区角田町3-25 EST FOODHALL"
+    "address": "大阪府大阪市北区角田町3-25 EST FOODHALL",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "695",
@@ -6993,7 +8016,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E3%82%AB%E3%83%89%E3%83%A4%E9%A3%9F%E5%A0%82%20%E7%B7%8F%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市西区新町4-16-13"
+    "address": "大阪府大阪市西区新町4-16-13",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "696",
@@ -7007,7 +8032,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E5%AF%8C%E5%A3%AB%E9%A3%9F%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区天満2-13-16"
+    "address": "大阪府大阪市北区天満2-13-16",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "697",
@@ -7021,7 +8048,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=and.%20cafe",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区深江南1-9-28 1F"
+    "address": "大阪府大阪市東成区深江南1-9-28 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "698",
@@ -7035,7 +8064,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B1%8B%E9%A3%9F%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市浪速区日本橋西1-8-25"
+    "address": "大阪府大阪市浪速区日本橋西1-8-25",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "699",
@@ -7049,7 +8080,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%BB%E8%A3%BD%E3%82%B9%E3%82%AE%E3%83%A4%E5%95%86%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区難波1-7-18 心斎橋ヨーロピアンビル4F"
+    "address": "大阪府大阪市中央区難波1-7-18 心斎橋ヨーロピアンビル4F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "700",
@@ -7063,7 +8096,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E3%81%B7%E3%82%89%E3%81%A8%E3%83%8A%E3%83%81%E3%83%A5%E3%83%BC%E3%83%ABMETA",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区難波千日前13-7 難波ノスケビルB2F"
+    "address": "大阪府大阪市中央区難波千日前13-7 難波ノスケビルB2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "702",
@@ -7077,7 +8112,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%82%91%E3%81%B2%E3%82%8D",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市天王寺区悲田院町9-18"
+    "address": "大阪府大阪市天王寺区悲田院町9-18",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "703",
@@ -7091,7 +8128,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E9%B3%A5%20%E5%BF%83%E4%BC%AF%20%E8%A5%BF%E5%A4%A9%E6%BA%80",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区西天満6-6-12"
+    "address": "大阪府大阪市北区西天満6-6-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "704",
@@ -7105,7 +8144,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%B4%A5%E3%82%92%E3%81%AB%E3%81%8F",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区豊崎4-2-11"
+    "address": "大阪府大阪市北区豊崎4-2-11",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "705",
@@ -7119,7 +8160,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%8F%E3%82%A6%E3%82%B9%20%E8%8F%AF",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府豊中市上新田3-2-10"
+    "address": "大阪府豊中市上新田3-2-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "706",
@@ -7133,7 +8176,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E6%89%93%E8%95%8E%E9%BA%A6%20%E5%AE%88%E7%A0%B4%E9%9B%A2%20%E8%B0%B7%E7%94%BA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区常盤町1-3-20 安藤ビル1F"
+    "address": "大阪府大阪市中央区常盤町1-3-20 安藤ビル1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "707",
@@ -7147,7 +8192,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E4%BD%9C%E9%85%92%E6%88%BF%20%E3%81%9D%E3%81%86%E3%81%9D%E3%81%86",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区黒崎町8-3 1F"
+    "address": "大阪府大阪市北区黒崎町8-3 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "708",
@@ -7161,7 +8208,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%8A%E9%87%8C%E9%89%84%E6%9D%BF%E7%84%BC",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市生野区新今里4-4-23"
+    "address": "大阪府大阪市生野区新今里4-4-23",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "710",
@@ -7175,7 +8224,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%AA%E3%83%AB%20%E6%AC%A7%E9%A2%A8%E8%BB%92",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区梅田1-11-4 大阪駅前第4ビル B2F"
+    "address": "大阪府大阪市北区梅田1-11-4 大阪駅前第4ビル B2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "711",
@@ -7189,7 +8240,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B6%E3%81%A9%E3%81%86%E4%BA%AD",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区梅田1-1-3 大阪駅前第3ビル B2F"
+    "address": "大阪府大阪市北区梅田1-1-3 大阪駅前第3ビル B2F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "712",
@@ -7203,7 +8256,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%81%99%E3%81%8D%E3%82%88",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区東小橋1-2-19"
+    "address": "大阪府大阪市東成区東小橋1-2-19",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "713",
@@ -7217,7 +8272,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E9%85%92%E5%A0%B4%20%E3%82%BF%E3%83%A0%E3%83%A4",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区東小橋1-18-32"
+    "address": "大阪府大阪市東成区東小橋1-18-32",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "714",
@@ -7231,7 +8288,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E9%B9%BF",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市城東区東中浜3-6-19"
+    "address": "大阪府大阪市城東区東中浜3-6-19",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "716",
@@ -7245,7 +8304,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%93%E3%83%83%E3%82%B0%E3%82%B8%E3%83%A7%E3%83%BC",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府藤井寺市野中2-66"
+    "address": "大阪府藤井寺市野中2-66",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "717",
@@ -7259,7 +8320,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%87%E5%AE%99",
     "isActive": false,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市生野区田島4-7-27"
+    "address": "大阪府大阪市生野区田島4-7-27",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "720",
@@ -7273,7 +8336,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B3%B6%E4%B9%8B%E5%86%85%E3%83%95%E3%82%B8%E3%83%9E%E3%83%AB%E9%86%B8%E9%80%A0%E6%89%80",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区島之内1-1-14 三和ビル1F"
+    "address": "大阪府大阪市中央区島之内1-1-14 三和ビル1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "721",
@@ -7287,7 +8352,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E9%B3%A5%20%E3%82%B5%E3%82%A4%E3%83%92",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市中央区南船場4-10-22"
+    "address": "大阪府大阪市中央区南船場4-10-22",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "722",
@@ -7301,7 +8368,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%96%B0%E5%9C%B0%E5%90%9B%E3%81%97%E3%81%BE",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市北区曽根崎新地1-2-24 ニューウメダビルB1F"
+    "address": "大阪府大阪市北区曽根崎新地1-2-24 ニューウメダビルB1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "723",
@@ -7315,7 +8384,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%89%84%E6%9D%BF%E7%84%BC%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%20%E3%82%84%E3%81%BE%E3%81%8D",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市西成区萩之茶屋2-2-7"
+    "address": "大阪府大阪市西成区萩之茶屋2-2-7",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "724",
@@ -7329,7 +8400,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%8D%E7%84%BC%EF%BD%A5%E9%8D%8B%20%E3%81%AA%E3%81%B9%E3%82%84",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市西成区天下茶屋北2-6-5"
+    "address": "大阪府大阪市西成区天下茶屋北2-6-5",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "725",
@@ -7343,7 +8416,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ellie",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市城東区森之宮2-6-4"
+    "address": "大阪府大阪市城東区森之宮2-6-4",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "726",
@@ -7357,7 +8432,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%85%E9%AD%9A%E5%AE%B6%20%E3%81%8E%E3%82%93%E3%81%9F",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区中本5-22-12"
+    "address": "大阪府大阪市東成区中本5-22-12",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "727",
@@ -7371,7 +8448,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B5%E3%81%8F%E7%8E%84",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区東中本1-15-35"
+    "address": "大阪府大阪市東成区東中本1-15-35",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "728",
@@ -7385,7 +8464,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B2%E6%8F%9A%E3%81%92%E6%96%99%E7%90%86%20%E3%81%BF%E3%82%84%E7%94%B0",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区東中本2-2-10 ノバカネイチ緑橋104"
+    "address": "大阪府大阪市東成区東中本2-2-10 ノバカネイチ緑橋104",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "729",
@@ -7399,7 +8480,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%BA%A7%E9%AE%A8%20%E7%B7%91%E6%A9%8B%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区東中本2-1-21"
+    "address": "大阪府大阪市東成区東中本2-1-21",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "730",
@@ -7413,7 +8496,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%E9%85%92%E6%A5%BC%20%E3%81%8A%E3%81%84%E3%81%97%E3%81%8B%E3%82%88%E3%80%82",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市阿倍野区西田辺町2-8-10"
+    "address": "大阪府大阪市阿倍野区西田辺町2-8-10",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "731",
@@ -7427,7 +8512,9 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%91%E3%83%86%E3%82%A3%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%AB%E3%83%B4%E3%82%A3%E3%82%B8%E3%83%86",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市東成区東中本3-16-15 サニーハイツ緑橋 1F"
+    "address": "大阪府大阪市東成区東中本3-16-15 サニーハイツ緑橋 1F",
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "732",
@@ -7441,6 +8528,120 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%90%E3%83%BC%E3%83%ABISOLA",
     "isActive": true,
     "createdAt": "2026-04-02",
-    "address": "大阪府大阪市城東区今福西1-5-2"
+    "address": "大阪府大阪市城東区今福西1-5-2",
+    "hasLunch": false,
+    "hasDinner": true
+  },
+  {
+    "id": "465",
+    "name": "鮨はまだ",
+    "area": "kitahama",
+    "genre": "sushi",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "ラードニキが行きたいお店",
+    "rating": 3.6,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%AF%E3%81%BE%E3%81%A0",
+    "isActive": true,
+    "createdAt": "2026-04-01",
+    "address": "大阪府大阪市中央区内平野町1-2-9",
+    "hasLunch": false,
+    "hasDinner": true
+  },
+  {
+    "id": "124",
+    "name": "和果 北堀江店",
+    "area": "shinsaibashi",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "ラードニキが行きたいお店",
+    "rating": 3.5,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E6%9E%9C%20%E5%8C%97%E5%A0%80%E6%B1%9F%E5%BA%97",
+    "isActive": true,
+    "createdAt": "2026-04-01",
+    "address": "大阪府大阪市西区北堀江1-11-6",
+    "hasLunch": false,
+    "hasDinner": true
+  },
+  {
+    "id": "125",
+    "name": "パティスリーBOIS OSAKA",
+    "area": "kitahama",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "ラードニキが行きたいお店",
+    "rating": 3.2,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%91%E3%83%86%E3%82%A3%E3%82%B9%E3%83%AA%E3%83%BCBOIS%20OSAKA",
+    "isActive": true,
+    "createdAt": "2026-04-01",
+    "address": "大阪府大阪市平野区平野本町2-13-12",
+    "hasLunch": false,
+    "hasDinner": true
+  },
+  {
+    "id": "127",
+    "name": "Eric Rose Cafe OSAKA",
+    "area": "abeno",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "ラードニキが行きたいお店",
+    "rating": 3.4,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Eric%20Rose%20Cafe%20OSAKA",
+    "isActive": true,
+    "createdAt": "2026-04-01",
+    "address": "大阪府大阪市天王寺区悲田院町10-39",
+    "hasLunch": false,
+    "hasDinner": true
+  },
+  {
+    "id": "138",
+    "name": "らくだ坂納豆工房",
+    "area": "kitahama",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "ラードニキが行きたいお店",
+    "rating": 3.3,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%81%8F%E3%81%A0%E5%9D%82%E7%B4%8D%E8%B1%86%E5%B7%A5%E6%88%BF",
+    "isActive": true,
+    "createdAt": "2026-04-01",
+    "address": "大阪府大阪市中央区谷町4-8-29",
+    "hasLunch": false,
+    "hasDinner": true
+  },
+  {
+    "id": "153",
+    "name": "アカデミーカフェ（& Gallery, Dog ok )",
+    "area": "namba",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "ラードニキが行きたいお店",
+    "rating": 3.4,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E3%82%AB%E3%83%95%E3%82%A7%EF%BC%88%26%20Gallery%2C%20Dog%20ok%20)",
+    "isActive": true,
+    "createdAt": "2026-04-01",
+    "address": "大阪府大阪市中央区谷町6-17-43",
+    "hasLunch": false,
+    "hasDinner": true
+  },
+  {
+    "id": "154",
+    "name": "SAKImotobakery and more 扇町店",
+    "area": "tenma",
+    "genre": "other",
+    "budgetMin": 2000,
+    "budgetMax": 4000,
+    "comment": "ラードニキが行きたいお店",
+    "rating": 3.3,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SAKImotobakery%20and%20more%20%E6%89%87%E7%94%BA%E5%BA%97",
+    "isActive": true,
+    "createdAt": "2026-04-01",
+    "address": "大阪府大阪市北区天神橋3-7-13",
+    "hasLunch": false,
+    "hasDinner": true
   }
 ];
