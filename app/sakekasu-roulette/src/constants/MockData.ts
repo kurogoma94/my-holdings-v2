@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-04-02T04:14:00.354Z';
+export const MOCK_DATA_UPDATED_AT = '2026-04-02T11:11:26.987Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -608,7 +608,7 @@ export const MOCK_SHOPS: Shop[] = [
     "createdAt": "2026-03-31",
     "address": "〒536-0007 大阪府大阪市城東区成育２丁目１３−４",
     "phone": "06-6932-2112",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -642,7 +642,7 @@ export const MOCK_SHOPS: Shop[] = [
     "createdAt": "2026-03-31",
     "address": "〒530-0002 大阪府大阪市北区曽根崎新地１丁目６−１３ ニューセントラルビル 103",
     "phone": "070-1462-5193",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -659,7 +659,7 @@ export const MOCK_SHOPS: Shop[] = [
     "createdAt": "2026-03-31",
     "address": "〒541-0055 大阪府大阪市中央区船場中央１丁目４−３ 船場センタービル 3号館地下２階",
     "phone": "06-6224-0057",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -743,7 +743,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0076 大阪府大阪市中央区難波４丁目３−２３",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -961,7 +961,7 @@ export const MOCK_SHOPS: Shop[] = [
     "createdAt": "2026-03-31",
     "address": "〒541-0048 大阪府大阪市中央区瓦町４丁目７−４ 南星瓦町ビル 1F",
     "phone": "06-4400-2668",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -994,8 +994,8 @@ export const MOCK_SHOPS: Shop[] = [
     "createdAt": "2026-03-31",
     "address": "〒590-0940 大阪府堺市堺区車之町西３丁１−３１",
     "phone": "080-4495-0508",
-    "hasLunch": false,
-    "hasDinner": true
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "103",
@@ -1011,7 +1011,7 @@ export const MOCK_SHOPS: Shop[] = [
     "createdAt": "2026-03-31",
     "address": "〒530-0017 大阪府大阪市北区角田町９−２６",
     "phone": "06-6361-4659",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
