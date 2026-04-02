@@ -49,6 +49,7 @@ export default function RouletteScreen() {
   const [filterMode, setFilterMode] = useState<FilterMode>('all');
   const [selectedArea, setSelectedArea] = useState<AreaCode | null>(null);
   const [selectedGenre, setSelectedGenre] = useState<GenreCode | null>(null);
+  const [selectedMealType, setSelectedMealType] = useState<'all' | 'lunch' | 'dinner'>('all');
   const [result, setResult] = useState<Shop | null>(null);
   const [isSpinning, setIsSpinning] = useState(false);
 
@@ -67,8 +68,14 @@ export default function RouletteScreen() {
       shops = shops.filter(s => s.genre === selectedGenre);
     }
 
+    if (selectedMealType === 'lunch') {
+      shops = shops.filter(s => s.hasLunch);
+    } else if (selectedMealType === 'dinner') {
+      shops = shops.filter(s => s.hasDinner);
+    }
+
     return shops;
-  }, [filterMode, selectedArea, selectedGenre]);
+  }, [allShops, filterMode, selectedArea, selectedGenre, selectedMealType]);
 
   // ルーレットを回す
   const spinRoulette = useCallback(() => {
@@ -264,6 +271,40 @@ export default function RouletteScreen() {
         </View>
       )}
 
+      {/* 時間帯フィルター */}
+      <View style={styles.mealTypeContainer}>
+        {(['all', 'lunch', 'dinner'] as const).map((type) => (
+          <TouchableOpacity
+            key={type}
+            style={[
+              styles.mealTypeTab,
+              { borderColor: colors.border },
+              selectedMealType === type && {
+                backgroundColor: Colors.accent,
+                borderColor: Colors.accent,
+              },
+            ]}
+            onPress={() => {
+              setSelectedMealType(type);
+              setResult(null);
+              resultOpacity.setValue(0);
+            }}
+          >
+            <Text
+              style={[
+                styles.mealTypeTabText,
+                {
+                  color:
+                    selectedMealType === type ? '#fff' : colors.textSecondary,
+                },
+              ]}
+            >
+              {type === 'all' ? '⏰ 全て' : type === 'lunch' ? '☀️ ランチ' : '🌙 ディナー'}
+            </Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+
       {/* 対象件数 */}
       <Text style={[styles.shopCount, { color: colors.textSecondary }]}>
         対象: {filteredCount}件
@@ -346,6 +387,18 @@ export default function RouletteScreen() {
             <Text style={[styles.shopStars, { color: Colors.accent }]}>
               {renderStars(result.rating)}
             </Text>
+            <View style={styles.mealBadgeRow}>
+              {result.hasLunch && (
+                <View style={[styles.mealBadge, { backgroundColor: colors.surface }]}>
+                  <Text style={styles.mealBadgeText}>☀️ ランチ</Text>
+                </View>
+              )}
+              {result.hasDinner && (
+                <View style={[styles.mealBadge, { backgroundColor: colors.surface }]}>
+                  <Text style={styles.mealBadgeText}>🌙 ディナー</Text>
+                </View>
+              )}
+            </View>
           </View>
 
           <Text style={[styles.shopComment, { color: colors.text }]}>
@@ -559,5 +612,36 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: '700',
+  },
+  mealTypeContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 16,
+    gap: 8,
+  },
+  mealTypeTab: {
+    flex: 1,
+    paddingVertical: 8,
+    borderRadius: 20,
+    borderWidth: 1,
+    alignItems: 'center',
+  },
+  mealTypeTabText: {
+    fontSize: 13,
+    fontWeight: '600',
+  },
+  mealBadgeRow: {
+    flexDirection: 'row',
+    gap: 8,
+    marginTop: 8,
+  },
+  mealBadge: {
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 12,
+  },
+  mealBadgeText: {
+    fontSize: 11,
+    fontWeight: '600',
   },
 });

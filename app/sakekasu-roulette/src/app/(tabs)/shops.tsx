@@ -33,6 +33,7 @@ export default function ShopsScreen() {
   const [searchText, setSearchText] = useState('');
   const [selectedArea, setSelectedArea] = useState<AreaCode | null>(null);
   const [selectedGenre, setSelectedGenre] = useState<GenreCode | null>(null);
+  const [selectedMealType, setSelectedMealType] = useState<'all' | 'lunch' | 'dinner'>('all');
   const [selectedShop, setSelectedShop] = useState<Shop | null>(null);
 
   // 店舗データ（管理ページで追加した分も反映）
@@ -65,8 +66,14 @@ export default function ShopsScreen() {
       shops = shops.filter(s => s.genre === selectedGenre);
     }
 
+    if (selectedMealType === 'lunch') {
+      shops = shops.filter(s => s.hasLunch);
+    } else if (selectedMealType === 'dinner') {
+      shops = shops.filter(s => s.hasDinner);
+    }
+
     return shops;
-  }, [searchText, selectedArea, selectedGenre]);
+  }, [allShops, searchText, selectedArea, selectedGenre, selectedMealType]);
 
   // 星評価の表示
   const renderStars = (rating: number) => {
@@ -97,6 +104,10 @@ export default function ShopsScreen() {
           <Text style={[styles.cardStars, { color: Colors.accent }]}>
             {renderStars(item.rating)}
           </Text>
+        </View>
+        <View style={styles.cardMealBadges}>
+          {item.hasLunch && <Text style={styles.cardMealBadge}>☀️</Text>}
+          {item.hasDinner && <Text style={styles.cardMealBadge}>🌙</Text>}
         </View>
       </View>
     </TouchableOpacity>
@@ -240,6 +251,36 @@ export default function ShopsScreen() {
           ))}
         </ScrollView>
 
+        {/* フィルター: 時間帯 */}
+        <View style={styles.mealTypeFilterRow}>
+          {(['all', 'lunch', 'dinner'] as const).map((type) => (
+            <TouchableOpacity
+              key={type}
+              style={[
+                styles.filterChip,
+                { borderColor: colors.border },
+                selectedMealType === type && {
+                  backgroundColor: Colors.accent,
+                  borderColor: Colors.accent,
+                },
+              ]}
+              onPress={() => setSelectedMealType(type)}
+            >
+              <Text
+                style={[
+                  styles.filterChipText,
+                  {
+                    color:
+                      selectedMealType === type ? '#fff' : colors.textSecondary,
+                  },
+                ]}
+              >
+                {type === 'all' ? '⏰ 全て' : type === 'lunch' ? '☀️ ランチ' : '🌙 ディナー'}
+              </Text>
+            </TouchableOpacity>
+          ))}
+        </View>
+
         <Text style={[styles.resultCount, { color: colors.textSecondary }]}>
           {filteredShops.length}件
         </Text>
@@ -326,6 +367,23 @@ export default function ShopsScreen() {
                     <Text style={[styles.detailStars, { color: Colors.accent }]}>
                       {renderStars(selectedShop.rating)}
                     </Text>
+                  </View>
+                  <View style={styles.detailRow}>
+                    <Text style={[styles.detailLabel, { color: colors.textSecondary }]}>
+                      ⏰ 営業時間
+                    </Text>
+                    <View style={styles.detailMealRow}>
+                      {selectedShop.hasLunch && (
+                        <View style={[styles.detailMealBadge, { backgroundColor: colors.background }]}>
+                          <Text style={styles.detailMealText}>☀️ ランチ</Text>
+                        </View>
+                      )}
+                      {selectedShop.hasDinner && (
+                        <View style={[styles.detailMealBadge, { backgroundColor: colors.background }]}>
+                          <Text style={styles.detailMealText}>🌙 ディナー</Text>
+                        </View>
+                      )}
+                    </View>
                   </View>
                 </View>
 
@@ -551,5 +609,33 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: '700',
+  },
+  mealTypeFilterRow: {
+    flexDirection: 'row',
+    gap: 8,
+    marginTop: 4,
+  },
+  cardMealBadges: {
+    flexDirection: 'row',
+    position: 'absolute',
+    top: 8,
+    right: 8,
+    gap: 4,
+  },
+  cardMealBadge: {
+    fontSize: 14,
+  },
+  detailMealRow: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  detailMealBadge: {
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 8,
+  },
+  detailMealText: {
+    fontSize: 12,
+    fontWeight: '600',
   },
 });
