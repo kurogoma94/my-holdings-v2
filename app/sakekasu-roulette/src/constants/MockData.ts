@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-04-03T02:05:31.089Z';
+export const MOCK_DATA_UPDATED_AT = '2026-04-03T02:08:36.589Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -23,7 +23,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "4",
     "name": "大阪ドカ盛りマンモス弁当 淡路総本店",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -40,7 +40,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "8",
     "name": "洋風惣菜 アバ(コロッケ)",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "budgetMin": 1,
     "budgetMax": 1000,
@@ -176,7 +176,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "20",
     "name": "ラーメン食堂 神豚 大東店",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "ramen",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -243,7 +243,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "25",
     "name": "游玄亭 ホテルニューオータニ大阪店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "yakiniku",
     "budgetMin": 10000,
     "budgetMax": 20000,
@@ -311,7 +311,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "29",
     "name": "らーめん stand R&R2号 西淀川店",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "ramen",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -328,7 +328,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "32",
     "name": "すかんぽ",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -563,7 +563,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "60",
     "name": "かに問屋",
-    "area": "other",
+    "area": "senshu",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -699,7 +699,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "71",
     "name": "グリルショップやの",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -716,7 +716,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "74",
     "name": "丸正餃子店 阪奈店",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "ramen",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -983,7 +983,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "102",
     "name": "TACO BITEZ",
-    "area": "other",
+    "area": "senshu",
     "genre": "bar",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -1681,7 +1681,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "141",
     "name": "牡蠣乃家 岸和田店",
-    "area": "other",
+    "area": "senshu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1729,7 +1729,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "148",
     "name": "三国そば",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1761,7 +1761,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "150",
     "name": "PISOLA 守口大日店",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2455,7 +2455,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "218",
     "name": "山空海温泉",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2471,7 +2471,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "219",
     "name": "レストランひだまり 道の駅 能勢（くりの郷）",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2583,7 +2583,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "226",
     "name": "洋食屋 ふじ家",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2807,7 +2807,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "244",
     "name": "ヘミングウェイ",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2823,7 +2823,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "247",
     "name": "Grill Cafe Excellent",
-    "area": "other",
+    "area": "senshu",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2983,7 +2983,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "271",
     "name": "こたや",
-    "area": "other",
+    "area": "senshu",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3047,7 +3047,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "275",
     "name": "中華そば フラン軒",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3127,7 +3127,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "280",
     "name": "味の洋食 ニューとん助",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3271,7 +3271,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "289",
     "name": "焼肉 まつえ",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3431,7 +3431,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "304",
     "name": "クニーズ・南河生鮮市場",
-    "area": "other",
+    "area": "senshu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3495,7 +3495,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "312",
     "name": "洋食堂 ゴメンネJIRO",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "budgetMin": 3000,
     "budgetMax": 4000,
@@ -3543,7 +3543,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "316",
     "name": "たぴおか食堂",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3559,7 +3559,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "317",
     "name": "中国居酒屋 はるぴん",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3687,7 +3687,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "327",
     "name": "食堂 黒うさぎ",
-    "area": "other",
+    "area": "senshu",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -3735,7 +3735,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "332",
     "name": "liminal",
-    "area": "other",
+    "area": "senshu",
     "genre": "bar",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -4023,7 +4023,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "359",
     "name": "立ち喰い寿司 ゲンヤ倶楽部",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -4503,7 +4503,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "403",
     "name": "ロンパル",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 1,
     "budgetMax": 1000,
@@ -4519,7 +4519,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "405",
     "name": "ビストロリアン",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 10000,
     "budgetMax": 20000,
@@ -4599,7 +4599,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "410",
     "name": "実乃里 de バル",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -4615,7 +4615,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "412",
     "name": "活魚寿司 岸和田今木店",
-    "area": "other",
+    "area": "senshu",
     "genre": "sushi",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -4695,7 +4695,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "420",
     "name": "みちくさ能勢",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5079,7 +5079,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "448",
     "name": "千早川マス釣り場",
-    "area": "other",
+    "area": "senshu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5127,7 +5127,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "453",
     "name": "手造りうどん 楽々",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5175,7 +5175,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "458",
     "name": "洋食屋 グリルこっこ",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5335,7 +5335,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "476",
     "name": "布施バル オルモ",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "bar",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5367,7 +5367,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "478",
     "name": "中津ブルワリー",
-    "area": "other",
+    "area": "umeda",
     "genre": "bar",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5543,7 +5543,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "490",
     "name": "月山祐寿司",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "sushi",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -5559,7 +5559,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "491",
     "name": "鶏炭焼麺専門店 田村家 茨木店",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5575,7 +5575,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "492",
     "name": "すしバリュー 門真店",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5639,7 +5639,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "500",
     "name": "らーめんコーさん 本店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5655,7 +5655,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "503",
     "name": "麺匠 柳",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5687,7 +5687,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "505",
     "name": "焼肉 味吉園",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5735,7 +5735,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "508",
     "name": "餃子てんほう！",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -5799,7 +5799,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "517",
     "name": "和食処 大福",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -6023,7 +6023,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "532",
     "name": "彩華ラーメン 布施店",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -6295,7 +6295,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "553",
     "name": "海鮮丼専門店 木津 魚市食堂",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -6727,7 +6727,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "587",
     "name": "手打ちうどん 上を向いて",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -6919,7 +6919,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "606",
     "name": "炭焼きうなぎの魚伊 本店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -6935,7 +6935,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "607",
     "name": "ザ・ミュンヒ",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7047,7 +7047,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "616",
     "name": "ニュールーブル",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7111,7 +7111,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "621",
     "name": "さぁみな！（略称）",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7287,7 +7287,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "641",
     "name": "イタリア料理 casa bianca(カーサビアンカ)",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7527,7 +7527,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "659",
     "name": "くろしを",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7543,7 +7543,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "660",
     "name": "桜もみじ",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7591,7 +7591,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "663",
     "name": "味真",
-    "area": "other",
+    "area": "senshu",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7655,7 +7655,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "667",
     "name": "にくさぶろう",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7831,7 +7831,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "683",
     "name": "Macauda",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7895,7 +7895,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "687",
     "name": "ベトコンラーメン 新京",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7911,7 +7911,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "688",
     "name": "鴨と醸し 鼓道",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -7959,7 +7959,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "691",
     "name": "マガザン ド エクラ",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -8151,7 +8151,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "705",
     "name": "ステーキハウス 華",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "yakiniku",
     "budgetMin": 10000,
     "budgetMax": 20000,
@@ -8295,7 +8295,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "716",
     "name": "ビッグジョー",
-    "area": "other",
+    "area": "senshu",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,

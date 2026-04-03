@@ -13,7 +13,11 @@ export const AREAS = [
   { code: 'abeno', label: '阿倍野・天王寺' },
   { code: 'kitahama', label: '北浜・淀屋橋' },
   { code: 'nishinakajima', label: '西中島・新大阪' },
-  { code: 'other', label: 'その他' },
+  { code: 'hokusetsu', label: '北摂エリア' },
+  { code: 'higashiosaka', label: '東大阪・京阪エリア' },
+  { code: 'senshu', label: '堺・泉州・南河内' },
+  { code: 'osakacity-other', label: '大阪市内その他' },
+  { code: 'other', label: 'その他（府外・不明など）' },
 ];
 
 // ジャンルのマスターデータ
