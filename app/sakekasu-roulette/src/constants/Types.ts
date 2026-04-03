@@ -30,6 +30,12 @@ export const GENRES = [
   { code: 'yakiniku', label: '焼肉・ホルモン' },
   { code: 'sushi', label: '寿司・海鮮' },
   { code: 'bar', label: 'バー・角打ち' },
+  { code: 'yoshoku', label: '洋食・ビストロ' },
+  { code: 'washoku', label: '和食・定食' },
+  { code: 'italian', label: 'イタリアン・バル' },
+  { code: 'cafe', label: 'カフェ・喫茶' },
+  { code: 'udon', label: 'うどん・そば' },
+  { code: 'okonomiyaki', label: 'お好み焼き・粉もん' },
   { code: 'other', label: 'その他' },
 ] as const;
 
