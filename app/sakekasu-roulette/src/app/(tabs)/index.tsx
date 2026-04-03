@@ -155,7 +155,7 @@ export default function RouletteScreen() {
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
           <Text style={[styles.appTitle, { color: Colors.primary }]}>🏮</Text>
           <Text style={[styles.appTitle, { color: colors.text }]}>
-            大阪ディープ居酒屋
+            大阪酒カス
           </Text>
         </View>
         <Text style={[styles.appSubtitle, { color: Colors.accent }]}>

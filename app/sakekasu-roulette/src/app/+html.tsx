@@ -11,15 +11,15 @@ export default function Root({ children }: { children: React.ReactNode }) {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="manifest" href="/manifest.json" />
-        <title>大阪ディープ居酒屋ルーレット | 今日の一軒をルーレットで決めよう</title>
+        <title>大阪酒カスルーレット | 今日の一軒をルーレットで決めよう</title>
         <meta name="description" content="大阪の厳選居酒屋をルーレットでランダムに紹介！天満・難波・新世界など、実際に足を運んだディープなお店だけを収録。一人飲みの新しいお店探しに。" />
-        <meta property="og:title" content="大阪ディープ居酒屋ルーレット 🏮" />
+        <meta property="og:title" content="大阪酒カスルーレット 🏮" />
         <meta property="og:description" content="今日の一軒をルーレットで決めよう！大阪のディープな居酒屋を厳選収録。" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/ogp.png" />
         <meta property="og:locale" content="ja_JP" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="大阪ディープ居酒屋ルーレット 🏮" />
+        <meta name="twitter:title" content="大阪酒カスルーレット 🏮" />
         <meta name="twitter:description" content="今日の一軒をルーレットで決めよう！" />
         <meta name="theme-color" content="#1A1A2E" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
