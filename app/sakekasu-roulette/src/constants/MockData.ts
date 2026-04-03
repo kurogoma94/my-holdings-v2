@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-04-03T00:32:16.372Z';
+export const MOCK_DATA_UPDATED_AT = '2026-04-03T02:05:31.089Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -327,7 +327,7 @@ export const MOCK_SHOPS: Shop[] = [
   },
   {
     "id": "32",
-    "name": "〒542-0012 大阪府大阪市中央区谷町６丁目３−１０ すかんぽ",
+    "name": "すかんぽ",
     "area": "other",
     "genre": "izakaya",
     "budgetMin": 2000,
@@ -1033,7 +1033,7 @@ export const MOCK_SHOPS: Shop[] = [
   },
   {
     "id": "109",
-    "name": "〒550-0003 大阪府大阪市西区京町堀１丁目１７−３ Ｃｉｕｃａｔｅ",
+    "name": "Ciucate",
     "area": "shinsaibashi",
     "genre": "izakaya",
     "budgetMin": 2000,
@@ -1292,7 +1292,7 @@ export const MOCK_SHOPS: Shop[] = [
   },
   {
     "id": "580",
-    "name": "〒556-0002 大阪府大阪市浪速区恵美須東２丁目３−９",
+    "name": "串かつ越源",
     "area": "shinsekai",
     "genre": "other",
     "budgetMin": 2000,
