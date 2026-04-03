@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-04-03T02:08:36.589Z';
+export const MOCK_DATA_UPDATED_AT = '2026-04-03T02:22:10.598Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -1098,7 +1098,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "237",
     "name": "ニカイノオアシスＫＩＴＴＥ大阪店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1107,13 +1107,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%82%AB%E3%82%A4%E3%83%8E%E3%82%AA%E3%82%A2%E3%82%B7%E3%82%B9%EF%BC%AB%EF%BC%A9%EF%BC%B4%EF%BC%B4%EF%BC%A5%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0001 大阪府大阪市北区梅田３丁目２−２",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "298",
     "name": "無鉄砲 大阪店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -1122,6 +1123,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E9%89%84%E7%A0%B2%20%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒556-0013 大阪府大阪市浪速区戎本町１丁目５−２１",
     "hasLunch": true,
     "hasDinner": true
   },
@@ -1143,7 +1145,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "342",
     "name": "地酒蔵大阪 なんば本店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1152,13 +1154,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E9%85%92%E8%94%B5%E5%A4%A7%E9%98%AA%20%E3%81%AA%E3%82%93%E3%81%B0%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒556-0011 大阪府大阪市浪速区難波中２丁目８−８０ 小西ビル 1",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "352",
     "name": "大阪まんぷく堂",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1167,13 +1170,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E3%81%BE%E3%82%93%E3%81%B7%E3%81%8F%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒537-0014 大阪府大阪市東成区大今里西３丁目４−１４ 大阪まんぷく堂",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "354",
     "name": "新宿焼肉 牛たんの檸檬 大阪本店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1182,6 +1186,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%AE%BF%E7%84%BC%E8%82%89%20%E7%89%9B%E3%81%9F%E3%82%93%E3%81%AE%E6%AA%B8%E6%AA%AC%20%E5%A4%A7%E9%98%AA%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒542-0074 大阪府大阪市中央区千日前２丁目５−２ 日本一歯科センタービル 1F",
     "hasLunch": true,
     "hasDinner": true
   },
@@ -1195,8 +1200,9 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%81%A0%E3%82%8F%E3%82%8A%E9%A3%9F%E6%9D%90%E5%B8%82%E5%A0%B4%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E4%B8%AD%E5%A4%AE%E5%8D%B8%E5%A3%B2%E5%B8%82%E5%A0%B4%E5%8A%A0%E5%B7%A5%E9%A3%9F%E5%93%81%E5%8D%B8%E5%A3%B2%E5%95%86%E6%A5%AD%E5%8D%94%E5%90%8C%E7%B5%84%E5%90%88",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
+    "address": "卸売市場·",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -1218,7 +1224,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "430",
     "name": "大阪大衆居酒屋 飯と酒と音 almalio",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1227,13 +1233,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%A4%A7%E8%A1%86%E5%B1%85%E9%85%92%E5%B1%8B%20%E9%A3%AF%E3%81%A8%E9%85%92%E3%81%A8%E9%9F%B3%20almalio",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0056 大阪府大阪市北区兎我野町２−７ スプラザビル 1F2号",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "451",
     "name": "ラーメン チョンマゲ 大阪天六店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1242,13 +1249,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%83%81%E3%83%A7%E3%83%B3%E3%83%9E%E3%82%B2%20%E5%A4%A7%E9%98%AA%E5%A4%A9%E5%85%AD%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0041 大阪府大阪市北区天神橋６丁目１−２８",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "511",
     "name": "焼売のジョー大阪駅前第三ビル店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1257,13 +1265,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E5%A3%B2%E3%81%AE%E3%82%B8%E3%83%A7%E3%83%BC%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D%E7%AC%AC%E4%B8%89%E3%83%93%E3%83%AB%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 地下2階 29号室",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "559",
     "name": "ステーキファイブと寿司六 大阪駅前第2ビル店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1272,6 +1281,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%81%A8%E5%AF%BF%E5%8F%B8%E5%85%AD%20%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D%E7%AC%AC2%E3%83%93%E3%83%AB%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第2ビル B1",
     "hasLunch": true,
     "hasDinner": true
   },
@@ -1315,7 +1325,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BA%80%E5%AE%AE%20%E9%AE%A8%E3%81%A8%E3%82%88%E3%81%AA%E3%81%8C",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -1323,7 +1333,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "602",
     "name": "麺屋 帆のる大阪なんば店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -1332,13 +1342,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E5%B1%8B%20%E5%B8%86%E3%81%AE%E3%82%8B%E5%A4%A7%E9%98%AA%E3%81%AA%E3%82%93%E3%81%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒556-0016 大阪府大阪市浪速区元町２丁目５−２７",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "626",
     "name": "和牛タン次郎 大阪天満店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1347,13 +1358,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E7%89%9B%E3%82%BF%E3%83%B3%E6%AC%A1%E9%83%8E%20%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BA%80%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0034 大阪府大阪市北区錦町３−１２ 2F",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "630",
     "name": "鮨仙酢 本店 大阪駅前",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1362,13 +1374,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E4%BB%99%E9%85%A2%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0012 大阪府大阪市北区芝田１丁目３−７",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "677",
     "name": "大阪うどん いなの路",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1377,13 +1390,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E3%81%86%E3%81%A9%E3%82%93%20%E3%81%84%E3%81%AA%E3%81%AE%E8%B7%AF",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒542-0074 大阪府大阪市中央区千日前１丁目８−２",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "709",
     "name": "サロン卵と私 ルクア大阪店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -1392,6 +1406,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%AD%E3%83%B3%E5%8D%B5%E3%81%A8%E7%A7%81%20%E3%83%AB%E3%82%AF%E3%82%A2%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0001 大阪府大阪市北区梅田３丁目１−３ ルクア大阪 10F",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -1793,7 +1808,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "156",
     "name": "トッサ・ジ・クラッサン",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1802,13 +1817,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%83%E3%82%B5%E3%83%BB%E3%82%B8%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B5%E3%83%B3",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒550-0014 大阪府大阪市西区北堀江１丁目６−１９",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "157",
     "name": "ミックステイスト",
-    "area": "other",
+    "area": "fukushima",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1817,13 +1833,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%86%E3%82%A4%E3%82%B9%E3%83%88",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒553-0003 大阪府大阪市福島区福島１丁目６−２１ エノキビル 1F",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "158",
     "name": "３ちゃん屋",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1832,6 +1849,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EF%BC%93%E3%81%A1%E3%82%83%E3%82%93%E5%B1%8B",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒531-0071 大阪府大阪市北区中津１丁目１２",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -1847,13 +1865,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9B%E3%81%9B%E3%82%8A%E8%92%B2%E7%84%BC%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%99%E5%85%AB%E3%81%A8%E3%82%8A2%E5%8F%B7%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒557-0002 大阪府大阪市西成区太子１丁目３−２１",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "170",
     "name": "文世食堂",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1862,13 +1881,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E4%B8%96%E9%A3%9F%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒550-0002 大阪府大阪市西区土佐堀２丁目１−８ 柏ビル 1F",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "171",
     "name": "ぎょうざ処だいきち",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1877,13 +1897,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8E%E3%82%87%E3%81%86%E3%81%96%E5%87%A6%E3%81%A0%E3%81%84%E3%81%8D%E3%81%A1",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒542-0085 大阪府大阪市中央区心斎橋筋２丁目７−１１ 日報",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "172",
     "name": "中国酒家 菜都",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1892,13 +1913,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E9%85%92%E5%AE%B6%20%E8%8F%9C%E9%83%BD",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒543-0021 大阪府大阪市天王寺区東高津町９−１８",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "173",
     "name": "Petit Luxe",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1907,6 +1929,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Petit%20Luxe",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0033 大阪府大阪市北区池田町１２−１３ ３Ｆ",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -1928,7 +1951,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "175",
     "name": "いし井Jr.",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "yakitori",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1937,6 +1960,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%97%E4%BA%95Jr.",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0047 大阪府大阪市北区西天満３丁目１１−４ 2F",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -1958,7 +1982,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "177",
     "name": "きち蔵",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "yakitori",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1967,13 +1991,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%81%A1%E8%94%B5",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒550-0012 大阪府大阪市西区立売堀３丁目５−２０ Genêse honmachi-nishi",
     "hasLunch": false,
     "hasDinner": true
   },
   {
     "id": "178",
     "name": "総大醤",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "yakitori",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -1982,6 +2007,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B7%8F%E5%A4%A7%E9%86%A4",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0021 大阪府大阪市北区浮田２丁目４−１６",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -1995,8 +2021,9 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B3%A5%E6%82%9F",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
+    "address": "〒657-0831 兵庫県神戸市灘区水道筋５丁目３−１２−１０６",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -2033,7 +2060,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "183",
     "name": "串かつ 鳥の巣",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "yakitori",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2042,6 +2069,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B2%E3%81%8B%E3%81%A4%20%E9%B3%A5%E3%81%AE%E5%B7%A3",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒530-0017 大阪府大阪市北区角田町ホワイティうめだ ノースモール1",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -2115,7 +2143,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BF%E3%81%A4%E3%82%8F%E3%82%84%E9%85%92%E5%BA%97",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2130,8 +2158,9 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8B%E5%8F%B0%E3%81%8A%E3%81%A7%E3%82%93",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
+    "address": ""色々と9本くらい買ったけど市販のうどん出汁の三分の一位かな？"",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -2153,7 +2182,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "196",
     "name": "甘党 お好み焼 かく庄",
-    "area": "other",
+    "area": "fukushima",
     "genre": "other",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -2162,6 +2191,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%98%E5%85%9A%20%E3%81%8A%E5%A5%BD%E3%81%BF%E7%84%BC%20%E3%81%8B%E3%81%8F%E5%BA%84",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒553-0003 大阪府大阪市福島区福島７丁目１−１０",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -2175,7 +2205,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%8F%E3%81%8B%E3%81%B0",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2190,8 +2220,19 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%A4%AA%E9%83%8E%20%E6%9C%AC%E5%BA%97",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
+    "address": "お好み焼きの小規模チェーン店のにぎやかな本店。食材には、市場で仕入れた新鮮な肉や魚介類を使用。
+·
+
+イートイン
+·
+
+テイクアウト
+·
+
+宅配
+",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -2220,7 +2261,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%88%88%E5%AF%BF%E5%8F%B8%20%E6%9C%AC%E5%BA%97",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -2228,7 +2269,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "201",
     "name": "かじゅあるかっぽーTSUKUSI",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "izakaya",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -2237,6 +2278,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%98%E3%82%85%E3%81%82%E3%82%8B%E3%81%8B%E3%81%A3%E3%81%BD%E3%83%BCTSUKUSI",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒531-0064 大阪府大阪市北区国分寺１丁目７−７ 1F",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -2265,7 +2307,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A1%E5%AE%A4%E9%85%92%E5%BA%97",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2295,7 +2337,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%A3%B2%E8%8C%B6%20%E6%98%9F%E8%A1%97",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2303,7 +2345,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "206",
     "name": "大衆串カツ酒場なかむら布施",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "kushikatsu",
     "budgetMin": 1000,
     "budgetMax": 2000,
@@ -2312,6 +2354,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E4%B8%B2%E3%82%AB%E3%83%84%E9%85%92%E5%A0%B4%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E5%B8%83%E6%96%BD",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒577-0056 大阪府東大阪市長堂１丁目１−５１",
     "hasLunch": true,
     "hasDinner": true
   },
@@ -2327,6 +2370,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%E3%81%AE%E5%BA%97%20%E3%82%82%E3%82%82",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒545-0021 大阪府大阪市阿倍野区阪南町１丁目４６−８ コーポ田嶋",
     "hasLunch": true,
     "hasDinner": true
   },
@@ -2340,8 +2384,12 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%81%BE%E3%81%AE%E3%82%84",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
+    "address": "旬魚とおいしいお酒 やまのや市場
+3.9(283) · お手頃
+居酒屋 ·  · 船場中央３丁目３−９ 船場センタービル 9号館 B2F
+営業中 · 営業終了: 23:00",
     "hasLunch": false,
     "hasDinner": true
   },
@@ -2355,7 +2403,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%A2%E3%83%8D%E3%83%AA%E3%82%A2%20%E3%83%99%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%BF%20%E3%82%AE%E3%83%A7%E3%82%AF%E3%83%AD",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2363,7 +2411,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "210",
     "name": "金龍ラーメン 戎橋筋店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 1,
     "budgetMax": 1000,
@@ -2372,13 +2420,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%BE%8D%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E6%88%8E%E6%A9%8B%E7%AD%8B%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒542-0076 大阪府大阪市中央区難波３丁目３−５",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "213",
     "name": "魚太寿司",
-    "area": "other",
+    "area": "senshu",
     "genre": "sushi",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2387,13 +2436,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E5%A4%AA%E5%AF%BF%E5%8F%B8",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒580-0016 大阪府松原市上田７丁目１１−１４",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "214",
     "name": "麺と肉 だいつる",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2402,13 +2452,14 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E3%81%A8%E8%82%89%20%E3%81%A0%E3%81%84%E3%81%A4%E3%82%8B",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒543-0024 大阪府大阪市天王寺区舟橋町１８−３",
     "hasLunch": true,
     "hasDinner": true
   },
   {
     "id": "215",
     "name": "和風もつ料理あらた",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "yakiniku",
     "budgetMin": 2000,
     "budgetMax": 4000,
@@ -2417,6 +2468,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A2%A8%E3%82%82%E3%81%A4%E6%96%99%E7%90%86%E3%81%82%E3%82%89%E3%81%9F",
     "isActive": true,
     "createdAt": "2026-03-31",
+    "address": "〒532-0011 大阪府大阪市淀川区西中島４丁目２−８",
     "hasLunch": true,
     "hasDinner": true
   },
