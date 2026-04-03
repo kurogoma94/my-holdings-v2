@@ -382,7 +382,7 @@ export default function RouletteScreen() {
               🍶 {getGenreLabel(result.genre)}
             </Text>
             <Text style={[styles.shopDetailText, { color: colors.textSecondary }]}>
-              💰 {formatBudget(result.budgetMin, result.budgetMax)}
+              💰 {formatBudget(result.lunchBudgetMin, result.lunchBudgetMax, result.dinnerBudgetMin, result.dinnerBudgetMax)}
             </Text>
             <Text style={[styles.shopStars, { color: Colors.accent }]}>
               {renderStars(result.rating)}

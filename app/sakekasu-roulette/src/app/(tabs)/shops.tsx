@@ -99,7 +99,7 @@ export default function ShopsScreen() {
         </Text>
         <View style={styles.cardBottom}>
           <Text style={[styles.cardBudget, { color: colors.text }]}>
-            💰 {formatBudget(item.budgetMin, item.budgetMax)}
+            💰 {formatBudget(item.lunchBudgetMin, item.lunchBudgetMax, item.dinnerBudgetMin, item.dinnerBudgetMax)}
           </Text>
           <Text style={[styles.cardStars, { color: Colors.accent }]}>
             {renderStars(item.rating)}
@@ -357,7 +357,7 @@ export default function ShopsScreen() {
                       💰 予算
                     </Text>
                     <Text style={[styles.detailValue, { color: colors.text }]}>
-                      {formatBudget(selectedShop.budgetMin, selectedShop.budgetMax)}
+                      {formatBudget(selectedShop.lunchBudgetMin, selectedShop.lunchBudgetMax, selectedShop.dinnerBudgetMin, selectedShop.dinnerBudgetMax)}
                     </Text>
                   </View>
                   <View style={styles.detailRow}>

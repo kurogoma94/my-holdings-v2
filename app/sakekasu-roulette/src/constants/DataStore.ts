@@ -173,19 +173,21 @@ export function importShops(csvText: string): { success: number; failed: number;
       return;
     }
 
-    const budgetMin = parseInt(budgetMinStr, 10) || 0;
-    const budgetMax = budgetMaxStr ? parseInt(budgetMaxStr, 10) : undefined;
+    const dinnerBudgetMin = parseInt(budgetMinStr, 10) || 0;
+    const dinnerBudgetMax = budgetMaxStr ? parseInt(budgetMaxStr, 10) : undefined;
     const rating = Math.min(5, Math.max(1, parseInt(ratingStr, 10) || 3));
 
     const shopData: Omit<Shop, 'id' | 'createdAt'> = {
       name,
       area: area as AreaCode,
       genre: genre as GenreCode,
-      budgetMin,
-      budgetMax,
+      dinnerBudgetMin,
+      dinnerBudgetMax,
       comment: comment || '',
       rating,
       googleMapsUrl: mapsUrl || '',
+      hasLunch: true,
+      hasDinner: true,
       isActive: true,
     };
 

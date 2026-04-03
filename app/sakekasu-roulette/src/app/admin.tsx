@@ -588,7 +588,7 @@ export default function AdminScreen() {
               {shop.name}
             </Text>
             <Text style={[styles.adminShopMeta, { color: colors.textSecondary }]}>
-              📍 {getAreaLabel(shop.area)} / 🍶 {getGenreLabel(shop.genre)} / 💰 {formatBudget(shop.budgetMin, shop.budgetMax)}
+              📍 {getAreaLabel(shop.area)} / 🍶 {getGenreLabel(shop.genre)} / 💰 {formatBudget(shop.lunchBudgetMin, shop.lunchBudgetMax, shop.dinnerBudgetMin, shop.dinnerBudgetMax)}
             </Text>
             <Text style={[styles.adminShopComment, { color: colors.textSecondary }]} numberOfLines={1}>
               「{shop.comment}」

@@ -42,8 +42,10 @@ export interface Shop {
   name: string;
   area: AreaCode;
   genre: GenreCode;
-  budgetMin: number;
-  budgetMax?: number;
+  dinnerBudgetMin?: number;
+  dinnerBudgetMax?: number;
+  lunchBudgetMin?: number;
+  lunchBudgetMax?: number;
   comment: string;       // Takahiroの一言コメント
   rating: number;        // 1〜5（Takahiroのおすすめ度）
   photoUrl?: string;     // 店舗写真URL
@@ -73,9 +75,14 @@ export function getGenreLabel(code: GenreCode): string {
 }
 
 // ヘルパー関数: 予算表示用
-export function formatBudget(min: number, max?: number): string {
-  if (max) {
-    return `¥${min.toLocaleString()}〜${max.toLocaleString()}`;
+export function formatBudget(lunchMin?: number, lunchMax?: number, dinnerMin?: number, dinnerMax?: number): string {
+  let result = '';
+  if (lunchMin) {
+    result += `昼: ¥${lunchMin.toLocaleString()}${lunchMax ? '〜' + lunchMax.toLocaleString() : '〜'} `;
   }
-  return `¥${min.toLocaleString()}〜`;
+  if (dinnerMin) {
+    if (result) result += '/ ';
+    result += `夜: ¥${dinnerMin.toLocaleString()}${dinnerMax ? '〜' + dinnerMax.toLocaleString() : '〜'}`;
+  }
+  return result.trim() || '未定';
 }
