@@ -59,6 +59,17 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="about"
+        options={{
+          title: 'サイトについて',
+          tabBarIcon: ({ color, focused }) => (
+            <Text style={[styles.tabIcon, { color }]}>
+              {focused ? '💁‍♂️' : '💡'}
+            </Text>
+          ),
+        }}
+      />
     </Tabs>
   );
 }
