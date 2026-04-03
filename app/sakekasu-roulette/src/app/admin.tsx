@@ -135,8 +135,8 @@ export default function AdminScreen() {
     setFormName(shop.name);
     setFormArea(shop.area);
     setFormGenre(shop.genre);
-    setFormBudgetMin(shop.budgetMin.toString());
-    setFormBudgetMax(shop.budgetMax?.toString() || '');
+    setFormBudgetMin(shop.dinnerBudgetMin?.toString() || '');
+    setFormBudgetMax(shop.dinnerBudgetMax?.toString() || '');
     setFormComment(shop.comment);
     setFormRating(shop.rating);
     setFormPhotoUrl(shop.photoUrl || '');
@@ -194,12 +194,14 @@ export default function AdminScreen() {
       return;
     }
 
-    const shopData = {
+    const shopData: Omit<Shop, 'id' | 'createdAt'> = {
       name: formName,
-      area: formArea,
-      genre: formGenre,
-      budgetMin: parseInt(formBudgetMin),
-      budgetMax: formBudgetMax ? parseInt(formBudgetMax) : undefined,
+      area: formArea as AreaCode,
+      genre: formGenre as GenreCode,
+      dinnerBudgetMin: parseInt(formBudgetMin),
+      dinnerBudgetMax: formBudgetMax ? parseInt(formBudgetMax) : undefined,
+      lunchBudgetMin: undefined, // 将来的にランチ用フォームを追加可能
+      lunchBudgetMax: undefined,
       comment: formComment,
       rating: formRating,
       photoUrl: formPhotoUrl || undefined,
@@ -208,8 +210,11 @@ export default function AdminScreen() {
       phone: formPhone || undefined,
       placeId: formPlaceId || undefined,
       googleRating: formGoogleRating ? parseFloat(formGoogleRating) : undefined,
+      hasLunch: false, // デフォルト値。必要に応じてUI追加
+      hasDinner: true,
       isActive: true,
     };
+
 
     if (mode === 'edit' && editingShop) {
       updateShop(editingShop.id, shopData);
