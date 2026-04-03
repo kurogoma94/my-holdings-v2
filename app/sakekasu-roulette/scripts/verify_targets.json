@@ -1,0 +1,511 @@
+{
+  "yakiniku": [
+    {
+      "id": "354",
+      "name": "新宿焼肉 牛たんの檸檬 大阪本店",
+      "area": "other"
+    },
+    {
+      "id": "626",
+      "name": "和牛タン次郎 大阪天満店",
+      "area": "other"
+    },
+    {
+      "id": "719",
+      "name": "ホルモン千葉 大阪梅田店",
+      "area": "umeda"
+    },
+    {
+      "id": "182",
+      "name": "立ち飲みクラフトビール酒場 ビアスタンド モルト!! 阪急梅田店",
+      "area": "umeda"
+    },
+    {
+      "id": "215",
+      "name": "和風もつ料理あらた",
+      "area": "other"
+    },
+    {
+      "id": "235",
+      "name": "焼肉 新楽井",
+      "area": "tsuruhashi"
+    },
+    {
+      "id": "247",
+      "name": "Grill Cafe Excellent",
+      "area": "other"
+    },
+    {
+      "id": "265",
+      "name": "焼肉冷麺 肉五郎 アメリカ村店",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "276",
+      "name": "にんにく鶏焼肉サン",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "291",
+      "name": "焼肉 こてつ（旧：焼肉家ねぎちゃん）",
+      "area": "abeno"
+    },
+    {
+      "id": "315",
+      "name": "焼肉たむら 1号店",
+      "area": "kitahama"
+    },
+    {
+      "id": "321",
+      "name": "焼肉はぐれ雲なんば",
+      "area": "tsuruhashi"
+    },
+    {
+      "id": "343",
+      "name": "鉄板焼肉 ホルモンまきの",
+      "area": "umeda"
+    },
+    {
+      "id": "347",
+      "name": "きみや",
+      "area": "tsuruhashi"
+    },
+    {
+      "id": "384",
+      "name": "夜景 シュラスコテーブル 梅田店",
+      "area": "umeda"
+    },
+    {
+      "id": "424",
+      "name": "Oh！マイステーキ",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "493",
+      "name": "炭焼き成吉思汗 やまか",
+      "area": "tenma"
+    },
+    {
+      "id": "504",
+      "name": "味希",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "505",
+      "name": "焼肉 味吉園",
+      "area": "other"
+    },
+    {
+      "id": "519",
+      "name": "肉ホルモン てつ腕",
+      "area": "namba"
+    },
+    {
+      "id": "523",
+      "name": "焼肉かまちゃん",
+      "area": "tsuruhashi"
+    },
+    {
+      "id": "531",
+      "name": "Viande wood ヴィアンド ウッド",
+      "area": "shinsekai"
+    },
+    {
+      "id": "535",
+      "name": "焼肉 㐂舌 きたん 法善寺 Yakiniku Kitan Hozenji",
+      "area": "namba"
+    },
+    {
+      "id": "548",
+      "name": "焼肉ジャック 天王寺駅前店",
+      "area": "abeno"
+    },
+    {
+      "id": "549",
+      "name": "大衆焼肉ホルモン にくさわ 本店",
+      "area": "namba"
+    },
+    {
+      "id": "552",
+      "name": "焼肉次郎 京橋本店",
+      "area": "kyobashi"
+    },
+    {
+      "id": "554",
+      "name": "焼肉 藤もと 大吉商店",
+      "area": "fukushima"
+    },
+    {
+      "id": "557",
+      "name": "華苑 本店",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "561",
+      "name": "ホルモン ジビエ 明星",
+      "area": "namba"
+    },
+    {
+      "id": "582",
+      "name": "カーニグリル 天王寺駅前店",
+      "area": "abeno"
+    },
+    {
+      "id": "583",
+      "name": "焼肉ホルモン 坂上 梅田本店",
+      "area": "umeda"
+    },
+    {
+      "id": "589",
+      "name": "黒毛和牛タンとハラミ焼肉ごりちゃん福島店",
+      "area": "fukushima"
+    },
+    {
+      "id": "590",
+      "name": "黒毛和牛タンとハラミ焼肉ごりちゃん梅田本店",
+      "area": "umeda"
+    },
+    {
+      "id": "591",
+      "name": "源兵衛 なんば店",
+      "area": "namba"
+    },
+    {
+      "id": "592",
+      "name": "肉の天満屋 神楽亭",
+      "area": "tenma"
+    },
+    {
+      "id": "601",
+      "name": "焼肉屋輪‐りん-玉造本店",
+      "area": "tsuruhashi"
+    },
+    {
+      "id": "631",
+      "name": "ニューブンゴ 福島本店",
+      "area": "fukushima"
+    },
+    {
+      "id": "639",
+      "name": "万両 南森町店",
+      "area": "tenma"
+    },
+    {
+      "id": "646",
+      "name": "カウンター焼肉うしすき",
+      "area": "umeda"
+    },
+    {
+      "id": "652",
+      "name": "マロリーポークステーキ難波店",
+      "area": "namba"
+    },
+    {
+      "id": "667",
+      "name": "にくさぶろう",
+      "area": "other"
+    },
+    {
+      "id": "668",
+      "name": "焼肉ホルモン 万千",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "671",
+      "name": "玄風館",
+      "area": "umeda"
+    },
+    {
+      "id": "682",
+      "name": "焼肉ギャング",
+      "area": "umeda"
+    },
+    {
+      "id": "708",
+      "name": "今里鉄板焼",
+      "area": "tsuruhashi"
+    },
+    {
+      "id": "716",
+      "name": "ビッグジョー",
+      "area": "other"
+    },
+    {
+      "id": "723",
+      "name": "鉄板焼ホルモン やまき",
+      "area": "shinsekai"
+    }
+  ],
+  "sushi": [
+    {
+      "id": "559",
+      "name": "ステーキファイブと寿司六 大阪駅前第2ビル店",
+      "area": "other"
+    },
+    {
+      "id": "584",
+      "name": "大阪天満宮 鮨とよなが",
+      "area": "other"
+    },
+    {
+      "id": "630",
+      "name": "鮨仙酢 本店 大阪駅前",
+      "area": "other"
+    },
+    {
+      "id": "139",
+      "name": "鮨MANABU",
+      "area": "tsuruhashi"
+    },
+    {
+      "id": "147",
+      "name": "元祖ぶっち切り寿司 魚心 本店",
+      "area": "umeda"
+    },
+    {
+      "id": "174",
+      "name": "???",
+      "area": "abeno"
+    },
+    {
+      "id": "200",
+      "name": "大興寿司 本店",
+      "area": "other"
+    },
+    {
+      "id": "213",
+      "name": "魚太寿司",
+      "area": "other"
+    },
+    {
+      "id": "227",
+      "name": "鮨 まごのて",
+      "area": "umeda"
+    },
+    {
+      "id": "229",
+      "name": "寿しわげんせ",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "230",
+      "name": "しっとう屋",
+      "area": "nishinakajima"
+    },
+    {
+      "id": "271",
+      "name": "こたや",
+      "area": "other"
+    },
+    {
+      "id": "287",
+      "name": "寿司 常",
+      "area": "tenma"
+    },
+    {
+      "id": "300",
+      "name": "鮨 なかみせ",
+      "area": "umeda"
+    },
+    {
+      "id": "311",
+      "name": "すし処 智",
+      "area": "kyobashi"
+    },
+    {
+      "id": "323",
+      "name": "熟成鮨利他",
+      "area": "umeda"
+    },
+    {
+      "id": "335",
+      "name": "くら おさかな市場",
+      "area": "umeda"
+    },
+    {
+      "id": "349",
+      "name": "小料理 おばんざい 小よし",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "358",
+      "name": "花かご",
+      "area": "umeda"
+    },
+    {
+      "id": "359",
+      "name": "立ち喰い寿司 ゲンヤ倶楽部",
+      "area": "other"
+    },
+    {
+      "id": "373",
+      "name": "鮨かぜのぎ",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "374",
+      "name": "鮨あさひ",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "393",
+      "name": "鮨 奏",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "394",
+      "name": "ノドボトケ、上ル",
+      "area": "tenma"
+    },
+    {
+      "id": "409",
+      "name": "梅田 海鮮居酒屋いこう",
+      "area": "umeda"
+    },
+    {
+      "id": "412",
+      "name": "活魚寿司 岸和田今木店",
+      "area": "other"
+    },
+    {
+      "id": "429",
+      "name": "鮨白",
+      "area": "tenma"
+    },
+    {
+      "id": "436",
+      "name": "鮨と天ぷら からす",
+      "area": "shinsekai"
+    },
+    {
+      "id": "437",
+      "name": "鮨 國松",
+      "area": "kitahama"
+    },
+    {
+      "id": "446",
+      "name": "穴場 天満店",
+      "area": "tenma"
+    },
+    {
+      "id": "470",
+      "name": "縄寿司",
+      "area": "umeda"
+    },
+    {
+      "id": "485",
+      "name": "裏難波スシトフジ",
+      "area": "namba"
+    },
+    {
+      "id": "489",
+      "name": "すし処 ひでまる",
+      "area": "tenma"
+    },
+    {
+      "id": "490",
+      "name": "月山祐寿司",
+      "area": "other"
+    },
+    {
+      "id": "492",
+      "name": "すしバリュー 門真店",
+      "area": "other"
+    },
+    {
+      "id": "526",
+      "name": "勇すし",
+      "area": "tenma"
+    },
+    {
+      "id": "529",
+      "name": "ときすし 本店",
+      "area": "namba"
+    },
+    {
+      "id": "544",
+      "name": "一口いなりむろや 本店",
+      "area": "shinsaibashi"
+    },
+    {
+      "id": "553",
+      "name": "海鮮丼専門店 木津 魚市食堂",
+      "area": "other"
+    },
+    {
+      "id": "573",
+      "name": "すしセンター 裏天王寺",
+      "area": "abeno"
+    },
+    {
+      "id": "586",
+      "name": "鮨割烹 のの 梅田お初天神店",
+      "area": "umeda"
+    },
+    {
+      "id": "593",
+      "name": "すし政 中店",
+      "area": "tenma"
+    },
+    {
+      "id": "612",
+      "name": "鮨 惣五郎",
+      "area": "umeda"
+    },
+    {
+      "id": "615",
+      "name": "江戸前にぎり寿し 春駒 本店",
+      "area": "tenma"
+    },
+    {
+      "id": "618",
+      "name": "いなさ寿司",
+      "area": "kitahama"
+    },
+    {
+      "id": "622",
+      "name": "鮨 なかもと",
+      "area": "namba"
+    },
+    {
+      "id": "624",
+      "name": "鮨実紀 Sushi Minoki",
+      "area": "umeda"
+    },
+    {
+      "id": "633",
+      "name": "ゑんどう寿司 中央市場店",
+      "area": "fukushima"
+    },
+    {
+      "id": "643",
+      "name": "寿司と天ぷら ニューツルマツ",
+      "area": "namba"
+    },
+    {
+      "id": "653",
+      "name": "寿司としゃぶしゃぶ No.8 梅田店",
+      "area": "umeda"
+    },
+    {
+      "id": "658",
+      "name": "立ち寿司 杉尾 西中島店",
+      "area": "nishinakajima"
+    },
+    {
+      "id": "714",
+      "name": "石鹿",
+      "area": "kyobashi"
+    },
+    {
+      "id": "729",
+      "name": "銀座鮨 緑橋店",
+      "area": "tsuruhashi"
+    },
+    {
+      "id": "465",
+      "name": "鮨はまだ",
+      "area": "kitahama"
+    }
+  ]
+}
