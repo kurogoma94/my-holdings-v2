@@ -2,12 +2,18 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
 import { Text, StyleSheet, Platform } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import Colors from '@/constants/Colors';
 import { useColorScheme } from '@/components/useColorScheme';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme() ?? 'dark';
+  const insets = useSafeAreaInsets();
+  
+  // スマホ下部のナビゲーションバー等を考慮した余白調整
+  const bottomPadding = Platform.OS === 'ios' ? Math.max(28, insets.bottom) : Math.max(12, insets.bottom + 8);
+  const tabHeight = Platform.OS === 'ios' ? 60 + bottomPadding : 56 + bottomPadding;
 
   return (
     <Tabs
@@ -17,8 +23,8 @@ export default function TabLayout() {
         tabBarStyle: {
           backgroundColor: colorScheme === 'dark' ? Colors.dark.surface : Colors.light.surface,
           borderTopColor: colorScheme === 'dark' ? Colors.dark.border : Colors.light.border,
-          height: Platform.OS === 'ios' ? 88 : 64,
-          paddingBottom: Platform.OS === 'ios' ? 28 : 8,
+          height: tabHeight,
+          paddingBottom: bottomPadding,
           paddingTop: 8,
         },
         tabBarLabelStyle: {

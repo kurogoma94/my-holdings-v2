@@ -288,6 +288,7 @@ export default function ShopsScreen() {
 
       {/* 店舗リスト */}
       <FlatList
+        style={{ flex: 1 }}
         data={filteredShops}
         keyExtractor={(item) => item.id}
         renderItem={renderShopCard}
