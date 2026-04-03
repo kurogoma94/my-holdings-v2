@@ -1145,7 +1145,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "342",
     "name": "地酒蔵大阪 なんば本店",
-    "area": "osakacity-other",
+    "area": "namba",
     "genre": "izakaya",
     "dinnerBudgetMin": 2000,
     "dinnerBudgetMax": 4000,
@@ -1333,7 +1333,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "602",
     "name": "麺屋 帆のる大阪なんば店",
-    "area": "osakacity-other",
+    "area": "namba",
     "genre": "ramen",
     "dinnerBudgetMin": 1000,
     "dinnerBudgetMax": 2000,
@@ -1349,7 +1349,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "626",
     "name": "和牛タン次郎 大阪天満店",
-    "area": "osakacity-other",
+    "area": "tenma",
     "genre": "yakiniku",
     "dinnerBudgetMin": 2000,
     "dinnerBudgetMax": 4000,
@@ -3659,7 +3659,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "321",
     "name": "焼肉はぐれ雲なんば",
-    "area": "tsuruhashi",
+    "area": "namba",
     "genre": "yakiniku",
     "dinnerBudgetMin": 2000,
     "dinnerBudgetMax": 4000,
@@ -3668,7 +3668,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%AF%E3%81%90%E3%82%8C%E9%9B%B2%E3%81%AA%E3%82%93%E3%81%B0",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市東成区深江北3-2-8",
+    "address": "大阪府大阪市浪速区難波中1-7-21 難波中央ビル1F",
     "hasLunch": true,
     "hasDinner": true
   },
@@ -3707,7 +3707,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "324",
     "name": "高槻大衆ネオン居酒屋 スタンドＢ",
-    "area": "umeda",
+    "area": "hokusetsu",
     "genre": "tachinomi",
     "dinnerBudgetMin": 2000,
     "dinnerBudgetMax": 4000,
@@ -3716,7 +3716,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E6%A7%BB%E5%A4%A7%E8%A1%86%E3%83%8D%E3%82%AA%E3%83%B3%E5%B1%85%E9%85%92%E5%B1%8B%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%EF%BC%A2",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "address": "大阪府大阪市北区中崎西4-2-30",
+    "address": "大阪府高槻市高槻町14-8 幸ビル 2F",
     "hasLunch": false,
     "hasDinner": true
   },
