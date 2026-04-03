@@ -306,7 +306,7 @@ export const MOCK_SHOPS: Shop[] = [
     "address": "〒550-0002 大阪府大阪市西区江戸堀２丁目２−１８",
     "phone": "06-6443-3519",
     "hasLunch": true,
-    "hasDinner": true
+    "hasDinner": false
   },
   {
     "id": "29",
