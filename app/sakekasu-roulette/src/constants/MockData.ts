@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-04-02T12:00:31.260Z';
+export const MOCK_DATA_UPDATED_AT = '2026-04-03T00:32:16.372Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -994,7 +994,7 @@ export const MOCK_SHOPS: Shop[] = [
     "createdAt": "2026-03-31",
     "address": "〒590-0940 大阪府堺市堺区車之町西３丁１−３１",
     "phone": "080-4495-0508",
-    "hasLunch": true,
+    "hasLunch": false,
     "hasDinner": true
   },
   {
@@ -1122,7 +1122,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E9%89%84%E7%A0%B2%20%E5%A4%A7%E9%98%AA%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1137,7 +1137,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E3%83%81%E3%83%A7%E3%83%B3%E3%83%9E%E3%82%B2%20%E5%A4%A7%E9%98%AA%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1182,7 +1182,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%AE%BF%E7%84%BC%E8%82%89%20%E7%89%9B%E3%81%9F%E3%82%93%E3%81%AE%E6%AA%B8%E6%AA%AC%20%E5%A4%A7%E9%98%AA%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1242,7 +1242,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%83%81%E3%83%A7%E3%83%B3%E3%83%9E%E3%82%B2%20%E5%A4%A7%E9%98%AA%E5%A4%A9%E5%85%AD%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1272,7 +1272,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%81%A8%E5%AF%BF%E5%8F%B8%E5%85%AD%20%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D%E7%AC%AC2%E3%83%93%E3%83%AB%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1287,7 +1287,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%AD%A3%E4%BA%94%E5%B9%B4%E5%89%B5%E6%A5%AD%20%E4%B8%B2%E3%81%8B%E3%81%A4%20%E3%81%8E%E3%81%B5%E3%82%84%E6%9C%AC%E5%AE%B6%20%E5%A4%A7%E9%98%AA%E6%96%B0%E4%B8%96%E7%95%8C%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1317,7 +1317,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BA%80%E5%AE%AE%20%E9%AE%A8%E3%81%A8%E3%82%88%E3%81%AA%E3%81%8C",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1332,7 +1332,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E5%B1%8B%20%E5%B8%86%E3%81%AE%E3%82%8B%E5%A4%A7%E9%98%AA%E3%81%AA%E3%82%93%E3%81%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1347,7 +1347,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E7%89%9B%E3%82%BF%E3%83%B3%E6%AC%A1%E9%83%8E%20%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BA%80%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1362,7 +1362,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E4%BB%99%E9%85%A2%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA%E9%A7%85%E5%89%8D",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1377,7 +1377,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E3%81%86%E3%81%A9%E3%82%93%20%E3%81%84%E3%81%AA%E3%81%AE%E8%B7%AF",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1407,7 +1407,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%E5%8D%83%E8%91%89%20%E5%A4%A7%E9%98%AA%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1462,7 +1462,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.6,
     "genre": "yakiniku",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1484,7 +1484,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.8,
     "genre": "yakiniku",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1506,7 +1506,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.2,
     "genre": "yakiniku",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1517,7 +1517,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラードニキが行きたいお店",
     "rating": 3.2,
     "genre": "other",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1596,7 +1596,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%A4%E3%83%9E%E3%83%80%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1643,7 +1643,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市都島区東野田町3丁目10-3",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1659,7 +1659,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市東成区東小橋3-17-9",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1723,7 +1723,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区堂山町5-4",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1739,7 +1739,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市淀川区西三国4-8-19",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1862,7 +1862,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E4%B8%96%E9%A3%9F%E5%A0%82",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1877,7 +1877,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8E%E3%82%87%E3%81%86%E3%81%96%E5%87%A6%E3%81%A0%E3%81%84%E3%81%8D%E3%81%A1",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1892,7 +1892,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E9%85%92%E5%AE%B6%20%E8%8F%9C%E9%83%BD",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -1922,7 +1922,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20%E8%B1%86%E3%81%B5%E5%B1%8B%20%E3%82%84%E3%81%99%E3%81%BE%E3%82%8B%20%EF%BD%9E%E8%B1%86%E5%AF%8C%E3%81%A8%E9%AE%A8%E3%81%A8%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%EF%BD%9E%2FTennoji%20Tofuya%20Yasumaru%22Tofu%2C%20Edomae%20Sushi%2C%20and%20Japanese%20Cuisine%22",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2027,7 +2027,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E9%A3%B2%E3%81%BF%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%83%93%E3%83%BC%E3%83%AB%E9%85%92%E5%A0%B4%20%E3%83%93%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%83%A2%E3%83%AB%E3%83%88!!%20%E9%98%AA%E6%80%A5%E6%A2%85%E7%94%B0%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2222,7 +2222,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%88%88%E5%AF%BF%E5%8F%B8%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2282,7 +2282,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%20%E7%AB%8B%E5%B1%B1%20%E6%A2%85%E7%94%B0%E5%BA%97%EF%BC%88%E9%A3%B2%E9%A3%9F%E5%B0%82%E9%96%80%E5%BA%97%EF%BC%89",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2312,7 +2312,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E4%B8%B2%E3%82%AB%E3%83%84%E9%85%92%E5%A0%B4%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%E5%B8%83%E6%96%BD",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2327,7 +2327,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%83%E5%AD%90%E3%81%AE%E5%BA%97%20%E3%82%82%E3%82%82",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2372,7 +2372,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%BE%8D%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E6%88%8E%E6%A9%8B%E7%AD%8B%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2387,7 +2387,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E5%A4%AA%E5%AF%BF%E5%8F%B8",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2402,7 +2402,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E3%81%A8%E8%82%89%20%E3%81%A0%E3%81%84%E3%81%A4%E3%82%8B",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2417,7 +2417,7 @@ export const MOCK_SHOPS: Shop[] = [
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A2%A8%E3%82%82%E3%81%A4%E6%96%99%E7%90%86%E3%81%82%E3%82%89%E3%81%9F",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2433,7 +2433,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒550-0002 大阪府大阪市西区江戸堀１丁目１９−２４",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2449,7 +2449,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒532-0011 大阪府大阪市淀川区西中島３丁目１５−３",
-    "hasLunch": true,
+    "hasLunch": false,
     "hasDinner": true
   },
   {
@@ -2593,7 +2593,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒540-0028 大阪府大阪市中央区槍屋町２丁目２−１",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2609,7 +2609,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒531-0072 大阪府大阪市北区豊崎３丁目１０−２",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2641,7 +2641,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0082 大阪府大阪市中央区島之内２丁目１３−２７",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2657,7 +2657,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒532-0011 大阪府大阪市淀川区西中島３丁目１７−１０",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2737,7 +2737,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒544-0034 大阪府大阪市生野区桃谷２丁目１５−１２",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2785,7 +2785,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目６−１５",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2833,7 +2833,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒595-0814 大阪府泉北郡忠岡町新浜２丁目５",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2929,7 +2929,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１０−３１",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -2993,7 +2993,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒598-0021 大阪府泉佐野市日根野５９４−１",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3057,7 +3057,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0081 大阪府大阪市中央区北久宝寺町３丁目５−３",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3073,7 +3073,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目１０−３１",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3137,7 +3137,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市住之江区中加賀屋3-1-22",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3233,7 +3233,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市浪速区湊町1丁目3-1 B1F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3249,7 +3249,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区天神橋2丁目4-3",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3265,7 +3265,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市浪速区難波中2-6-22",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3313,7 +3313,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市阿倍野区天王寺町北2丁目2-5",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3361,7 +3361,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市東成区深江北3丁目2-8 シティメゾン深江",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3393,7 +3393,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区曽根崎2丁目5-40",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3409,7 +3409,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区中崎西4丁目2-30",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3489,7 +3489,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市城東区中央1-8-30",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3505,7 +3505,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府吹田市佐井寺南が丘15-8",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3537,7 +3537,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市中央区谷町7-1-24",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3553,7 +3553,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府東大阪市宝持4-2-19",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3585,7 +3585,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市東成区大今里西2-8-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3617,7 +3617,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市東成区深江北3-2-8",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3649,7 +3649,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区曽根崎2-5-40",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3697,7 +3697,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府羽曳野市西浦3丁目6-920-1",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3793,7 +3793,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区梅田1丁目1-3 大阪駅前第3ビル B1-54",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3857,7 +3857,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0027 大阪府大阪市北区堂山町１１−１４",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3873,7 +3873,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒556-0011 大阪府大阪市浪速区難波中２丁目１０−２５",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3905,7 +3905,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒544-0034 大阪府大阪市生野区桃谷２丁目９−４",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3921,7 +3921,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒542-0083 大阪府大阪市中央区東心斎橋１丁目１３−１２",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -3969,7 +3969,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒553-0003 大阪府大阪市福島区福島５丁目１１−２０",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4017,7 +4017,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0027 大阪府大阪市北区堂山町８−１０",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4033,7 +4033,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒532-0023 大阪府大阪市淀川区十三東３丁目２８−４",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4097,7 +4097,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "〒530-0027 大阪府大阪市北区堂山町１７−１",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4113,7 +4113,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": false,
     "createdAt": "2026-03-31",
     "address": "〒530-0012 大阪府大阪市北区芝田１丁目１−３",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4177,7 +4177,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市中央区南船場3丁目8-2",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4193,7 +4193,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市西区新町1-22-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4241,7 +4241,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区曽根崎新地1丁目8-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4289,7 +4289,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区小松原町1-27",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4369,7 +4369,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市東小橋1丁目1-6",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4401,7 +4401,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市中央区西心斎橋1丁目10-3",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4417,7 +4417,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区天神橋4-5-7",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4433,7 +4433,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市中央区松屋町5-5",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4593,7 +4593,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区太融寺町２−２１",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4625,7 +4625,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府岸和田市今木町１５−１",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4753,7 +4753,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市中央区城見１丁目２−２７",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4769,7 +4769,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市中央区心斎橋筋１丁目３−２９",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4785,7 +4785,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市城東区中央２丁目１−１２",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4849,7 +4849,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市北区東天満１丁目１１−１５",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4865,7 +4865,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-03-31",
     "address": "大阪府大阪市城東区関目２丁目１２−２４",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4929,7 +4929,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市浪速区恵美須西3-3-26",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -4945,7 +4945,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府八尾市東本町5-10-5",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5025,7 +5025,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区南船場1-15-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5041,7 +5041,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区谷町6-3-14",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5057,7 +5057,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区天神橋4-12-7",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5137,7 +5137,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府交野市郡津5-12-5",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5153,7 +5153,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市東成区深江南3-20-14",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5185,7 +5185,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府豊中市中桜塚2-18-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5281,7 +5281,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区曽根崎2丁目14-1",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5297,7 +5297,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区曽根崎新地1丁目5-6",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5329,7 +5329,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市都島区東野田町2丁目2-2 2階",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5457,7 +5457,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区天神橋3丁目8-10",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5473,7 +5473,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区千日前2丁目5-7 2F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5537,7 +5537,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区天神橋4丁目1-2",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5553,7 +5553,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市此花区梅香3丁目33-10",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5569,7 +5569,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府茨木市園田町6-3",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5585,7 +5585,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府門真市柳町20-11",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5601,7 +5601,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区東天満1丁目2-15",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5633,7 +5633,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区天神橋4丁目2-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5649,7 +5649,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市大正区千島3丁目4-1",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5665,7 +5665,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市鶴見区横堤1丁目11-45",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5681,7 +5681,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区東心斎橋1丁目13-9",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5697,7 +5697,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府寝屋川市楠根南町13-10",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5729,7 +5729,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区東心斎橋1丁目18-18",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5745,7 +5745,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市此花区西九条3丁目14-2",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5793,7 +5793,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市阿倍野区旭町1丁目1-26",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5841,7 +5841,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市浪速区難波中1丁目17-16",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5857,7 +5857,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市浪速区恵美須東3丁目4-7",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5905,7 +5905,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市生野区勝山北1丁目1-2",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -5953,7 +5953,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区天神橋4丁目12-10",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6001,7 +6001,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区難波千日前4-21",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6017,7 +6017,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市西成区玉出中2丁目16-6",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6033,7 +6033,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府東大阪市足代3丁目1-15",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6065,7 +6065,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区道頓堀1丁目7-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6177,7 +6177,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市西区南堀江2丁目1-17",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6225,7 +6225,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市天王寺区堀越町16-9 毎日シルバービルディング 7F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6241,7 +6241,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区千日前2丁目5-7",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6289,7 +6289,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市都島区東野田町2丁目3-3",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6305,7 +6305,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市浪速区敷津東2丁目2-8",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6321,7 +6321,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市福島区福島2丁目7-17",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6353,7 +6353,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区堂山町15-14",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6369,7 +6369,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区島之内1-8-17",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6417,7 +6417,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区千日前1-2-9",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6561,7 +6561,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区難波4-1-17",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6593,7 +6593,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市天王寺区堀越町13-6",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6641,7 +6641,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市浪速区恵美須東3-4-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6673,7 +6673,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市阿倍野区阿倍野筋1-2-8",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6689,7 +6689,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区堂山町16-14",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6721,7 +6721,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区曽根崎2-12-4",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6737,8 +6737,8 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府交野市私部2-11-31",
-    "hasLunch": false,
-    "hasDinner": true
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "588",
@@ -6769,7 +6769,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市福島区福島5-8-14",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6785,7 +6785,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市北区堂山町8-21",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6801,7 +6801,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市浪速区難波中2-4-5",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6817,7 +6817,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区天神橋4-11-10",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6833,7 +6833,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区天神橋5-6-19",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6849,7 +6849,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市西成区山王3-5-25",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6881,7 +6881,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市天王寺区玉造元町3-19",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6977,7 +6977,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区曽根崎新地1-5-29",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -6993,7 +6993,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区曽根崎新地1-3-11",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7041,7 +7041,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区天神橋5-5-2",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7089,7 +7089,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府八尾市本町5-1-1",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7137,7 +7137,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市中央区難波千日前4-35",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7169,7 +7169,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区曽根崎新地1-2-6 新松リンデンビル1F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7217,7 +7217,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市浪速区恵美須東3-4-13",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7233,7 +7233,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市福島区福島7-11-51 ふくろうじ商店街47号",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7249,7 +7249,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市福島区野田1-1-86",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7281,7 +7281,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区南森町1-2-14 ロイヤルハイツ1F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7313,7 +7313,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市中央区千日前2-7-22",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7361,7 +7361,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区曾根崎新地1-8-3 遅ビル 3F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7377,7 +7377,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市福島区福島6-19-12",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7393,7 +7393,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市天王寺区空堀町6-1",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7425,7 +7425,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区曾根崎新地1-6-28",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7457,7 +7457,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市中央区難波5-1-60 なんばCITY本館 B1F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7473,7 +7473,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区堂山町6-1 3F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7505,7 +7505,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区角田町梅田地下街2-5 ホワイティうめだノースモール1",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7521,7 +7521,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市淀川区西中島3-19-7 第一ユヤマビル",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7617,7 +7617,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市中央区西心斎橋2-9-5 日宝三ツ寺会館 2F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7665,7 +7665,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市西区九条南1-3-16 レアレア九条56番館 1F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7681,7 +7681,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市中央区島之内2-13-9 第一右田ビル 1F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7697,7 +7697,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区堂山町3-12 ステージスカラブビル 2F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7825,7 +7825,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区曽根崎2-10-21 日宝曽根崎イースト1F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -7905,7 +7905,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府高槻市寿町1-6-19",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8017,8 +8017,8 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市西区新町4-16-13",
-    "hasLunch": false,
-    "hasDinner": true
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "696",
@@ -8033,7 +8033,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市北区天満2-13-16",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8065,7 +8065,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市浪速区日本橋西1-8-25",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8097,7 +8097,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市中央区難波千日前13-7 難波ノスケビルB2F",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8209,7 +8209,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市生野区新今里4-4-23",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8289,7 +8289,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市城東区東中浜3-6-19",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8305,7 +8305,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府藤井寺市野中2-66",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8385,7 +8385,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市西成区萩之茶屋2-2-7",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8465,7 +8465,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市東成区東中本2-2-10 ノバカネイチ緑橋104",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8481,7 +8481,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-02",
     "address": "大阪府大阪市東成区東中本2-1-21",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8545,7 +8545,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区内平野町1-2-9",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8593,7 +8593,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市天王寺区悲田院町10-39",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
@@ -8625,7 +8625,7 @@ export const MOCK_SHOPS: Shop[] = [
     "isActive": true,
     "createdAt": "2026-04-01",
     "address": "大阪府大阪市中央区谷町6-17-43",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
