@@ -140,10 +140,9 @@ export default function RouletteScreen() {
   };
 
   // Google Mapを開く
-  const openGoogleMaps = (url?: string) => {
-    if (url) {
-      Linking.openURL(url);
-    }
+  const openGoogleMaps = (shop: Shop) => {
+    const url = shop.googleMapsUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(shop.name)}`;
+    Linking.openURL(url);
   };
 
   const filteredCount = getFilteredShops().length;
@@ -414,14 +413,12 @@ export default function RouletteScreen() {
 
                 {/* アクションボタン */}
                 <View style={styles.actionButtons}>
-                  {result.googleMapsUrl && (
-                    <TouchableOpacity
-                      style={[styles.actionButton, { backgroundColor: '#4285F4' }]}
-                      onPress={() => openGoogleMaps(result.googleMapsUrl)}
-                    >
-                      <Text style={styles.actionButtonText}>📍 Google Mapで見る</Text>
-                    </TouchableOpacity>
-                  )}
+                  <TouchableOpacity
+                    style={[styles.actionButton, { backgroundColor: '#4285F4' }]}
+                    onPress={() => openGoogleMaps(result)}
+                  >
+                    <Text style={styles.actionButtonText}>📍 Google Mapで見る</Text>
+                  </TouchableOpacity>
 
                   <TouchableOpacity
                     style={[styles.actionButton, { backgroundColor: Colors.primary }]}
