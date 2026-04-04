@@ -86,6 +86,7 @@ export default function RouletteScreen() {
     const shops = getFilteredShops();
     if (shops.length === 0) return;
 
+    setModalVisible(false);
     setIsSpinning(true);
     setResult(null);
     resultOpacity.setValue(0);
@@ -421,6 +422,13 @@ export default function RouletteScreen() {
                       <Text style={styles.actionButtonText}>📍 Google Mapで見る</Text>
                     </TouchableOpacity>
                   )}
+
+                  <TouchableOpacity
+                    style={[styles.actionButton, { backgroundColor: Colors.primary }]}
+                    onPress={spinRoulette}
+                  >
+                    <Text style={styles.actionButtonText}>🔄 もう一回回す</Text>
+                  </TouchableOpacity>
 
                   <TouchableOpacity
                     style={[styles.actionButton, { backgroundColor: Colors.primaryDark }]}
