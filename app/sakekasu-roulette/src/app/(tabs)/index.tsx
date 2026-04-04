@@ -10,6 +10,9 @@ import {
   ScrollView,
   Linking,
   Dimensions,
+  Modal,
+  Pressable,
+  Platform,
 } from 'react-native';
 import { useColorScheme } from '@/components/useColorScheme';
 import Colors from '@/constants/Colors';
@@ -52,6 +55,7 @@ export default function RouletteScreen() {
   const [selectedMealType, setSelectedMealType] = useState<'all' | 'lunch' | 'dinner'>('all');
   const [result, setResult] = useState<Shop | null>(null);
   const [isSpinning, setIsSpinning] = useState(false);
+  const [modalVisible, setModalVisible] = useState(false);
 
   // アニメーション
   const spinAnim = useRef(new Animated.Value(0)).current;
@@ -112,6 +116,7 @@ export default function RouletteScreen() {
       const selected = shops[randomIndex];
       setResult(selected);
       setIsSpinning(false);
+      setModalVisible(true);
 
       // 結果のフェードイン
       Animated.timing(resultOpacity, {
@@ -312,119 +317,123 @@ export default function RouletteScreen() {
 
       {/* ルーレットホイール */}
       <View style={styles.rouletteContainer}>
-        <Animated.View
-          style={[
-            styles.rouletteWheel,
-            {
-              backgroundColor: colors.card,
-              borderColor: Colors.primary,
-              transform: [{ rotate: isSpinning ? spin : '0deg' }],
-            },
-          ]}
-        >
-          <Text style={styles.rouletteEmoji}>🍺</Text>
-          <Text style={[styles.rouletteText, { color: colors.text }]}>
-            {isSpinning ? '回転中...' : 'タップして回す！'}
-          </Text>
-        </Animated.View>
-      </View>
-
-      {/* 回すボタン */}
-      <Animated.View style={{ transform: [{ scale: scaleAnim }] }}>
         <TouchableOpacity
-          style={[
-            styles.spinButton,
-            {
-              backgroundColor: Colors.primary,
-              opacity: filteredCount === 0 || isSpinning ? 0.5 : 1,
-            },
-          ]}
           onPress={spinRoulette}
           disabled={filteredCount === 0 || isSpinning}
-          activeOpacity={0.8}
+          activeOpacity={0.7}
         >
-          <Text style={styles.spinButtonText}>
-            {isSpinning ? '🎰 回転中...' : '🎲 回す！'}
-          </Text>
+          <Animated.View
+            style={[
+              styles.rouletteWheel,
+              {
+                backgroundColor: colors.card,
+                borderColor: Colors.primary,
+                transform: [
+                  { rotate: isSpinning ? spin : '0deg' },
+                  { scale: scaleAnim }
+                ],
+              },
+            ]}
+          >
+            <Text style={styles.rouletteEmoji}>🍺</Text>
+            <Text style={[styles.rouletteText, { color: colors.text }]}>
+              {isSpinning ? '回転中...' : filteredCount === 0 ? '対象なし' : 'タップして回す！'}
+            </Text>
+          </Animated.View>
         </TouchableOpacity>
-      </Animated.View>
+      </View>
 
-      {/* 結果表示 */}
-      {result && (
-        <Animated.View
-          style={[
-            styles.resultContainer,
-            {
-              backgroundColor: colors.card,
-              borderColor: Colors.accent,
-              opacity: resultOpacity,
-            },
-          ]}
+      {/* 結果表示モーダル */}
+      <Modal
+        animationType="fade"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => setModalVisible(false)}
+      >
+        <Pressable
+          style={styles.modalOverlay}
+          onPress={() => setModalVisible(false)}
         >
-          <Text style={[styles.resultTitle, { color: Colors.accent }]}>
-            🎉 今日のお店はここ！
-          </Text>
-
-          {/* 店舗写真プレースホルダー */}
-          <View style={[styles.photoPlaceholder, { backgroundColor: colors.surface }]}>
-            <Text style={styles.photoEmoji}>🏮</Text>
-          </View>
-
-          <Text style={[styles.shopName, { color: colors.text }]}>
-            {result.name}
-          </Text>
-
-          <View style={styles.shopDetails}>
-            <Text style={[styles.shopDetailText, { color: colors.textSecondary }]}>
-              📍 {getAreaLabel(result.area)}
-            </Text>
-            <Text style={[styles.shopDetailText, { color: colors.textSecondary }]}>
-              🍶 {getGenreLabel(result.genre)}
-            </Text>
-            <Text style={[styles.shopDetailText, { color: colors.textSecondary }]}>
-              💰 {formatBudget(result.lunchBudgetMin, result.lunchBudgetMax, result.dinnerBudgetMin, result.dinnerBudgetMax)}
-            </Text>
-            <Text style={[styles.shopStars, { color: Colors.accent }]}>
-              {renderStars(result.rating)}
-            </Text>
-            <View style={styles.mealBadgeRow}>
-              {result.hasLunch && (
-                <View style={[styles.mealBadge, { backgroundColor: colors.surface }]}>
-                  <Text style={styles.mealBadgeText}>☀️ ランチ</Text>
-                </View>
-              )}
-              {result.hasDinner && (
-                <View style={[styles.mealBadge, { backgroundColor: colors.surface }]}>
-                  <Text style={styles.mealBadgeText}>🌙 ディナー</Text>
-                </View>
-              )}
-            </View>
-          </View>
-
-          <Text style={[styles.shopComment, { color: colors.text }]}>
-            「{result.comment}」
-          </Text>
-
-          {/* アクションボタン */}
-          <View style={styles.actionButtons}>
-            {result.googleMapsUrl && (
-              <TouchableOpacity
-                style={[styles.actionButton, { backgroundColor: '#4285F4' }]}
-                onPress={() => openGoogleMaps(result.googleMapsUrl)}
+          <View style={styles.modalContent}>
+            {result && (
+              <Animated.View
+                style={[
+                  styles.resultContainer,
+                  {
+                    backgroundColor: colors.card,
+                    borderColor: Colors.accent,
+                    opacity: resultOpacity,
+                    width: '100%',
+                  },
+                ]}
               >
-                <Text style={styles.actionButtonText}>📍 Google Mapで見る</Text>
-              </TouchableOpacity>
-            )}
+                <Text style={[styles.resultTitle, { color: Colors.accent }]}>
+                  🎉 今日のお店はここ！
+                </Text>
 
-            <TouchableOpacity
-              style={[styles.actionButton, { backgroundColor: Colors.primaryDark }]}
-              onPress={spinRoulette}
-            >
-              <Text style={styles.actionButtonText}>🔄 もう一回回す</Text>
-            </TouchableOpacity>
+                {/* 店舗写真プレースホルダー */}
+                <View style={[styles.photoPlaceholder, { backgroundColor: colors.surface }]}>
+                  <Text style={styles.photoEmoji}>🏮</Text>
+                </View>
+
+                <Text style={[styles.shopName, { color: colors.text }]}>
+                  {result.name}
+                </Text>
+
+                <View style={styles.shopDetails}>
+                  <Text style={[styles.shopDetailText, { color: colors.textSecondary }]}>
+                    📍 {getAreaLabel(result.area)}
+                  </Text>
+                  <Text style={[styles.shopDetailText, { color: colors.textSecondary }]}>
+                    🍶 {getGenreLabel(result.genre)}
+                  </Text>
+                  <Text style={[styles.shopDetailText, { color: colors.textSecondary }]}>
+                    💰 {formatBudget(result.lunchBudgetMin, result.lunchBudgetMax, result.dinnerBudgetMin, result.dinnerBudgetMax)}
+                  </Text>
+                  <Text style={[styles.shopStars, { color: Colors.accent }]}>
+                    {renderStars(result.rating)}
+                  </Text>
+                  <View style={styles.mealBadgeRow}>
+                    {result.hasLunch && (
+                      <View style={[styles.mealBadge, { backgroundColor: colors.surface }]}>
+                        <Text style={styles.mealBadgeText}>☀️ ランチ</Text>
+                      </View>
+                    )}
+                    {result.hasDinner && (
+                      <View style={[styles.mealBadge, { backgroundColor: colors.surface }]}>
+                        <Text style={styles.mealBadgeText}>🌙 ディナー</Text>
+                      </View>
+                    )}
+                  </View>
+                </View>
+
+                <Text style={[styles.shopComment, { color: colors.text }]}>
+                  「{result.comment}」
+                </Text>
+
+                {/* アクションボタン */}
+                <View style={styles.actionButtons}>
+                  {result.googleMapsUrl && (
+                    <TouchableOpacity
+                      style={[styles.actionButton, { backgroundColor: '#4285F4' }]}
+                      onPress={() => openGoogleMaps(result.googleMapsUrl)}
+                    >
+                      <Text style={styles.actionButtonText}>📍 Google Mapで見る</Text>
+                    </TouchableOpacity>
+                  )}
+
+                  <TouchableOpacity
+                    style={[styles.actionButton, { backgroundColor: Colors.primaryDark }]}
+                    onPress={() => setModalVisible(false)}
+                  >
+                    <Text style={styles.actionButtonText}>❌ 閉じる</Text>
+                  </TouchableOpacity>
+                </View>
+              </Animated.View>
+            )}
           </View>
-        </Animated.View>
-      )}
+        </Pressable>
+      </Modal>
 
       {/* 広告エリア */}
       <AdBanner />
@@ -643,5 +652,18 @@ const styles = StyleSheet.create({
   mealBadgeText: {
     fontSize: 11,
     fontWeight: '600',
+  },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+  modalContent: {
+    width: '100%',
+    maxWidth: 400,
+    borderRadius: 16,
+    overflow: 'hidden',
   },
 });
