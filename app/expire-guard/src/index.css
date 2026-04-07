@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@300;700&display=swap');
+
+:root {
+  --bg-dark: #0A0A0A;
+  --bg-accent: #1A1A1A;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --accent-safe: #00FFB2;
+  --accent-warning: #FFD600;
+  --accent-danger: #FF3D00;
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 16px;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: var(--text-secondary);
+}
+
+.card-safe { border-left: 4px solid var(--accent-safe); }
+.card-warning { border-left: 4px solid var(--accent-warning); box-shadow: 0 0 20px rgba(255, 214, 0, 0.1); }
+.card-danger { border-left: 4px solid var(--accent-danger); box-shadow: 0 0 30px rgba(255, 61, 0, 0.2); animation: pulse 2s infinite; }
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 20px rgba(255, 61, 0, 0.1); }
+  50% { box-shadow: 0 0 40px rgba(255, 61, 0, 0.3); }
+  100% { box-shadow: 0 0 20px rgba(255, 61, 0, 0.1); }
+}
+
+.scan-button {
+  position: fixed;
+  bottom: 40px;
+  right: 50%;
+  transform: translateX(50%);
+  background: linear-gradient(135deg, #00FFB2, #00A3FF);
+  color: #000;
+  padding: 18px 36px;
+  border-radius: 50px;
+  font-weight: 700;
+  box-shadow: 0 10px 40px rgba(0, 255, 178, 0.3);
+  cursor: pointer;
+  border: none;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.expiry-tag {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  background: var(--bg-accent);
+  border: 1px solid var(--glass-border);
+  padding: 14px;
+  border-radius: 12px;
+  color: white;
+}
