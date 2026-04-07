@@ -57,6 +57,20 @@ export function addShop(shop: Omit<Shop, 'id' | 'createdAt'>): Shop {
   return newShop;
 }
 
+export function addShops(newShops: Omit<Shop, 'id' | 'createdAt'>[]): void {
+  const shops = getAllShops();
+  const now = new Date().toISOString().split('T')[0];
+  
+  const shopsToAdd = newShops.map((shop) => ({
+    ...shop,
+    id: Date.now().toString() + Math.random().toString(36).substr(2, 5),
+    createdAt: now,
+  }));
+  
+  shops.push(...shopsToAdd);
+  saveShops(shops);
+}
+
 export function clearAllShops(): void {
   if (!isStorageAvailable()) return;
   localStorage.removeItem(STORAGE_KEY);

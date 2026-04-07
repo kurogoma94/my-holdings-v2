@@ -4,6 +4,7 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
+import mobileAds from 'react-native-google-mobile-ads';
 
 import { useColorScheme } from '@/components/useColorScheme';
 
@@ -33,6 +34,10 @@ export default function RootLayout() {
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
+      // AdMob SDKの初期化
+      mobileAds().initialize().then(adapterStatuses => {
+        console.log('AdMob Initialized:', adapterStatuses);
+      });
     }
   }, [loaded]);
 

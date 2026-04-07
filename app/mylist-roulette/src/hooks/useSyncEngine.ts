@@ -1,8 +1,9 @@
 // [目的] Google Takeoutデータのインポートと状態管理を行うフック
 import { useState } from 'react';
 import { parseGoogleTakeout, enhanceShopWithPlaceDetails } from '../constants/DataParser';
-import { addShop, getGoogleApiKey } from '../constants/DataStore';
+import { addShops, getGoogleApiKey } from '../constants/DataStore';
 import { searchPlaceId, getPlaceDetails } from '../services/GooglePlacesService';
+import { Shop } from '../constants/Types';
 
 export function useSyncEngine() {
   const [isSyncing, setIsSyncing] = useState(false);
@@ -16,7 +17,7 @@ export function useSyncEngine() {
 
     try {
       const parsedShops = parseGoogleTakeout(jsonText);
-      let successCount = 0;
+      const processedShops: Omit<Shop, 'id' | 'createdAt'>[] = [];
 
       for (const rawShop of parsedShops) {
         let finalShop = rawShop;
@@ -35,7 +36,7 @@ export function useSyncEngine() {
         }
 
         if (finalShop.name) {
-          addShop({
+          processedShops.push({
             name: finalShop.name,
             area: finalShop.area || 'other',
             genre: finalShop.genre || 'other',
@@ -47,12 +48,15 @@ export function useSyncEngine() {
             googleMapsUrl: finalShop.googleMapsUrl,
             placeId: finalShop.placeId,
           });
-          successCount++;
         }
       }
       
+      if (processedShops.length > 0) {
+        addShops(processedShops);
+      }
+      
       setSyncResult({
-        success: successCount,
+        success: processedShops.length,
         total: parsedShops.length,
       });
     } catch (error) {
