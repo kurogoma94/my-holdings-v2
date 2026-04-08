@@ -70,29 +70,38 @@ const ExpireGuard = () => {
   };
 
   const handleScanResult = (text) => {
-    // 1. 日付の検出 (YYYY-MM-DD)
-    const dateRegex = /(20\d{2}|\d{2})[./\-](\d{1,2})[./\-](\d{1,2})/;
-    const match = text.match(dateRegex);
+    // 1. 日付の検出 (様々なフォーマットに対応: YYYY-MM-DD, YYYY/MM/DD, YY.MM.DD, YYYY年MM月DD日)
+    const datePatterns = [
+      /(20\d{2})[./\-](\d{1,2})[./\-](\d{1,2})/, // 2026-04-08
+      /(\d{2})[./\-](\d{1,2})[./\-](\d{1,2})/,   // 26.04.08
+      /(20\d{2})年(\d{1,2})月(\d{1,2})日/,       // 2026年4月8日
+      /(\d{2})年(\d{1,2})月(\d{1,2})日/,         // 26年4月8日
+      /(20\d{2})(\d{2})(\d{2})/,                 // 20260408
+    ];
 
     let detectedExpiry = '';
-    if (match) {
-      let year = match[1];
-      let month = match[2].padStart(2, '0');
-      let day = match[3].padStart(2, '0');
-      if (year.length === 2) year = `20${year}`;
-      detectedExpiry = `${year}-${month}-${day}`;
+    for (const pattern of datePatterns) {
+      const match = text.match(pattern);
+      if (match) {
+        let year = match[1];
+        let month = match[2].padStart(2, '0');
+        let day = match[3].padStart(2, '0');
+        if (year.length === 2) year = `20${year}`;
+        detectedExpiry = `${year}-${month}-${day}`;
+        break;
+      }
     }
 
     // 2. 食品名の抽出（日付以外の有力な文字列）
     const lines = text.split('\n')
       .map(line => line.trim())
-      .filter(line => line.length > 1 && !line.match(dateRegex));
+      .filter(line => line.length > 1 && !line.match(/\d[./\-年]/));
     
-    // 最も「品名っぽい」行を選択（最初の2文字以上の非日付行）
-    // 特徴的なキーワード（賞味期限など）を除外
-    const ignoreKeywords = ['賞味', '期限', '保存', '方法', '製造', '年月日'];
+    // 除外キーワード
+    const ignoreKeywords = ['賞味', '期限', '保存', '方法', '製造', '年月日', '記号', '内容量', '原材料'];
     const nameCandidate = lines.find(line => 
-      !ignoreKeywords.some(kw => line.includes(kw))
+      !ignoreKeywords.some(kw => line.includes(kw)) &&
+      !line.match(/^[0-9\W]+$/) // 数字や記号だけの行を除外
     ) || '';
 
     if (detectedExpiry || nameCandidate) {
@@ -109,7 +118,7 @@ const ExpireGuard = () => {
       message += "\n必要に応じて修正してください。";
       alert(message);
     } else {
-      alert("情報が検出できませんでした。");
+      alert("情報が検出できませんでした。より明るい場所で、賞味期限の印字を正面から撮影してください。");
       setShowScanner(false);
     }
   };

@@ -76,6 +76,39 @@ const recipeDatabase = {
     ],
     strategyFocus: "状況に応じてサラダ（生）か炒め物かを選択する、柔軟な「現場判断」を促します。"
   },
+  "鶏肉": {
+    title: "鶏むね肉の低糖質バリュエーション",
+    description: "高タンパク資産を、最大限の食感と風味で維持する。",
+    ingredients: ["鶏肉 (200g)", "酒 (大さじ1)", "片栗粉 (適量)", "ネギ塩だれ"],
+    steps: [
+      "肉をそぎ切りにし、酒を揉み込み、片栗粉をまぶす。",
+      "フライパンでサッと焼き、ネギ塩だれを絡める。",
+      "余熱を利用してしっとり仕上げることで、資産価値（タンパク質）を損ないません。"
+    ],
+    strategyFocus: "安価な食材に手間（プロセシング）を加えることで、外食レベルの価値を創出します。"
+  },
+    "魚": {
+    title: "フィッシュ・アセット・コンフィ",
+    description: "鮮度の落ちやすい魚介類を、オイルと共に長期保存可能な形態へ転換。",
+    ingredients: ["白身魚または青魚", "オリーブオイル", "ニンニク", "ハーブ", "塩"],
+    steps: [
+      "魚に強めに塩を振って水分を出し、拭き取る。",
+      "小鍋にオイル、ニンニク、ハーブを入れ、魚が浸るようにして弱火で15分煮る。",
+      "そのままオイルごと保存することで、数日間の価値維持（賞味期限の延命）が可能です。"
+    ],
+    strategyFocus: "腐敗というリスクをオイルというヘッジで抑え込み、時間を味方につける戦略です。"
+  },
+  "酒": {
+    title: "余剰アルコール・リダクション・ソース",
+    description: "飲み残しの酒を、料理の風味を引き立てる「無形固定資産」に変える。",
+    ingredients: ["残ったワインや日本酒", "玉ねぎのみじん切り", "バター", "醤油"],
+    steps: [
+      "小鍋で玉ねぎを炒め、酒を加えて半量になるまで煮詰める。",
+      "バターと醤油を加え、マウントをとるように（少しずつ）溶かし込む。",
+      "あらゆる肉・魚料理をアップグレードする万能ツールとして活用します。"
+    ],
+    strategyFocus: "廃棄されるはずの副産物を、主役級の価値に変えるリサイクル・イノベーション。"
+  },
   "default": {
     title: "万能食材リサイクル炒め",
     description: "ありあわせの食材を、一つの完成されたメニューに統合する。",
@@ -90,7 +123,13 @@ const recipeDatabase = {
 };
 
 export const getRecipeForIngredient = (ingredientName) => {
+  if (!ingredientName) return recipeDatabase["default"];
+  
   // 簡易的なキーワードマッチング
-  const key = Object.keys(recipeDatabase).find(k => ingredientName.includes(k));
+  const target = ingredientName.toLowerCase();
+  const key = Object.keys(recipeDatabase).find(k => 
+    target.includes(k.toLowerCase())
+  );
+  
   return recipeDatabase[key] || recipeDatabase["default"];
 };

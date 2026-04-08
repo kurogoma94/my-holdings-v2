@@ -163,7 +163,7 @@ console.log(`\n検証候補 合計: ${verifyTargets.length}件`);
 console.log(`${'ID'.padStart(4)} ${'Name'.padEnd(30)} ${'Genre'.padEnd(12)} ${'L'.padStart(2)} ${'D'.padStart(2)} Reason`);
 console.log('-'.repeat(80));
 verifyTargets.forEach(s => {
-  const name = s.name.length > 28 ? s.name.substring(0, 26) + '..' : s.name;
+  const name = (s.name || 'Unknown').length > 28 ? (s.name || 'Unknown').substring(0, 26) + '..' : (s.name || 'Unknown');
   console.log(`${String(s.id).padStart(4)} ${name.padEnd(30)} ${(s.genre||'').padEnd(12)} ${s.hasLunch?'✓':'✗'} ${s.hasDinner?'✓':'✗'} ${s.reason}`);
 });
 

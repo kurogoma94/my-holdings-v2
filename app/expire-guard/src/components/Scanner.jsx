@@ -39,7 +39,20 @@ const Scanner = ({ onScan, onClose }) => {
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
     const ctx = canvas.getContext('2d');
+    
+    // 画像の描画と前処理 (グレースケール・コントラスト強化)
     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+    
+    // シンプルなグレースケール化
+    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    const data = imageData.data;
+    for (let i = 0; i < data.length; i += 4) {
+      const avg = (data[i] + data[i + 1] + data[i + 2]) / 3;
+      // 閾値処理 (二値化に近い処理で文字を強調)
+      const val = avg > 128 ? 255 : 0; 
+      data[i] = data[i + 1] = data[i + 2] = val;
+    }
+    ctx.putImageData(imageData, 0, 0);
 
     const image = canvas.toDataURL('image/png');
 
