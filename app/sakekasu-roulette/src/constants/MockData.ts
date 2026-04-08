@@ -86,8 +86,10 @@ export const MOCK_SHOPS: Shop[] = [
     "name": "イノベーティブフレンチ genso",
     "area": "namba",
     "genre": "yoshoku",
-    "dinnerBudgetMin": 10000,
-    "dinnerBudgetMax": 20000,
+    "dinnerBudgetMin": 20000,
+    "dinnerBudgetMax": 29999,
+    "lunchBudgetMin": 15000,
+    "lunchBudgetMax": 19999,
     "comment": "ラードニキが行きたいお店",
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%83%86%E3%82%A3%E3%83%96%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81%20genso",
@@ -168,8 +170,10 @@ export const MOCK_SHOPS: Shop[] = [
     "name": "中華菜館 一番",
     "area": "namba",
     "genre": "ramen",
-    "dinnerBudgetMin": 1,
-    "dinnerBudgetMax": 1000,
+    "dinnerBudgetMin": 1000,
+    "dinnerBudgetMax": 1999,
+    "lunchBudgetMin": 0,
+    "lunchBudgetMax": 999,
     "comment": "ラードニキが行きたいお店",
     "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%8F%AF%E8%8F%9C%E9%A4%A8%20%E4%B8%80%E7%95%AA",
@@ -187,8 +191,10 @@ export const MOCK_SHOPS: Shop[] = [
     "name": "炭焼きイタリアン Black",
     "area": "namba",
     "genre": "italian",
-    "dinnerBudgetMin": 2000,
-    "dinnerBudgetMax": 4000,
+    "dinnerBudgetMin": 4000,
+    "dinnerBudgetMax": 4999,
+    "lunchBudgetMin": 3000,
+    "lunchBudgetMax": 3999,
     "comment": "ラードニキが行きたいお店",
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%84%BC%E3%81%8D%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%B3%20Black",
@@ -197,7 +203,7 @@ export const MOCK_SHOPS: Shop[] = [
     "address": "〒542-0075 大阪府大阪市中央区難波千日前５−３０ 三陽グリーンハイツ 1F",
     "phone": "090-4057-7233"
   ,
-    "hasLunch": false
+    "hasLunch": true
   ,
     "hasDinner": true
   },
@@ -396,8 +402,8 @@ export const MOCK_SHOPS: Shop[] = [
     "name": "立ち鮨ひでぞう",
     "area": "namba",
     "genre": "sushi",
-    "dinnerBudgetMin": 2000,
-    "dinnerBudgetMax": 4000,
+    "dinnerBudgetMin": 3000,
+    "dinnerBudgetMax": 3999,
     "comment": "ラードニキが行きたいお店",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E9%AE%A8%E3%81%B2%E3%81%A7%E3%81%9E%E3%81%86",
@@ -405,7 +411,7 @@ export const MOCK_SHOPS: Shop[] = [
     "createdAt": "2026-03-31",
     "address": "〒542-0071 大阪府大阪市中央区道頓堀１丁目２−１２"
   ,
-    "hasLunch": true
+    "hasLunch": false
   ,
     "hasDinner": true
   },
@@ -415,7 +421,7 @@ export const MOCK_SHOPS: Shop[] = [
     "area": "namba",
     "genre": "izakaya",
     "dinnerBudgetMin": 2000,
-    "dinnerBudgetMax": 3000,
+    "dinnerBudgetMax": 2999,
     "comment": "ラードニキが行きたいお店",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E5%B1%8B%20%E3%81%B2%E3%81%A7%E3%81%9E%E3%81%86%20%E7%AB%8B%E3%81%A1%E5%91%91%E3%81%BF%E5%BA%97",
