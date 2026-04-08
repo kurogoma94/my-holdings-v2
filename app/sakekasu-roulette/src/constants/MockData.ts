@@ -1687,6 +1687,8 @@ export const MOCK_SHOPS: Shop[] = [
     "name": "goody 中津店",
     "address": "大阪府大阪市北区中津１丁目１７−１２",
     "area": "umeda",
+    "dinnerBudgetMin": 1000,
+    "dinnerBudgetMax": 1999,
     "comment": "ラードニキが行きたいお店",
     "rating": 3.3,
     "genre": "other"
@@ -1823,15 +1825,17 @@ export const MOCK_SHOPS: Shop[] = [
     "name": "Bar Asumo バーアスモ お初天神店",
     "area": "other",
     "genre": "bar",
-    "dinnerBudgetMin": 2000,
-    "dinnerBudgetMax": 4000,
+    "dinnerBudgetMin": 1000,
+    "dinnerBudgetMax": 1999,
+    "lunchBudgetMin": 0,
+    "lunchBudgetMax": 999,
     "comment": "ラードニキが行きたいお店",
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Asumo%20%E3%83%90%E3%83%BC%E3%82%A2%E3%82%B9%E3%83%A2%20%E3%81%8A%E5%88%9D%E5%A4%A9%E7%A5%9E%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31"
   ,
-    "hasLunch": false
+    "hasLunch": true
   ,
     "hasDinner": true
   },
@@ -1871,18 +1875,20 @@ export const MOCK_SHOPS: Shop[] = [
   },
   {
     "id": "136",
-    "name": "リゴレット",
+    "name": "Regal Rigoletto",
     "area": "other",
     "genre": "other",
-    "dinnerBudgetMin": 2000,
-    "dinnerBudgetMax": 4000,
+    "dinnerBudgetMin": 3000,
+    "dinnerBudgetMax": 3999,
+    "lunchBudgetMin": 0,
+    "lunchBudgetMax": 999,
     "comment": "ラードニキが行きたいお店",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AA%E3%82%B4%E3%83%AC%E3%83%83%E3%83%88",
     "isActive": true,
     "createdAt": "2026-03-31"
   ,
-    "hasLunch": false
+    "hasLunch": true
   ,
     "hasDinner": true
   },
@@ -1976,15 +1982,17 @@ export const MOCK_SHOPS: Shop[] = [
     "name": "元祖ぶっち切り寿司 魚心 本店",
     "area": "other",
     "genre": "yakitori",
-    "dinnerBudgetMin": 2000,
-    "dinnerBudgetMax": 4000,
+    "dinnerBudgetMin": 3000,
+    "dinnerBudgetMax": 3999,
+    "lunchBudgetMin": 1000,
+    "lunchBudgetMax": 1999,
     "comment": "ラードニキが行きたいお店",
     "rating": 3.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E3%81%B6%E3%81%A3%E3%81%A1%E5%88%87%E3%82%8A%E5%AF%BF%E5%8F%B8%20%E9%AD%9A%E5%BF%83%20%E6%9C%AC%E5%BA%97",
     "isActive": true,
     "createdAt": "2026-03-31"
   ,
-    "hasLunch": false
+    "hasLunch": true
   ,
     "hasDinner": true
   },
@@ -2316,8 +2324,10 @@ export const MOCK_SHOPS: Shop[] = [
     "name": "立ち飲みクラフトビール酒場 ビアスタンド モルト!! 阪急梅田店",
     "area": "umeda",
     "genre": "yakiniku",
-    "dinnerBudgetMin": 2000,
-    "dinnerBudgetMax": 4000,
+    "dinnerBudgetMin": 1000,
+    "dinnerBudgetMax": 1999,
+    "lunchBudgetMin": 1000,
+    "lunchBudgetMax": 1999,
     "comment": "ラードニキが行きたいお店",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E9%A3%B2%E3%81%BF%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%83%93%E3%83%BC%E3%83%AB%E9%85%92%E5%A0%B4%20%E3%83%93%E3%82%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%83%A2%E3%83%AB%E3%83%88!!%20%E9%98%AA%E6%80%A5%E6%A2%85%E7%94%B0%E5%BA%97",
