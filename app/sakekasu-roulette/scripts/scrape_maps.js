@@ -9,7 +9,7 @@ const fs = require('fs');
     // Set a reasonable viewport
     await page.setViewport({ width: 1280, height: 800 });
 
-    const url = 'https://maps.app.goo.gl/khPkcLq3mF1BuEa67';
+    const url = 'https://maps.app.goo.gl/EAnhn1FYLdyzDEZK9';
     console.log(`Navigating to ${url}...`);
     await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
 
