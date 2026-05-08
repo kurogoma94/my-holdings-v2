@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-05-08T00:25:06.118Z';
+export const MOCK_DATA_UPDATED_AT = '2026-05-08T00:53:18.652Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -175,7 +175,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "14",
     "name": "うどん屋 きすけ",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%A9%E3%82%93%E5%B1%8B%20%E3%81%8D%E3%81%99%E3%81%91",
@@ -344,7 +344,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "27",
     "name": "近江屋 本店",
-    "area": "other",
+    "area": "namba",
     "genre": "kushikatsu",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%BF%91%E6%B1%9F%E5%B1%8B%20%E6%9C%AC%E5%BA%97",
@@ -396,7 +396,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "31",
     "name": "夢屋台",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "ramen",
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A2%E5%B1%8B%E5%8F%B0",
@@ -500,7 +500,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "39",
     "name": "やぐら",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%81%90%E3%82%89",
@@ -526,7 +526,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "41",
     "name": "Dal Brigante",
-    "area": "other",
+    "area": "fukushima",
     "genre": "other",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dal%20Brigante",
@@ -682,7 +682,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "53",
     "name": "丸元",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E5%85%83",
@@ -909,7 +909,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "70",
     "name": "白銀亭",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E9%8A%80%E4%BA%AD",
@@ -1026,7 +1026,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "79",
     "name": "リバージュ",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "bar",
     "rating": 4.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A5",
@@ -1078,7 +1078,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "83",
     "name": "Restaurant Blanc",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Blanc",
@@ -1104,7 +1104,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "85",
     "name": "おく",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%8F",
@@ -1117,7 +1117,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "86",
     "name": "すし処 広川",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "sushi",
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E5%87%A6%20%E5%BA%83%E5%B7%9D",
@@ -1130,7 +1130,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "87",
     "name": "田吾作",
-    "area": "other",
+    "area": "umeda",
     "genre": "izakaya",
     "rating": 4.3,
     "dinnerBudgetMin": 4000,
@@ -1145,7 +1145,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "88",
     "name": "赤垣屋",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "izakaya",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%9E%A3%E5%B1%8B",
@@ -1158,7 +1158,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "89",
     "name": "大甚本店",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "izakaya",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%9A%E6%9C%AC%E5%BA%97",
@@ -1171,7 +1171,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "90",
     "name": "明治屋",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "izakaya",
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E6%B2%BB%E5%B1%8B",
@@ -1197,7 +1197,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "92",
     "name": "ひら井",
-    "area": "other",
+    "area": "umeda",
     "genre": "izakaya",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%82%89%E4%BA%95",
@@ -1461,7 +1461,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "112",
     "name": "きむらや",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "tachinomi",
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%82%80%E3%82%89%E3%82%84",
@@ -1513,7 +1513,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "116",
     "name": "Mikan",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 4.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mikan",
@@ -1552,7 +1552,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "119",
     "name": "アルソード",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%89",
@@ -1630,7 +1630,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "125",
     "name": "桜原精肉店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%9C%E5%8E%9F%E7%B2%BE%E8%82%89%E5%BA%97",
@@ -1643,7 +1643,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "126",
     "name": "居酒屋 大黒",
-    "area": "other",
+    "area": "fukushima",
     "genre": "izakaya",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%85%E9%85%92%E5%B1%8B%20%E5%A4%A7%E9%BB%92",
@@ -1656,7 +1656,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "127",
     "name": "浪芳庵",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%AA%E8%8A%B3%E5%BA%B5",
@@ -1682,7 +1682,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "129",
     "name": "天八うどん どんでん",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%85%AB%E3%81%86%E3%81%A9%E3%82%93%20%E3%81%A9%E3%82%93%E3%81%A7%E3%82%93",
@@ -1903,7 +1903,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "146",
     "name": "やっこ",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%81%A3%E3%81%93",
@@ -1955,7 +1955,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "150",
     "name": "グリル マルヨシ",
-    "area": "other",
+    "area": "abeno",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%AA%E3%83%AB%20%E3%83%9E%E3%83%AB%E3%83%A8%E3%82%B7",
@@ -1981,7 +1981,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "152",
     "name": "Casita",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Casita",
@@ -2007,7 +2007,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "154",
     "name": "三国そば",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%9B%BD%E3%81%9D%E3%81%B0",
@@ -2020,7 +2020,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "155",
     "name": "ののじ",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AE%E3%81%AE%E3%81%98",
@@ -2293,7 +2293,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "176",
     "name": "文世食堂",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E4%B8%96%E9%A3%9F%E5%A0%82",
@@ -2397,7 +2397,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "184",
     "name": "総大醤",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B7%8F%E5%A4%A7%E9%86%A4",
@@ -2423,7 +2423,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "186",
     "name": "鳥悟",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "yakitori",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B3%A5%E6%82%9F",
@@ -2644,7 +2644,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "203",
     "name": "わかば",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%8F%E3%81%8B%E3%81%B0",
@@ -2657,7 +2657,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "204",
     "name": "福太郎 本店",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%A4%AA%E9%83%8E%20%E6%9C%AC%E5%BA%97",
@@ -2684,7 +2684,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "206",
     "name": "大興寿司 本店",
-    "area": "other",
+    "area": "namba",
     "genre": "sushi",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%88%88%E5%AF%BF%E5%8F%B8%20%E6%9C%AC%E5%BA%97",
@@ -2788,7 +2788,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "214",
     "name": "やまのや",
-    "area": "other",
+    "area": "shinsekai",
     "genre": "izakaya",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%81%BE%E3%81%AE%E3%82%84",
@@ -2853,7 +2853,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "219",
     "name": "魚太寿司",
-    "area": "other",
+    "area": "senshu",
     "genre": "sushi",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E5%A4%AA%E5%AF%BF%E5%8F%B8",
@@ -2905,7 +2905,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "223",
     "name": "ゆうすけ",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%86%E3%81%86%E3%81%99%E3%81%91",
@@ -3074,7 +3074,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "236",
     "name": "しっとう屋",
-    "area": "other",
+    "area": "senshu",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%81%A3%E3%81%A8%E3%81%86%E5%B1%8B",
@@ -3087,7 +3087,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "237",
     "name": "墨国回転鶏料理",
-    "area": "other",
+    "area": "umeda",
     "genre": "yakitori",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A2%A8%E5%9B%BD%E5%9B%9E%E8%BB%A2%E9%B6%8F%E6%96%99%E7%90%86",
@@ -3100,7 +3100,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "238",
     "name": "フーナ",
-    "area": "other",
+    "area": "fukushima",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%83%BC%E3%83%8A",
@@ -3308,7 +3308,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "254",
     "name": "楽園",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A5%BD%E5%9C%92",
@@ -3399,7 +3399,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "261",
     "name": "いこい本店",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%93%E3%81%84%E6%9C%AC%E5%BA%97",
@@ -3451,7 +3451,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "265",
     "name": "闇市",
-    "area": "other",
+    "area": "shinsekai",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%97%87%E5%B8%82",
@@ -3672,7 +3672,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "282",
     "name": "中華そば フラン軒",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "ramen",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E3%83%95%E3%83%A9%E3%83%B3%E8%BB%92",
@@ -3711,7 +3711,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "285",
     "name": "Bar continue",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20continue",
@@ -3750,7 +3750,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "288",
     "name": "舟田",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%9F%E7%94%B0",
@@ -3932,7 +3932,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "302",
     "name": "橋本屋",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A9%8B%E6%9C%AC%E5%B1%8B",
@@ -3958,7 +3958,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "304",
     "name": "醤油らーめん専門 金久右衛門 本店",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "ramen",
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%86%A4%E6%B2%B9%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E5%B0%82%E9%96%80%20%E9%87%91%E4%B9%85%E5%8F%B3%E8%A1%9B%E9%96%80%20%E6%9C%AC%E5%BA%97",
@@ -4140,7 +4140,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "318",
     "name": "すし処 智",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "sushi",
     "rating": 3.7,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E5%87%A6%20%E6%99%BA",
@@ -4166,7 +4166,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "320",
     "name": "焼肉 同心亭",
-    "area": "other",
+    "area": "umeda",
     "genre": "yakiniku",
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E5%90%8C%E5%BF%83%E4%BA%AD",
@@ -4361,7 +4361,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "335",
     "name": "唐黍堂",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%94%90%E9%BB%8D%E5%A0%82",
@@ -4387,7 +4387,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "337",
     "name": "KURODARUMA",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KURODARUMA",
@@ -4543,7 +4543,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "349",
     "name": "べにくらげ",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B9%E3%81%AB%E3%81%8F%E3%82%89%E3%81%92",
@@ -4621,7 +4621,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "355",
     "name": "きみや",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%81%BF%E3%82%84",
@@ -4673,7 +4673,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "359",
     "name": "蛸八",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%9B%B8%E5%85%AB",
@@ -4686,7 +4686,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "360",
     "name": "大阪まんぷく堂",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E3%81%BE%E3%82%93%E3%81%B7%E3%81%8F%E5%A0%82",
@@ -4764,7 +4764,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "366",
     "name": "花かご",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E3%81%8B%E3%81%94",
@@ -4829,7 +4829,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "371",
     "name": "揚子江ラーメン 名門",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "ramen",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8F%9A%E5%AD%90%E6%B1%9F%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E5%90%8D%E9%96%80",
@@ -5011,7 +5011,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "385",
     "name": "うさみ亭 マツバヤ",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%95%E3%81%BF%E4%BA%AD%20%E3%83%9E%E3%83%84%E3%83%90%E3%83%A4",
@@ -5180,7 +5180,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "398",
     "name": "お好み焼き 花",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E5%A5%BD%E3%81%BF%E7%84%BC%E3%81%8D%20%E8%8A%B1",
@@ -5206,7 +5206,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "400",
     "name": "トリタニ商店",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%88%E3%83%AA%E3%82%BF%E3%83%8B%E5%95%86%E5%BA%97",
@@ -5219,7 +5219,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "401",
     "name": "鮨 奏",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "sushi",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%A5%8F",
@@ -5258,7 +5258,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "404",
     "name": "串焼き猿",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B2%E7%84%BC%E3%81%8D%E7%8C%BF",
@@ -5414,7 +5414,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "416",
     "name": "Ristorante 迫",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ristorante%20%E8%BF%AB",
@@ -5518,7 +5518,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "424",
     "name": "北京本店",
-    "area": "other",
+    "area": "senshu",
     "genre": "ramen",
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E4%BA%AC%E6%9C%AC%E5%BA%97",
@@ -5570,7 +5570,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "428",
     "name": "銀座屋",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%BA%A7%E5%B1%8B",
@@ -5687,7 +5687,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "437",
     "name": "炭火焼 炭達磨",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%20%E7%82%AD%E9%81%94%E7%A3%A8",
@@ -5700,7 +5700,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "438",
     "name": "鮨白",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "sushi",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E7%99%BD",
@@ -5895,7 +5895,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "453",
     "name": "パンとエスプレッソと堺筋俱楽部",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%91%E3%83%B3%E3%81%A8%E3%82%A8%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%82%BD%E3%81%A8%E5%A0%BA%E7%AD%8B%E4%BF%B1%E6%A5%BD%E9%83%A8",
@@ -5999,7 +5999,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "461",
     "name": "すざき",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%96%E3%81%8D",
@@ -6038,7 +6038,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "464",
     "name": "麺者 侍",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E8%80%85%20%E4%BE%8D",
@@ -6051,7 +6051,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "465",
     "name": "焼鳥 日和",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "yakitori",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E9%B3%A5%20%E6%97%A5%E5%92%8C",
@@ -6064,7 +6064,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "466",
     "name": "床島",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%8A%E5%B3%B6",
@@ -6116,7 +6116,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "470",
     "name": "壹銭洋食 本店",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A3%B9%E9%8A%AD%E6%B4%8B%E9%A3%9F%20%E6%9C%AC%E5%BA%97",
@@ -6220,7 +6220,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "478",
     "name": "方違神社",
-    "area": "other",
+    "area": "senshu",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B9%E9%81%95%E7%A5%9E%E7%A4%BE",
@@ -6233,7 +6233,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "479",
     "name": "縄寿司",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B8%84%E5%AF%BF%E5%8F%B8",
@@ -6285,7 +6285,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "483",
     "name": "串カツ 武田",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "kushikatsu",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B2%E3%82%AB%E3%83%84%20%E6%AD%A6%E7%94%B0",
@@ -6363,7 +6363,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "489",
     "name": "蓮心",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%93%AE%E5%BF%83",
@@ -6441,7 +6441,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "495",
     "name": "三好屋商店",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%A5%BD%E5%B1%8B%E5%95%86%E5%BA%97",
@@ -6467,7 +6467,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "497",
     "name": "鮨 こう介",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%93%E3%81%86%E4%BB%8B",
@@ -6480,7 +6480,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "498",
     "name": "すし処 ひでまる",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "sushi",
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E5%87%A6%20%E3%81%B2%E3%81%A7%E3%81%BE%E3%82%8B",
@@ -6649,7 +6649,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "511",
     "name": "井出商店",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%95%E5%87%BA%E5%95%86%E5%BA%97",
@@ -6675,7 +6675,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "513",
     "name": "味希",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E5%B8%8C",
@@ -6844,7 +6844,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "526",
     "name": "和食処 大福",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A3%9F%E5%87%A6%20%E5%A4%A7%E7%A6%8F",
@@ -6857,7 +6857,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "527",
     "name": "大福屋",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%A6%8F%E5%B1%8B",
@@ -6922,7 +6922,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "532",
     "name": "焼肉かまちゃん",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "yakiniku",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%8B%E3%81%BE%E3%81%A1%E3%82%83%E3%82%93",
@@ -7078,7 +7078,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "544",
     "name": "うなぎ じん田",
-    "area": "other",
+    "area": "umeda",
     "genre": "sushi",
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%20%E3%81%98%E3%82%93%E7%94%B0",
@@ -7208,7 +7208,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "554",
     "name": "GLITCH COFFEE OSAKA",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=GLITCH%20COFFEE%20OSAKA",
@@ -7221,7 +7221,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "555",
     "name": "天茂",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E8%8C%82",
@@ -7442,7 +7442,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "572",
     "name": "寿司常",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E5%8F%B8%E5%B8%B8",
@@ -7494,7 +7494,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "576",
     "name": "イルテラ",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%83%AB%E3%83%86%E3%83%A9",
@@ -7650,7 +7650,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "588",
     "name": "鮨 はまだ",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%AF%E3%81%BE%E3%81%A0",
@@ -7663,7 +7663,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "589",
     "name": "志津可",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BF%97%E6%B4%A5%E5%8F%AF",
@@ -7754,7 +7754,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "596",
     "name": "ピノキオ",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%94%E3%83%8E%E3%82%AD%E3%82%AA",
@@ -7806,7 +7806,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "600",
     "name": "Bar W",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20W",
@@ -7975,7 +7975,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "613",
     "name": "華苑 本店",
-    "area": "other",
+    "area": "nishinakajima",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8F%AF%E8%8B%91%20%E6%9C%AC%E5%BA%97",
@@ -8066,7 +8066,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "620",
     "name": "アネロスタンド",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%8D%E3%83%AD%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89",
@@ -8222,7 +8222,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "632",
     "name": "浅野日本酒店",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%85%E9%87%8E%E6%97%A5%E6%9C%AC%E9%85%92%E5%BA%97",
@@ -8274,7 +8274,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "636",
     "name": "てんぐ",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A6%E3%82%93%E3%81%90",
@@ -8300,7 +8300,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "638",
     "name": "兵蔵",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%B5%E8%94%B5",
@@ -8378,7 +8378,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "644",
     "name": "手打ちうどん 上を向いて",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E6%89%93%E3%81%A1%E3%81%86%E3%81%A9%E3%82%93%20%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6",
@@ -8391,7 +8391,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "645",
     "name": "雅しゅとうとう",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%85%E3%81%97%E3%82%85%E3%81%A8%E3%81%86%E3%81%A8%E3%81%86",
@@ -8456,7 +8456,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "650",
     "name": "すし政 中店",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E6%94%BF%20%E4%B8%AD%E5%BA%97",
@@ -8469,7 +8469,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "651",
     "name": "千番",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E7%95%AA",
@@ -8534,7 +8534,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "656",
     "name": "かどや 大街道店",
-    "area": "other",
+    "area": "fukushima",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%A9%E3%82%84%20%E5%A4%A7%E8%A1%97%E9%81%93%E5%BA%97",
@@ -8625,7 +8625,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "663",
     "name": "炭焼きうなぎの魚伊 本店",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%84%BC%E3%81%8D%E3%81%86%E3%81%AA%E3%81%8E%E3%81%AE%E9%AD%9A%E4%BC%8A%20%E6%9C%AC%E5%BA%97",
@@ -8638,7 +8638,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "664",
     "name": "ザ・ミュンヒ",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B6%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%B3%E3%83%92",
@@ -8664,7 +8664,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "666",
     "name": "千とせ 本店",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E3%81%A8%E3%81%9B%20%E6%9C%AC%E5%BA%97",
@@ -8677,7 +8677,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "667",
     "name": "魚仁",
-    "area": "other",
+    "area": "shinsaibashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%BB%81",
@@ -8690,7 +8690,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "668",
     "name": "食堂 二十",
-    "area": "other",
+    "area": "senshu",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E5%A0%82%20%E4%BA%8C%E5%8D%81",
@@ -8781,7 +8781,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "675",
     "name": "いなさ寿司",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%AA%E3%81%95%E5%AF%BF%E5%8F%B8",
@@ -8833,7 +8833,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "679",
     "name": "鮨 なかもと",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%AA%E3%81%8B%E3%82%82%E3%81%A8",
@@ -8846,7 +8846,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "680",
     "name": "お食事処 美登里",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E9%A3%9F%E4%BA%8B%E5%87%A6%20%E7%BE%8E%E7%99%BB%E9%87%8C",
@@ -8924,7 +8924,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "686",
     "name": "八重勝",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E9%87%8D%E5%8B%9D",
@@ -8989,7 +8989,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "691",
     "name": "桃白白",
-    "area": "other",
+    "area": "higashiosaka",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E7%99%BD%E7%99%BD",
@@ -9015,7 +9015,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "693",
     "name": "圓家",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%93%E5%AE%B6",
@@ -9067,7 +9067,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "697",
     "name": "アングル",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB",
@@ -9366,7 +9366,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "720",
     "name": "味真",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E7%9C%9F",
@@ -9392,7 +9392,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "722",
     "name": "柳井",
-    "area": "other",
+    "area": "abeno",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B3%E4%BA%95",
@@ -9405,7 +9405,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "723",
     "name": "喰海",
-    "area": "other",
+    "area": "abeno",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%B0%E6%B5%B7",
@@ -9470,7 +9470,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "728",
     "name": "玄風館",
-    "area": "other",
+    "area": "kyobashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%84%E9%A2%A8%E9%A4%A8",
@@ -9561,7 +9561,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "735",
     "name": "La Lanterna di Genova",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Lanterna%20di%20Genova",
@@ -9587,7 +9587,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "737",
     "name": "丸鶴",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E9%B6%B4",
@@ -9678,7 +9678,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "744",
     "name": "ベトコンラーメン 新京",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%99%E3%83%88%E3%82%B3%E3%83%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E6%96%B0%E4%BA%AC",
@@ -9808,7 +9808,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "754",
     "name": "一富士食堂",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E5%AF%8C%E5%A3%AB%E9%A3%9F%E5%A0%82",
@@ -9821,7 +9821,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "755",
     "name": "and. cafe",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=and.%20cafe",
@@ -9834,7 +9834,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "756",
     "name": "松屋食堂",
-    "area": "other",
+    "area": "namba",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B1%8B%E9%A3%9F%E5%A0%82",
@@ -9899,7 +9899,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "761",
     "name": "心伯",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E4%BC%AF",
@@ -9925,7 +9925,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "763",
     "name": "ステーキハウス 華",
-    "area": "other",
+    "area": "hokusetsu",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%8F%E3%82%A6%E3%82%B9%20%E8%8F%AF",
@@ -9990,7 +9990,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "768",
     "name": "グリル 欧風軒",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%AA%E3%83%AB%20%E6%AC%A7%E9%A2%A8%E8%BB%92",
@@ -10003,7 +10003,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "769",
     "name": "ぶどう亭",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B6%E3%81%A9%E3%81%86%E4%BA%AD",
@@ -10042,7 +10042,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "772",
     "name": "石鹿",
-    "area": "other",
+    "area": "umeda",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E9%B9%BF",
@@ -10055,7 +10055,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "773",
     "name": "たま木亭",
-    "area": "other",
+    "area": "osakacity-other",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%BE%E6%9C%A8%E4%BA%AD",
@@ -10081,7 +10081,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "775",
     "name": "宇宙",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%87%E5%AE%99",
@@ -10172,7 +10172,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "782",
     "name": "すき焼･鍋 なべや",
-    "area": "other",
+    "area": "shinsekai",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%8D%E7%84%BC%EF%BD%A5%E9%8D%8B%20%E3%81%AA%E3%81%B9%E3%82%84",
@@ -10185,7 +10185,7 @@ export const MOCK_SHOPS: Shop[] = [
   {
     "id": "783",
     "name": "Ellie",
-    "area": "other",
+    "area": "tsuruhashi",
     "genre": "other",
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ellie",

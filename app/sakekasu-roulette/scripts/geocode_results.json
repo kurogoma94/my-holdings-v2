@@ -1,0 +1,4430 @@
+{
+  "1": {
+    "name": "Chop Hits Barbecue",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "4": {
+    "name": "大阪ドカ盛りマンモス弁当 淡路総本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "5": {
+    "name": "いづう",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "6": {
+    "name": "イタリア食堂 Necco",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "7": {
+    "name": "海坊主",
+    "address": "埼玉県 坂戸市 粟生田",
+    "displayName": "日光脇往還, 仲町, 粟生田, 坂戸市, 埼玉県, 350-0225, 日本",
+    "lat": "35.9607863",
+    "lon": "139.3926895",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.0533892858777752
+  },
+  "8": {
+    "name": "洋風惣菜 アバ(コロッケ)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "9": {
+    "name": "ラーメン ギタギタ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "10": {
+    "name": "ベンジャミーナ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "11": {
+    "name": "高知から来た焼肉屋",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "12": {
+    "name": "イノベーティブフレンチ genso",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "13": {
+    "name": "豆ふと鮨と和食 ひとひ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "14": {
+    "name": "うどん屋 きすけ",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "うどん屋 きすけ, 新御堂筋, 鶴野町, 北区, 大阪市, 大阪府, 530-8304, 日本",
+    "lat": "34.7092653",
+    "lon": "135.5014930",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "15": {
+    "name": "うどん 兎麦 umugi",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "16": {
+    "name": "折鶴会館",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "17": {
+    "name": "鮨 暁",
+    "address": "調布市",
+    "displayName": "大阪王将, 調布駅前広場, 布田四丁目, 調布市, 東京都, 182-0026, 日本",
+    "lat": "35.6507598",
+    "lon": "139.5437009",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.00008593499656667457
+  },
+  "18": {
+    "name": "中華菜館 一番",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "19": {
+    "name": "特製ラーメン とん吉",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "20": {
+    "name": "炭焼きイタリアン Black",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "22": {
+    "name": "羊の結論",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "23": {
+    "name": "NASQUILLO（ナスキロ）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "24": {
+    "name": "STUN.S スタンス",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "26": {
+    "name": "游玄亭 ホテルニューオータニ大阪店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "27": {
+    "name": "近江屋 本店",
+    "address": "大阪府 大阪市 浪速区",
+    "displayName": "近江屋 本店(ふわふわ串カツ), 中央通, 恵美須東二丁目, 浪速区, 大阪市, 大阪府, 556-0002, 日本",
+    "lat": "34.6514965",
+    "lon": "135.5061312",
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区",
+    "confidence": 0.00005728618295562703
+  },
+  "28": {
+    "name": "あぶり餅 本家 根元 かざりや",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "29": {
+    "name": "タカムラワイン＆コーヒーロースターズ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "31": {
+    "name": "夢屋台",
+    "address": "大阪府 大東市",
+    "displayName": "らーめん夢屋台, 諸福中垣内線, 平野屋二丁目, 大東市, 大阪府, 574-0024, 日本",
+    "lat": "34.7029471",
+    "lon": "135.6388529",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "大東市",
+    "confidence": 0.00006118181124585362
+  },
+  "32": {
+    "name": "GODIVA Bakery ゴディパン 京都四条店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "33": {
+    "name": "フィオーレジャルディーノ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "35": {
+    "name": "立ち鮨ひでぞう",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "36": {
+    "name": "魚屋 ひでぞう 立ち呑み店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "37": {
+    "name": "メゾン ポール・ボキューズ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "39": {
+    "name": "やぐら",
+    "address": "大阪府 大阪市 西淀川区",
+    "displayName": "矢倉緑地公園, 西淀川区, 大阪市, 大阪府, 日本",
+    "lat": "34.6877633",
+    "lon": "135.4183266",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.08005728618295564
+  },
+  "41": {
+    "name": "Dal Brigante",
+    "address": "大阪府 大阪市 福島区",
+    "displayName": "Dal Brigante, 14, 福島三丁目, 福島区, 大阪市, 大阪府, 553-0003, 日本",
+    "lat": "34.6930130",
+    "lon": "135.4842705",
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区",
+    "confidence": 0.00005728618295562703
+  },
+  "42": {
+    "name": "お好み焼き まるみ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "44": {
+    "name": "サル イ アモール",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "46": {
+    "name": "焼肉・ホルモン 踊ル",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "47": {
+    "name": "立ち呑み とおる",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "48": {
+    "name": "PaNOTTO コーヒー＆ベーカリー",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "50": {
+    "name": "ロウリーズ・ザ・プライムリブ 大阪",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "53": {
+    "name": "丸元",
+    "address": "大阪府 大阪市 住吉区",
+    "displayName": "万代池公園, 住吉区, 大阪市, 大阪府, 日本",
+    "lat": "34.6196212",
+    "lon": "135.5021221",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住吉区",
+    "confidence": 0.08005728618295564
+  },
+  "54": {
+    "name": "ツバクロすっぽん食堂 大阪店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "55": {
+    "name": "ふぐ久",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "57": {
+    "name": "タツリキショップ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "58": {
+    "name": "回転寿司 力丸 JR姫路駅店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "59": {
+    "name": "姫路横丁酒場 寺尾商店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "60": {
+    "name": "食堂あむす",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "61": {
+    "name": "英洋軒 姫路駅前店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "62": {
+    "name": "魚酒場 ジェームス吉田屋 姫路駅前店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "63": {
+    "name": "炭火焼き And's ( あんず )",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "64": {
+    "name": "寿司処 眞",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "65": {
+    "name": "博多名代 吉塚うなぎ屋",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "66": {
+    "name": "かに問屋",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "67": {
+    "name": "鶏Soba 座銀 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "69": {
+    "name": "株式会社スズヤ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "70": {
+    "name": "白銀亭",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "白銀亭, 12, 淡路町四丁目, 中央区, 大阪市, 大阪府, 541-0047, 日本",
+    "lat": "34.6869263",
+    "lon": "135.4994248",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "71": {
+    "name": "MON CRULLER モンクルーラー",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "72": {
+    "name": "卵かけご飯専門店 但熊",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "74": {
+    "name": "手作りハンバーグ卵 せんびる店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "75": {
+    "name": "いわ志 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "76": {
+    "name": "鮨 お料理 あお山",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "77": {
+    "name": "グリルショップやの",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "78": {
+    "name": "玉子焼 中華そば 泉屋",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "79": {
+    "name": "リバージュ",
+    "address": "大阪府 堺市 西区",
+    "displayName": "リバージュ, 第二阪和国道, 浜寺元町六丁, 西区, 堺市, 大阪府, 590-0078, 日本",
+    "lat": "34.5280674",
+    "lon": "135.4522958",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区",
+    "confidence": 0.00005445105668722083
+  },
+  "80": {
+    "name": "丸正餃子店 阪奈店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "82": {
+    "name": "墨や",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "83": {
+    "name": "Restaurant Blanc",
+    "address": "大阪府 大阪市 西区",
+    "displayName": "低糖ダイニングブラン, 江戸堀北通, 江戸堀一丁目, 西区, 大阪市, 大阪府, 550-0002, 日本",
+    "lat": "34.6889074",
+    "lon": "135.4923819",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区",
+    "confidence": 0.00005728618295562703
+  },
+  "84": {
+    "name": "Wine Bar Base",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "85": {
+    "name": "おく",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "オーク堂島ビル, 堂島上通, 堂島二丁目, 北区, 大阪市, 大阪府, 530-0002, 日本",
+    "lat": "34.6971082",
+    "lon": "135.4944759",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "86": {
+    "name": "すし処 広川",
+    "address": "大阪府 大阪市 都島区",
+    "displayName": "すし処広川, 京橋東商店街, 東野田町三丁目, 都島区, 大阪市, 大阪府, 534-0025, 日本",
+    "lat": "34.6984144",
+    "lon": "135.5355635",
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区",
+    "confidence": 0.00005728618295562703
+  },
+  "87": {
+    "name": "田吾作",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "佐古田法律事務所, 鳥居筋, 天神橋一丁目, 北区, 大阪市, 大阪府, 530-0046, 日本",
+    "lat": "34.6948800",
+    "lon": "135.5125332",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "88": {
+    "name": "赤垣屋",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "赤垣屋, 精華通り, 難波三丁目, 中央区, 大阪市, 大阪府, 542-0076, 日本",
+    "lat": "34.6663050",
+    "lon": "135.5021900",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "89": {
+    "name": "大甚本店",
+    "address": "大阪府 大阪市 東淀川区",
+    "displayName": "國龍大善神・國治大善神, 淡路本町商店街, 淡路四丁目, 東淀川区, 大阪市, 大阪府, 533-0032, 日本",
+    "lat": "34.7372182",
+    "lon": "135.5120153",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.00005728618295562703
+  },
+  "90": {
+    "name": "明治屋",
+    "address": "大阪府 大阪市 淀川区",
+    "displayName": "明治屋, 十三本町商店街, 十三本町一丁目, 淀川区, 大阪市, 大阪府, 532-0024, 日本",
+    "lat": "34.7194037",
+    "lon": "135.4784659",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.00005728618295562703
+  },
+  "91": {
+    "name": "和食処 民芸酒房 牧水",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "92": {
+    "name": "ひら井",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "お酒処 ひら井, 国道176号, 芝田一丁目, 北区, 大阪市, 大阪府, 530-0012, 日本",
+    "lat": "34.7062001",
+    "lon": "135.4957980",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "93": {
+    "name": "八起亭",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "94": {
+    "name": "お食事処にしかわ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "96": {
+    "name": "THE MUSEN IN SHOCK",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "97": {
+    "name": "吉川温泉 よかたん (道の駅 よかわ)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "98": {
+    "name": "不動温泉",
+    "address": "岩手県 花巻市 愛宕町",
+    "displayName": "シティ不動産, 花巻停車場花巻温泉郷線, 大通り一丁目, 愛宕町, 花巻市, 岩手県, 025-0079, 日本",
+    "lat": "39.3932502",
+    "lon": "141.1118177",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.00005612802319366777
+  },
+  "100": {
+    "name": "Trattoria Vispa",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "101": {
+    "name": "ムスヒ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "102": {
+    "name": "スタンド サコ家(ヶ)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "103": {
+    "name": "高田揚揚（たかだのあげあげ）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "104": {
+    "name": "我恵你好",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "105": {
+    "name": "ピッツェリア プルチーノ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "106": {
+    "name": "コメジルシ 炊きたてビリヤニ専門店、そしてナチュラルワインと日本酒",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "107": {
+    "name": "湯川内温泉かじか荘",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "108": {
+    "name": "TACO BITEZ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "109": {
+    "name": "天婦羅・一品料理 新喜楽 東店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "110": {
+    "name": "スタンド Nagumo",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "112": {
+    "name": "きむらや",
+    "address": "大阪府 門真市",
+    "displayName": "OOWADA キムラヤ, 守口門真線, 野里町, 門真市, 大阪府, 571-0078, 日本",
+    "lat": "34.7409771",
+    "lon": "135.6031408",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "門真市",
+    "confidence": 0.000057559319447577896
+  },
+  "116": {
+    "name": "Mikan",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "みかん整骨院, 天五中崎通商店街, 中崎一丁目, 北区, 大阪市, 大阪府, 530-0023, 日本",
+    "lat": "34.7073682",
+    "lon": "135.5063890",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "117": {
+    "name": "めし処 ゑノゐ-enoi-",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "118": {
+    "name": "なごやか亭 守山えんま堂店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "119": {
+    "name": "アルソード",
+    "address": "大阪府 大阪市 西区",
+    "displayName": "アルソード, 新難波橋筋, 土佐堀二丁目, 西区, 大阪市, 大阪府, 550-0002, 日本",
+    "lat": "34.6882569",
+    "lon": "135.4900352",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区",
+    "confidence": 0.00005728618295562703
+  },
+  "120": {
+    "name": "スタンドAWAWA",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "122": {
+    "name": "賛否両論",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "123": {
+    "name": "和牛肉専門 焼肉 松",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "125": {
+    "name": "桜原精肉店",
+    "address": "大阪府 大阪市 西区",
+    "displayName": "桜原精肉店, 大目橋筋, 土佐堀二丁目, 西区, 大阪市, 大阪府, 550-0001, 日本",
+    "lat": "34.6878800",
+    "lon": "135.4888963",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区",
+    "confidence": 0.00005728618295562703
+  },
+  "126": {
+    "name": "居酒屋 大黒",
+    "address": "大阪府 大阪市 福島区",
+    "displayName": "居酒屋大黒, 聖天通り商店街 (SyotenDori Mall), 福島七丁目, 福島区, 大阪市, 大阪府, 553-0003, 日本",
+    "lat": "34.6974350",
+    "lon": "135.4863003",
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区",
+    "confidence": 0.00006113450827797387
+  },
+  "127": {
+    "name": "浪芳庵",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "稲畑勝太郎君壽像, 松屋町筋, 本町橋, 中央区, 大阪市, 大阪府, 540-0026, 日本",
+    "lat": "34.6841296",
+    "lon": "135.5114362",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00006053635461962337
+  },
+  "128": {
+    "name": "ホルモン倶楽部",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "129": {
+    "name": "天八うどん どんでん",
+    "address": "大阪府 大阪市 都島区",
+    "displayName": "天八うどん どんでん, 都島通, 都島本通三丁目, 都島区, 大阪市, 大阪府, 534-0014, 日本",
+    "lat": "34.7085749",
+    "lon": "135.5262829",
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区",
+    "confidence": 0.00006113450827797387
+  },
+  "131": {
+    "name": "パティスリーBOIS OSAKA",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "132": {
+    "name": "ダテダチ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "133": {
+    "name": "Eric Rose Cafe OSAKA",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "134": {
+    "name": "裏ヒロヤ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "135": {
+    "name": "Ristorante e Pizzeria SANTA LUCIA",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "136": {
+    "name": "Bar Asumo バーアスモ お初天神店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "137": {
+    "name": "近江牛ステーキとがぶ飲みワイン ニクバルモダンミール 大津店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "138": {
+    "name": "手打蕎麦鶴㐂",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "139": {
+    "name": "ヤマダモンゴル",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "140": {
+    "name": "おばんざい鈴",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "141": {
+    "name": "松茸屋 魚松 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "142": {
+    "name": "リゴレット",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "144": {
+    "name": "らくだ坂納豆工房",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "145": {
+    "name": "鮨MANABU",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "146": {
+    "name": "やっこ",
+    "address": "大阪府 大阪市 此花区",
+    "displayName": "やっこ, 北港通, 島屋一丁目, 此花区, 大阪市, 大阪府, 554-8799, 日本",
+    "lat": "34.6770494",
+    "lon": "135.4414005",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "此花区",
+    "confidence": 0.00005728618295562703
+  },
+  "149": {
+    "name": "洋食 おがた",
+    "address": "大阪府 柏原市",
+    "displayName": "加陽美容室, 清須大県線, 大県二丁目, 柏原市, 大阪府, 582-0001, 日本",
+    "lat": "34.5884865",
+    "lon": "135.6283832",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.000055168230716365566
+  },
+  "150": {
+    "name": "グリル マルヨシ",
+    "address": "大阪府 大阪市 阿倍野区",
+    "displayName": "グリル マルヨシ, 1, 阿倍野筋一丁目, 阿倍野筋, 阿倍野区, 大阪市, 大阪府, 545-0052, 日本",
+    "lat": "34.6458465",
+    "lon": "135.5120904",
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区",
+    "confidence": 0.00005728618295562703
+  },
+  "151": {
+    "name": "上野精養軒",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "152": {
+    "name": "Casita",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "Una Casita, 塩町通, 南船場一丁目, 中央区, 大阪市, 大阪府, 542-0018, 日本",
+    "lat": "34.6760849",
+    "lon": "135.5071655",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00006053635461962337
+  },
+  "153": {
+    "name": "元祖ぶっち切り寿司 魚心 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "154": {
+    "name": "三国そば",
+    "address": "大阪府 大阪市 淀川区",
+    "displayName": "三国そば, 淀川区第8201号線, 西三国四丁目, 淀川区, 大阪市, 大阪府, 532-0006, 日本",
+    "lat": "34.7385171",
+    "lon": "135.4834578",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.00005728618295562703
+  },
+  "155": {
+    "name": "ののじ",
+    "address": "大阪府 大阪市 淀川区",
+    "displayName": "ののじ, 十三本町商店街, 十三本町一丁目, 淀川区, 大阪市, 大阪府, 532-0024, 日本",
+    "lat": "34.7193163",
+    "lon": "135.4796154",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.00005728618295562703
+  },
+  "157": {
+    "name": "御影郷ふくじゅ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "158": {
+    "name": "川湯温泉 仙人風呂（冬季のみ）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "159": {
+    "name": "アカデミーカフェ（& Gallery, Dog ok )",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "161": {
+    "name": "山さんラーメン",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "162": {
+    "name": "トッサ・ジ・クラッサン",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "163": {
+    "name": "ミックステイスト",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "164": {
+    "name": "３ちゃん屋",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "165": {
+    "name": "八剱ROCK 人生餃子",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "166": {
+    "name": "ウエストうどん 祗園店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "167": {
+    "name": "牧のうどん 博多バスターミナル店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "168": {
+    "name": "博多うどん酒場 和八わっぱち 博多駅くうてん店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "169": {
+    "name": "博多シーフードうお田",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "170": {
+    "name": "鉄板焼天神ホルモン 博多駅店​",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "171": {
+    "name": "博多炊き餃子 池ぽん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "172": {
+    "name": "博多 鴨すき 鴨しゃぶ なかもぐろ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "173": {
+    "name": "味の明太子ふくや 博多デイトス売店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "174": {
+    "name": "イタリア料理カプリチョーザ渋谷本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "175": {
+    "name": "せせり蒲焼スタンド八とり2号店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "176": {
+    "name": "文世食堂",
+    "address": "大阪府 大阪市 西区",
+    "displayName": "文世食堂, 旧土佐堀通, 土佐堀二丁目, 西区, 大阪市, 大阪府, 550-0002, 日本",
+    "lat": "34.6889283",
+    "lon": "135.4902802",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区",
+    "confidence": 0.00005728618295562703
+  },
+  "177": {
+    "name": "ぎょうざ処だいきち",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "178": {
+    "name": "中国酒家 菜都",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "179": {
+    "name": "Petit Luxe",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "181": {
+    "name": "いし井Jr.",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "183": {
+    "name": "きち蔵",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "184": {
+    "name": "総大醤",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "総大醤, 都島通, 浮田二丁目, 北区, 大阪市, 大阪府, 530-0021, 日本",
+    "lat": "34.7102360",
+    "lon": "135.5076190",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "185": {
+    "name": "焼肉冷麺 幸楽",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "186": {
+    "name": "鳥悟",
+    "address": "大阪府 大阪市 東成区",
+    "displayName": "TSUTAYA, 国道308号, 深江南一丁目, 東成区, 大阪市, 大阪府, 537-0002, 日本",
+    "lat": "34.6712517",
+    "lon": "135.5570192",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区",
+    "confidence": 0.00006118181124585362
+  },
+  "189": {
+    "name": "串かつ 鳥の巣",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "195": {
+    "name": "タコスとメキシコビーフ アプレシオ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "196": {
+    "name": "みつわや酒店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "197": {
+    "name": "大衆鰻料理 うなぎ錦 尼崎武庫之荘店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "198": {
+    "name": "麺と小皿 精華",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "199": {
+    "name": "屋台おでん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "201": {
+    "name": "イマカツ 六本木本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "202": {
+    "name": "甘党 お好み焼 かく庄",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "203": {
+    "name": "わかば",
+    "address": "大阪府 大阪市 城東区",
+    "displayName": "わかば, 市道大阪環状線, 成育二丁目, 城東区, 大阪市, 大阪府, 536-0007, 日本",
+    "lat": "34.7068392",
+    "lon": "135.5435972",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "城東区",
+    "confidence": 0.00005728618295562703
+  },
+  "204": {
+    "name": "福太郎 本店",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "福太郎本店, 大劇南通, 難波千日前, 中央区, 大阪市, 大阪府, 542-0074, 日本",
+    "lat": "34.6655928",
+    "lon": "135.5045307",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "206": {
+    "name": "大興寿司 本店",
+    "address": "大阪府 大阪市 浪速区",
+    "displayName": "Taikousushi Honten, ジャンジャン横丁, 恵美須東三丁目, 浪速区, 大阪市, 大阪府, 556-0002, 日本",
+    "lat": "34.6497552",
+    "lon": "135.5061372",
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区",
+    "confidence": 0.00005728618295562703
+  },
+  "207": {
+    "name": "かじゅあるかっぽーTSUKUSI",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "209": {
+    "name": "岡室酒店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "211": {
+    "name": "香港飲茶 星街",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "213": {
+    "name": "餃子の店 もも",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "214": {
+    "name": "やまのや",
+    "address": "大阪府 大阪市 西成区",
+    "displayName": "夢乃家, 山王三丁目, 西成区, 大阪市, 大阪府, 557-0001, 日本",
+    "lat": "34.6435475",
+    "lon": "135.5065341",
+    "suggestedArea": "shinsekai",
+    "matchedWard": "西成区",
+    "confidence": 0.00005728618295562703
+  },
+  "215": {
+    "name": "ハモネリア ベジョータ ギョクロ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "216": {
+    "name": "金龍ラーメン 戎橋筋店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "217": {
+    "name": "Ntown -Onigiri shop-",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "218": {
+    "name": "尾道 むらかみ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "219": {
+    "name": "魚太寿司",
+    "address": "大阪府 松原市",
+    "displayName": "魚太寿司, 堺大和高田線, 上田三丁目, 松原市, 大阪府, 580-0004, 日本",
+    "lat": "34.5729481",
+    "lon": "135.5598954",
+    "suggestedArea": "senshu",
+    "matchedWard": "松原市",
+    "confidence": 0.00005569466697180159
+  },
+  "220": {
+    "name": "麺と肉 だいつる",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "221": {
+    "name": "和風もつ料理あらた",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "222": {
+    "name": "海鮮と幻餃子 ぼちぼち",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "223": {
+    "name": "ゆうすけ",
+    "address": "大阪府 大阪市 淀川区",
+    "displayName": "ゆうすけ, 大阪高槻線, 西中島一丁目, 淀川区, 大阪市, 大阪府, 532-0011, 日本",
+    "lat": "34.7257822",
+    "lon": "135.5007215",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.00005728618295562703
+  },
+  "224": {
+    "name": "山空海温泉",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "225": {
+    "name": "レストランひだまり 道の駅 能勢（くりの郷）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "226": {
+    "name": "ぱすた屋しかちゃん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "228": {
+    "name": "DE FRITES STAAN",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "229": {
+    "name": "ブルーノ HEPナビオ店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "231": {
+    "name": "日本料理 寺田",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "232": {
+    "name": "洋食屋 ふじ家",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "233": {
+    "name": "鮨 まごのて",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "234": {
+    "name": "酒屋へちかん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "235": {
+    "name": "寿しわげんせ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "236": {
+    "name": "しっとう屋",
+    "address": "大阪府 河内長野市",
+    "displayName": "しっとう屋, 国道371号, 南花台七丁目, 河内長野市, 大阪府, 586-0077, 日本",
+    "lat": "34.4358465",
+    "lon": "135.5583074",
+    "suggestedArea": "senshu",
+    "matchedWard": "河内長野市",
+    "confidence": 0.00005602731364914958
+  },
+  "237": {
+    "name": "墨国回転鶏料理",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "墨国回転鶏料理, 池田町中央商店街, 池田町, 北区, 大阪市, 大阪府, 530-0033, 日本",
+    "lat": "34.7070044",
+    "lon": "135.5131372",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "238": {
+    "name": "フーナ",
+    "address": "大阪府 大阪市 福島区",
+    "displayName": "ふな定 福島庵, 大阪伊丹線, 福島五丁目, 福島区, 大阪市, 大阪府, 553-0003, 日本",
+    "lat": "34.6963717",
+    "lon": "135.4863903",
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区",
+    "confidence": 0.00006113450827797387
+  },
+  "239": {
+    "name": "お魚処 藁ヤキ炭ヒデ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "241": {
+    "name": "焼肉 新楽井",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "242": {
+    "name": "MONIQUE",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "243": {
+    "name": "ニカイノオアシスＫＩＴＴＥ大阪店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "244": {
+    "name": "パルレ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "246": {
+    "name": "をにわ 河原町店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "247": {
+    "name": "牡蛎処 桝政 室津本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "248": {
+    "name": "瀬越海産",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "249": {
+    "name": "お初の十忠八九",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "250": {
+    "name": "ヘミングウェイ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "251": {
+    "name": "すし専門ストア 新橋かど平",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "252": {
+    "name": "すし専門ストア かど平",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "253": {
+    "name": "Grill Cafe Excellent",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "254": {
+    "name": "楽園",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "楽縁, 扇町公園北通, 山崎町, 北区, 大阪市, 大阪府, 530-0025, 日本",
+    "lat": "34.7063470",
+    "lon": "135.5098830",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "255": {
+    "name": "大衆酒場 つくねとたまごアカイワ 赤羽店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "256": {
+    "name": "赤羽ホルモン",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "257": {
+    "name": "赤羽 トロ函",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "258": {
+    "name": "ニクマレヤ 赤羽本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "259": {
+    "name": "酒肴 佐藤商店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "260": {
+    "name": "馬ん馬んいくどん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "261": {
+    "name": "いこい本店",
+    "address": "大阪府 大阪市 西淀川区",
+    "displayName": "いこい, 塚本駅のれん街, 柏里三丁目, 西淀川区, 大阪市, 大阪府, 532-0026, 日本",
+    "lat": "34.7123376",
+    "lon": "135.4695235",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.00005728618295562703
+  },
+  "262": {
+    "name": "大衆肉ビストロLit",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "263": {
+    "name": "居酒屋燃えた うらめし屋 赤羽",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "264": {
+    "name": "もつ焼のんき",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "265": {
+    "name": "闇市",
+    "address": "大阪府 大阪市 西成区",
+    "displayName": "大阪市立岸里小学校, 22, 千本中一丁目, 西成区, 大阪市, 大阪府, 557-0054, 日本",
+    "lat": "34.6338849",
+    "lon": "135.4919504",
+    "suggestedArea": "shinsekai",
+    "matchedWard": "西成区",
+    "confidence": 0.19938740066310082
+  },
+  "266": {
+    "name": "酒・肴 とやお",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "267": {
+    "name": "PANAME Crêpes de Paris ＆ Café Bar (Osaka)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "268": {
+    "name": "n°29（ナンバーニーキュー)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "269": {
+    "name": "薬薗(やくえん)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "270": {
+    "name": "居酒屋 たこしげ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "272": {
+    "name": "KOME MAME",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "273": {
+    "name": "Sweet Check",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "274": {
+    "name": "家系総本山 吉村家",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "275": {
+    "name": "209スタンド",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "276": {
+    "name": "淡路鮮魚",
+    "address": "兵庫県 明石市 魚住町金ヶ崎",
+    "displayName": "淡路信用金庫, 国道2号, 魚住町錦が丘四丁目, 魚住町金ヶ崎, 明石市, 兵庫県, 673-8686, 日本",
+    "lat": "34.6991149",
+    "lon": "134.9128211",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.00006024490730139647
+  },
+  "277": {
+    "name": "KILN THE BEER HOUSE",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "278": {
+    "name": "こたや",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "279": {
+    "name": "立呑み処 たよし",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "280": {
+    "name": "こめとはな (寺西家町家蔵 )",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "281": {
+    "name": "炭kappo hirac",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "282": {
+    "name": "中華そば フラン軒",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "中華そば フラン軒, せんば心斎橋筋商店街, 北久宝寺町三丁目, 中央区, 大阪市, 大阪府, 541-0057, 日本",
+    "lat": "34.6802603",
+    "lon": "135.5013824",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "283": {
+    "name": "にんにく鶏焼肉サン",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "285": {
+    "name": "Bar continue",
+    "address": "大阪府 大阪市 東成区",
+    "displayName": "Bar Continue, 千日前通, 大今里四丁目, 東成区, 大阪市, 大阪府, 537-0013, 日本",
+    "lat": "34.6681528",
+    "lon": "135.5508871",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区",
+    "confidence": 0.00006118181124585362
+  },
+  "288": {
+    "name": "舟田",
+    "address": "大阪府 大阪市 西淀川区",
+    "displayName": "大和田千舟線, 大和田六丁目, 西淀川区, 大阪市, 大阪府, 555-0031, 日本",
+    "lat": "34.7045612",
+    "lon": "135.4417824",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.3446563915113022
+  },
+  "289": {
+    "name": "和洋酒菜 ひで",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "290": {
+    "name": "酒場 やまと",
+    "address": "板橋区 常盤台",
+    "displayName": "旧板橋第四中学校, 富士見街道, 富士見町, 常盤台, 板橋区, 東京都, 174-0062, 日本",
+    "lat": "35.7607335",
+    "lon": "139.7011005",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.00008593499656667457
+  },
+  "295": {
+    "name": "華風料理 一芳亭 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "296": {
+    "name": "焼肉 まつえ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "299": {
+    "name": "イタリアン チャイナバル村塾",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "300": {
+    "name": "燻製工房 ホイコッケン",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "302": {
+    "name": "橋本屋",
+    "address": "大阪府 大阪市 浪速区",
+    "displayName": "日本橋無線ビル, 6, 日本橋三丁目, 浪速区, 大阪市, 大阪府, 556-0005, 日本",
+    "lat": "34.6616619",
+    "lon": "135.5056500",
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区",
+    "confidence": 0.00005728618295562703
+  },
+  "303": {
+    "name": "ラーメン 菜苑",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "304": {
+    "name": "醤油らーめん専門 金久右衛門 本店",
+    "address": "大阪府 大阪市 東成区",
+    "displayName": "醤油らーめん専門 金久右衛門 本店, 国道308号, 深江北三丁目, 東成区, 大阪市, 大阪府, 537-0001, 日本",
+    "lat": "34.6783274",
+    "lon": "135.5623138",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区",
+    "confidence": 0.00005728618295562703
+  },
+  "306": {
+    "name": "すき焼き・しゃぶしゃぶ きよ助",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "307": {
+    "name": "鮨 なかみせ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "309": {
+    "name": "Udon Kyutaro",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "310": {
+    "name": "三田天然温泉 寿ノ湯",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "311": {
+    "name": "クニーズ・南河生鮮市場",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "313": {
+    "name": "Norðurljósavegur 9",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "314": {
+    "name": "白銀亭 イトゥビル店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "315": {
+    "name": "生鮮食材専門店『八百鮮』空堀店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "317": {
+    "name": "あやむ屋",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "318": {
+    "name": "すし処 智",
+    "address": "大阪府 大阪市 東住吉区",
+    "displayName": "すし処 美旨, 駒川橋通, 南田辺四丁目, 東住吉区, 大阪市, 大阪府, 546-0033, 日本",
+    "lat": "34.6170401",
+    "lon": "135.5268569",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住吉区",
+    "confidence": 0.00005728618295562703
+  },
+  "320": {
+    "name": "焼肉 同心亭",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "焼肉櫂, 南同心町筋, 天神橋三丁目, 北区, 大阪市, 大阪府, 530-0041, 日本",
+    "lat": "34.7006996",
+    "lon": "135.5119021",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "322": {
+    "name": "焼肉たむら 1号店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "323": {
+    "name": "たぴおか食堂",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "324": {
+    "name": "中国居酒屋 はるぴん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "325": {
+    "name": "屋台担担麺たぶっちゃん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "326": {
+    "name": "ヴィヴァッカス",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "327": {
+    "name": "８Seas Sauna HIRA",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "329": {
+    "name": "y/OU donut（ユードーナッツ）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "330": {
+    "name": "熟成鮨利他",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "332": {
+    "name": "地酒だいにんぐやす",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "333": {
+    "name": "らーめん たま家 多摩本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "334": {
+    "name": "食堂 黒うさぎ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "335": {
+    "name": "唐黍堂",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "唐黍堂, 天神橋筋商店街, 天神橋三丁目, 北区, 大阪市, 大阪府, 530-0041, 日本",
+    "lat": "34.7018959",
+    "lon": "135.5113939",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "336": {
+    "name": "なみじ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "337": {
+    "name": "KURODARUMA",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "クロダルマ, 阪神高速1号環状線, 本町四丁目, 中央区, 大阪市, 大阪府, 550-0011, 日本",
+    "lat": "34.6828979",
+    "lon": "135.4982907",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "338": {
+    "name": "BarFPO(証券バー)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "339": {
+    "name": "liminal",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "341": {
+    "name": "casa di kudos",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "342": {
+    "name": "Jinanbo（ジナンボウ）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "343": {
+    "name": "くら おさかな市場",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "344": {
+    "name": "中華料理 若水",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "345": {
+    "name": "あなごと日本酒 なかむら",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "346": {
+    "name": "日本酒 かんき",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "347": {
+    "name": "かがやきダイナー",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "349": {
+    "name": "べにくらげ",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "べにくらげ, 阪神高速13号東大阪線, 本町橋, 中央区, 大阪市, 大阪府, 540-0011, 日本",
+    "lat": "34.6829759",
+    "lon": "135.5102247",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00006053635461962337
+  },
+  "351": {
+    "name": "鉄板焼肉 ホルモンまきの",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "353": {
+    "name": "居酒屋 ながほり",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "354": {
+    "name": "南越谷SUSHI WORKS",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "355": {
+    "name": "きみや",
+    "address": "大阪府 大阪市 旭区",
+    "displayName": "きみや, 千林大宮商店街, 大宮二丁目, 旭区, 大阪市, 大阪府, 535-0002, 日本",
+    "lat": "34.7243613",
+    "lon": "135.5468771",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "旭区",
+    "confidence": 0.00005728618295562703
+  },
+  "356": {
+    "name": "にんにくバル ザ・ガーリック中野",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "357": {
+    "name": "小料理 おばんざい 小よし",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "358": {
+    "name": "湯どうふ うえ川 南店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "359": {
+    "name": "蛸八",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "天神 蛸八, 曽根崎お初天神通り商店街, 曾根崎二丁目, 北区, 大阪市, 大阪府, 530-0057, 日本",
+    "lat": "34.7002252",
+    "lon": "135.5006742",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "360": {
+    "name": "大阪まんぷく堂",
+    "address": "大阪府 大阪市 東成区",
+    "displayName": "大阪まんぷく堂, 今里新橋通商店街, 大今里西三丁目, 東成区, 大阪市, 大阪府, 537-0014, 日本",
+    "lat": "34.6682764",
+    "lon": "135.5420300",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区",
+    "confidence": 0.00005728618295562703
+  },
+  "361": {
+    "name": "ぎょうざの焼吉",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "362": {
+    "name": "新宿焼肉 牛たんの檸檬 大阪本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "363": {
+    "name": "TACOS 3HERMANOS HARAJUKU",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "364": {
+    "name": "黒羊羊肉串店 BLACK SHEEP",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "365": {
+    "name": "たこ焼き&BAR プルプ takoyaki&bar poulpe",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "366": {
+    "name": "花かご",
+    "address": "大阪府 大阪市 生野区",
+    "displayName": "花かご, 新地中央通, 新今里三丁目, 生野区, 大阪市, 大阪府, 544-0001, 日本",
+    "lat": "34.6603436",
+    "lon": "135.5473532",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区",
+    "confidence": 0.00005728618295562703
+  },
+  "367": {
+    "name": "立ち喰い寿司 ゲンヤ倶楽部",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "369": {
+    "name": "卵かけめし 肉すい専門 やまや",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "370": {
+    "name": "しゃぶ長",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "371": {
+    "name": "揚子江ラーメン 名門",
+    "address": "大阪府 大阪市 旭区",
+    "displayName": "揚子江ラーメン 名門, 16, 高殿六丁目, 旭区, 大阪市, 大阪府, 535-0031, 日本",
+    "lat": "34.7187903",
+    "lon": "135.5473851",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "旭区",
+    "confidence": 0.00005728618295562703
+  },
+  "372": {
+    "name": "按田餃子 代々木上原店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "373": {
+    "name": "田舎の大鵬",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "374": {
+    "name": "貝鮮浜焼きバイキング あみ浜食堂",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "375": {
+    "name": "なにわ而楽",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "376": {
+    "name": "御幸町ONO",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "377": {
+    "name": "炭炉まん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "378": {
+    "name": "立ち飲みやみー",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "379": {
+    "name": "野菜酒場あしおと",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "381": {
+    "name": "鮨かぜのぎ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "382": {
+    "name": "鮨あさひ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "384": {
+    "name": "セアブラノ神 伏見剛力",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "385": {
+    "name": "うさみ亭 マツバヤ",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "うさみ亭 マツバヤ, 丼池筋, 南船場三丁目, 中央区, 大阪市, 大阪府, 542-0081, 日本",
+    "lat": "34.6779639",
+    "lon": "135.5023163",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "386": {
+    "name": "海鮮工房 はしだて物産 松葉蟹直売・かに飯・かに寿司・焼鯖寿司",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "389": {
+    "name": "阿蘇溶岩石焼 といとい 穴座",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "390": {
+    "name": "にほんしゅ屋しゅうろく",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "391": {
+    "name": "メキシコ食堂 オラレ！",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "393": {
+    "name": "タマゴのイザカヤ Atama",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "394": {
+    "name": "XEX WEST Salvatore Cuomo Bros.／The BAR",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "395": {
+    "name": "朝呑み 楽酒",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "396": {
+    "name": "炉端焼き 亀清",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "398": {
+    "name": "お好み焼き 花",
+    "address": "大阪府 大阪市 都島区",
+    "displayName": "お好み焼き 花, 京阪国道, 東野田町二丁目, 都島区, 大阪市, 大阪府, 534-0024, 日本",
+    "lat": "34.6979266",
+    "lon": "135.5281900",
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区",
+    "confidence": 0.00005728618295562703
+  },
+  "399": {
+    "name": "つけ麺 ひらの",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "400": {
+    "name": "トリタニ商店",
+    "address": "大阪府 大阪市 生野区",
+    "displayName": "ヘアーサロン トリタニ, 御幸通商店街, 桃谷三丁目, 生野区, 大阪市, 大阪府, 544-0034, 日本",
+    "lat": "34.6614674",
+    "lon": "135.5361535",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区",
+    "confidence": 0.00005728618295562703
+  },
+  "401": {
+    "name": "鮨 奏",
+    "address": "大阪府 豊中市",
+    "displayName": "伊丹豊中線, 立花町二丁目, 豊中市, 大阪府, 560-0025, 日本",
+    "lat": "34.7820512",
+    "lon": "135.4587056",
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "豊中市",
+    "confidence": 0.4230625932431813
+  },
+  "402": {
+    "name": "ノドボトケ、上ル",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "404": {
+    "name": "串焼き猿",
+    "address": "大阪府 枚方市",
+    "displayName": "たこ焼き 藤田川, 木屋交野線, 高田二丁目, 枚方市, 大阪府, 573-0075, 日本",
+    "lat": "34.7816231",
+    "lon": "135.6522894",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "枚方市",
+    "confidence": 0.00005911421377885126
+  },
+  "406": {
+    "name": "とんかつ七兵衛 三宮店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "409": {
+    "name": "料理が上手?な嫁の店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "410": {
+    "name": "京 菓る茶cafe",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "411": {
+    "name": "UWASASTORE",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "412": {
+    "name": "ロンパル",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "414": {
+    "name": "ビストロリアン",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "415": {
+    "name": "カチャトーレ ヤマガミ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "416": {
+    "name": "Ristorante 迫",
+    "address": "大阪府 大阪市 平野区",
+    "displayName": "大阪ふくちぁんラーメン 瓜破店, 長居公園通, 瓜破東二丁目, 平野区, 大阪市, 大阪府, 547-0021, 日本",
+    "lat": "34.6090803",
+    "lon": "135.5599437",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "平野区",
+    "confidence": 0.00005728618295562703
+  },
+  "417": {
+    "name": "MAKIBI",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "420": {
+    "name": "比良山荘",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "422": {
+    "name": "KITASHINCHI 鉄板焼 sia",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "423": {
+    "name": "アニメバー たまりば",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "424": {
+    "name": "北京本店",
+    "address": "大阪府 堺市 中区",
+    "displayName": "阪本精肉店 泉北店, 堺泉北環状線, 深阪六丁, 中区, 堺市, 大阪府, 540-8570, 日本",
+    "lat": "34.5069906",
+    "lon": "135.5015575",
+    "suggestedArea": "senshu",
+    "matchedWard": "堺市",
+    "confidence": 0.00006485313191419879
+  },
+  "426": {
+    "name": "ル・コントワ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "427": {
+    "name": "まりお流らーめん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "428": {
+    "name": "銀座屋",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "銀座屋, 清水町筋, 心斎橋筋一丁目, 中央区, 大阪市, 大阪府, 542-0083, 日本",
+    "lat": "34.6728102",
+    "lon": "135.5015447",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "429": {
+    "name": "みちくさ能勢",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "430": {
+    "name": "グリル 太平",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "431": {
+    "name": "ダイナミックキッチン＆バー 燦－SUN－ OBPツインタワー店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "432": {
+    "name": "キャッスルカフェ(旧クリスタルカフェテリア)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "433": {
+    "name": "Oh！マイステーキ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "434": {
+    "name": "Back Street Coffee",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "437": {
+    "name": "炭火焼 炭達磨",
+    "address": "大阪府 茨木市",
+    "displayName": "炭火焼肉 矢吹屋, 枚方茨木線, 寺田町, 茨木市, 大阪府, 567-0822, 日本",
+    "lat": "34.8168204",
+    "lon": "135.5794959",
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "茨木市",
+    "confidence": 0.000060125886930602236
+  },
+  "438": {
+    "name": "鮨白",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "百伊 ビル, 善安筋, 内平野町一丁目, 中央区, 大阪市, 大阪府, 540-0028, 日本",
+    "lat": "34.6872121",
+    "lon": "135.5158960",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00006053635461962337
+  },
+  "439": {
+    "name": "大阪大衆居酒屋 飯と酒と音 almalio",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "441": {
+    "name": "饂飩工房 うばら",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "442": {
+    "name": "fried sandwich Age.3 GINZA",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "444": {
+    "name": "谷町 ふる里",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "445": {
+    "name": "鮨と天ぷら からす",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "446": {
+    "name": "鮨 國松",
+    "address": "愛媛県 松前町 大字東古泉",
+    "displayName": "大阪王将 エミフルMASAKI店, 国道56号, 大字東古泉, 松前町, 伊予郡, 愛媛県, 791-3120, 日本",
+    "lat": "33.7875021",
+    "lon": "132.7157369",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.00004912108033870478
+  },
+  "447": {
+    "name": "ニューハマヤ 瓦町店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "448": {
+    "name": "鮨 銀座おのでら 登龍門",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "449": {
+    "name": "NEW YORK PIZZA TONY'S",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "450": {
+    "name": "SEA & FARM by YANMAR MARCHÉ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "451": {
+    "name": "だし巻き玉子専門店 百花",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "452": {
+    "name": "大衆酒場かど升",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "453": {
+    "name": "パンとエスプレッソと堺筋俱楽部",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "パンとエスプレッソと堺筋倶楽部, 順慶町通, 南船場一丁目, 中央区, 大阪市, 大阪府, 541-0058, 日本",
+    "lat": "34.6776502",
+    "lon": "135.5065570",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00006053635461962337
+  },
+  "454": {
+    "name": "洋食の店 もなみ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "456": {
+    "name": "スタンド比嘉くん。",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "457": {
+    "name": "千早川マス釣り場",
+    "address": "大阪府 千早赤阪村",
+    "displayName": "千早川マス釣り場, 富田林五条線, 千早, 千早赤阪村, 南河内郡, 大阪府, 585-0051, 日本",
+    "lat": "34.4102829",
+    "lon": "135.6541121",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.000051586938277210915
+  },
+  "458": {
+    "name": "立呑みビストロやまもと",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "459": {
+    "name": "魚籠屋",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "461": {
+    "name": "すざき",
+    "address": "大阪府 八尾市",
+    "displayName": "スザキ, 楠根町五丁目, 八尾市, 大阪府, 日本",
+    "lat": "34.6419529",
+    "lon": "135.6011140",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "八尾市",
+    "confidence": 0.08005993209735253
+  },
+  "462": {
+    "name": "手造りうどん 楽々",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "463": {
+    "name": "中華そば 光洋軒",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "464": {
+    "name": "麺者 侍",
+    "address": "大阪府 箕面市",
+    "displayName": "箕面市立障害者福祉センターささゆり園, 豊中亀岡線, 西小路二丁目, 箕面市, 大阪府, 562-0003, 日本",
+    "lat": "34.8284628",
+    "lon": "135.4722083",
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "箕面市",
+    "confidence": 0.00005728618295562703
+  },
+  "465": {
+    "name": "焼鳥 日和",
+    "address": "大阪府 枚方市",
+    "displayName": "炭火焼鳥 八金亭 船橋店, 新名神高速道路, くらこん 枚方工場, 枚方市, 大阪府, 573-1114, 日本",
+    "lat": "34.8512335",
+    "lon": "135.6821186",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "枚方市",
+    "confidence": 0.00006036545357438037
+  },
+  "466": {
+    "name": "床島",
+    "address": "大阪府 大阪市 西区",
+    "displayName": "江之子島文化芸術創造センター, 34, 江之子島二丁目, 西区, 大阪市, 大阪府, 550-8779, 日本",
+    "lat": "34.6812701",
+    "lon": "135.4837504",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区",
+    "confidence": 0.00005728618295562703
+  },
+  "467": {
+    "name": "洋食屋 グリルこっこ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "468": {
+    "name": "やむなし松濤",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "469": {
+    "name": "Guzman y Gomez - Shibuya",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "470": {
+    "name": "壹銭洋食 本店",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "Times 日本橋駅前, 堺筋, 日本橋一丁目, 中央区, 大阪市, 大阪府, 542-0073, 日本",
+    "lat": "34.6660424",
+    "lon": "135.5064068",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00006053635461962337
+  },
+  "471": {
+    "name": "Wine shop Lami",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "472": {
+    "name": "今池飯店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "473": {
+    "name": "平和樓",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "477": {
+    "name": "セイロンカリー",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "478": {
+    "name": "方違神社",
+    "address": "大阪府 堺市 堺区",
+    "displayName": "方違神社, 堺大和高田線, 南田出井町一丁, 堺区, 堺市, 大阪府, 540-8570, 日本",
+    "lat": "34.5769049",
+    "lon": "135.4893055",
+    "suggestedArea": "senshu",
+    "matchedWard": "堺市",
+    "confidence": 0.2024340213354661
+  },
+  "479": {
+    "name": "縄寿司",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "縄寿司 (Nawazushi), 太融寺表門筋, 曾根崎二丁目, 北区, 大阪市, 大阪府, 530-0057, 日本",
+    "lat": "34.7009203",
+    "lon": "135.5016436",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "481": {
+    "name": "レストラン菊水 屋上ビアガーデン",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "482": {
+    "name": "富士喜商店 新宿総本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "483": {
+    "name": "串カツ 武田",
+    "address": "大阪府 東大阪市",
+    "displayName": "串カツ 伸, 大阪枚岡奈良線, 高井田中一丁目, 東大阪市, 大阪府, 577-0055, 日本",
+    "lat": "34.6689267",
+    "lon": "135.5752893",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "東大阪市",
+    "confidence": 0.00006118181124585362
+  },
+  "484": {
+    "name": "リンカーン食堂",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "486": {
+    "name": "スタンドミヤコ 立ち呑み",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "488": {
+    "name": "おのみち屋",
+    "address": "広島県 福山市 瀬戸町大字山北",
+    "displayName": "備後赤坂, 福山尾道線, 瀬戸町大字山北, 福山市, 広島県, 720-0842, 日本",
+    "lat": "34.4720886",
+    "lon": "133.3058135",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.37310569550553185
+  },
+  "489": {
+    "name": "蓮心",
+    "address": "大阪府 大阪市 生野区",
+    "displayName": "東中川連合 新今里6丁目振興町会掲示板, 高砂橋, 新今里五丁目, 生野区, 大阪市, 大阪府, 544-0001, 日本",
+    "lat": "34.6623058",
+    "lon": "135.5517383",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区",
+    "confidence": 0.00006118181124585362
+  },
+  "490": {
+    "name": "谷町 一味禅",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "491": {
+    "name": "福井",
+    "address": "静岡県 御殿場市 中山",
+    "displayName": "大坂, 沼津小山線, 富士見原二丁目, 中山, 御殿場市, 静岡県, 412-0033, 日本",
+    "lat": "35.2458190",
+    "lon": "138.9231617",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.000055520714122179255
+  },
+  "492": {
+    "name": "スタミナいちばん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "493": {
+    "name": "肉しょうがうどんTaiyo",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "495": {
+    "name": "三好屋商店",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "三好屋, 天神橋筋商店街, 天神橋五丁目, 北区, 大阪市, 大阪府, 530-0034, 日本",
+    "lat": "34.7075011",
+    "lon": "135.5113798",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "497": {
+    "name": "鮨 こう介",
+    "address": "大阪府 堺市 北区",
+    "displayName": "セブン-イレブン 堺中百舌鳥駅北口店, 堺富田林線, 中百舌鳥町二丁, 北区, 堺市, 大阪府, 540-8570, 日本",
+    "lat": "34.5571313",
+    "lon": "135.5053961",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006485313191419879
+  },
+  "498": {
+    "name": "すし処 ひでまる",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "すし処 ひでまる, 釣鐘町通, 釣鐘町一丁目, 中央区, 大阪市, 大阪府, 540-0034, 日本",
+    "lat": "34.6880531",
+    "lon": "135.5159114",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00006053635461962337
+  },
+  "502": {
+    "name": "炭焼き成吉思汗 やまか",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "503": {
+    "name": "立呑旬鮮 すーさん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "504": {
+    "name": "舞鶴湾かき小屋 美味星",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "505": {
+    "name": "海鮮ブッフェダイニング 銀座八芳",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "506": {
+    "name": "すし楽",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "507": {
+    "name": "焼肉 味楽園(みらくえん)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "508": {
+    "name": "東亞食堂 黒龍天神樓",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "509": {
+    "name": "らーめんコーさん 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "510": {
+    "name": "ぶたのほし",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "511": {
+    "name": "井出商店",
+    "address": "大阪府 大阪市 東淀川区",
+    "displayName": "大阪市消防局東淀川消防署井高野出張所, 旭西淀川自転車道線, 西淡路六丁目, 東淀川区, 大阪市, 大阪府, 533-0031, 日本",
+    "lat": "34.7584273",
+    "lon": "135.5432652",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.00005728618295562703
+  },
+  "512": {
+    "name": "麺匠 柳",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "513": {
+    "name": "味希",
+    "address": "大阪府 大阪市 住吉区",
+    "displayName": "少量危険物貯蔵取扱場, さくら通り, 山之内三丁目, 住吉区, 大阪市, 大阪府, 558-0023, 日本",
+    "lat": "34.5922023",
+    "lon": "135.5035131",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住吉区",
+    "confidence": 0.00006485313191419879
+  },
+  "514": {
+    "name": "焼肉 味吉園",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "515": {
+    "name": "鮮魚 魚豊",
+    "address": "大阪府 豊能町 木代",
+    "displayName": "余野茨木線, 希望ヶ丘一丁目, 木代, 豊能町, 豊能郡, 大阪府, 563-0299, 日本",
+    "lat": "34.9188464",
+    "lon": "135.4987962",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.34731627116286135
+  },
+  "516": {
+    "name": "うどんちり本家 にし家本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "517": {
+    "name": "餃子てんほう！",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "518": {
+    "name": "まる尾水産",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "519": {
+    "name": "もつ焼きのりちゃん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "520": {
+    "name": "焼売のジョー大阪駅前第三ビル店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "521": {
+    "name": "高円寺肉合戦",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "522": {
+    "name": "牛丼 ホルモン きつねや",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "524": {
+    "name": "三軒茶屋一丁目食堂",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "525": {
+    "name": "らーめん 極 総本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "526": {
+    "name": "和食処 大福",
+    "address": "大阪府 吹田市",
+    "displayName": "大阪高槻京都線, 泉町二丁目, 吹田市, 大阪府, 564-8550, 日本",
+    "lat": "34.7606664",
+    "lon": "135.5165467",
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "吹田市",
+    "confidence": 0.4158085039066356
+  },
+  "527": {
+    "name": "大福屋",
+    "address": "大阪府 大阪市 浪速区",
+    "displayName": "大福屋, 日本橋商店会, 日本橋四丁目, 浪速区, 大阪市, 大阪府, 556-0004, 日本",
+    "lat": "34.6593262",
+    "lon": "135.5047725",
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区",
+    "confidence": 0.00005728618295562703
+  },
+  "528": {
+    "name": "肉ホルモン てつ腕",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "530": {
+    "name": "しまながし",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "531": {
+    "name": "元祖 モダン焼 ねぎ焼 あべとん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "532": {
+    "name": "焼肉かまちゃん",
+    "address": "大阪府 東大阪市",
+    "displayName": "焼肉かまちゃん, 国道170号, 末広町, 東大阪市, 大阪府, 579-8055, 日本",
+    "lat": "34.6578564",
+    "lon": "135.6397058",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "東大阪市",
+    "confidence": 0.00006118181124585362
+  },
+  "533": {
+    "name": "たこつぼ 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "534": {
+    "name": "海鮮酒場 うおぷく",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "535": {
+    "name": "勇すし",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "536": {
+    "name": "Panel cafe京都",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "538": {
+    "name": "CAFE Bar ONE PEACE",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "539": {
+    "name": "ときすし 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "540": {
+    "name": "焼豚ラーメン三條",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "541": {
+    "name": "Viande wood ヴィアンド ウッド",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "543": {
+    "name": "寿司処 松の",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "544": {
+    "name": "うなぎ じん田",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "炭焼きうなぎの魚伊, 天神橋筋商店街, 天神橋五丁目, 北区, 大阪市, 大阪府, 530-0034, 日本",
+    "lat": "34.7077779",
+    "lon": "135.5113510",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "545": {
+    "name": "豚まん専門店龍福 駒川店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "547": {
+    "name": "回転すし さかえ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "548": {
+    "name": "廻鮮鮨 喜十郎",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "549": {
+    "name": "元禄寿司 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "550": {
+    "name": "洋食 ヨシカミ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "552": {
+    "name": "ヒポポパパ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "553": {
+    "name": "SAKImoto bakery 大阪初號本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "554": {
+    "name": "GLITCH COFFEE OSAKA",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "グリッチコーヒー&ロースターズ, 中之島通, 中之島三丁目, 北区, 大阪市, 大阪府, 530-6190, 日本",
+    "lat": "34.6936643",
+    "lon": "135.4955293",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00005728618295562703
+  },
+  "555": {
+    "name": "天茂",
+    "address": "大阪府 枚方市",
+    "displayName": "黒毛和牛 田蔵, 枚方高槻線, 牧野阪二丁目, 枚方市, 大阪府, 573-1146, 日本",
+    "lat": "34.8438463",
+    "lon": "135.6669717",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "枚方市",
+    "confidence": 0.00006036545357438037
+  },
+  "556": {
+    "name": "鮨と酒悠久 名駅柳橋店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "557": {
+    "name": "満ち汐のロマンス",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "558": {
+    "name": "ワインダイニング U/ (ウー)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "559": {
+    "name": "uoyaki temma",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "560": {
+    "name": "コメダ珈琲店 高岳店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "561": {
+    "name": "コメダ珈琲店 今池店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "562": {
+    "name": "イタリア大衆食堂 堂島グラッチェ本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "563": {
+    "name": "天ぷら定食専門 寅ノすみか",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "565": {
+    "name": "川越 / KAWAKOSHI",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "567": {
+    "name": "BEER STAND molto!! 阪急三番街店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "568": {
+    "name": "egg cafe KURAGARI",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "569": {
+    "name": "グリルロン 阪急三番街店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "570": {
+    "name": "ニューとん助",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "571": {
+    "name": "王道家直系 我道家 OSAKA本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "572": {
+    "name": "寿司常",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "寿司常, 裏門筋, 天神橋二丁目, 北区, 大阪市, 大阪府, 530-8580, 日本",
+    "lat": "34.6966691",
+    "lon": "135.5120423",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "573": {
+    "name": "焼肉 こてつ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "574": {
+    "name": "もつ煮本舗 まるさん食堂 水戸本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "575": {
+    "name": "無鉄砲 大阪本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "576": {
+    "name": "イルテラ",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "IL Terra（イルテラ）, 30, 中崎西四丁目, 北区, 大阪市, 大阪府, 530-0016, 日本",
+    "lat": "34.7095196",
+    "lon": "135.5044697",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "577": {
+    "name": "丹波篠山囲炉裏料理 いわや",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "578": {
+    "name": "ゴメンネJIRO",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "581": {
+    "name": "空堀トーストカフェ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "582": {
+    "name": "天ぷら 三定（さんさだ）浅草雷門",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "583": {
+    "name": "大衆焼肉こたろう 三宮店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "584": {
+    "name": "十月二日",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "585": {
+    "name": "鮨処 いこう",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "586": {
+    "name": "実乃里 de バル（大阪グランベルホテル内）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "587": {
+    "name": "薪鳥新神戸 MAKITORI SHINKOBE",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "588": {
+    "name": "鮨 はまだ",
+    "address": "大阪府 大阪市 東住吉区",
+    "displayName": "はまだ医院, 百済大橋通, 南田辺五丁目, 東住吉区, 大阪市, 大阪府, 546-0033, 日本",
+    "lat": "34.6160918",
+    "lon": "135.5296100",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住吉区",
+    "confidence": 0.00005728618295562703
+  },
+  "589": {
+    "name": "志津可",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "志津可, 天満浜通, 西天満一丁目, 北区, 大阪市, 大阪府, 530-0047, 日本",
+    "lat": "34.6944200",
+    "lon": "135.5056550",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006053635461962337
+  },
+  "590": {
+    "name": "エクチュア からほり",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "591": {
+    "name": "月山祐寿司(大阪で一番旨い安い店)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "593": {
+    "name": "The old bridge",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "594": {
+    "name": "麺家獅子丸",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "595": {
+    "name": "新川にしや",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "596": {
+    "name": "ピノキオ",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "ピノキオ, 高麗橋通, 高麗橋二丁目, 中央区, 大阪市, 大阪府, 541-0043, 日本",
+    "lat": "34.6898514",
+    "lon": "135.5048310",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "597": {
+    "name": "めん処 竹ちゃん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "598": {
+    "name": "新ちゃん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "599": {
+    "name": "MAKE ONE TWO (メイクワンツー）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "600": {
+    "name": "Bar W",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "どんまい, 土佐堀通, 北浜三丁目, 中央区, 大阪市, 大阪府, 541-0041, 日本",
+    "lat": "34.6924490",
+    "lon": "135.5023894",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": -0.0016080306775609749
+  },
+  "601": {
+    "name": "一口いなりむろや 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "602": {
+    "name": "カンティーナリマ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "603": {
+    "name": "酒房 ワビスケ ルシアス店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "604": {
+    "name": "十枡",
+    "address": "北海道 大樹町 石坂",
+    "displayName": "石坂, 大樹町, 広尾郡, 十勝総合振興局, 北海道, 北海道地方, 日本",
+    "lat": "42.4509229",
+    "lon": "143.3107671",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.1333833348592355
+  },
+  "606": {
+    "name": "大衆焼肉ホルモン にくさわ 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "607": {
+    "name": "焼き鳥 小松",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "608": {
+    "name": "鯛専門店 徳ます",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "609": {
+    "name": "海鮮丼専門店 木津 魚市食堂",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "610": {
+    "name": "焼肉 藤もと 大吉商店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "613": {
+    "name": "華苑 本店",
+    "address": "大阪府 大阪市 淀川区",
+    "displayName": "学校法人ミクニ学園 大阪文化服装学院, 8号, 三国本町三丁目, 淀川区, 大阪市, 大阪府, 532-0005, 日本",
+    "lat": "34.7363172",
+    "lon": "135.4842532",
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区",
+    "confidence": 0.00005728618295562703
+  },
+  "614": {
+    "name": "グリル一平 三宮店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "616": {
+    "name": "ステーキファイブと寿司六 大阪駅前第2ビル店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "617": {
+    "name": "ぐあぽす guapos",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "618": {
+    "name": "ホルモン ジビエ 明星",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "619": {
+    "name": "お料理だいち",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "620": {
+    "name": "アネロスタンド",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "アネロスタンド, 大阪高槻京都線, 天神橋五丁目, 北区, 大阪市, 大阪府, 530-0025, 日本",
+    "lat": "34.7082601",
+    "lon": "135.5110042",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "621": {
+    "name": "Dal Donnaiolo",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "622": {
+    "name": "アルデンテ大山",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "623": {
+    "name": "ムラタ料理店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "624": {
+    "name": "ル・プログレ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "625": {
+    "name": "レストランヴァリエ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "626": {
+    "name": "Jean-Georges at The Shinmonzen",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "627": {
+    "name": "SINAE シナエ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "628": {
+    "name": "なにわ麺次郎",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "629": {
+    "name": "創作料理 アランチャ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "631": {
+    "name": "サントリー白州蒸溜所",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "632": {
+    "name": "浅野日本酒店",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "浅野日本酒店, 扇町通, 神山町, 北区, 大阪市, 大阪府, 530-0055, 日本",
+    "lat": "34.7021842",
+    "lon": "135.5052323",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "633": {
+    "name": "ぬる燗佐藤 大坂",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "634": {
+    "name": "餃子のさんくみ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "636": {
+    "name": "てんぐ",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "てんぐ, 大阪市道中津太子橋線, 豊崎五丁目, 北区, 大阪市, 大阪府, 531-0071, 日本",
+    "lat": "34.7109932",
+    "lon": "135.4987571",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "638": {
+    "name": "兵蔵",
+    "address": "大阪府 大阪市 生野区",
+    "displayName": "矢柄地蔵尊, 国道479号, 巽東一丁目, 生野区, 大阪市, 大阪府, 544-0014, 日本",
+    "lat": "34.6501397",
+    "lon": "135.5550192",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区",
+    "confidence": 0.00005728618295562703
+  },
+  "642": {
+    "name": "風靡",
+    "address": "新潟県 柏崎市",
+    "displayName": "ビュー米峰, 国道252号, 三和町, 柏崎市, 新潟県, 945-0032, 日本",
+    "lat": "37.3651047",
+    "lon": "138.5846855",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.00005806286717016888
+  },
+  "644": {
+    "name": "手打ちうどん 上を向いて",
+    "address": "大阪府 寝屋川市",
+    "displayName": "手打ちうどん 上を向いて, ダイエー本通り商店街, 香里南之町, 寝屋川市, 大阪府, 572-0085, 日本",
+    "lat": "34.7838152",
+    "lon": "135.6282138",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "寝屋川市",
+    "confidence": 0.00005911421377885126
+  },
+  "645": {
+    "name": "雅しゅとうとう",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "雅しゅとうとう, 堂島中通, 堂島一丁目, 北区, 大阪市, 大阪府, 530-0003, 日本",
+    "lat": "34.6959579",
+    "lon": "135.4969361",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "647": {
+    "name": "焼肉ごりちゃん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "650": {
+    "name": "すし政 中店",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "すし政, 池田町中央商店街, 天神橋五丁目, 北区, 大阪市, 大阪府, 530-0033, 日本",
+    "lat": "34.7076780",
+    "lon": "135.5118810",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "651": {
+    "name": "千番",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "(仮称)難波千日前再開発プロジェクト, 中央区, 大阪市, 大阪府, 日本",
+    "lat": "34.6645673",
+    "lon": "135.5025794",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.08005728618295564
+  },
+  "652": {
+    "name": "本家松浦酒造 ナルトタイの店 sake brewery shop",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "653": {
+    "name": "西端手打 上戸うどん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "654": {
+    "name": "谷川米殻店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "655": {
+    "name": "山越うどん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "656": {
+    "name": "かどや 大街道店",
+    "address": "大阪府 大阪市 福島区",
+    "displayName": "かどや, 聖天通り商店街 (SyotenDori Mall), 福島七丁目, 福島区, 大阪市, 大阪府, 553-0003, 日本",
+    "lat": "34.6973486",
+    "lon": "135.4855521",
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区",
+    "confidence": 0.00006113450827797387
+  },
+  "659": {
+    "name": "麺屋 帆のるHonolu",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "660": {
+    "name": "HICARU COFFEE ROASTER Osaka",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "661": {
+    "name": "うなぎ 和友",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "663": {
+    "name": "炭焼きうなぎの魚伊 本店",
+    "address": "大阪府 大阪市 旭区",
+    "displayName": "炭焼きうなぎの魚伊 本店, 10, 高殿四丁目, 旭区, 大阪市, 大阪府, 535-0031, 日本",
+    "lat": "34.7146639",
+    "lon": "135.5424630",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "旭区",
+    "confidence": 0.00005728618295562703
+  },
+  "664": {
+    "name": "ザ・ミュンヒ",
+    "address": "大阪府 八尾市",
+    "displayName": "ザ・ミュンヒ, 柏村南本町線, 柏村町四丁目, 八尾市, 大阪府, 581-0015, 日本",
+    "lat": "34.6149811",
+    "lon": "135.6194651",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "八尾市",
+    "confidence": 0.00005993209735251419
+  },
+  "665": {
+    "name": "BENJAMIN STEAKHOUSE KYOTO",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "666": {
+    "name": "千とせ 本店",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "千とせ 本店, 1, 難波千日前, 中央区, 大阪市, 大阪府, 542-0075, 日本",
+    "lat": "34.6640760",
+    "lon": "135.5039836",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00005728618295562703
+  },
+  "667": {
+    "name": "魚仁",
+    "address": "大阪府 大阪市 中央区",
+    "displayName": "魚仁, 黒門市場 黒門会, 日本橋二丁目, 中央区, 大阪市, 大阪府, 542-0073, 日本",
+    "lat": "34.6650390",
+    "lon": "135.5070560",
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区",
+    "confidence": 0.00006053635461962337
+  },
+  "668": {
+    "name": "食堂 二十",
+    "address": "大阪府 和泉市",
+    "displayName": "室堂町, 万町, 和泉市, 大阪府, 594-1101, 日本",
+    "lat": "34.4650345",
+    "lon": "135.4695550",
+    "suggestedArea": "senshu",
+    "matchedWard": "和泉市",
+    "confidence": 0.08005712138551915
+  },
+  "669": {
+    "name": "鮨 惣五郎",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "670": {
+    "name": "ミンモアハウス",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "671": {
+    "name": "L’occas - bar à vin - ワインバー ロカス",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "672": {
+    "name": "江戸前にぎり寿し 春駒 本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "673": {
+    "name": "ニュールーブル",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "674": {
+    "name": "いわむら Chez Deuxieme（イワムラ シェ ドゥジェーム）",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "675": {
+    "name": "いなさ寿司",
+    "address": "大阪府 八尾市",
+    "displayName": "いなさ寿司, 八尾道明寺線, 萱振町四丁目, 八尾市, 大阪府, 581-0834, 日本",
+    "lat": "34.6375632",
+    "lon": "135.6092793",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "八尾市",
+    "confidence": 0.00005993209735251419
+  },
+  "676": {
+    "name": "コＮＯコＮＯコ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "677": {
+    "name": "クレープス・ド・アンヌ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "679": {
+    "name": "鮨 なかもと",
+    "address": "大阪府 大阪市 東成区",
+    "displayName": "森ノ宮医療学園 アネックス校舎, 大阪市道築港深江線, 中本二丁目, 東成区, 大阪市, 大阪府, 537-0022, 日本",
+    "lat": "34.6794172",
+    "lon": "135.5408875",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区",
+    "confidence": 0.00005728618295562703
+  },
+  "680": {
+    "name": "お食事処 美登里",
+    "address": "大阪府 大阪市 東成区",
+    "displayName": "お食事処 美登里, 今里1番街, 大今里二丁目, 東成区, 大阪市, 大阪府, 537-0012, 日本",
+    "lat": "34.6705495",
+    "lon": "135.5500216",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区",
+    "confidence": 0.00006118181124585362
+  },
+  "681": {
+    "name": "鮨実紀 Sushi Minoki",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "682": {
+    "name": "うを勢 総本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "684": {
+    "name": "釜山",
+    "address": "静岡県 御殿場市 中山",
+    "displayName": "大坂, 沼津小山線, 富士見原二丁目, 中山, 御殿場市, 静岡県, 412-0033, 日本",
+    "lat": "35.2458190",
+    "lon": "138.9231617",
+    "suggestedArea": null,
+    "matchedWard": null,
+    "confidence": 0.000055520714122179255
+  },
+  "685": {
+    "name": "どんたく堂山店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "686": {
+    "name": "八重勝",
+    "address": "大阪府 大阪市 浪速区",
+    "displayName": "株式会社 八重勝, 公園通, 恵美須東三丁目, 浪速区, 大阪市, 大阪府, 556-0002, 日本",
+    "lat": "34.6498726",
+    "lon": "135.5066193",
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区",
+    "confidence": 0.00005728618295562703
+  },
+  "687": {
+    "name": "鮨仙酢 本店 大阪駅前",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "689": {
+    "name": "鉄板料理 Rakuda 安城店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "690": {
+    "name": "ゑんどう寿司 中央市場店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "691": {
+    "name": "桃白白",
+    "address": "大阪府 八尾市",
+    "displayName": "伏見桃山御陵遥拝所, 一橋, 恩智中町五丁目, 八尾市, 大阪府, 582-0010, 日本",
+    "lat": "34.6066589",
+    "lon": "135.6387208",
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "八尾市",
+    "confidence": 0.00005993209735251419
+  },
+  "692": {
+    "name": "ベトコンラーメン 新京 中川店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "693": {
+    "name": "圓家",
+    "address": "大阪府 大阪市 平野区",
+    "displayName": "元家, 馬場先橋通, 加美北三丁目, 平野区, 大阪市, 大阪府, 544-0015, 日本",
+    "lat": "34.6378589",
+    "lon": "135.5542499",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "平野区",
+    "confidence": 0.00005728618295562703
+  },
+  "694": {
+    "name": "焼肉 安萬 安城本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "695": {
+    "name": "虎連坊 ヒルトンプラザウエスト店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "697": {
+    "name": "アングル",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "アングル, 天神橋筋商店街, 天神橋五丁目, 北区, 大阪市, 大阪府, 530-0034, 日本",
+    "lat": "34.7077894",
+    "lon": "135.5112308",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "698": {
+    "name": "イタリア料理 casa bianca(カーサビアンカ)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "699": {
+    "name": "中華 味一 目黒",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "700": {
+    "name": "寿司と天ぷら ニューツルマツ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "701": {
+    "name": "わらまさ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "702": {
+    "name": "SAKE NERD (サケナード)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "703": {
+    "name": "カウンター焼肉うしすき",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "704": {
+    "name": "中国菜 OIL(オイル)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "705": {
+    "name": "餃子工房 ユーミン",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "707": {
+    "name": "中華そば ひふみ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "708": {
+    "name": "喫茶ルプラ｜Lupra's Roasting Factory & café",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "711": {
+    "name": "焼鳥エナミ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "712": {
+    "name": "bistro & wine 苑（én)",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "713": {
+    "name": "ひつまぶし 鰻伸",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "716": {
+    "name": "くろしを",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "717": {
+    "name": "桜もみじ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "719": {
+    "name": "ずいき",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "720": {
+    "name": "味真",
+    "address": "大阪府 大阪市 平野区",
+    "displayName": "向井珍味堂, 平野区, 大阪市, 大阪府, 日本",
+    "lat": "34.6281002",
+    "lon": "135.5609600",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "平野区",
+    "confidence": 0.08005728618295564
+  },
+  "721": {
+    "name": "かすうどん うのたけ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "722": {
+    "name": "柳井",
+    "address": "大阪府 大阪市 天王寺区",
+    "displayName": "浄瑠璃神社, 真言坂, 生玉町, 天王寺区, 大阪市, 大阪府, 542-0072, 日本",
+    "lat": "34.6658260",
+    "lon": "135.5122828",
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区",
+    "confidence": 0.00006053635461962337
+  },
+  "723": {
+    "name": "喰海",
+    "address": "大阪府 大阪市 天王寺区",
+    "displayName": "大阪府障害者社会参加促進センター, 谷町筋, 生玉前町, 天王寺区, 大阪市, 大阪府, 543-8799, 日本",
+    "lat": "34.6624909",
+    "lon": "135.5156133",
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区",
+    "confidence": 0.00006053635461962337
+  },
+  "724": {
+    "name": "にくさぶろう",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "725": {
+    "name": "焼肉ホルモン 万千",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "726": {
+    "name": "グリル 末松",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "727": {
+    "name": "グリル小宝",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "728": {
+    "name": "玄風館",
+    "address": "大阪府 大阪市 都島区",
+    "displayName": "玄風館 桜, グリーンモール, 中野町五丁目, 都島区, 大阪市, 大阪府, 534-0027, 日本",
+    "lat": "34.7051618",
+    "lon": "135.5233573",
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区",
+    "confidence": 0.00006113450827797387
+  },
+  "730": {
+    "name": "牛もつどて鍋 まつい亭",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "731": {
+    "name": "バルコラメント",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "733": {
+    "name": "饂飩とお酒 からほり きぬ川",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "734": {
+    "name": "大阪うどん いなの路",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "735": {
+    "name": "La Lanterna di Genova",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "LA LANTERNA di Genova, 都島通, 中崎三丁目, 北区, 大阪市, 大阪府, 530-0016, 日本",
+    "lat": "34.7082447",
+    "lon": "135.5051640",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "736": {
+    "name": "魚太郎 浜焼きバーベキュー",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "737": {
+    "name": "丸鶴",
+    "address": "大阪府 大阪市 鶴見区",
+    "displayName": "万博記念公園 鶴見緑地, 鶴見区, 大阪市, 大阪府, 日本",
+    "lat": "34.7080027",
+    "lon": "135.5801716",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "鶴見区",
+    "confidence": 0.08005728618295564
+  },
+  "738": {
+    "name": "豚足のかどや",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "739": {
+    "name": "焼肉ギャング",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "740": {
+    "name": "Macauda",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "741": {
+    "name": "と木と",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "743": {
+    "name": "縁 il legame",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "744": {
+    "name": "ベトコンラーメン 新京",
+    "address": "大阪府 高槻市",
+    "displayName": "ベトコンラーメン 新京, 高槻茨木線, 寿町一丁目, 高槻市, 大阪府, 569-0826, 日本",
+    "lat": "34.8286995",
+    "lon": "135.5966314",
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "高槻市",
+    "confidence": 0.00006052414740210601
+  },
+  "745": {
+    "name": "鴨と醸し 鼓道",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "746": {
+    "name": "テキ亭",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "747": {
+    "name": "日々是好日",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "748": {
+    "name": "滋賀県醒井養鱒場",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "749": {
+    "name": "マガザン ド エクラ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "750": {
+    "name": "いしもん",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "751": {
+    "name": "大滝茶屋",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "753": {
+    "name": "中華そば カドヤ食堂 総本店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "754": {
+    "name": "一富士食堂",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "一富士食堂, 霊符筋, 天満二丁目, 北区, 大阪市, 大阪府, 530-0044, 日本",
+    "lat": "34.6957594",
+    "lon": "135.5176635",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "755": {
+    "name": "and. cafe",
+    "address": "大阪府 大阪市 東成区",
+    "displayName": "and cafe, 千日前通, 深江南一丁目, 東成区, 大阪市, 大阪府, 537-0013, 日本",
+    "lat": "34.6704441",
+    "lon": "135.5548305",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区",
+    "confidence": 0.00006118181124585362
+  },
+  "756": {
+    "name": "松屋食堂",
+    "address": "大阪府 大阪市 浪速区",
+    "displayName": "松屋食堂, 雲井橋筋, 日本橋西一丁目, 浪速区, 大阪市, 大阪府, 556-0004, 日本",
+    "lat": "34.6591806",
+    "lon": "135.5029180",
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区",
+    "confidence": 0.00005728618295562703
+  },
+  "757": {
+    "name": "燻製スギヤ商店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "758": {
+    "name": "天ぷらとナチュールMETA",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "759": {
+    "name": "キッチンpemaru",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "760": {
+    "name": "お食事処 すゑひろ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "761": {
+    "name": "心伯",
+    "address": "大阪府 大阪市 平野区",
+    "displayName": "新聞屋さん博物館, 本町通, 平野本町三丁目, 平野区, 大阪市, 大阪府, 547-0044, 日本",
+    "lat": "34.6236135",
+    "lon": "135.5552012",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "平野区",
+    "confidence": 0.11734328469919902
+  },
+  "763": {
+    "name": "ステーキハウス 華",
+    "address": "大阪府 豊中市",
+    "displayName": "ステーキハウス 華, 国道423号, 春日一丁目, 豊中市, 大阪府, 565-0854, 日本",
+    "lat": "34.7973896",
+    "lon": "135.4960496",
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "豊中市",
+    "confidence": 0.000060432593270725834
+  },
+  "764": {
+    "name": "手打蕎麦 守破離",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "765": {
+    "name": "創作酒房そうそう",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "768": {
+    "name": "グリル 欧風軒",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "グリル欧風軒, 御堂筋, 曾根崎二丁目, 北区, 大阪市, 大阪府, 530-0057, 日本",
+    "lat": "34.7001528",
+    "lon": "135.4990838",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "769": {
+    "name": "ぶどう亭",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "ぶどう亭, 3, 御堂筋, 曾根崎二丁目, 北区, 大阪市, 大阪府, 530-0057, 日本",
+    "lat": "34.6990661",
+    "lon": "135.4994952",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.00006113450827797387
+  },
+  "770": {
+    "name": "やすきよ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "771": {
+    "name": "大衆酒場 タムヤ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "772": {
+    "name": "石鹿",
+    "address": "大阪府 大阪市 北区",
+    "displayName": "西日本旅客鉄道株式会社, 国道176号, 芝田一丁目, 北区, 大阪市, 大阪府, 530-0012, 日本",
+    "lat": "34.7073333",
+    "lon": "135.4951888",
+    "suggestedArea": "umeda",
+    "matchedWard": "北区",
+    "confidence": 0.6672119514442055
+  },
+  "773": {
+    "name": "たま木亭",
+    "address": "大阪府 大阪市 西区",
+    "displayName": "たま, 京町堀通, 京町堀二丁目, 西区, 大阪市, 大阪府, 550-0002, 日本",
+    "lat": "34.6850974",
+    "lon": "135.4904303",
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区",
+    "confidence": 0.00005728618295562703
+  },
+  "774": {
+    "name": "ビッグジョー",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "775": {
+    "name": "宇宙",
+    "address": "大阪府 大阪市 生野区",
+    "displayName": "宇宙, 生中橋通, 田島四丁目, 生野区, 大阪市, 大阪府, 544-0011, 日本",
+    "lat": "34.6453309",
+    "lon": "135.5419806",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区",
+    "confidence": 0.00005728618295562703
+  },
+  "776": {
+    "name": "膳處漢ぽっちり",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "778": {
+    "name": "島之内フジマル醸造所",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "779": {
+    "name": "焼鳥 サイヒ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "781": {
+    "name": "鉄板焼ホルモン やまき",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "782": {
+    "name": "すき焼･鍋 なべや",
+    "address": "大阪府 大阪市 西成区",
+    "displayName": "すき焼･鍋物 なべや, 紀州街道, 天下茶屋北二丁目, 西成区, 大阪市, 大阪府, 557-0016, 日本",
+    "lat": "34.6443191",
+    "lon": "135.5011579",
+    "suggestedArea": "shinsekai",
+    "matchedWard": "西成区",
+    "confidence": 0.00005728618295562703
+  },
+  "783": {
+    "name": "Ellie",
+    "address": "大阪府 大阪市 東成区",
+    "displayName": "Ellie, 中央大通, 中道一丁目, 東成区, 大阪市, 大阪府, 536-0025, 日本",
+    "lat": "34.6815229",
+    "lon": "135.5399060",
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区",
+    "confidence": 0.00005728618295562703
+  },
+  "784": {
+    "name": "居魚家 ぎんた",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "785": {
+    "name": "ふく玄",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "786": {
+    "name": "串揚げ料理 みや田",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "787": {
+    "name": "銀座鮨 緑橋店",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "788": {
+    "name": "炭火焼酒楼 おいしかよ。",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "789": {
+    "name": "パティスリールヴィジテ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  },
+  "790": {
+    "name": "イタリアン・バール・イゾラ",
+    "address": null,
+    "suggestedArea": null,
+    "error": "not_found"
+  }
+}
