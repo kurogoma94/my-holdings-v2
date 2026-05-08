@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-05-07T08:19:50.368Z';
+export const MOCK_DATA_UPDATED_AT = '2026-05-08T00:10:40.222Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -13,7 +13,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Chop Hits Barbecue 4.7(153) アメリカ料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "2",
@@ -25,7 +26,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "川越 4.3(97) ￥1,000～2,000 · うなぎ料理店",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "3",
@@ -37,7 +39,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "備長炉端だいやめ 京橋店 5.0(3) 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "4",
@@ -49,7 +52,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大阪ドカ盛りマンモス弁当 淡路総本店 3.9(300) ￥1,000～2,000 · 弁当製造業者",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "5",
@@ -61,7 +65,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "いづう 4.2(1,246) 高級 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "6",
@@ -73,7 +78,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イタリア食堂 Necco 4.2(101) お手頃 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "7",
@@ -85,7 +91,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "海坊主 4.4(268) ￥2,000～3,000 · 海鮮丼専門店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "8",
@@ -97,7 +104,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "洋風惣菜 アバ(コロッケ) 4.5(203) ￥1～1,000 · 総菜屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": false
   },
   {
     "id": "9",
@@ -109,7 +117,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラーメン ギタギタ 3.8(314) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "10",
@@ -121,7 +130,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ベンジャミーナ 3.6(158) ￥1,000～2,000 · カフェ・喫茶",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "11",
@@ -133,7 +143,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "高知から来た焼肉屋 4.6(126) 焼き肉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "12",
@@ -145,7 +156,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イノベーティブフレンチ genso 4.6(60) ￥10,000 以上 · レストラン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "13",
@@ -157,7 +169,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "豆ふと鮨と和食 ひとひ 4.0(1) 日本料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "14",
@@ -169,7 +182,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "うどん屋 きすけ 4.2(1,286) ￥1,000～2,000 · うどん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "15",
@@ -181,7 +195,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "うどん 兎麦 umugi 4.1(638) ￥1,000～2,000 · うどん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "16",
@@ -193,7 +208,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "折鶴会館 4.3(35) 商業地",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "17",
@@ -205,7 +221,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 暁 4.8(23) ￥10,000 以上 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "18",
@@ -217,7 +234,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中華菜館 一番 4.1(188) ￥1～1,000 · 中華料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "19",
@@ -229,7 +247,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "特製ラーメン とん吉 4.4(395) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "20",
@@ -241,7 +260,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭焼きイタリアン Black 4.7(320) イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "21",
@@ -253,7 +273,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラーメン食堂 神豚 大東店 3.9(846) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "22",
@@ -265,7 +286,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "羊の結論 4.7(42) ￥3,000～4,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "23",
@@ -277,7 +299,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "NASQUILLO（ナスキロ） 4.3(53) ￥10,000 以上 · ステーキ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "24",
@@ -289,7 +312,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "STUN.S スタンス 4.6(17) ￥4,000～5,000 · 日本料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "25",
@@ -301,7 +325,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中国小皿料理 彩七 今里店 4.1(194) ￥1～1,000 · 中華料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "26",
@@ -313,7 +338,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "游玄亭 ホテルニューオータニ大阪店 4.5(569) ￥10,000 以上 · 焼き肉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "27",
@@ -325,7 +351,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "近江屋 本店 4.0(654) ￥1,000～2,000 · 串揚げ、串カツ店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "28",
@@ -337,7 +364,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "あぶり餅 本家 根元 かざりや 4.5(2,284) お手頃 · 和菓子屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": false
   },
   {
     "id": "29",
@@ -349,7 +377,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "タカムラワイン＆コーヒーロースターズ 4.5(1,829) お手頃 · カフェ・喫茶",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "30",
@@ -361,7 +390,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "らーめん stand R&R2号 西淀川店 3.7(361) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "31",
@@ -373,7 +403,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "夢屋台 3.9(391) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "32",
@@ -385,7 +416,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "GODIVA Bakery ゴディパン 京都四条店 3.2(61) ￥1,000～2,000 · ベーカリー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "33",
@@ -397,7 +429,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "フィオーレジャルディーノ 4.1(90) イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "34",
@@ -409,7 +442,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "〒542-0012 大阪府大阪市中央区谷町６丁目３−１０ すかんぽ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "35",
@@ -421,7 +455,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立ち鮨ひでぞう 4.2(120) 日本料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "36",
@@ -433,7 +468,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "魚屋 ひでぞう 立ち呑み店 4.2(456) ￥2,000～3,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "37",
@@ -445,7 +481,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "メゾン ポール・ボキューズ 4.4(589) ￥10,000 以上 · フランス料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "38",
@@ -457,7 +494,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ホームズパスタトラットリア梅田阪急グランドビル店 3.1(84) ￥1,000～2,000 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "39",
@@ -469,7 +507,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "やぐら 4.2(537) ￥1～1,000 · かつ丼屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "40",
@@ -481,7 +520,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "パンとエスプレッソと南森町交差点 3.9(768) ￥1,000～2,000 · カフェ・喫茶",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "41",
@@ -493,7 +533,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Dal Brigante 4.2(294) ￥1,000～2,000 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "42",
@@ -505,7 +546,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "お好み焼き まるみ 4.0(156) 臨時休業",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "43",
@@ -517,7 +559,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "回転寿し仁 あべのハルカスダイニング店 3.3(365) ￥2,000～3,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "44",
@@ -529,7 +572,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "サル イ アモール 4.4(470) お手頃 · スペイン料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "45",
@@ -541,7 +585,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "骨付鳥 一鶴 西梅田店 4.3(1,172) ￥2,000～3,000 · 鶏料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "46",
@@ -553,7 +598,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉・ホルモン 踊ル 4.9(65) 焼き肉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "47",
@@ -565,7 +611,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立ち呑み とおる 4.5(85) ￥2,000～3,000 · 立食形式の飲食店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "48",
@@ -577,7 +624,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "PaNOTTO コーヒー＆ベーカリー 4.0(34) ￥1,000～2,000 · ベーカリー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": false
   },
   {
     "id": "49",
@@ -589,7 +637,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "北新地 アンシェーヌ 4.8(65) ビストロ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "50",
@@ -601,7 +650,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ロウリーズ・ザ・プライムリブ 大阪 4.4(1,070) ￥10,000 以上 · アメリカ料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "51",
@@ -613,7 +663,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立ち呑み処 魚しょう 天満店 4.2(184) ￥2,000～3,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "52",
@@ -625,7 +676,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "法善寺 浅草 4.6(148) ￥10,000 以上 · ふぐ料理店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "53",
@@ -637,7 +689,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "丸元 4.3(102) すっぽん料理店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "54",
@@ -649,7 +702,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ツバクロすっぽん食堂 大阪店 4.6(271) お手頃 · すっぽん料理店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "55",
@@ -661,7 +715,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ふぐ久 4.3(171) お手頃 · ふぐ料理店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "56",
@@ -673,7 +728,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すし酒場ジャポニカ 【梅田】 3.8(110) ￥3,000～4,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "57",
@@ -685,7 +741,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "タツリキショップ 4.3(120) ￥1～1,000 · バー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "58",
@@ -697,7 +754,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "回転寿司 力丸 JR姫路駅店 3.8(671) ￥2,000～3,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "59",
@@ -713,7 +771,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "姫路横丁酒場 寺尾商店 3.8(17) ￥3,000～4,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "60",
@@ -725,7 +784,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "食堂あむす 4.4(19) モダン居酒屋レストラン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "61",
@@ -737,7 +797,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "英洋軒 姫路駅前店 4.1(560) ￥1,000～2,000 · 中華料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "62",
@@ -749,7 +810,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "魚酒場 ジェームス吉田屋 姫路駅前店 3.9(75) ￥4,000～5,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "63",
@@ -761,7 +823,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭火焼き And's ( あんず ) 4.0(4) ￥2,000～3,000 · 鶏料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "64",
@@ -775,7 +838,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "寿司処 眞 4.9(35) 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "65",
@@ -787,7 +851,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "博多名代 吉塚うなぎ屋 4.4(8,947) 高級 · うなぎ料理店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "66",
@@ -799,7 +864,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "かに問屋 3.7(75) お手頃 · カニ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "67",
@@ -811,7 +877,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鶏Soba 座銀 本店 4.5(2,481) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "68",
@@ -823,7 +890,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "とんかつひろ喜 野江店 3.9(175) ￥1,000～2,000 · とんかつ店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "69",
@@ -835,7 +903,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "株式会社スズヤ 4.2(95) 駄菓子屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "70",
@@ -847,7 +916,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "白銀亭 4.5(1,091) ￥1,000～2,000 · カレー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "71",
@@ -859,7 +929,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "MON CRULLER モンクルーラー 3.9(35) ￥1～1,000 · デザート",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "72",
@@ -871,7 +942,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "卵かけご飯専門店 但熊 4.1(2,005) ￥1～1,000 · 定食屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "73",
@@ -883,7 +955,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "肉居酒屋 ホワイティ梅田 コマツバラファーム 3.7(429) ￥1,000～2,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "74",
@@ -895,7 +968,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "手作りハンバーグ卵 せんびる店 4.0(7) ￥1,000～2,000 · 洋食",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "75",
@@ -907,7 +981,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "いわ志 本店 4.0(288) お手頃 · 日本料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "76",
@@ -919,7 +994,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 お料理 あお山 4.6(63) ￥1,000～2,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "77",
@@ -931,7 +1007,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリルショップやの 4.1(312) ￥1,000～2,000 · 日本式洋食レストラン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "78",
@@ -943,7 +1020,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "玉子焼 中華そば 泉屋 4.3(489) ￥1,000～2,000 · 定食屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "79",
@@ -955,7 +1033,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "リバージュ 4.8(179) ￥1～1,000 · コーヒーショップ・喫茶店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "80",
@@ -967,7 +1046,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "丸正餃子店 阪奈店 3.9(530) ￥1,000～2,000 · 中華料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "81",
@@ -979,7 +1059,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "梅田バル イタリア食堂CIMA 3.9(60) ￥1～1,000 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "82",
@@ -991,7 +1072,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "墨や 4.2(103) ￥10,000 以上 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "83",
@@ -1003,7 +1085,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Restaurant Blanc 4.2(26) レストラン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "84",
@@ -1015,7 +1098,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Wine Bar Base 4.6(97) ￥4,000～5,000 · バー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "85",
@@ -1027,7 +1111,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "おく 4.6(68) ￥10,000 以上 · うなぎ料理店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "86",
@@ -1039,7 +1124,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すし処 広川 4.4(188) ￥10,000 以上 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "87",
@@ -1053,7 +1139,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "田吾作 4.3(530) お手頃 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "88",
@@ -1065,7 +1152,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "赤垣屋 4.2(682) お手頃 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "89",
@@ -1077,7 +1165,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大甚本店 4.2(1,266) 安価 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "90",
@@ -1089,7 +1178,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "明治屋 3.9(230) ￥2,000～3,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "91",
@@ -1101,7 +1191,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "和食処 民芸酒房 牧水 4.1(169) お手頃 · 日本料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "92",
@@ -1113,7 +1204,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ひら井 4.0(99) お手頃 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "93",
@@ -1125,7 +1217,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "八起亭 4.3(129) 焼き鳥",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "94",
@@ -1141,7 +1234,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "お食事処にしかわ 4.2(229) 安価 · 日本料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "95",
@@ -1153,7 +1247,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "魚と日本酒の奢酌楽(ジャグラー 南船場 4.3(151) ￥2,000～3,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "96",
@@ -1165,7 +1260,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "THE MUSEN IN SHOCK 4.5(34) ￥2,000～3,000 · 立食形式の飲食店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "97",
@@ -1177,7 +1273,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "吉川温泉 よかたん (道の駅 よかわ) 4.0(1,958) 日帰り温泉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "98",
@@ -1189,7 +1286,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "不動温泉 4.2(216) 日帰り温泉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "99",
@@ -1201,7 +1299,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鉄板創作串 てっぺん 京橋店 4.8(167) ￥4,000～5,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "100",
@@ -1213,7 +1312,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Trattoria Vispa 4.7(39) ￥2,000～3,000 · レストラン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "101",
@@ -1225,7 +1325,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ムスヒ 4.7(51) ￥3,000～4,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "102",
@@ -1237,7 +1338,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "スタンド サコ家(ヶ) 5.0(17) ￥4,000～5,000 · 立食形式の飲食店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "103",
@@ -1249,7 +1351,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "高田揚揚（たかだのあげあげ） 4.5(87) ￥2,000～3,000 · 串揚げ、串カツ店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "104",
@@ -1261,7 +1364,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "我恵你好 4.5(58) ￥2,000～3,000 · 中華料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "105",
@@ -1273,7 +1377,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ピッツェリア プルチーノ 4.8(127) イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "106",
@@ -1285,7 +1390,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "コメジルシ 炊きたてビリヤニ専門店、そしてナチュラルワインと日本酒 4.6(18) ￥2,000～3,000 · ワインバー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "107",
@@ -1297,7 +1403,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "湯川内温泉かじか荘 4.6(41) 温泉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "108",
@@ -1309,7 +1416,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "TACO BITEZ 4.8(46) ￥1,000～2,000 · 軽食店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "109",
@@ -1321,7 +1429,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天婦羅・一品料理 新喜楽 東店 4.3(289) ￥1,000～2,000 · 天ぷら",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "110",
@@ -1333,7 +1442,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "スタンド Nagumo 4.6(47) 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "111",
@@ -1345,7 +1455,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "馬刺しと馬串焼き スタンド馬ジロー京橋店 4.5(136) ￥1,000～2,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "112",
@@ -1357,7 +1468,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "きむらや 4.4(193) ￥1,000～2,000 · 立食形式の飲食店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "113",
@@ -1369,7 +1481,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭火焼鳥 権兵衛 京橋店 4.9(20) ￥4,000～5,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "114",
@@ -1381,7 +1494,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉たまき 京橋店 4.7(207) ￥6,000～7,000 · 焼き肉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "115",
@@ -1393,7 +1507,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "〒550-0003 大阪府大阪市西区京町堀１丁目１７−３ Ｃｉｕｃａｔｅ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "116",
@@ -1405,7 +1520,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Mikan 4.8(96) ￥1,000～2,000 · フランス料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "117",
@@ -1417,7 +1533,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "めし処 ゑノゐ-enoi- 4.5(114) 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "118",
@@ -1429,7 +1546,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "なごやか亭 守山えんま堂店 4.1(816) ￥3,000～4,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "119",
@@ -1441,7 +1559,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "アルソード 4.3(245) ￥1,000～2,000 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "120",
@@ -1453,7 +1572,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "スタンドAWAWA 4.9(18) ￥4,000～5,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "121",
@@ -1465,7 +1585,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "闘鶏 難波店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "122",
@@ -1477,7 +1598,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "賛否両論",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "123",
@@ -1489,7 +1611,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "和牛肉専門 焼肉 松",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "124",
@@ -1501,7 +1624,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "goody 中津店 （グッディ）",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "125",
@@ -1513,7 +1637,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "桜原精肉店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "126",
@@ -1525,7 +1650,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "居酒屋 大黒",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "127",
@@ -1537,7 +1663,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "浪芳庵",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "128",
@@ -1549,7 +1676,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ホルモン倶楽部",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "129",
@@ -1561,7 +1689,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天八うどん どんでん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "130",
@@ -1573,7 +1702,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "和果 北堀江店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "131",
@@ -1585,7 +1715,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "パティスリーBOIS OSAKA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": false
   },
   {
     "id": "132",
@@ -1597,7 +1728,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ダテダチ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "133",
@@ -1609,7 +1741,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Eric Rose Cafe OSAKA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "134",
@@ -1621,7 +1754,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "裏ヒロヤ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "135",
@@ -1633,7 +1767,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Ristorante e Pizzeria SANTA LUCIA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "136",
@@ -1645,7 +1780,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Bar Asumo バーアスモ お初天神店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "137",
@@ -1657,7 +1793,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "近江牛ステーキとがぶ飲みワイン ニクバルモダンミール 大津店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "138",
@@ -1669,7 +1806,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "手打蕎麦鶴㐂",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "139",
@@ -1681,7 +1819,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ヤマダモンゴル",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "140",
@@ -1693,7 +1832,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "おばんざい鈴",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "141",
@@ -1705,7 +1845,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "松茸屋 魚松 本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "142",
@@ -1717,7 +1858,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "リゴレット",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "143",
@@ -1729,7 +1871,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "しんぱち食堂JR京橋駅前店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "144",
@@ -1741,7 +1884,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "らくだ坂納豆工房",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "145",
@@ -1753,7 +1897,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨MANABU",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "146",
@@ -1765,7 +1910,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "やっこ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "147",
@@ -1777,7 +1923,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "牡蠣乃家 岸和田店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "148",
@@ -1789,7 +1936,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Blue Entrance Kitchen 大阪心斎橋店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "149",
@@ -1801,7 +1949,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "洋食 おがた",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "150",
@@ -1813,7 +1962,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリル マルヨシ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "151",
@@ -1825,7 +1975,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "上野精養軒",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "152",
@@ -1837,7 +1988,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Casita",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "153",
@@ -1849,7 +2001,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "元祖ぶっち切り寿司 魚心 本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "154",
@@ -1861,7 +2014,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "三国そば",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "155",
@@ -1873,7 +2027,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ののじ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "156",
@@ -1885,7 +2040,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "PISOLA 守口大日店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "157",
@@ -1897,7 +2053,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "御影郷ふくじゅ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "158",
@@ -1909,7 +2066,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "川湯温泉 仙人風呂（冬季のみ）",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "159",
@@ -1921,7 +2079,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "アカデミーカフェ（& Gallery, Dog ok )",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "160",
@@ -1933,7 +2092,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "SAKImotobakery and more 扇町店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "161",
@@ -1945,7 +2105,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "山さんラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "162",
@@ -1957,7 +2118,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "トッサ・ジ・クラッサン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "163",
@@ -1969,7 +2131,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ミックステイスト",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "164",
@@ -1981,7 +2144,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "３ちゃん屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "165",
@@ -1993,7 +2157,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "八剱ROCK 人生餃子",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "166",
@@ -2005,7 +2170,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ウエストうどん 祗園店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "167",
@@ -2017,7 +2183,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "牧のうどん 博多バスターミナル店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "168",
@@ -2029,7 +2196,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "博多うどん酒場 和八わっぱち 博多駅くうてん店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "169",
@@ -2041,7 +2209,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "博多シーフードうお田",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "170",
@@ -2053,7 +2222,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鉄板焼天神ホルモン 博多駅店​",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "171",
@@ -2065,7 +2235,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "博多炊き餃子 池ぽん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "172",
@@ -2077,7 +2248,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "博多 鴨すき 鴨しゃぶ なかもぐろ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "173",
@@ -2089,7 +2261,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "味の明太子ふくや 博多デイトス売店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "174",
@@ -2101,7 +2274,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イタリア料理カプリチョーザ渋谷本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "175",
@@ -2113,7 +2287,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "せせり蒲焼スタンド八とり2号店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "176",
@@ -2125,7 +2300,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "文世食堂",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "177",
@@ -2137,7 +2313,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ぎょうざ処だいきち",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "178",
@@ -2149,7 +2326,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中国酒家 菜都",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "179",
@@ -2161,7 +2339,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Petit Luxe",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "180",
@@ -2173,7 +2352,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天王寺 豆ふ屋 やすまる ～豆富と鮨と日本料理～/Tennoji Tofuya Yasumaru\"Tofu, Edomae Sushi, and Japanese Cuisine\"",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "181",
@@ -2185,7 +2365,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "いし井Jr.",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "182",
@@ -2197,7 +2378,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "吾一 肥後橋店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "183",
@@ -2209,7 +2391,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "きち蔵",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "184",
@@ -2221,7 +2404,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "総大醤",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "185",
@@ -2233,7 +2417,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉冷麺 幸楽",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "186",
@@ -2245,7 +2430,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鳥悟",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "187",
@@ -2257,7 +2443,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "燻製イタリア酒場 京橋 ORA（オーラ）",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "188",
@@ -2269,7 +2456,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立ち飲みクラフトビール酒場 ビアスタンド モルト!! 阪急梅田店",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "189",
@@ -2281,7 +2469,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "串かつ 鳥の巣",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "190",
@@ -2293,7 +2482,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "福島金魚",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "191",
@@ -2305,7 +2495,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆ビストロ うらきんぎょ 福島",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "192",
@@ -2317,7 +2508,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "麦と林檎のイタリア酒場 福島事変",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "193",
@@ -2329,7 +2521,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鈍◯酒場 福島店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "194",
@@ -2341,7 +2534,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "4坪牡蠣小屋 キヨリト大阪福島店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "195",
@@ -2353,7 +2547,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "タコスとメキシコビーフ アプレシオ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "196",
@@ -2365,7 +2560,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "みつわや酒店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "197",
@@ -2377,7 +2573,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆鰻料理 うなぎ錦 尼崎武庫之荘店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "198",
@@ -2389,7 +2586,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "麺と小皿 精華",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "199",
@@ -2401,7 +2599,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "屋台おでん 4.3(32) ￥2,000～3,000 · おでん店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "200",
@@ -2413,7 +2612,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "昭和町 串揚げ はなおか 4.5(73) お手頃 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "201",
@@ -2425,7 +2625,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イマカツ 六本木本店 4.3(1,625) 臨時休業",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "202",
@@ -2437,7 +2638,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "甘党 お好み焼 かく庄 4.0(457) ￥1,000～2,000 · お好み焼き店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "203",
@@ -2449,7 +2651,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "わかば 4.3(69) ￥2,000～3,000 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "204",
@@ -2461,7 +2664,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "福太郎 本店 4.2(3,591) ￥1,000～2,000 · お好み焼き店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "205",
@@ -2474,7 +2678,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "祐星 ウラなんば店 4.1(353) ￥2,000～3,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "206",
@@ -2486,7 +2691,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大興寿司 本店 4.0(1,107) ￥1,000～2,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "207",
@@ -2498,7 +2704,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "かじゅあるかっぽーTSUKUSI 4.3(96) ￥1,000～2,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "208",
@@ -2510,7 +2717,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "堺筋本町給油所 一号店 3.9(229) ￥2,000～3,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "209",
@@ -2522,7 +2730,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "岡室酒店 4.0(71) 酒店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "210",
@@ -2534,7 +2743,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "餃子 立山 梅田店（飲食専門店） 4.6(307) ￥1,000～2,000 · 点心",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "211",
@@ -2546,7 +2756,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "香港飲茶 星街 4.3(481) ￥1,000～2,000 · 飲茶",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "212",
@@ -2558,7 +2769,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆串カツ酒場なかむら布施 3.6(170) ￥1,000～2,000 · 串揚げ、串カツ店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "213",
@@ -2570,7 +2782,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "餃子の店 もも 4.3(74) ￥2,000～3,000 · 点心",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "214",
@@ -2582,7 +2795,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "やまのや 4.2(163) お手頃 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "215",
@@ -2594,7 +2808,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ハモネリア ベジョータ ギョクロ 3.9(67) ￥2,000～3,000 · スペイン料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "216",
@@ -2606,7 +2821,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "金龍ラーメン 戎橋筋店 3.6(622) ￥1～1,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "217",
@@ -2618,7 +2834,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Ntown -Onigiri shop- 4.6(10) ￥1,000～2,000 · レストラン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "218",
@@ -2630,7 +2847,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "尾道 むらかみ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "219",
@@ -2642,7 +2860,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "魚太寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "220",
@@ -2654,7 +2873,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "麺と肉 だいつる",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "221",
@@ -2666,7 +2886,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "和風もつ料理あらた",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "222",
@@ -2678,7 +2899,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "海鮮と幻餃子 ぼちぼち",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "223",
@@ -2690,7 +2912,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ゆうすけ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "224",
@@ -2702,7 +2925,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "山空海温泉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "225",
@@ -2714,7 +2938,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "レストランひだまり 道の駅 能勢（くりの郷）",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "226",
@@ -2726,7 +2951,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ぱすた屋しかちゃん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "227",
@@ -2738,7 +2964,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "バリバール 福島店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "228",
@@ -2750,7 +2977,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "DE FRITES STAAN",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "229",
@@ -2762,7 +2990,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ブルーノ HEPナビオ店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "230",
@@ -2774,7 +3003,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "SAYAMISTYLE(サヤミスタイル) 難波の立ち飲み",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "231",
@@ -2786,7 +3016,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "日本料理 寺田",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "232",
@@ -2798,7 +3029,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "洋食屋 ふじ家",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "233",
@@ -2810,7 +3042,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 まごのて",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "234",
@@ -2822,7 +3055,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "酒屋へちかん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "235",
@@ -2834,7 +3068,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "寿しわげんせ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "236",
@@ -2846,7 +3081,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "しっとう屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "237",
@@ -2858,7 +3094,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "墨国回転鶏料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "238",
@@ -2870,7 +3107,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "フーナ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "239",
@@ -2882,7 +3120,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "お魚処 藁ヤキ炭ヒデ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "240",
@@ -2894,7 +3133,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "梅田 ちょうつがひ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "241",
@@ -2906,7 +3146,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 新楽井",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "242",
@@ -2918,7 +3159,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "MONIQUE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "243",
@@ -2930,7 +3172,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ニカイノオアシスＫＩＴＴＥ大阪店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "244",
@@ -2942,7 +3185,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "パルレ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "245",
@@ -2954,7 +3198,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "濃厚中華そば よし田 心斎橋店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "246",
@@ -2966,7 +3211,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "をにわ 河原町店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "247",
@@ -2978,7 +3224,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "牡蛎処 桝政 室津本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "248",
@@ -2990,7 +3237,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "瀬越海産",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "249",
@@ -3002,7 +3250,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "お初の十忠八九",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "250",
@@ -3014,7 +3263,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ヘミングウェイ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "251",
@@ -3026,7 +3276,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すし専門ストア 新橋かど平",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "252",
@@ -3038,7 +3289,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すし専門ストア かど平",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "253",
@@ -3050,7 +3302,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Grill Cafe Excellent",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "254",
@@ -3062,7 +3315,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "楽園",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "255",
@@ -3074,7 +3328,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆酒場 つくねとたまごアカイワ 赤羽店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "256",
@@ -3086,7 +3341,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "赤羽ホルモン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "257",
@@ -3098,7 +3354,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "赤羽 トロ函",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "258",
@@ -3110,7 +3367,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ニクマレヤ 赤羽本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "259",
@@ -3122,7 +3380,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "酒肴 佐藤商店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "260",
@@ -3134,7 +3393,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "馬ん馬んいくどん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "261",
@@ -3146,7 +3406,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "いこい本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "262",
@@ -3158,7 +3419,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆肉ビストロLit",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "263",
@@ -3170,7 +3432,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "居酒屋燃えた うらめし屋 赤羽",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "264",
@@ -3182,7 +3445,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "もつ焼のんき",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "265",
@@ -3194,7 +3458,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "闇市",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "266",
@@ -3206,7 +3471,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "酒・肴 とやお",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "267",
@@ -3218,7 +3484,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "PANAME Crêpes de Paris ＆ Café Bar (Osaka)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "268",
@@ -3230,7 +3497,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "n°29（ナンバーニーキュー)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "269",
@@ -3242,7 +3510,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "薬薗(やくえん)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "270",
@@ -3254,7 +3523,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "居酒屋 たこしげ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "271",
@@ -3266,7 +3536,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉冷麺 肉五郎 アメリカ村店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "272",
@@ -3278,7 +3549,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "KOME MAME",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "273",
@@ -3290,7 +3562,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Sweet Check",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "274",
@@ -3302,7 +3575,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "家系総本山 吉村家",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "275",
@@ -3314,7 +3588,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "209スタンド",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "276",
@@ -3326,7 +3601,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "淡路鮮魚",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "277",
@@ -3338,7 +3614,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "KILN THE BEER HOUSE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "278",
@@ -3350,7 +3627,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "こたや",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "279",
@@ -3362,7 +3640,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立呑み処 たよし",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "280",
@@ -3374,7 +3653,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "こめとはな (寺西家町家蔵 )",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "281",
@@ -3386,7 +3666,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭kappo hirac",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "282",
@@ -3398,7 +3679,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中華そば フラン軒",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "283",
@@ -3410,7 +3692,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "にんにく鶏焼肉サン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "284",
@@ -3422,7 +3705,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリル ロン",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "285",
@@ -3434,7 +3718,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Bar continue",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "286",
@@ -3446,7 +3731,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "うなぎの中庄 心斎橋店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "287",
@@ -3458,7 +3744,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "味の洋食 ニューとん助",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "288",
@@ -3470,7 +3757,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "舟田",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "289",
@@ -3482,7 +3770,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "和洋酒菜 ひで",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "290",
@@ -3494,7 +3783,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "酒場 やまと",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "291",
@@ -3506,7 +3796,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "美食米門 梅田",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "292",
@@ -3518,7 +3809,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "友安製作所 Cafe & Bar 阿倍野",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "293",
@@ -3530,7 +3822,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "王道家直系 我道家 OSAKA",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "294",
@@ -3542,7 +3835,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "寿司 常",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "295",
@@ -3554,7 +3848,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "華風料理 一芳亭 本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "296",
@@ -3566,7 +3861,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 まつえ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "297",
@@ -3578,7 +3874,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "PIZZERIA NAPOLETANA ASSO DA YAMAGUCHI中崎町",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "298",
@@ -3590,7 +3887,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 こてつ（旧：焼肉家ねぎちゃん）",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "299",
@@ -3602,7 +3900,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イタリアン チャイナバル村塾",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "300",
@@ -3614,7 +3913,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "燻製工房 ホイコッケン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "301",
@@ -3626,7 +3926,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "もつ煮本舗 まるさん食堂",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "302",
@@ -3638,7 +3939,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "橋本屋 4.6(195) ￥1,000～2,000 · カレー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "303",
@@ -3650,7 +3952,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラーメン 菜苑 4.1(1,782) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "304",
@@ -3662,7 +3965,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "醤油らーめん専門 金久右衛門 本店 4.0(482) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "305",
@@ -3674,7 +3978,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "無鉄砲 大阪店 3.9(2,707) ￥1,000～2,000 · ラーメン",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "306",
@@ -3686,7 +3991,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すき焼き・しゃぶしゃぶ きよ助 4.6(292) しゃぶしゃぶ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "307",
@@ -3698,7 +4004,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 なかみせ 4.6(220) 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "308",
@@ -3710,7 +4017,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鉄板焼き イルテラ （イタリアン） 4.8(492) ￥2,000～3,000 · 鉄板焼き",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "309",
@@ -3722,7 +4030,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Udon Kyutaro 4.3(1,198) ￥1～1,000 · うどん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "310",
@@ -3734,7 +4043,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "三田天然温泉 寿ノ湯 4.0(1,653) 日帰り温泉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "311",
@@ -3746,7 +4056,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "クニーズ・南河生鮮市場 3.8(964) スーパーマーケット",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "312",
@@ -3758,7 +4069,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "いわや 4.5(679) 高級 · 郷土料理店",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "313",
@@ -3770,7 +4082,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Norðurljósavegur 9 241 Grindavík アイスランド",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "314",
@@ -3782,7 +4095,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "白銀亭 イトゥビル店 4.2(696) ￥1,000～2,000 · カレー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "315",
@@ -3794,7 +4108,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "生鮮食材専門店『八百鮮』空堀店 4.0(277) スーパーマーケット",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "316",
@@ -3806,7 +4121,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "八百鮮 野田本店 4.0(293) 生鮮食品マーケット",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "317",
@@ -3818,7 +4134,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "あやむ屋 4.0(151) 焼き鳥",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "318",
@@ -3830,7 +4147,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すし処 智 3.7(224) ￥3,000～4,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "319",
@@ -3842,7 +4160,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "洋食堂 ゴメンネJIRO 4.2(263) ￥3,000～4,000 · 日本式洋食レストラン",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "320",
@@ -3854,7 +4173,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 同心亭 4.5(160) ￥10,000 以上 · 焼き肉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "321",
@@ -3866,7 +4186,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "らーめん チョンマゲ 大阪梅田店 3.8(355) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "322",
@@ -3878,7 +4199,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉たむら 1号店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "323",
@@ -3890,7 +4212,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "たぴおか食堂",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "324",
@@ -3902,7 +4225,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中国居酒屋 はるぴん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "325",
@@ -3914,7 +4238,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "屋台担担麺たぶっちゃん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "326",
@@ -3926,7 +4251,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ヴィヴァッカス",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "327",
@@ -3938,7 +4264,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "８Seas Sauna HIRA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "328",
@@ -3950,7 +4277,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉はぐれ雲なんば",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "329",
@@ -3962,7 +4290,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "y/OU donut（ユードーナッツ）",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "330",
@@ -3974,7 +4303,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "熟成鮨利他",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "331",
@@ -3986,7 +4316,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "高槻大衆ネオン居酒屋 スタンドＢ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "332",
@@ -3998,7 +4329,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "地酒だいにんぐやす",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "333",
@@ -4010,7 +4342,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "らーめん たま家 多摩本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "334",
@@ -4022,7 +4355,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "食堂 黒うさぎ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "335",
@@ -4034,7 +4368,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "唐黍堂",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "336",
@@ -4046,7 +4381,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "なみじ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "337",
@@ -4058,7 +4394,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "KURODARUMA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "338",
@@ -4070,7 +4407,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "BarFPO(証券バー)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "339",
@@ -4082,7 +4420,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "liminal",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "340",
@@ -4094,7 +4433,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "道頓堀クラフトビア醸造所 なんばCITY",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "341",
@@ -4106,7 +4446,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "casa di kudos",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "342",
@@ -4118,7 +4459,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "〒525-0063 滋賀県草津市南山田町４０９−１",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "343",
@@ -4130,7 +4472,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "くら おさかな市場",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "344",
@@ -4142,7 +4485,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中華料理 若水",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "345",
@@ -4154,7 +4498,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "あなごと日本酒 なかむら",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "346",
@@ -4166,7 +4511,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "日本酒 かんき",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "347",
@@ -4178,7 +4524,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "かがやきダイナー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "348",
@@ -4190,7 +4537,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "梅田日本酒エビス",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "349",
@@ -4202,7 +4550,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "べにくらげ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "350",
@@ -4214,7 +4563,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "地酒蔵大阪 なんば本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "351",
@@ -4226,7 +4576,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鉄板焼肉 ホルモンまきの",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "352",
@@ -4238,7 +4589,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天ぷら大吉 なんばこめじるし店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "353",
@@ -4250,7 +4602,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "居酒屋 ながほり",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "354",
@@ -4262,7 +4615,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "南越谷SUSHI WORKS",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "355",
@@ -4274,7 +4628,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "きみや",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "356",
@@ -4286,7 +4641,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "にんにくバル ザ・ガーリック中野",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "357",
@@ -4298,7 +4654,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "小料理 おばんざい 小よし",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "358",
@@ -4310,7 +4667,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "湯どうふ うえ川 南店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "359",
@@ -4322,7 +4680,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "蛸八",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "360",
@@ -4334,7 +4693,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大阪まんぷく堂",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "361",
@@ -4346,7 +4706,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ぎょうざの焼吉",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "362",
@@ -4358,7 +4719,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "新宿焼肉 牛たんの檸檬 大阪本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "363",
@@ -4370,7 +4732,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "TACOS 3HERMANOS HARAJUKU",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "364",
@@ -4382,7 +4745,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "黒羊羊肉串店 BLACK SHEEP",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "365",
@@ -4394,7 +4758,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "たこ焼き&BAR プルプ takoyaki&bar poulpe",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "366",
@@ -4406,7 +4771,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "花かご",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "367",
@@ -4418,7 +4784,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立ち喰い寿司 ゲンヤ倶楽部",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "368",
@@ -4430,7 +4797,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "北新地おにぎり 夜の一粒",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "369",
@@ -4442,7 +4810,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "卵かけめし 肉すい専門 やまや",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "370",
@@ -4454,7 +4823,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "しゃぶ長",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "371",
@@ -4466,7 +4836,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "揚子江ラーメン 名門",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "372",
@@ -4478,7 +4849,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "按田餃子 代々木上原店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "373",
@@ -4490,7 +4862,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "田舎の大鵬",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "374",
@@ -4502,7 +4875,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "貝鮮浜焼きバイキング あみ浜食堂",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "375",
@@ -4514,7 +4888,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "なにわ而楽",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "376",
@@ -4526,7 +4901,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "御幸町ONO",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "377",
@@ -4538,7 +4914,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭炉まん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "378",
@@ -4550,7 +4927,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立ち飲みやみー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "379",
@@ -4562,7 +4940,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "野菜酒場あしおと",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "380",
@@ -4574,7 +4953,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "こだわり食材市場 大阪府中央卸売市場加工食品卸売商業協同組合",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "381",
@@ -4586,7 +4966,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨かぜのぎ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "382",
@@ -4598,7 +4979,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨あさひ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "383",
@@ -4610,7 +4992,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "りんご屋 西梅田店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "384",
@@ -4622,7 +5005,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "セアブラノ神 伏見剛力",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "385",
@@ -4634,7 +5018,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "うさみ亭 マツバヤ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "386",
@@ -4646,7 +5031,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "海鮮工房 はしだて物産 松葉蟹直売・かに飯・かに寿司・焼鯖寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "387",
@@ -4658,7 +5044,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天平 北新地本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "388",
@@ -4670,7 +5057,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ワイン酒場トマト",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "389",
@@ -4682,7 +5070,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "阿蘇溶岩石焼 といとい 穴座",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "390",
@@ -4694,7 +5083,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "にほんしゅ屋しゅうろく",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "391",
@@ -4706,7 +5096,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "メキシコ食堂 オラレ！",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "392",
@@ -4718,7 +5109,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "夜景 シュラスコテーブル 梅田店",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "393",
@@ -4730,7 +5122,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "タマゴのイザカヤ Atama",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "394",
@@ -4742,7 +5135,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "XEX WEST Salvatore Cuomo Bros.／The BAR",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "395",
@@ -4754,7 +5148,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "朝呑み 楽酒",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "396",
@@ -4766,7 +5161,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炉端焼き 亀清",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "397",
@@ -4778,7 +5174,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炉端とおでん 呼炉凪来 梅田店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "398",
@@ -4790,7 +5187,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "お好み焼き 花",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "399",
@@ -4802,7 +5200,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "つけ麺 ひらの",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "400",
@@ -4814,7 +5213,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "トリタニ商店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "401",
@@ -4826,7 +5226,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 奏",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "402",
@@ -4838,7 +5239,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ノドボトケ、上ル",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "403",
@@ -4850,7 +5252,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "空掘トーストカフェ ファイン",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "404",
@@ -4862,7 +5265,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "串焼き猿",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "405",
@@ -4874,7 +5278,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "三定(さんさだ)",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "406",
@@ -4886,7 +5291,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "とんかつ七兵衛 三宮店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "407",
@@ -4898,7 +5304,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉ホルモンこたろう 三ノ宮店 4.5(1,927) 焼き肉",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "408",
@@ -4910,7 +5317,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "最 本町店 4.2(29) グリル",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "409",
@@ -4922,7 +5330,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "料理が上手?な嫁の店 4.5(10) ￥1,000～2,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "410",
@@ -4934,7 +5343,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "京 菓る茶cafe 4.6(387) ￥1,000～2,000 · カフェ・喫茶",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "411",
@@ -4946,7 +5356,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "UWASASTORE 3.8(144) ￥3,000～4,000 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "412",
@@ -4958,7 +5369,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ロンパル 4.2(162) ￥1～1,000 · ベーカリー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": false
   },
   {
     "id": "413",
@@ -4970,7 +5382,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "居酒屋十月二日 福島区 4.8(43) 居酒屋",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "414",
@@ -4982,7 +5395,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ビストロリアン 4.3(64) ￥10,000 以上 · ビストロ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "415",
@@ -4994,7 +5408,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "カチャトーレ ヤマガミ 4.2(53) ￥1,000～2,000 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "416",
@@ -5006,7 +5421,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Ristorante 迫 4.4(77) ￥10,000 以上 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "417",
@@ -5018,7 +5434,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "MAKIBI 4.3(156) イタリア料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "418",
@@ -5030,7 +5447,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "梅田 海鮮居酒屋いこう 4.4(197) 寿司",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "419",
@@ -5042,7 +5460,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "実乃里 de バル 3.7(78) レストラン",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "420",
@@ -5054,7 +5473,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "比良山荘 4.6(384) 贅沢 · 会席・懐石料理店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "421",
@@ -5066,7 +5486,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "活魚寿司 岸和田今木店 3.5(830) ￥1,000～2,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "422",
@@ -5078,7 +5499,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "KITASHINCHI 鉄板焼 sia 4.8(29) ￥10,000 以上 · 鉄板焼き",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "423",
@@ -5090,7 +5512,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "アニメバー たまりば 4.6(75) 安価 · カラオケ バー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "424",
@@ -5102,7 +5525,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "北京本店 3.8(2,000) ￥1,000～2,000 · 中華料理店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "425",
@@ -5114,7 +5538,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "薪鳥新神戸 4.6(162) ￥10,000 以上 · 焼き鳥",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "426",
@@ -5126,7 +5551,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ル・コントワ 4.2(288) お手頃 · フランス料理",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "427",
@@ -5138,7 +5564,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "まりお流らーめん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "428",
@@ -5150,7 +5577,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "銀座屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "429",
@@ -5162,7 +5590,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "みちくさ能勢",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "430",
@@ -5174,7 +5603,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリル 太平",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "431",
@@ -5186,7 +5616,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ダイナミックキッチン＆バー 燦－SUN－ OBPツインタワー店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "432",
@@ -5198,7 +5629,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "キャッスルカフェ(旧クリスタルカフェテリア)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "433",
@@ -5210,7 +5642,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Oh！マイステーキ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "434",
@@ -5222,7 +5655,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Back Street Coffee",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "435",
@@ -5234,7 +5668,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "BEER BELLY 天満",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "436",
@@ -5246,7 +5681,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "弄堂 南森町本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "437",
@@ -5258,7 +5694,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭火焼 炭達磨",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "438",
@@ -5270,7 +5707,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨白",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "439",
@@ -5282,7 +5720,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大阪大衆居酒屋 飯と酒と音 almalio",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "440",
@@ -5294,7 +5733,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "第一旭 関目店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "441",
@@ -5306,7 +5746,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "饂飩工房 うばら",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "442",
@@ -5318,7 +5759,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "fried sandwich Age.3 GINZA",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "443",
@@ -5330,7 +5772,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "海鮮居酒屋 海鍋亭(うみなべ亭) 梅田店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "444",
@@ -5342,7 +5785,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "谷町 ふる里",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "445",
@@ -5354,7 +5798,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨と天ぷら からす",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "446",
@@ -5366,7 +5811,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 國松",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "447",
@@ -5378,7 +5824,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ニューハマヤ 瓦町店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "448",
@@ -5390,7 +5837,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 銀座おのでら 登龍門",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "449",
@@ -5402,7 +5850,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "NEW YORK PIZZA TONY'S",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "450",
@@ -5414,7 +5863,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "SEA & FARM by YANMAR MARCHÉ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "451",
@@ -5426,7 +5876,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "だし巻き玉子専門店 百花",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "452",
@@ -5438,7 +5889,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆酒場かど升",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "453",
@@ -5450,7 +5902,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "パンとエスプレッソと堺筋俱楽部",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "454",
@@ -5462,7 +5915,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "洋食の店 もなみ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "455",
@@ -5474,7 +5928,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "穴場 天満店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "456",
@@ -5486,7 +5941,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "スタンド比嘉くん。",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "457",
@@ -5498,7 +5954,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "千早川マス釣り場",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "458",
@@ -5510,7 +5967,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立呑みビストロやまもと",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "459",
@@ -5522,7 +5980,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "魚籠屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "460",
@@ -5534,7 +5993,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラーメン チョンマゲ 大阪天六店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "461",
@@ -5546,7 +6006,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すざき",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "462",
@@ -5558,7 +6019,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "手造りうどん 楽々",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "463",
@@ -5570,7 +6032,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中華そば 光洋軒",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "464",
@@ -5582,7 +6045,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "麺者 侍",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "465",
@@ -5594,7 +6058,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼鳥 日和",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "466",
@@ -5606,7 +6071,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "床島",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "467",
@@ -5618,7 +6084,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "洋食屋 グリルこっこ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "468",
@@ -5630,7 +6097,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "やむなし松濤",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "469",
@@ -5642,7 +6110,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Guzman y Gomez - Shibuya",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "470",
@@ -5654,7 +6123,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "壹銭洋食 本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "471",
@@ -5666,7 +6136,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Wine shop Lami",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "472",
@@ -5678,7 +6149,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "今池飯店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "473",
@@ -5690,7 +6162,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "平和樓",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "474",
@@ -5702,7 +6175,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨はまだ",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "475",
@@ -5714,7 +6188,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "志津可 (シズカ)",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "476",
@@ -5726,7 +6201,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "エクチュア からほり｢蔵｣本店",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "477",
@@ -5738,7 +6214,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "セイロンカリー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "478",
@@ -5750,7 +6227,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "方違神社",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "479",
@@ -5762,7 +6240,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "縄寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "480",
@@ -5774,7 +6253,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "最上 北新地店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "481",
@@ -5786,7 +6266,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "レストラン菊水 屋上ビアガーデン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "482",
@@ -5798,7 +6279,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "富士喜商店 新宿総本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "483",
@@ -5810,7 +6292,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "串カツ 武田",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "484",
@@ -5822,7 +6305,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "リンカーン食堂",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "485",
@@ -5834,7 +6318,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "布施バル オルモ",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "486",
@@ -5846,7 +6331,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "スタンドミヤコ 立ち呑み",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "487",
@@ -5858,7 +6344,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中津ブルワリー",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "488",
@@ -5870,7 +6357,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "おのみち屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "489",
@@ -5882,7 +6370,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "蓮心",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "490",
@@ -5894,7 +6383,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "谷町 一味禅",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "491",
@@ -5906,7 +6396,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "福井",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "492",
@@ -5918,7 +6409,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "スタミナいちばん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "493",
@@ -5930,7 +6422,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "肉しょうがうどんTaiyo",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "494",
@@ -5942,7 +6435,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "裏難波スシトフジ 4.6(520) 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "495",
@@ -5954,7 +6448,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "三好屋商店 4.3(54) 酒店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "496",
@@ -5966,7 +6461,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "まんしゅう 西中島店 4.1(548) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "497",
@@ -5978,7 +6474,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 こう介 4.6(127) ￥10,000 以上 · 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "498",
@@ -5990,7 +6487,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すし処 ひでまる 4.4(455) 寿司",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "499",
@@ -6002,7 +6500,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "月山祐寿司 4.4(137) ￥1,000～2,000 · 寿司",
     "isActive": false,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "500",
@@ -6014,7 +6513,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鶏炭焼麺専門店 田村家 茨木店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "501",
@@ -6026,7 +6526,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すしバリュー 門真店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "502",
@@ -6038,7 +6539,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭焼き成吉思汗 やまか",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "503",
@@ -6050,7 +6552,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立呑旬鮮 すーさん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "504",
@@ -6062,7 +6565,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "舞鶴湾かき小屋 美味星",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "505",
@@ -6074,7 +6578,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "海鮮ブッフェダイニング 銀座八芳",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "506",
@@ -6086,7 +6591,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すし楽",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "507",
@@ -6098,7 +6604,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 味楽園(みらくえん)",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "508",
@@ -6110,7 +6617,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "東亞食堂 黒龍天神樓",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "509",
@@ -6122,7 +6630,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "らーめんコーさん 本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "510",
@@ -6134,7 +6643,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ぶたのほし",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "511",
@@ -6146,7 +6656,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "井出商店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "512",
@@ -6158,7 +6669,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "麺匠 柳",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "513",
@@ -6170,7 +6682,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "味希",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "514",
@@ -6182,7 +6695,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 味吉園",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "515",
@@ -6194,7 +6708,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮮魚 魚豊",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "516",
@@ -6206,7 +6721,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "うどんちり本家 にし家本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "517",
@@ -6218,7 +6734,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "餃子てんほう！",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "518",
@@ -6230,7 +6747,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "まる尾水産",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "519",
@@ -6242,7 +6760,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "もつ焼きのりちゃん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "520",
@@ -6254,7 +6773,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼売のジョー大阪駅前第三ビル店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "521",
@@ -6266,7 +6786,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "高円寺肉合戦",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "522",
@@ -6278,7 +6799,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "牛丼 ホルモン きつねや",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "523",
@@ -6290,7 +6812,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "道頓堀今井 本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "524",
@@ -6302,7 +6825,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "三軒茶屋一丁目食堂",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "525",
@@ -6314,7 +6838,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "らーめん 極 総本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "526",
@@ -6326,7 +6851,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "和食処 大福",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "527",
@@ -6338,7 +6864,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大福屋",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "528",
@@ -6350,7 +6877,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "肉ホルモン てつ腕",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "529",
@@ -6362,7 +6890,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "極食堂 ジャンジャン横丁本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "530",
@@ -6374,7 +6903,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "しまながし",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "531",
@@ -6386,7 +6916,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "元祖 モダン焼 ねぎ焼 あべとん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "532",
@@ -6398,7 +6929,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉かまちゃん",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "533",
@@ -6410,7 +6942,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "たこつぼ 本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "534",
@@ -6422,7 +6955,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "海鮮酒場 うおぷく",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "535",
@@ -6434,7 +6968,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "勇すし",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "536",
@@ -6446,7 +6981,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Panel cafe京都",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "537",
@@ -6458,7 +6994,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "家和らぎ 心斎橋 和食",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "538",
@@ -6470,7 +7007,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "CAFE Bar ONE PEACE",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "539",
@@ -6482,7 +7020,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ときすし 本店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "540",
@@ -6494,7 +7033,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼豚ラーメン三條",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "541",
@@ -6506,7 +7046,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Viande wood ヴィアンド ウッド",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "542",
@@ -6518,7 +7059,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "彩華ラーメン 布施店",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "543",
@@ -6530,7 +7072,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "寿司処 松の",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "544",
@@ -6542,7 +7085,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "うなぎ じん田",
     "isActive": true,
     "createdAt": "2026-03-31",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "545",
@@ -6554,7 +7098,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "豚まん専門店龍福 駒川店 4.1(491) ￥1～1,000 · 飲茶",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "546",
@@ -6566,7 +7111,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "手作り豚まん専門店 龍福 桃谷店 4.4(88) ￥1～1,000 · テイクアウト",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "547",
@@ -6578,7 +7124,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "回転すし さかえ 3.9(1,761) ￥1,000～2,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "548",
@@ -6590,7 +7137,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "廻鮮鮨 喜十郎 4.0(785) ￥1,000～2,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "549",
@@ -6602,7 +7150,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "元禄寿司 本店 3.7(915) ￥1,000～2,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "550",
@@ -6614,7 +7163,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "洋食 ヨシカミ 4.2(3,797) ￥1,000～3,000 · 日本式洋食レストラン",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "551",
@@ -6626,7 +7176,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "酒ト場 京橋店 4.7(12) ￥3,000～5,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "552",
@@ -6638,7 +7189,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ヒポポパパ 3.8(520) ￥1,000～2,000 · カフェ・喫茶",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "553",
@@ -6650,7 +7202,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "SAKImoto bakery 大阪初號本店 4.3(155) ￥1,000～2,000 · ベーカリー",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": false
   },
   {
     "id": "554",
@@ -6662,7 +7215,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "GLITCH COFFEE OSAKA 4.4(958) ￥1,000～2,000 · コーヒーショップ・喫茶店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "555",
@@ -6674,7 +7228,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天茂 4.1(342) ￥1,000～2,000 · 天ぷら",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "556",
@@ -6686,7 +7241,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨と酒悠久 名駅柳橋店 4.5(57) ￥1,000～6,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "557",
@@ -6698,7 +7254,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "満ち汐のロマンス 4.2(136) ￥2,000～3,000 · 居酒屋",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "558",
@@ -6710,7 +7267,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ワインダイニング U/ (ウー) 3.4(37) ￥4,000～9,000 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "559",
@@ -6722,7 +7280,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "uoyaki temma 4.2(34) ワイン専門店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "560",
@@ -6734,7 +7293,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "コメダ珈琲店 高岳店 3.8(179) ￥1～1,000 · カフェ・喫茶",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "561",
@@ -6746,7 +7306,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "コメダ珈琲店 今池店 4.0(243) ￥1～1,000 · カフェ・喫茶",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "562",
@@ -6758,7 +7319,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イタリア大衆食堂 堂島グラッチェ本店 3.9(427) 安価 · イタリア料理",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "563",
@@ -6770,7 +7332,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天ぷら定食専門 寅ノすみか 4.5(261) ￥1,000～2,000 · 天ぷら",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "564",
@@ -6782,7 +7345,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "JACK IN THE DONUTS 阪神梅田本店 3.6(40) ￥1～1,000 · ドーナツ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "565",
@@ -6794,7 +7358,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "川越 / KAWAKOSHI 4.3(104) ￥1,000～2,000 · うなぎ料理店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "566",
@@ -6806,7 +7371,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天王寺 豆ふ屋 やすまる ～豆富と鮨と日本料理～ 4.1(254) ￥2,000～8,000 · 日本料理",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "567",
@@ -6818,7 +7384,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "BEER STAND molto!! 阪急三番街店 4.1(184) ￥1,000～2,000 · バー",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "568",
@@ -6830,7 +7397,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "egg cafe KURAGARI",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "569",
@@ -6842,7 +7410,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリルロン 阪急三番街店 4.2(1,141) ￥1,000～2,000 · 洋食",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "570",
@@ -6854,7 +7423,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ニューとん助 4.4(608) ￥1,000～2,000 · 日本式洋食レストラン",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "571",
@@ -6866,7 +7436,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "王道家直系 我道家 OSAKA本店 4.0(1,561) ￥1,000～2,000 · ラーメン",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "572",
@@ -6878,7 +7449,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "寿司常 4.2(88) ￥1,000～2,000 · 寿司",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "573",
@@ -6890,7 +7462,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 こてつ 4.6(243) ￥4,000～8,000 · 焼き肉",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "574",
@@ -6902,7 +7475,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "もつ煮本舗 まるさん食堂 水戸本店 4.3(416) ￥1～1,000 · 定食屋",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "575",
@@ -6914,7 +7488,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "無鉄砲 大阪本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "576",
@@ -6926,7 +7501,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イルテラ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "577",
@@ -6938,7 +7514,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "丹波篠山囲炉裏料理 いわや",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "578",
@@ -6950,7 +7527,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ゴメンネJIRO",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "579",
@@ -6962,7 +7540,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ワイン酒場トマト（WineBarTOMATO） 大阪梅田 4.0(9) イタリア料理",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "580",
@@ -6974,7 +7553,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "夜景 シュラスコ食べ放題 シュラスコテーブル 梅田店 4.5(482) ￥4,000～5,000 · レストラン",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "581",
@@ -6986,7 +7566,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "空堀トーストカフェ 4.6(365) ￥1～1,000 · トースト専門店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "582",
@@ -6998,7 +7579,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天ぷら 三定（さんさだ）浅草雷門 3.5(1,269) ￥2,000～3,000 · 天ぷら",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "583",
@@ -7010,7 +7592,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆焼肉こたろう 三宮店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "584",
@@ -7022,7 +7605,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "十月二日",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "585",
@@ -7034,7 +7618,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨処 いこう",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "586",
@@ -7046,7 +7631,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "実乃里 de バル（大阪グランベルホテル内）",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "587",
@@ -7058,7 +7644,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "薪鳥新神戸 MAKITORI SHINKOBE",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "588",
@@ -7070,7 +7657,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 はまだ 4.5(146) ￥10,000 以上 · 寿司",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "589",
@@ -7082,7 +7670,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "志津可 4.1(471) ￥4,000～5,000 · うなぎ料理店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "590",
@@ -7094,7 +7683,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "エクチュア からほり 4.4(750) ￥1,000～2,000 · カフェ・喫茶",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "591",
@@ -7106,7 +7696,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "月山祐寿司(大阪で一番旨い安い店)",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "592",
@@ -7118,7 +7709,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 㐂舌 きたん 法善寺 Yakiniku Kitan Hozenji",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "593",
@@ -7130,7 +7722,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "The old bridge",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "594",
@@ -7142,7 +7735,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "麺家獅子丸",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "595",
@@ -7154,7 +7748,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "新川にしや",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "596",
@@ -7166,7 +7761,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ピノキオ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "597",
@@ -7178,7 +7774,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "めん処 竹ちゃん",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "598",
@@ -7190,7 +7787,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "新ちゃん",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "599",
@@ -7202,7 +7800,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "MAKE ONE TWO (メイクワンツー）",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "600",
@@ -7214,7 +7813,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Bar W",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "601",
@@ -7226,7 +7826,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "一口いなりむろや 本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "602",
@@ -7238,7 +7839,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "カンティーナリマ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "603",
@@ -7250,7 +7852,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "酒房 ワビスケ ルシアス店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "604",
@@ -7262,7 +7865,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "十枡",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "605",
@@ -7274,7 +7878,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉ジャック 天王寺駅前店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "606",
@@ -7286,7 +7891,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆焼肉ホルモン にくさわ 本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "607",
@@ -7298,7 +7904,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼き鳥 小松",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "608",
@@ -7310,7 +7917,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鯛専門店 徳ます",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "609",
@@ -7322,7 +7930,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "海鮮丼専門店 木津 魚市食堂",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "610",
@@ -7334,7 +7943,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 藤もと 大吉商店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "611",
@@ -7346,7 +7956,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すしの助 北浜店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "612",
@@ -7358,7 +7969,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ラーメン大戦争 梅田店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "613",
@@ -7370,7 +7982,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "華苑 本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "614",
@@ -7382,7 +7995,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリル一平 三宮店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "615",
@@ -7394,7 +8008,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭火焼鳥 一兆 日本橋本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "616",
@@ -7406,7 +8021,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ステーキファイブと寿司六 大阪駅前第2ビル店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "617",
@@ -7418,7 +8034,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ぐあぽす guapos",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "618",
@@ -7430,7 +8047,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ホルモン ジビエ 明星",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "619",
@@ -7442,7 +8060,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "お料理だいち",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "620",
@@ -7454,7 +8073,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "アネロスタンド",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "621",
@@ -7466,7 +8086,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Dal Donnaiolo",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "622",
@@ -7478,7 +8099,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "アルデンテ大山",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "623",
@@ -7490,7 +8112,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ムラタ料理店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "624",
@@ -7502,7 +8125,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ル・プログレ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "625",
@@ -7514,7 +8138,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "レストランヴァリエ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "626",
@@ -7526,7 +8151,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Jean-Georges at The Shinmonzen",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "627",
@@ -7538,7 +8164,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "SINAE シナエ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "628",
@@ -7550,7 +8177,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "なにわ麺次郎",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "629",
@@ -7562,7 +8190,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "創作料理 アランチャ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "630",
@@ -7574,7 +8203,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すしセンター 裏天王寺",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "631",
@@ -7586,7 +8216,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "サントリー白州蒸溜所",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "632",
@@ -7598,7 +8229,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "浅野日本酒店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "633",
@@ -7610,7 +8242,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ぬる燗佐藤 大坂",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "634",
@@ -7622,7 +8255,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "餃子のさんくみ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "635",
@@ -7634,7 +8268,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大正五年創業 串かつ ぎふや本家 大阪新世界店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "636",
@@ -7646,7 +8281,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "てんぐ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "637",
@@ -7658,7 +8294,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "〒556-0002 大阪府大阪市浪速区恵美須東２丁目３−９",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "638",
@@ -7670,7 +8307,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "兵蔵",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "639",
@@ -7682,7 +8320,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "カーニグリル 天王寺駅前店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "640",
@@ -7694,7 +8333,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉ホルモン 坂上 梅田本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "641",
@@ -7706,7 +8346,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大阪天満宮 鮨とよなが",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "642",
@@ -7718,7 +8359,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "風靡",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "643",
@@ -7730,7 +8372,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨割烹 のの 梅田お初天神店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "644",
@@ -7742,7 +8385,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "手打ちうどん 上を向いて",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "645",
@@ -7754,7 +8398,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "雅しゅとうとう",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "646",
@@ -7766,7 +8411,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "黒毛和牛タンとハラミ焼肉ごりちゃん福島",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "647",
@@ -7778,7 +8424,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉ごりちゃん",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "648",
@@ -7790,7 +8437,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "源兵衛 なんば店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "649",
@@ -7802,7 +8450,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "肉の天満屋 神楽亭",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "650",
@@ -7814,7 +8463,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すし政 中店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "651",
@@ -7826,7 +8476,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "千番",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "652",
@@ -7838,7 +8489,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "本家松浦酒造 ナルトタイの店 sake brewery shop",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "653",
@@ -7850,7 +8502,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "西端手打 上戸うどん",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "654",
@@ -7862,7 +8515,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "谷川米殻店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "655",
@@ -7874,7 +8528,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "山越うどん",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "656",
@@ -7886,7 +8541,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "かどや 大街道店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "657",
@@ -7898,7 +8554,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "丸福 今里店 姉妹店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "658",
@@ -7910,7 +8567,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉屋輪‐りん-玉造本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "659",
@@ -7922,7 +8580,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "麺屋 帆のるHonolu",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "660",
@@ -7934,7 +8593,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "HICARU COFFEE ROASTER Osaka",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "661",
@@ -7946,7 +8606,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "うなぎ 和友",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "662",
@@ -7958,7 +8619,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "みかん 今里店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "663",
@@ -7970,7 +8632,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭焼きうなぎの魚伊 本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "664",
@@ -7982,7 +8645,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ザ・ミュンヒ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "665",
@@ -7994,7 +8658,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "BENJAMIN STEAKHOUSE KYOTO",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "666",
@@ -8006,7 +8671,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "千とせ 本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "667",
@@ -8018,7 +8684,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "魚仁",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "668",
@@ -8030,7 +8697,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "食堂 二十",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "669",
@@ -8042,7 +8710,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 惣五郎",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "670",
@@ -8054,7 +8723,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ミンモアハウス",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "671",
@@ -8066,7 +8736,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "L’occas - bar à vin - ワインバー ロカス",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "672",
@@ -8078,7 +8749,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "江戸前にぎり寿し 春駒 本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "673",
@@ -8090,7 +8762,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ニュールーブル",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "674",
@@ -8102,7 +8775,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "いわむら Chez Deuxieme（イワムラ シェ ドゥジェーム）",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "675",
@@ -8114,7 +8788,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "いなさ寿司",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "676",
@@ -8126,7 +8801,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "コＮＯコＮＯコ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "677",
@@ -8138,7 +8814,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "クレープス・ド・アンヌ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": false
   },
   {
     "id": "678",
@@ -8150,7 +8827,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "さぁみな！（略称）",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "679",
@@ -8162,7 +8840,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨 なかもと",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "680",
@@ -8174,7 +8853,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "お食事処 美登里",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "681",
@@ -8186,7 +8866,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨実紀 Sushi Minoki",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "682",
@@ -8198,7 +8879,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "うを勢 総本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "683",
@@ -8210,7 +8892,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "和牛タン次郎 大阪天満店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "684",
@@ -8222,7 +8905,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "釜山",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "685",
@@ -8234,7 +8918,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "どんたく堂山店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "686",
@@ -8246,7 +8931,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "八重勝",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "687",
@@ -8258,7 +8944,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鮨仙酢 本店 大阪駅前",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "688",
@@ -8270,7 +8957,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ニューブンゴ 福島本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "689",
@@ -8282,7 +8970,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鉄板料理 Rakuda 安城店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "690",
@@ -8294,7 +8983,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ゑんどう寿司 中央市場店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "691",
@@ -8306,7 +8996,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "桃白白",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "692",
@@ -8318,7 +9009,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ベトコンラーメン 新京 中川店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "693",
@@ -8330,7 +9022,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "圓家",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "694",
@@ -8342,7 +9035,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉 安萬 安城本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "695",
@@ -8354,7 +9048,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "虎連坊 ヒルトンプラザウエスト店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "696",
@@ -8366,7 +9061,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "万両 南森町店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "697",
@@ -8378,7 +9074,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "アングル",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "698",
@@ -8390,7 +9087,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イタリア料理 casa bianca(カーサビアンカ)",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "699",
@@ -8402,7 +9100,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中華 味一 目黒",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "700",
@@ -8414,7 +9113,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "寿司と天ぷら ニューツルマツ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "701",
@@ -8426,7 +9126,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "わらまさ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "702",
@@ -8438,7 +9139,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "SAKE NERD (サケナード)",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "703",
@@ -8450,7 +9152,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "カウンター焼肉うしすき",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "704",
@@ -8462,7 +9165,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中国菜 OIL(オイル)",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "705",
@@ -8474,7 +9178,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "餃子工房 ユーミン",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "706",
@@ -8486,7 +9191,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "渡邊咖喱 梅田本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "707",
@@ -8498,7 +9204,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中華そば ひふみ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "708",
@@ -8510,7 +9217,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "喫茶ルプラ｜Lupra's Roasting Factory & café",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "709",
@@ -8522,7 +9230,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "マロリーポークステーキ難波店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "710",
@@ -8534,7 +9243,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "寿司としゃぶしゃぶ No.8 梅田店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "711",
@@ -8546,7 +9256,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼鳥エナミ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "712",
@@ -8558,7 +9269,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "bistro & wine 苑（én)",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "713",
@@ -8570,7 +9282,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ひつまぶし 鰻伸",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "714",
@@ -8582,7 +9295,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ヨネヤ 梅田本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "715",
@@ -8594,7 +9308,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "立ち寿司 杉尾 西中島店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "716",
@@ -8606,7 +9321,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "くろしを",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "717",
@@ -8618,7 +9334,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "桜もみじ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "718",
@@ -8630,7 +9347,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭焼きとおでん猪頭 梅田｜兎我野町店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "719",
@@ -8642,7 +9360,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ずいき",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "720",
@@ -8654,7 +9373,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "味真",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "721",
@@ -8666,7 +9386,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "かすうどん うのたけ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "722",
@@ -8678,7 +9399,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "柳井",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "723",
@@ -8690,7 +9412,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "喰海",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "724",
@@ -8702,7 +9425,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "にくさぶろう",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "725",
@@ -8714,7 +9438,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉ホルモン 万千",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "726",
@@ -8726,7 +9451,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリル 末松",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "727",
@@ -8738,7 +9464,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリル小宝",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "728",
@@ -8750,7 +9477,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "玄風館",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "729",
@@ -8762,7 +9490,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "牛もつ鍋専門店やま本 京橋店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "730",
@@ -8774,7 +9503,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "牛もつどて鍋 まつい亭",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "731",
@@ -8786,7 +9516,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "バルコラメント",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "732",
@@ -8798,7 +9529,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼鳥えんや 中津店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "733",
@@ -8810,7 +9542,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "饂飩とお酒 からほり きぬ川",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "734",
@@ -8822,7 +9555,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大阪うどん いなの路",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "735",
@@ -8834,7 +9568,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "La Lanterna di Genova",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "736",
@@ -8846,7 +9581,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "魚太郎 浜焼きバーベキュー",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "737",
@@ -8858,7 +9594,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "丸鶴",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "738",
@@ -8870,7 +9607,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "豚足のかどや",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "739",
@@ -8882,7 +9620,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼肉ギャング",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "740",
@@ -8894,7 +9633,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Macauda",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "741",
@@ -8906,7 +9646,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "と木と",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "742",
@@ -8918,7 +9659,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "池田銀なべ 北新地",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "743",
@@ -8930,7 +9672,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "縁 il legame",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "744",
@@ -8942,7 +9685,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ベトコンラーメン 新京",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "745",
@@ -8954,7 +9698,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鴨と醸し 鼓道",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "746",
@@ -8966,7 +9711,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "テキ亭",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "747",
@@ -8978,7 +9724,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "日々是好日",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "748",
@@ -8990,7 +9737,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "滋賀県醒井養鱒場",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "749",
@@ -9002,7 +9750,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "マガザン ド エクラ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "750",
@@ -9014,7 +9763,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "いしもん",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "751",
@@ -9026,7 +9776,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大滝茶屋",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "752",
@@ -9038,7 +9789,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "THE ALLEY 梅田エスト店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": false
   },
   {
     "id": "753",
@@ -9050,7 +9802,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中華そば カドヤ食堂 総本店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "754",
@@ -9062,7 +9815,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "一富士食堂",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "755",
@@ -9074,7 +9828,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "and. cafe",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "756",
@@ -9086,7 +9841,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "松屋食堂",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "757",
@@ -9098,7 +9854,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "燻製スギヤ商店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "758",
@@ -9110,7 +9867,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "天ぷらとナチュールMETA",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "759",
@@ -9122,7 +9880,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "キッチンpemaru",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "760",
@@ -9134,7 +9893,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "お食事処 すゑひろ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "761",
@@ -9146,7 +9906,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "心伯",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "762",
@@ -9158,7 +9919,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "中津をにく",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "763",
@@ -9170,7 +9932,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ステーキハウス 華",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "764",
@@ -9182,7 +9945,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "手打蕎麦 守破離",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "765",
@@ -9194,7 +9958,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "創作酒房そうそう",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "766",
@@ -9206,7 +9971,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "今里鉄板焼",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "767",
@@ -9218,7 +9984,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "サロン卵と私 ルクア大阪店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "768",
@@ -9230,7 +9997,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "グリル 欧風軒",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "769",
@@ -9242,7 +10010,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ぶどう亭",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "770",
@@ -9254,7 +10023,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "やすきよ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "771",
@@ -9266,7 +10036,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "大衆酒場 タムヤ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "772",
@@ -9278,7 +10049,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "石鹿",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "773",
@@ -9290,7 +10062,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "たま木亭",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "774",
@@ -9302,7 +10075,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ビッグジョー",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "775",
@@ -9314,7 +10088,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "宇宙",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "776",
@@ -9326,7 +10101,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "膳處漢ぽっちり",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "777",
@@ -9338,7 +10114,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ホルモン千葉 大阪梅田店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "778",
@@ -9350,7 +10127,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "島之内フジマル醸造所",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "779",
@@ -9362,7 +10140,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "焼鳥 サイヒ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "780",
@@ -9374,7 +10153,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "北新地君しま",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "781",
@@ -9386,7 +10166,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "鉄板焼ホルモン やまき",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "782",
@@ -9398,7 +10179,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "すき焼･鍋 なべや",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "783",
@@ -9410,7 +10192,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "Ellie",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "784",
@@ -9422,7 +10205,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "居魚家 ぎんた",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "785",
@@ -9434,7 +10218,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "ふく玄",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "786",
@@ -9446,7 +10231,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "串揚げ料理 みや田",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "787",
@@ -9458,7 +10244,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "銀座鮨 緑橋店",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": true
+    "hasLunch": true,
+    "hasDinner": true
   },
   {
     "id": "788",
@@ -9470,7 +10257,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "炭火焼酒楼 おいしかよ。",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   },
   {
     "id": "789",
@@ -9482,7 +10270,8 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "パティスリールヴィジテ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": false
   },
   {
     "id": "790",
@@ -9494,6 +10283,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "イタリアン・バール・イゾラ",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false
+    "hasLunch": false,
+    "hasDinner": true
   }
 ];
