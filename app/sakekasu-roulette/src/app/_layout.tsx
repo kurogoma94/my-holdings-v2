@@ -3,10 +3,13 @@ import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
+import { Platform } from 'react-native';
 import 'react-native-reanimated';
-import mobileAds from 'react-native-google-mobile-ads';
 
 import { useColorScheme } from '@/components/useColorScheme';
+
+// Web環境ではネイティブ専用ライブラリをインポートしない
+const mobileAds = Platform.OS !== 'web' ? require('react-native-google-mobile-ads').default : null;
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -34,10 +37,13 @@ export default function RootLayout() {
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
-      // AdMob SDKの初期化
-      mobileAds().initialize().then(adapterStatuses => {
-        console.log('AdMob Initialized:', adapterStatuses);
-      });
+      
+      // AdMob SDKの初期化（ネイティブのみ）
+      if (Platform.OS !== 'web' && mobileAds) {
+        mobileAds().initialize().then((adapterStatuses: any) => {
+          console.log('AdMob Initialized:', adapterStatuses);
+        });
+      }
     }
   }, [loaded]);
 
