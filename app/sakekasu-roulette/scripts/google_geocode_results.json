@@ -1,0 +1,4511 @@
+{
+  "1": {
+    "name": "Chop Hits Barbecue",
+    "address": "日本、〒550-0013 大阪府大阪市西区新町２丁目１２−１２ 新町ビル 1F ナカモリ",
+    "placeName": "Chop Hits Barbecue",
+    "lat": 34.6775879,
+    "lng": 135.49172339999998,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "4": {
+    "name": "大阪ドカ盛りマンモス弁当 淡路総本店",
+    "address": "日本、〒533-0022 大阪府大阪市東淀川区菅原３丁目４−２",
+    "placeName": "大阪ドカ盛りマンモス弁当 淡路総本店",
+    "lat": 34.7385971,
+    "lng": 135.52673,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "5": {
+    "name": "いづう",
+    "address": "日本、〒605-0084 京都府京都市東山区清本町３６７",
+    "placeName": "いづう",
+    "lat": 35.0048469,
+    "lng": 135.7745014,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "6": {
+    "name": "イタリア食堂 Necco",
+    "address": "日本、〒612-8046 京都府京都市伏見区塩屋町２２１−１",
+    "placeName": "イタリア食堂 Necco",
+    "lat": 34.931014,
+    "lng": 135.7608371,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "7": {
+    "name": "海坊主",
+    "address": "日本、〒532-0026 大阪府大阪市淀川区塚本２丁目２３−１２ 山下ビル 1階",
+    "placeName": "海ぼうず",
+    "lat": 34.712655399999996,
+    "lng": 135.469583,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "8": {
+    "name": "洋風惣菜 アバ(コロッケ)",
+    "address": "日本、〒577-0817 大阪府東大阪市近江堂１丁目４−２４",
+    "placeName": "洋風惣菜 アバ(コロッケ)",
+    "lat": 34.6478973,
+    "lng": 135.58240229999998,
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "東大阪市"
+  },
+  "9": {
+    "name": "ラーメン ギタギタ",
+    "address": "日本、〒543-0013 大阪府大阪市天王寺区玉造本町３−６ 木村ビル",
+    "placeName": "麺喰い メン太ジスタ",
+    "lat": 34.6736828,
+    "lng": 135.53091849999998,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "10": {
+    "name": "ベンジャミーナ",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目８−１６ ヒルトンプラザ大阪EAST 1F",
+    "placeName": "ベンジャミーナ",
+    "lat": 34.700323,
+    "lng": 135.4959786,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "11": {
+    "name": "高知から来た焼肉屋",
+    "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地１丁目４ 曽根崎新地1-4-7 小西ビル B1F",
+    "placeName": "高知から来た焼肉屋",
+    "lat": 34.697994699999995,
+    "lng": 135.4959365,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "12": {
+    "name": "イノベーティブフレンチ genso",
+    "address": "日本、〒556-0023 大阪府大阪市浪速区稲荷２丁目７−１８",
+    "placeName": "イノベーティブフレンチ genso",
+    "lat": 34.6637616,
+    "lng": 135.4894354,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "13": {
+    "name": "豆ふと鮨と和食 ひとひ",
+    "address": "日本、〒530-0017 大阪府大阪市北区角田町８−８ 阪急グランドビル 32番街 30F",
+    "placeName": "豆ふと鮨と和食 ひとひ",
+    "lat": 34.7029862,
+    "lng": 135.4990478,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "15": {
+    "name": "うどん 兎麦 umugi",
+    "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目１−３ 阪急三番街 南館 B2",
+    "placeName": "うどん 兎麦 umugi",
+    "lat": 34.7047583,
+    "lng": 135.49809059999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "16": {
+    "name": "折鶴会館",
+    "address": "日本、〒615-0012 京都府京都市右京区西院高山寺町１５",
+    "placeName": "折鶴会館",
+    "lat": 35.0031728,
+    "lng": 135.73109499999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "17": {
+    "name": "鮨 暁",
+    "address": "日本、〒530-0003 大阪府大阪市北区堂島１丁目３−３４ 第二京松ビル B1F",
+    "placeName": "鮨 暁",
+    "lat": 34.696732,
+    "lng": 135.49840939999999,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "18": {
+    "name": "中華菜館 一番",
+    "address": "日本、〒556-0014 大阪府大阪市浪速区大国２丁目５−３",
+    "placeName": "中華菜館 一番",
+    "lat": 34.6548418,
+    "lng": 135.4960101,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "19": {
+    "name": "特製ラーメン とん吉",
+    "address": "日本、〒536-0005 大阪府大阪市城東区中央１丁目１２−１７",
+    "placeName": "豚吉 本店",
+    "lat": 34.7010553,
+    "lng": 135.54616,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "城東区"
+  },
+  "20": {
+    "name": "炭焼きイタリアン Black",
+    "address": "日本、〒542-0075 大阪府大阪市中央区難波千日前５−３０ 三陽グリーンハイツ 1F",
+    "placeName": "炭焼きイタリアン Black",
+    "lat": 34.6639814,
+    "lng": 135.505271,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "22": {
+    "name": "羊の結論",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町６−１４ 天満松栄会館 第一 301",
+    "placeName": "羊の結論",
+    "lat": 34.7031373,
+    "lng": 135.50292819999999,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "23": {
+    "name": "NASQUILLO（ナスキロ）",
+    "address": "日本、〒543-0056 大阪府大阪市天王寺区堀越町１６−９ ７F",
+    "placeName": "カーニグリル 天王寺駅前店",
+    "lat": 34.6481195,
+    "lng": 135.5136781,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "24": {
+    "name": "STUN.S スタンス",
+    "address": "日本、〒534-0024 大阪府大阪市都島区東野田町３丁目７−１７ 2F",
+    "placeName": "STUN.S スタンス",
+    "lat": 34.6984652,
+    "lng": 135.5355701,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "26": {
+    "name": "游玄亭 ホテルニューオータニ大阪店",
+    "address": "日本、〒540-0001 大阪府大阪市中央区城見１丁目４−１ ホテルニューオータニ大阪3F",
+    "placeName": "游玄亭 ホテルニューオータニ大阪店",
+    "lat": 34.6904976,
+    "lng": 135.5333369,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "28": {
+    "name": "あぶり餅 本家 根元 かざりや",
+    "address": "日本、〒603-8243 京都府京都市北区紫野今宮町９６",
+    "placeName": "あぶり餅 本家 根元 かざりや",
+    "lat": 35.045185,
+    "lng": 135.742778,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "29": {
+    "name": "タカムラワイン＆コーヒーロースターズ",
+    "address": "日本、〒550-0002 大阪府大阪市西区江戸堀２丁目２−１８",
+    "placeName": "タカムラワイン＆コーヒーロースターズ",
+    "lat": 34.687283,
+    "lng": 135.491105,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "32": {
+    "name": "GODIVA Bakery ゴディパン 京都四条店",
+    "address": "日本、〒604-8142 京都府京都市中京区錦小路通高倉西入西魚屋町592番地1",
+    "placeName": "GODIVA Bakery ゴディパン 京都四条店",
+    "lat": 35.0051092,
+    "lng": 135.7625252,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "33": {
+    "name": "フィオーレジャルディーノ",
+    "address": "日本、〒662-0051 兵庫県西宮市羽衣町５−１２ 夙川プレイスビル ６F",
+    "placeName": "フィオーレジャルディーノ",
+    "lat": 34.741013599999995,
+    "lng": 135.3257362,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "35": {
+    "name": "立ち鮨ひでぞう",
+    "address": "日本、〒542-0071 大阪府大阪市中央区道頓堀１丁目２−１２",
+    "placeName": "立ち鮨ひでぞう",
+    "lat": 34.6683859,
+    "lng": 135.50528939999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "36": {
+    "name": "魚屋 ひでぞう 立ち呑み店",
+    "address": "日本、〒542-0075 大阪府大阪市中央区難波千日前９−１",
+    "placeName": "魚屋 ひでぞう 立ち呑み店",
+    "lat": 34.664321199999996,
+    "lng": 135.5039984,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "37": {
+    "name": "メゾン ポール・ボキューズ",
+    "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋１丁目７−１",
+    "placeName": "ポールボキューズ 大丸心斎橋店",
+    "lat": 34.6733243,
+    "lng": 135.50118899999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "42": {
+    "name": "お好み焼き まるみ",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋６丁目５−１",
+    "placeName": "お好み・鉄板焼き まるみ",
+    "lat": 34.7088456,
+    "lng": 135.5117393,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "44": {
+    "name": "サル イ アモール",
+    "address": "フジタ東洋紡ビル 1階, ２丁目-１-16 堂島 北区 大阪市 大阪府 530-0003 日本",
+    "placeName": "アマ・ルール",
+    "lat": 34.6958003,
+    "lng": 135.4942244,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "46": {
+    "name": "焼肉・ホルモン 踊ル",
+    "address": "日本、〒534-0025 大阪府大阪市都島区片町２丁目５−７ ロッソ京橋 2階",
+    "placeName": "焼肉・ホルモン 踊ル",
+    "lat": 34.696532,
+    "lng": 135.5318763,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "47": {
+    "name": "立ち呑み とおる",
+    "address": "日本、〒534-0024 大阪府大阪市都島区東野田町５丁目７−１ 千両ビル",
+    "placeName": "立ち呑み とおる",
+    "lat": 34.699771,
+    "lng": 135.5338596,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "48": {
+    "name": "PaNOTTO コーヒー＆ベーカリー",
+    "address": "日本、〒543-0052 大阪府大阪市天王寺区大道４丁目１−２３",
+    "placeName": "PaNOTTO コーヒー＆ベーカリー",
+    "lat": 34.650118,
+    "lng": 135.5218258,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "50": {
+    "name": "ロウリーズ・ザ・プライムリブ 大阪",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田２丁目２−２２ ハービスPLAZA ENT 5F",
+    "placeName": "ロウリーズ・ザ・プライムリブ 大阪",
+    "lat": 34.699512899999995,
+    "lng": 135.49399979999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "54": {
+    "name": "ツバクロすっぽん食堂 大阪店",
+    "address": "日本、〒530-0053 大阪府大阪市北区末広町２−２４",
+    "placeName": "ツバクロすっぽん食堂 大阪店",
+    "lat": 34.7017777,
+    "lng": 135.5097477,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "55": {
+    "name": "ふぐ久",
+    "address": "日本、〒537-0024 大阪府大阪市東成区東小橋３丁目１４−２４",
+    "placeName": "ふぐ久",
+    "lat": 34.6664132,
+    "lng": 135.5310161,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "57": {
+    "name": "タツリキショップ",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋４丁目５−６",
+    "placeName": "丸力酒蔵 天神橋筋四丁目店",
+    "lat": 34.704469599999996,
+    "lng": 135.5115329,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "58": {
+    "name": "回転寿司 力丸 JR姫路駅店",
+    "address": "日本、〒670-0914 兵庫県姫路市豆腐町２２２ ピオレ3",
+    "placeName": "回転寿司 力丸 JR姫路駅店",
+    "lat": 34.8272851,
+    "lng": 134.68879579999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "59": {
+    "name": "姫路横丁酒場 寺尾商店",
+    "address": "日本、〒670-0917 兵庫県姫路市忍町１２",
+    "placeName": "姫路横丁酒場 寺尾商店",
+    "lat": 34.8292621,
+    "lng": 134.6880042,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "60": {
+    "name": "食堂あむす",
+    "address": "日本、〒670-0903 兵庫県姫路市立町14第17 6F",
+    "placeName": "食堂あむす",
+    "lat": 34.8305316,
+    "lng": 134.6899799,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "61": {
+    "name": "英洋軒 姫路駅前店",
+    "address": "日本、〒670-0927 兵庫県姫路市駅前町３０１",
+    "placeName": "英洋軒 姫路駅前店",
+    "lat": 34.8288416,
+    "lng": 134.6923127,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "62": {
+    "name": "魚酒場 ジェームス吉田屋 姫路駅前店",
+    "address": "日本、〒670-0912 兵庫県姫路市南町６５ 大手前ビル 2階",
+    "placeName": "魚酒場 ジェームス吉田屋 姫路駅前店",
+    "lat": 34.829445899999996,
+    "lng": 134.6905116,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "63": {
+    "name": "炭火焼き And's ( あんず )",
+    "address": "日本、〒670-0916 兵庫県姫路市久保町４５ ２F",
+    "placeName": "炭火焼き And's ( あんず )",
+    "lat": 34.828996,
+    "lng": 134.6872256,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "64": {
+    "name": "寿司処 眞",
+    "address": "日本、〒537-0024 大阪府大阪市東成区東小橋３丁目２０−３１ 丸小市場連合",
+    "placeName": "寿司処 眞",
+    "lat": 34.6656968,
+    "lng": 135.5334519,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "65": {
+    "name": "博多名代 吉塚うなぎ屋",
+    "address": "日本、〒810-0801 福岡県福岡市博多区中洲２丁目８−２７",
+    "placeName": "博多名代 吉塚うなぎ屋",
+    "lat": 33.5926068,
+    "lng": 130.4089564,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "66": {
+    "name": "かに問屋",
+    "address": "日本、〒530-0004 大阪府大阪市北区堂島浜１丁目３−１６ 中西堂島ビル ４F",
+    "placeName": "かにじぇんぬ 北新地",
+    "lat": 34.695597899999996,
+    "lng": 135.49737199999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "67": {
+    "name": "鶏Soba 座銀 本店",
+    "address": "日本、〒550-0002 大阪府大阪市西区江戸堀１丁目１９−２",
+    "placeName": "鶏Soba 座銀 本店",
+    "lat": 34.689613300000005,
+    "lng": 135.4950563,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "69": {
+    "name": "株式会社スズヤ",
+    "address": "日本、〒541-0046 大阪府大阪市中央区平野町１丁目３−８",
+    "placeName": "株式会社スズヤ",
+    "lat": 34.6874805,
+    "lng": 135.5090252,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "71": {
+    "name": "MON CRULLER モンクルーラー",
+    "address": "日本、〒530-0002 大阪府大阪市北区曽根崎新地１丁目６−１３ ニューセントラルビル 103",
+    "placeName": "MON CRULLER モンクルーラー",
+    "lat": 34.697562399999995,
+    "lng": 135.49806379999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "72": {
+    "name": "卵かけご飯専門店 但熊",
+    "address": "日本、〒668-0363 兵庫県豊岡市但東町栗尾９１６",
+    "placeName": "卵かけご飯専門店 但熊",
+    "lat": 35.4398954,
+    "lng": 134.99795229999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "74": {
+    "name": "手作りハンバーグ卵 せんびる店",
+    "address": "日本、〒541-0055 大阪府大阪市中央区船場中央１丁目４−３ 船場センタービル 3号館地下２階",
+    "placeName": "手作りハンバーグ卵 せんびる店",
+    "lat": 34.6817335,
+    "lng": 135.5071289,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "75": {
+    "name": "いわ志 本店",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島７丁目２２−１７ ＢＲＡＶＩ 4F",
+    "placeName": "いわ志 本店",
+    "lat": 34.700994699999995,
+    "lng": 135.4869457,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "76": {
+    "name": "鮨 お料理 あお山",
+    "address": "日本、〒530-0015 大阪府大阪市北区中崎西１丁目６−２４ 201",
+    "placeName": "鮨 お料理 あお山",
+    "lat": 34.7076855,
+    "lng": 135.5042742,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "77": {
+    "name": "グリルショップやの",
+    "address": "日本、〒581-0017 大阪府八尾市高美町４丁目１３−３",
+    "placeName": "グリルショップやの",
+    "lat": 34.6172344,
+    "lng": 135.6100462,
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "八尾市"
+  },
+  "78": {
+    "name": "玉子焼 中華そば 泉屋",
+    "address": "日本、〒673-0034 兵庫県明石市林２丁目１５−１５",
+    "placeName": "玉子焼 中華そば 泉屋",
+    "lat": 34.6479874,
+    "lng": 134.9706253,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "80": {
+    "name": "丸正餃子店 阪奈店",
+    "address": "日本、〒574-0033 大阪府大東市扇町５−２",
+    "placeName": "丸正餃子店 阪奈店",
+    "lat": 34.703255,
+    "lng": 135.6189405,
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "大東市"
+  },
+  "82": {
+    "name": "墨や",
+    "address": "日本、〒542-0076 大阪府大阪市中央区難波４丁目３−２３",
+    "placeName": "墨や",
+    "lat": 34.6659748,
+    "lng": 135.4995756,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "84": {
+    "name": "Wine Bar Base",
+    "address": "日本、〒534-0025 大阪府大阪市都島区片町２丁目６ クローバービル 2階, ２丁目-６-２",
+    "placeName": "Wine Bar Base",
+    "lat": 34.695408799999996,
+    "lng": 135.5303944,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "91": {
+    "name": "和食処 民芸酒房 牧水",
+    "address": "日本、〒542-0076 大阪府大阪市中央区難波１丁目６−６ やわらか",
+    "placeName": "和食処 民芸酒房 牧水",
+    "lat": 34.6679676,
+    "lng": 135.5019998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "93": {
+    "name": "八起亭",
+    "address": "日本、〒542-0076 大阪府大阪市中央区難波３丁目８−５",
+    "placeName": "八起亭",
+    "lat": 34.6653277,
+    "lng": 135.50154089999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "94": {
+    "name": "お食事処にしかわ",
+    "address": "日本、〒556-0022 大阪府大阪市浪速区桜川１丁目２−９ 食事処にしかわ",
+    "placeName": "お食事処にしかわ",
+    "lat": 34.666309999999996,
+    "lng": 135.4939178,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "96": {
+    "name": "THE MUSEN IN SHOCK",
+    "address": "日本、〒542-0081 大阪府大阪市中央区南船場４丁目１１−２５",
+    "placeName": "THE MUSEN IN SHOCK",
+    "lat": 34.6767149,
+    "lng": 135.4983086,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "97": {
+    "name": "吉川温泉 よかたん (道の駅 よかわ)",
+    "address": "日本、〒673-1114 兵庫県三木市吉川町吉安２２２",
+    "placeName": "吉川温泉 よかたん (道の駅 よかわ)",
+    "lat": 34.8848037,
+    "lng": 135.1223576,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "98": {
+    "name": "不動温泉",
+    "address": "日本、〒536-0012 大阪府大阪市城東区天王田１３−１４",
+    "placeName": "天然温泉 不動の湯",
+    "lat": 34.6887317,
+    "lng": 135.5526271,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "城東区"
+  },
+  "100": {
+    "name": "Trattoria Vispa",
+    "address": "日本、〒536-0002 大阪府大阪市城東区今福東２丁目４−３ 泰平コーポ 104",
+    "placeName": "Trattoria Vispa",
+    "lat": 34.7028661,
+    "lng": 135.5557254,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "城東区"
+  },
+  "101": {
+    "name": "ムスヒ",
+    "address": "日本、〒542-0062 大阪府大阪市中央区上本町西３丁目３−２５",
+    "placeName": "ムスヒ",
+    "lat": 34.6731489,
+    "lng": 135.5186159,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "102": {
+    "name": "スタンド サコ家(ヶ)",
+    "address": "日本、〒542-0081 大阪府大阪市中央区南船場１丁目１８−２４ アクシス南船場ビル 1階",
+    "placeName": "スタンド サコ家(ヶ)",
+    "lat": 34.6758186,
+    "lng": 135.5070203,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "103": {
+    "name": "高田揚揚（たかだのあげあげ）",
+    "address": "日本、〒542-0075 大阪府大阪市中央区難波千日前４−３５",
+    "placeName": "高田揚揚（たかだのあげあげ）",
+    "lat": 34.6644261,
+    "lng": 135.5051421,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "104": {
+    "name": "我恵你好",
+    "address": "日本、〒542-0074 大阪府大阪市中央区千日前２丁目４−１２",
+    "placeName": "我恵你好",
+    "lat": 34.6662661,
+    "lng": 135.50493029999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "105": {
+    "name": "ピッツェリア プルチーノ",
+    "address": "日本、〒541-0048 大阪府大阪市中央区瓦町４丁目７−４ 南星瓦町ビル 1F",
+    "placeName": "ピッツェリア プルチーノ",
+    "lat": 34.685896299999996,
+    "lng": 135.4981724,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "106": {
+    "name": "コメジルシ 炊きたてビリヤニ専門店、そしてナチュラルワインと日本酒",
+    "address": "日本、〒531-0074 大阪府大阪市北区本庄東１丁目３−５ ロイヤルハイツモリ １階",
+    "placeName": "コメジルシ 炊きたてビリヤニ専門店、そしてナチュラルワインと日本酒",
+    "lat": 34.7116445,
+    "lng": 135.5091735,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "107": {
+    "name": "湯川内温泉かじか荘",
+    "address": "日本、〒899-0215 鹿児島県出水市武本２０６０",
+    "placeName": "湯川内温泉かじか荘",
+    "lat": 32.036237299999996,
+    "lng": 130.3550128,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "108": {
+    "name": "TACO BITEZ",
+    "address": "日本、〒590-0940 大阪府堺市堺区車之町西３丁１−３１",
+    "placeName": "TACO BITEZ",
+    "lat": 34.5828831,
+    "lng": 135.4749022,
+    "suggestedArea": "senshu",
+    "matchedWard": "堺市"
+  },
+  "109": {
+    "name": "天婦羅・一品料理 新喜楽 東店",
+    "address": "日本、〒530-0017 大阪府大阪市北区角田町９−２６",
+    "placeName": "天婦羅・一品料理 新喜楽 東店",
+    "lat": 34.7038303,
+    "lng": 135.4982891,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "110": {
+    "name": "スタンド Nagumo",
+    "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目６−１１ 1階",
+    "placeName": "スタンド Nagumo",
+    "lat": 34.7067878,
+    "lng": 135.4977774,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "117": {
+    "name": "めし処 ゑノゐ-enoi-",
+    "address": "日本、〒541-0048 大阪府大阪市中央区瓦町４丁目５−６ 2F",
+    "placeName": "めし処 ゑノゐ-enoi-",
+    "lat": 34.6861065,
+    "lng": 135.49898109999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "118": {
+    "name": "なごやか亭 守山えんま堂店",
+    "address": "日本、〒524-0042 滋賀県守山市焔魔堂町１２４",
+    "placeName": "なごやか亭 守山えんま堂店",
+    "lat": 35.048679799999995,
+    "lng": 135.9822434,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "120": {
+    "name": "スタンドAWAWA",
+    "address": "日本、〒537-0024 大阪府大阪市東成区東小橋１丁目１−６",
+    "placeName": "スタンドAWAWA",
+    "lat": 34.6742627,
+    "lng": 135.53388239999998,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "122": {
+    "name": "賛否両論",
+    "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋１丁目７−１",
+    "placeName": "賛否両論",
+    "lat": 34.6732211,
+    "lng": 135.501096,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "123": {
+    "name": "和牛肉専門 焼肉 松",
+    "address": "日本、〒556-0014 大阪府大阪市浪速区大国２丁目１０−１２ ラパンジール今宮",
+    "placeName": "和牛肉専門 焼肉 松",
+    "lat": 34.6538155,
+    "lng": 135.4948542,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "128": {
+    "name": "ホルモン倶楽部",
+    "address": "日本、〒557-0004 大阪府大阪市西成区萩之茶屋１丁目１−８",
+    "placeName": "ホルモン倶楽部",
+    "lat": 34.6493578,
+    "lng": 135.5027653,
+    "suggestedArea": "shinsekai",
+    "matchedWard": "西成区"
+  },
+  "131": {
+    "name": "パティスリーBOIS OSAKA",
+    "address": "日本、〒547-0044 大阪府大阪市平野区平野本町２丁目１３−１２",
+    "placeName": "パティスリーBOIS OSAKA",
+    "lat": 34.620939799999995,
+    "lng": 135.5513724,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "平野区"
+  },
+  "132": {
+    "name": "ダテダチ",
+    "address": "日本、〒542-0074 大阪府大阪市中央区千日前２丁目４−１２",
+    "placeName": "ダテダチ",
+    "lat": 34.666331899999996,
+    "lng": 135.50493989999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "133": {
+    "name": "Eric Rose Cafe OSAKA",
+    "address": "日本、〒543-0055 大阪府大阪市天王寺区悲田院町１０−３９ 天王寺ＭＩＯ １Ｆ",
+    "placeName": "Eric Rose Cafe OSAKA",
+    "lat": 34.6468827,
+    "lng": 135.5147487,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "134": {
+    "name": "裏ヒロヤ",
+    "address": "日本、〒530-0033 大阪府大阪市北区池田町５−２",
+    "placeName": "裏ヒロヤ",
+    "lat": 34.7064997,
+    "lng": 135.5123314,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "135": {
+    "name": "Ristorante e Pizzeria SANTA LUCIA",
+    "address": "日本、〒550-0003 大阪府大阪市西区京町堀１丁目９−１７",
+    "placeName": "Ristorante e Pizzeria SANTA LUCIA",
+    "lat": 34.6877105,
+    "lng": 135.4952909,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "136": {
+    "name": "Bar Asumo バーアスモ お初天神店",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目５−２０ お初天神ビル 1F",
+    "placeName": "Bar Asumo バーアスモ お初天神店",
+    "lat": 34.6994829,
+    "lng": 135.5008336,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "137": {
+    "name": "近江牛ステーキとがぶ飲みワイン ニクバルモダンミール 大津店",
+    "address": "日本、〒520-0047 滋賀県大津市浜大津１丁目４−１",
+    "placeName": "近江牛ステーキとがぶ飲みワイン ニクバルモダンミール 大津店",
+    "lat": 35.0104574,
+    "lng": 135.86535,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "138": {
+    "name": "手打蕎麦鶴㐂",
+    "address": "日本、〒520-0113 滋賀県大津市坂本４丁目１１−４０",
+    "placeName": "手打蕎麦 鶴屋喜八",
+    "lat": 35.070492,
+    "lng": 135.8702336,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "139": {
+    "name": "ヤマダモンゴル",
+    "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目４−８ 大㐂ビル",
+    "placeName": "ヤマダモンゴル",
+    "lat": 34.669557,
+    "lng": 135.4996744,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "140": {
+    "name": "おばんざい鈴",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋１丁目１８−９ SUN’Sビル 1階",
+    "placeName": "おばんざい 鈴",
+    "lat": 34.6948978,
+    "lng": 135.511897,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "141": {
+    "name": "松茸屋 魚松 本店",
+    "address": "日本、〒520-3411 滋賀県甲賀市甲賀町神２３７６",
+    "placeName": "松茸屋 魚松 本店",
+    "lat": 34.9080163,
+    "lng": 136.2451532,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "142": {
+    "name": "リゴレット",
+    "address": "日本、〒541-0055 大阪府大阪市中央区船場中央３丁目３−３ 船場センタービル B222",
+    "placeName": "リゴレット",
+    "lat": 34.681896699999996,
+    "lng": 135.50102809999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "144": {
+    "name": "らくだ坂納豆工房",
+    "address": "日本、〒540-0012 大阪府大阪市中央区谷町４丁目８−２９",
+    "placeName": "らくだ坂納豆工房",
+    "lat": 34.679533299999996,
+    "lng": 135.51841059999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "145": {
+    "name": "鮨MANABU",
+    "address": "日本、〒537-0024 大阪府大阪市東成区東小橋３丁目１７−９",
+    "placeName": "鮨MANABU",
+    "lat": 34.6658718,
+    "lng": 135.532151,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "149": {
+    "name": "洋食 おがた",
+    "address": "日本、〒604-0956 京都府京都市中京区等持寺町３２−３２−１",
+    "placeName": "洋食 おがた",
+    "lat": 35.0124628,
+    "lng": 135.76404309999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "151": {
+    "name": "上野精養軒",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋５丁目５−３",
+    "placeName": "精養軒",
+    "lat": 34.707716,
+    "lng": 135.51151339999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "153": {
+    "name": "元祖ぶっち切り寿司 魚心 本店",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町５−４",
+    "placeName": "元祖ぶっち切り寿司 魚心 本店",
+    "lat": 34.7027834,
+    "lng": 135.5023512,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "157": {
+    "name": "御影郷ふくじゅ",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目３−１",
+    "placeName": "御影郷ふくじゅ",
+    "lat": 34.6991423,
+    "lng": 135.49601479999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "158": {
+    "name": "川湯温泉 仙人風呂（冬季のみ）",
+    "address": "日本、〒647-1717 和歌山県田辺市本宮町川湯",
+    "placeName": "川湯温泉 仙人風呂",
+    "lat": 33.8123974,
+    "lng": 135.7741868,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "159": {
+    "name": "アカデミーカフェ（& Gallery, Dog ok )",
+    "address": "日本、〒542-0012 大阪府大阪市中央区谷町６丁目１７−４３ 複合ショップ「練（LEN）」1F",
+    "placeName": "アカデミーカフェ（& Gallery, Dog ok )",
+    "lat": 34.6752335,
+    "lng": 135.512646,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "161": {
+    "name": "山さんラーメン",
+    "address": "日本、〒541-0048 大阪府大阪市中央区瓦町１丁目４−１",
+    "placeName": "麺屋やま 本町店",
+    "lat": 34.6855993,
+    "lng": 135.5075702,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "162": {
+    "name": "トッサ・ジ・クラッサン",
+    "address": "日本、〒550-0014 大阪府大阪市西区北堀江１丁目６−１９",
+    "placeName": "トッサ・ジ・クラッサン",
+    "lat": 34.6745077,
+    "lng": 135.4960846,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "163": {
+    "name": "ミックステイスト",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島１丁目６−２１ エノキビル 1F",
+    "placeName": "ミックステイスト",
+    "lat": 34.6957127,
+    "lng": 135.48817929999998,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "164": {
+    "name": "３ちゃん屋",
+    "address": "日本、〒531-0071 大阪府大阪市北区中津１丁目１２",
+    "placeName": "３ちゃん屋",
+    "lat": 34.7112919,
+    "lng": 135.4969326,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "165": {
+    "name": "八剱ROCK 人生餃子",
+    "address": "日本、〒454-0054 愛知県名古屋市中川区八剱町３丁目６１",
+    "placeName": "八剱ROCK 人生餃子",
+    "lat": 35.126045,
+    "lng": 136.8798913,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "166": {
+    "name": "ウエストうどん 祗園店",
+    "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前２丁目２０−１５ １Ｆ",
+    "placeName": "うどんウエスト 祗園店",
+    "lat": 33.5928646,
+    "lng": 130.4153226,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "167": {
+    "name": "牧のうどん 博多バスターミナル店",
+    "address": "日本、〒812-0012 福岡県福岡市博多区博多駅中央街２−１ Ｂ１Ｆ",
+    "placeName": "牧のうどん 博多バスターミナル店",
+    "lat": 33.5916384,
+    "lng": 130.419984,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "168": {
+    "name": "博多うどん酒場 和八わっぱち 博多駅くうてん店",
+    "address": "日本、〒812-0012 福岡県福岡市博多区博多駅中央街１−１ アミュプラザ博多くうてん 10F",
+    "placeName": "博多うどん酒場 和八わっぱち 博多駅くうてん店",
+    "lat": 33.5907778,
+    "lng": 130.41981529999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "169": {
+    "name": "博多シーフードうお田",
+    "address": "日本、〒810-0002 福岡県福岡市中央区西中洲４−１７ であい橋ビル 1F",
+    "placeName": "博多シーフードうお田",
+    "lat": 33.5917452,
+    "lng": 130.4050992,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "170": {
+    "name": "鉄板焼天神ホルモン 博多駅店​",
+    "address": "日本、〒530-0018 大阪府大阪市北区小松原町１ 梅田地下街3-3 ホワイティうめだ",
+    "placeName": "鉄板焼 博多天神ホルモン ホワイティうめだ店",
+    "lat": 34.7023837,
+    "lng": 135.5017796,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "171": {
+    "name": "博多炊き餃子 池ぽん",
+    "address": "日本、〒812-0013 福岡県福岡市博多区博多駅東２丁目２−２ 博多東ハニービル B1F",
+    "placeName": "博多炊き餃子 池ぽん",
+    "lat": 33.589810299999996,
+    "lng": 130.4233781,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "172": {
+    "name": "博多 鴨すき 鴨しゃぶ なかもぐろ",
+    "address": "日本、〒812-0012 福岡県福岡市博多区博多駅中央街４−２３ オリエンタルホテル福岡博多ステーション B1F",
+    "placeName": "博多 鴨すき 鴨しゃぶ なかもぐろ",
+    "lat": 33.590755099999996,
+    "lng": 130.4220755,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "173": {
+    "name": "味の明太子ふくや 博多デイトス売店",
+    "address": "日本、〒812-0012 福岡県福岡市博多区博多駅中央街１−１",
+    "placeName": "味の明太子ふくや 博多デイトス売店",
+    "lat": 33.590559999999996,
+    "lng": 130.4213898,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "174": {
+    "name": "イタリア料理カプリチョーザ渋谷本店",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田３丁目２−２ ＫＩＴＴＥ大阪 4F",
+    "placeName": "カプリチョーザ ＫＩＴＴＥ大阪店",
+    "lat": 34.700739299999995,
+    "lng": 135.4948559,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "175": {
+    "name": "せせり蒲焼スタンド八とり2号店",
+    "address": "日本、〒557-0002 大阪府大阪市西成区太子１丁目３−２１",
+    "placeName": "せせり蒲焼スタンド八とり2号店",
+    "lat": 34.648727,
+    "lng": 135.5037655,
+    "suggestedArea": "shinsekai",
+    "matchedWard": "西成区"
+  },
+  "177": {
+    "name": "ぎょうざ処だいきち",
+    "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋２丁目７−１１ Nippo ロイヤルビル 1F",
+    "placeName": "ぎょうざ処だいきち",
+    "lat": 34.6705146,
+    "lng": 135.50096249999999,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "178": {
+    "name": "中国酒家 菜都",
+    "address": "日本、〒543-0021 大阪府大阪市天王寺区東高津町９−１８",
+    "placeName": "中国酒家 菜都",
+    "lat": 34.6669074,
+    "lng": 135.5227335,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "179": {
+    "name": "Petit Luxe",
+    "address": "日本、〒530-0033 大阪府大阪市北区池田町１２−１３ ３Ｆ",
+    "placeName": "Petit Luxe",
+    "lat": 34.707658699999996,
+    "lng": 135.5134195,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "181": {
+    "name": "いし井Jr.",
+    "address": "日本、〒530-0047 大阪府大阪市北区西天満３丁目１１−４ 2F",
+    "placeName": "いし井Jr.",
+    "lat": 34.6956598,
+    "lng": 135.5060567,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "183": {
+    "name": "きち蔵",
+    "address": "日本、〒550-0012 大阪府大阪市西区立売堀３丁目５−２０ Genêse honmachi-nishi",
+    "placeName": "きち蔵",
+    "lat": 34.6787965,
+    "lng": 135.489015,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "185": {
+    "name": "焼肉冷麺 幸楽",
+    "address": "日本、〒532-0006 大阪府大阪市淀川区西三国４丁目９−１８",
+    "placeName": "韓食酒房 KOURAKU",
+    "lat": 34.7394557,
+    "lng": 135.48360069999998,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "189": {
+    "name": "串かつ 鳥の巣",
+    "address": "日本、〒530-0017 大阪府大阪市北区角田町８ ホワイティうめだ ノースモール1",
+    "placeName": "串かつ 鳥の巣",
+    "lat": 34.702539699999996,
+    "lng": 135.49940350000003,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "195": {
+    "name": "タコスとメキシコビーフ アプレシオ",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島５丁目１２−１８",
+    "placeName": "タコスとメキシコビーフ アプレシオ",
+    "lat": 34.6963734,
+    "lng": 135.4865769,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "196": {
+    "name": "みつわや酒店",
+    "address": "日本、〒556-0012 大阪府大阪市浪速区敷津東２丁目４−３",
+    "placeName": "みつわや酒店",
+    "lat": 34.6566396,
+    "lng": 135.4991795,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "197": {
+    "name": "大衆鰻料理 うなぎ錦 尼崎武庫之荘店",
+    "address": "日本、〒661-0003 兵庫県尼崎市富松町３丁目１−５ 第２武庫ビューハイツ 1F",
+    "placeName": "大衆鰻料理 うなぎ錦 尼崎武庫之荘店",
+    "lat": 34.7580248,
+    "lng": 135.3989752,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "198": {
+    "name": "麺と小皿 精華",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第 2ビル Ｂ2Ｆ",
+    "placeName": "至極の麺 華",
+    "lat": 34.6985015,
+    "lng": 135.4976557,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "199": {
+    "name": "屋台おでん",
+    "address": "日本、〒537-0002 大阪府大阪市東成区深江南３丁目２２−９",
+    "placeName": "屋台おでん",
+    "lat": 34.6688417,
+    "lng": 135.561682,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "201": {
+    "name": "イマカツ 六本木本店",
+    "address": "日本、〒106-0032 東京都港区六本木４丁目１２−５ フェニキア ルクソス １階",
+    "placeName": "イマカツ 六本木本店",
+    "lat": 35.664450099999996,
+    "lng": 139.7315786,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "港区"
+  },
+  "202": {
+    "name": "甘党 お好み焼 かく庄",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島７丁目１−１０",
+    "placeName": "甘党 お好み焼 かく庄",
+    "lat": 34.6967334,
+    "lng": 135.4857294,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "207": {
+    "name": "かじゅあるかっぽーTSUKUSI",
+    "address": "日本、〒531-0064 大阪府大阪市北区国分寺１丁目７−７ 1F",
+    "placeName": "かじゅあるかっぽーTSUKUSI",
+    "lat": 34.7103343,
+    "lng": 135.5134832,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "209": {
+    "name": "岡室酒店",
+    "address": "日本、〒534-0024 大阪府大阪市都島区東野田町３丁目２−１３",
+    "placeName": "岡室酒店直売所",
+    "lat": 34.6973889,
+    "lng": 135.5346946,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "211": {
+    "name": "香港飲茶 星街",
+    "address": "日本、〒556-0022 大阪府大阪市浪速区桜川１丁目１−２９",
+    "placeName": "本格中華・点心食べ放題 香港飲茶 桜川",
+    "lat": 34.6677046,
+    "lng": 135.49388249999998,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "213": {
+    "name": "餃子の店 もも",
+    "address": "日本、〒545-0021 大阪府大阪市阿倍野区阪南町１丁目４６−８ コーポ田嶋",
+    "placeName": "餃子の店 もも",
+    "lat": 34.6340728,
+    "lng": 135.51638499999999,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "215": {
+    "name": "ハモネリア ベジョータ ギョクロ",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田３丁目１−３ ルクア大阪 B2F",
+    "placeName": "ハモネリア ベジョータ ギョクロ",
+    "lat": 34.7034276,
+    "lng": 135.4964105,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "216": {
+    "name": "金龍ラーメン 戎橋筋店",
+    "address": "日本、〒542-0076 大阪府大阪市中央区難波３丁目３−５",
+    "placeName": "金龍ラーメン 戎橋筋店",
+    "lat": 34.666432799999995,
+    "lng": 135.5017846,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "217": {
+    "name": "Ntown -Onigiri shop-",
+    "address": "日本、〒563-0351 大阪府豊能郡能勢町栗栖２７７",
+    "placeName": "Ntown -Onigiri shop-",
+    "lat": 34.967552399999995,
+    "lng": 135.4018846,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "218": {
+    "name": "尾道 むらかみ",
+    "address": "日本、〒530-0003 大阪府大阪市北区堂島１丁目３−９ 1F",
+    "placeName": "尾道 むらかみ",
+    "lat": 34.6965651,
+    "lng": 135.49769039999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "220": {
+    "name": "麺と肉 だいつる",
+    "address": "日本、〒543-0024 大阪府大阪市天王寺区舟橋町１８−３",
+    "placeName": "麺と肉 だいつる",
+    "lat": 34.6661353,
+    "lng": 135.52990830000002,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "221": {
+    "name": "和風もつ料理あらた",
+    "address": "日本、〒532-0011 大阪府大阪市淀川区西中島４丁目２−８",
+    "placeName": "和風もつ料理あらた",
+    "lat": 34.7265325,
+    "lng": 135.4977064,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "222": {
+    "name": "海鮮と幻餃子 ぼちぼち",
+    "address": "日本、〒550-0002 大阪府大阪市西区江戸堀１丁目１９−２４",
+    "placeName": "海鮮と幻餃子 ぼちぼち",
+    "lat": 34.6894409,
+    "lng": 135.4948465,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "224": {
+    "name": "山空海温泉",
+    "address": "日本、〒563-0123 大阪府豊能郡能勢町下田尻８０１",
+    "placeName": "山空海温泉",
+    "lat": 34.9418552,
+    "lng": 135.42389129999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "225": {
+    "name": "レストランひだまり 道の駅 能勢（くりの郷）",
+    "address": "日本、〒563-0364 大阪府豊能郡能勢町平野５３５",
+    "placeName": "レストランひだまり 道の駅 能勢 (くりの郷)",
+    "lat": 34.9565293,
+    "lng": 135.40116559999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "226": {
+    "name": "ぱすた屋しかちゃん",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島７丁目１１−５１",
+    "placeName": "ぱすた屋しかちゃん",
+    "lat": 34.698419699999995,
+    "lng": 135.4868706,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "228": {
+    "name": "DE FRITES STAAN",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田３丁目１−３ ルクア イーレ",
+    "placeName": "アンド ザ フリット｜ルクア大阪イーレ店",
+    "lat": 34.7027393,
+    "lng": 135.4950687,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "229": {
+    "name": "ブルーノ HEPナビオ店",
+    "address": "日本、〒530-0017 大阪府大阪市北区角田町７−１０ HEP ナビオ 7F",
+    "placeName": "ブルーノ HEPナビオ店",
+    "lat": 34.7030842,
+    "lng": 135.4999131,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "231": {
+    "name": "日本料理 寺田",
+    "address": "日本、〒543-0014 大阪府大阪市天王寺区玉造元町２−３５ 玉造末広ビル 2F",
+    "placeName": "日本料理 寺田",
+    "lat": 34.6742347,
+    "lng": 135.5327407,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "232": {
+    "name": "洋食屋 ふじ家",
+    "address": "日本、〒540-0027 大阪府大阪市中央区鎗屋町２丁目２−１ 曽根富商事",
+    "placeName": "洋食屋 ふじ家",
+    "lat": 34.6826205,
+    "lng": 135.5131302,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "233": {
+    "name": "鮨 まごのて",
+    "address": "日本、〒543-0015 大阪府大阪市天王寺区真田山町５−３２",
+    "placeName": "鮨 まごのて",
+    "lat": 34.6691919,
+    "lng": 135.529665,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "234": {
+    "name": "酒屋へちかん",
+    "address": "日本、〒544-0005 大阪府大阪市生野区中川２丁目１−３ 1F奥",
+    "placeName": "酒屋へちかん",
+    "lat": 34.661813599999995,
+    "lng": 135.5425918,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区"
+  },
+  "235": {
+    "name": "寿しわげんせ",
+    "address": "日本、〒543-0014 大阪府大阪市天王寺区玉造元町２−３４ 松井ビル 1F",
+    "placeName": "寿しわげんせ",
+    "lat": 34.6742535,
+    "lng": 135.5326593,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "239": {
+    "name": "お魚処 藁ヤキ炭ヒデ",
+    "address": "日本、〒532-0002 大阪府大阪市淀川区東三国４丁目１６−１２",
+    "placeName": "お魚処 藁ヤキ炭ヒデ",
+    "lat": 34.740127,
+    "lng": 135.4972234,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "241": {
+    "name": "焼肉 新楽井",
+    "address": "日本、〒544-0031 大阪府大阪市生野区鶴橋５丁目１７−２８",
+    "placeName": "焼肉 新楽井",
+    "lat": 34.663087,
+    "lng": 135.5377738,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区"
+  },
+  "242": {
+    "name": "MONIQUE",
+    "address": "日本、〒530-0015 大阪府大阪市北区中崎西２丁目４−２９",
+    "placeName": "MONIQUE",
+    "lat": 34.7067942,
+    "lng": 135.5015233,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "243": {
+    "name": "ニカイノオアシスＫＩＴＴＥ大阪店",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田３丁目２−２",
+    "placeName": "ニカイノオアシスＫＩＴＴＥ大阪店",
+    "lat": 34.700490699999996,
+    "lng": 135.49412239999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "244": {
+    "name": "パルレ",
+    "address": "日本、〒530-0015 大阪府大阪市北区中崎西４丁目３−４０ Dビルディング 1F",
+    "placeName": "パルレ",
+    "lat": 34.709198199999996,
+    "lng": 135.50326959999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "246": {
+    "name": "をにわ 河原町店",
+    "address": "日本、〒604-8004 京都府京都市中京区三条通東入ル中島町１０５ タカセビル 9F",
+    "placeName": "をにわ 河原町店",
+    "lat": 35.0088271,
+    "lng": 135.7709448,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "247": {
+    "name": "牡蛎処 桝政 室津本店",
+    "address": "日本、〒671-1332 兵庫県たつの市御津町室津５５５−１",
+    "placeName": "牡蛎処 桝政 室津本店",
+    "lat": 34.7684442,
+    "lng": 134.5050947,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "248": {
+    "name": "瀬越海産",
+    "address": "日本、〒671-1332 兵庫県たつの市御津町室津５００",
+    "placeName": "瀬越海産",
+    "lat": 34.766149999999996,
+    "lng": 134.481046,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "249": {
+    "name": "お初の十忠八九",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１３−３ ＡＮビル 1F",
+    "placeName": "お初の十忠八九",
+    "lat": 34.7008674,
+    "lng": 135.5001685,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "250": {
+    "name": "ヘミングウェイ",
+    "address": "日本、〒554-0052 大阪府大阪市此花区常吉２丁目１３−１８ 大阪北港マリーナ 内 Google Mapでご利用ください",
+    "placeName": "カフェ＆ダイニング ヘミングウェイ 大阪北港マリーナ｜Cafe&Dining Hemingway Osaka",
+    "lat": 34.6744006,
+    "lng": 135.409504,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "此花区"
+  },
+  "251": {
+    "name": "すし専門ストア 新橋かど平",
+    "address": "日本、〒105-0004 東京都港区新橋３丁目６−１１ 平木ビル １F",
+    "placeName": "すし専門ストア 新橋かど平",
+    "lat": 35.66609570000001,
+    "lng": 139.7551006,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "港区"
+  },
+  "252": {
+    "name": "すし専門ストア かど平",
+    "address": "日本、〒105-0004 東京都港区新橋３丁目６−１１ 平木ビル １F",
+    "placeName": "すし専門ストア 新橋かど平",
+    "lat": 35.66609570000001,
+    "lng": 139.7551006,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "港区"
+  },
+  "253": {
+    "name": "Grill Cafe Excellent",
+    "address": "日本、〒595-0814 大阪府泉北郡忠岡町新浜２丁目５−５",
+    "placeName": "Grill Cafe Excellent",
+    "lat": 34.503388699999995,
+    "lng": 135.3800317,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "255": {
+    "name": "大衆酒場 つくねとたまごアカイワ 赤羽店",
+    "address": "日本、〒115-0045 東京都北区赤羽１丁目２５−３ ライオンズプラザ赤羽 1F",
+    "placeName": "大衆酒場 つくねとたまごアカイワ 赤羽店",
+    "lat": 35.780333399999996,
+    "lng": 139.72223499999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "256": {
+    "name": "赤羽ホルモン",
+    "address": "日本、〒115-0052 東京都北区赤羽１丁目３３−８ 山本ビル 1F",
+    "placeName": "赤羽ホルモン",
+    "lat": 35.7822156,
+    "lng": 139.7219058,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "257": {
+    "name": "赤羽 トロ函",
+    "address": "日本、〒115-0045 東京都北区赤羽１丁目１７−７",
+    "placeName": "赤羽 トロ函",
+    "lat": 35.7799073,
+    "lng": 139.7205291,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "258": {
+    "name": "ニクマレヤ 赤羽本店",
+    "address": "日本、〒115-0045 東京都北区赤羽１丁目３９−５",
+    "placeName": "～博多おでん・焼き鳥とフルーツサワー～ ニクマレヤ 赤羽本店",
+    "lat": 35.781017999999996,
+    "lng": 139.720299,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "259": {
+    "name": "酒肴 佐藤商店",
+    "address": "日本、〒546-0021 大阪府大阪市東住吉区照ケ丘矢田１丁目１４−１８ 酒 さとう",
+    "placeName": "（株）佐藤商店",
+    "lat": 34.6068091,
+    "lng": 135.5355548,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住吉区"
+  },
+  "260": {
+    "name": "馬ん馬んいくどん",
+    "address": "日本、〒541-0054 大阪府大阪市中央区南本町１丁目３−１５ BOMBAYBUILDING １F",
+    "placeName": "馬刺し販売 ・馬王堺筋本町店",
+    "lat": 34.6823469,
+    "lng": 135.5085774,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "262": {
+    "name": "大衆肉ビストロLit",
+    "address": "日本、〒530-0051 大阪府大阪市北区太融寺町７−１１ フジノビルディング 3階B号",
+    "placeName": "BISTRO LIBERTY UMEDA",
+    "lat": 34.701492099999996,
+    "lng": 135.5027853,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "263": {
+    "name": "居酒屋燃えた うらめし屋 赤羽",
+    "address": "日本、〒115-0045 東京都北区赤羽１丁目６６−１０ シティ赤羽 1階",
+    "placeName": "居酒屋燃えた うらめし屋 赤羽",
+    "lat": 35.7804529,
+    "lng": 139.7196811,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "264": {
+    "name": "もつ焼のんき",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋２丁目２−１８",
+    "placeName": "旨い酒と肴 のんき",
+    "lat": 34.6963584,
+    "lng": 135.51162159999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "266": {
+    "name": "酒・肴 とやお",
+    "address": "日本、〒541-0056 大阪府大阪市中央区久太郎町４丁目２−５ 中甚ビル 1皆",
+    "placeName": "酒・肴 とやお",
+    "lat": 34.681493599999996,
+    "lng": 135.4984862,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "267": {
+    "name": "PANAME Crêpes de Paris ＆ Café Bar (Osaka)",
+    "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−４１ 心斎橋 ANDANTINO 1F",
+    "placeName": "PANAME Crêpes de Paris ＆ Café Bar (Osaka)",
+    "lat": 34.6742231,
+    "lng": 135.4992227,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "268": {
+    "name": "n°29（ナンバーニーキュー)",
+    "address": "日本、〒550-0013 大阪府大阪市西区新町１丁目３１−６",
+    "placeName": "n°29（ナンバーニーキュー)",
+    "lat": 34.676765599999996,
+    "lng": 135.4939849,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "269": {
+    "name": "薬薗(やくえん)",
+    "address": "日本、〒530-0043 大阪府大阪市北区天満３丁目１−５ 南天満ビル",
+    "placeName": "薬薗",
+    "lat": 34.6922038,
+    "lng": 135.51530599999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "270": {
+    "name": "居酒屋 たこしげ",
+    "address": "日本、〒556-0006 大阪府大阪市浪速区日本橋東２丁目２−１４ ナカガワマンション 1F",
+    "placeName": "居酒屋 たこしげ",
+    "lat": 34.6602259,
+    "lng": 135.5080561,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "272": {
+    "name": "KOME MAME",
+    "address": "日本、〒542-0012 大阪府大阪市中央区谷町６丁目１４−１８",
+    "placeName": "KOME MAME",
+    "lat": 34.6739314,
+    "lng": 135.514046,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "273": {
+    "name": "Sweet Check",
+    "address": "日本、〒550-0015 大阪府大阪市西区南堀江１丁目１４−７ エクセル心斎橋西 101",
+    "placeName": "Sticky Crepe",
+    "lat": 34.6715389,
+    "lng": 135.4952553,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "274": {
+    "name": "家系総本山 吉村家",
+    "address": "日本、〒220-0073 神奈川県横浜市西区岡野１丁目６−４",
+    "placeName": "家系総本山 吉村家",
+    "lat": 35.4630187,
+    "lng": 139.61507490000002,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "275": {
+    "name": "209スタンド",
+    "address": null,
+    "suggestedArea": null,
+    "error": "no_results"
+  },
+  "276": {
+    "name": "淡路鮮魚",
+    "address": "日本、〒533-0032 大阪府大阪市東淀川区淡路４丁目１８−１８",
+    "placeName": "生鮮市場 大裕",
+    "lat": 34.740651299999996,
+    "lng": 135.5143824,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "277": {
+    "name": "KILN THE BEER HOUSE",
+    "address": "H1ビル B1, １丁目-１５-10 北堀江 西区 大阪市 大阪府 550-0014 日本",
+    "placeName": "funs brewing BEERHOUSE OSAKA",
+    "lat": 34.6734863,
+    "lng": 135.4943901,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "278": {
+    "name": "こたや",
+    "address": "日本、〒598-0064 大阪府泉佐野市新浜町３",
+    "placeName": "こたや",
+    "lat": 34.4217534,
+    "lng": 135.3208253,
+    "suggestedArea": "senshu",
+    "matchedWard": "泉佐野市"
+  },
+  "279": {
+    "name": "立呑み処 たよし",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第2ビル",
+    "placeName": "立呑み処たよし 大阪駅前第２ビル店",
+    "lat": 34.6986829,
+    "lng": 135.4975551,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "280": {
+    "name": "こめとはな (寺西家町家蔵 )",
+    "address": "日本、〒545-0021 大阪府大阪市阿倍野区阪南町１丁目５０−２３",
+    "placeName": "昭和町 居酒屋 こめとはな (寺西家町家蔵 )",
+    "lat": 34.6332325,
+    "lng": 135.51605,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "281": {
+    "name": "炭kappo hirac",
+    "address": "日本、〒542-0061 大阪府大阪市中央区安堂寺町２丁目２−１９",
+    "placeName": "炭kappo hirac",
+    "lat": 34.6763031,
+    "lng": 135.5154814,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "283": {
+    "name": "にんにく鶏焼肉サン",
+    "address": "日本、〒530-0002 大阪府大阪市北区曽根崎新地１丁目９−１ プランドールビル B1F (ビル裏手",
+    "placeName": "にんにく鶏焼肉サン 北新地店",
+    "lat": 34.6976213,
+    "lng": 135.4997854,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "289": {
+    "name": "和洋酒菜 ひで",
+    "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋２丁目１−３",
+    "placeName": "和洋酒菜 ひで",
+    "lat": 34.6716382,
+    "lng": 135.50205019999999,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "290": {
+    "name": "酒場 やまと",
+    "address": "日本、〒530-0018 大阪府大阪市北区小松原町２−４ 大阪富国生命ビル B2階",
+    "placeName": "酒場 やまと",
+    "lat": 34.7020994,
+    "lng": 135.49997399999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "295": {
+    "name": "華風料理 一芳亭 本店",
+    "address": "日本、〒556-0011 大阪府大阪市浪速区浪速区難波中２丁目６−２２",
+    "placeName": "華風料理 一芳亭 本店",
+    "lat": 34.6623844,
+    "lng": 135.5037237,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "296": {
+    "name": "焼肉 まつえ",
+    "address": "日本、〒533-0004 大阪府大阪市東淀川区小松４丁目９−２６",
+    "placeName": "焼肉 まつえ",
+    "lat": 34.7533718,
+    "lng": 135.5430423,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "299": {
+    "name": "イタリアン チャイナバル村塾",
+    "address": "日本、〒542-0074 大阪府大阪市中央区難波千日前１４−１８ ピースフィールドビル",
+    "placeName": "イタリアン チャイナバル村塾",
+    "lat": 34.6635724,
+    "lng": 135.5033868,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "300": {
+    "name": "燻製工房 ホイコッケン",
+    "address": "日本、〒734-0012 広島県広島市南区元宇品町１３−７",
+    "placeName": "燻製工房 ホイコッケン",
+    "lat": 34.3464743,
+    "lng": 132.4621101,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "303": {
+    "name": "ラーメン 菜苑",
+    "address": "スイエン, 東興ビル 穗苑, ４丁目-９-20 西天満 北区 大阪市 大阪府 530-0047 日本",
+    "placeName": "スイエン 穗苑",
+    "lat": 34.6972588,
+    "lng": 135.50385319999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "306": {
+    "name": "すき焼き・しゃぶしゃぶ きよ助",
+    "address": "日本、〒542-0062 大阪府大阪市中央区上本町西１丁目３−２８",
+    "placeName": "すき焼き・しゃぶしゃぶ きよ助",
+    "lat": 34.675402399999996,
+    "lng": 135.5197095,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "307": {
+    "name": "鮨 なかみせ",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目５−４０",
+    "placeName": "鮨 なかみせ",
+    "lat": 34.6989182,
+    "lng": 135.50130959999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "309": {
+    "name": "Udon Kyutaro",
+    "address": "日本、〒541-0056 大阪府大阪市中央区久太郎町３丁目１−１６ 102 南",
+    "placeName": "Udon Kyutaro",
+    "lat": 34.6808688,
+    "lng": 135.5025605,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "310": {
+    "name": "三田天然温泉 寿ノ湯",
+    "address": "日本、〒669-1547 兵庫県三田市富士が丘５丁目２",
+    "placeName": "三田天然温泉 寿ノ湯",
+    "lat": 34.8924102,
+    "lng": 135.2017411,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "311": {
+    "name": "クニーズ・南河生鮮市場",
+    "address": "日本、〒583-0861 大阪府羽曳野市西浦３丁目６−９２０−１",
+    "placeName": "クニーズ・南河生鮮市場",
+    "lat": 34.541958199999996,
+    "lng": 135.6021826,
+    "suggestedArea": "senshu",
+    "matchedWard": "羽曳野市"
+  },
+  "313": {
+    "name": "Norðurljósavegur 9",
+    "address": "日本、〒541-0041 大阪府大阪市中央区北浜１丁目１−２８ ビルマビル北浜 1F",
+    "placeName": "NORTHSHORE／ノースショア 北浜店",
+    "lat": 34.6918167,
+    "lng": 135.5072044,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "314": {
+    "name": "白銀亭 イトゥビル店",
+    "address": "日本、〒541-0054 大阪府大阪市中央区南本町３丁目６−１４ 地下2階 Itoh Bldg. B2F",
+    "placeName": "白銀亭 イトゥビル店",
+    "lat": 34.6825349,
+    "lng": 135.5011098,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "315": {
+    "name": "生鮮食材専門店『八百鮮』空堀店",
+    "address": "日本、〒542-0012 大阪府大阪市中央区谷町６丁目１７−２０ 1F 空堀商店街",
+    "placeName": "生鮮食材専門店『八百鮮』空堀店",
+    "lat": 34.6737999,
+    "lng": 135.5133634,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "317": {
+    "name": "あやむ屋",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島５丁目１７−３９ 楠ビル",
+    "placeName": "あやむ屋",
+    "lat": 34.695507,
+    "lng": 135.485455,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "322": {
+    "name": "焼肉たむら 1号店",
+    "address": "日本、〒542-0071 大阪府大阪市中央区道頓堀１丁目１−１１ フロントホースビル東館 1F",
+    "placeName": "本家焼肉タムラ屋道頓堀店",
+    "lat": 34.6688276,
+    "lng": 135.50490689999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "323": {
+    "name": "たぴおか食堂",
+    "address": "日本、〒543-0044 大阪府大阪市天王寺区国分町９−１４",
+    "placeName": "たぴおか食堂",
+    "lat": 34.651970299999995,
+    "lng": 135.5231533,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "324": {
+    "name": "中国居酒屋 はるぴん",
+    "address": "日本、〒569-0071 大阪府高槻市城北町２丁目１４−６",
+    "placeName": "中国居酒屋 はるぴん",
+    "lat": 34.8486511,
+    "lng": 135.6227361,
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "高槻市"
+  },
+  "325": {
+    "name": "屋台担担麺たぶっちゃん",
+    "address": "日本、〒542-0074 大阪府大阪市中央区千日前１丁目６−１ 山喜登会館",
+    "placeName": "屋台担担麺たぶっちゃん",
+    "lat": 34.668287899999996,
+    "lng": 135.5051329,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "326": {
+    "name": "ヴィヴァッカス",
+    "address": "日本、〒541-0047 大阪府大阪市中央区淡路町３丁目２−８ トーア紡第2ビル B1",
+    "placeName": "ヴィヴァッカス",
+    "lat": 34.6867648,
+    "lng": 135.50314,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "327": {
+    "name": "８Seas Sauna HIRA",
+    "address": "日本、〒520-0502 滋賀県大津市南小松１６９５−１",
+    "placeName": "８Seas Sauna HIRA",
+    "lat": 35.2373371,
+    "lng": 135.9466165,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "329": {
+    "name": "y/OU donut（ユードーナッツ）",
+    "address": "日本、〒662-0075 兵庫県西宮市南越木岩町７−２６",
+    "placeName": "y/OU donut（ユードーナッツ）",
+    "lat": 34.7498463,
+    "lng": 135.3277182,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "330": {
+    "name": "熟成鮨利他",
+    "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目６−７ s-Front道頓堀 3F",
+    "placeName": "熟成鮨利他 難波 心斎橋店",
+    "lat": 34.6692438,
+    "lng": 135.498372,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "332": {
+    "name": "地酒だいにんぐやす",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町７−１８ K.BLD. 堂山 3F",
+    "placeName": "地酒だいにんぐやす",
+    "lat": 34.703683999999996,
+    "lng": 135.50249069999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "333": {
+    "name": "らーめん たま家 多摩本店",
+    "address": "日本、〒206-0041 東京都多摩市愛宕４丁目８−１２",
+    "placeName": "たま家 多摩本店",
+    "lat": 35.6289118,
+    "lng": 139.4301744,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "334": {
+    "name": "食堂 黒うさぎ",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋５丁目８−６",
+    "placeName": "食堂黒うさぎ",
+    "lat": 34.7079745,
+    "lng": 135.51106479999999,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "336": {
+    "name": "なみじ",
+    "address": "日本、〒541-0059 大阪府大阪市中央区博労町４丁目３−１４ 2F",
+    "placeName": "みなみ寿司 MINAMI sushi OSAKA",
+    "lat": 34.6780514,
+    "lng": 135.4994252,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "338": {
+    "name": "BarFPO(証券バー)",
+    "address": "日本、〒541-0041 大阪府大阪市中央区北浜２丁目６−６ クリスタルタワー 1F",
+    "placeName": "Bar FPO(証券バー)",
+    "lat": 34.6915178,
+    "lng": 135.5045897,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "339": {
+    "name": "liminal",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋５丁目６−４",
+    "placeName": "liminal",
+    "lat": 34.7065656,
+    "lng": 135.51147659999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "341": {
+    "name": "casa di kudos",
+    "address": "日本、〒520-1142 滋賀県高島市鹿ケ瀬６４−２２",
+    "placeName": "casa di kudos",
+    "lat": 35.3002282,
+    "lng": 135.9519464,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "342": {
+    "name": "Jinanbo（ジナンボウ）",
+    "address": "日本、〒543-0026 大阪府大阪市天王寺区東上町６−１３ Ｌｅａｆ・ａｖｅｎｕｅ",
+    "placeName": "洋風居酒屋 ジナンボウ",
+    "lat": 34.6636691,
+    "lng": 135.5283093,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "343": {
+    "name": "くら おさかな市場",
+    "address": "日本、〒597-0021 大阪府貝塚市小瀬１８８",
+    "placeName": "くら おさかな市場",
+    "lat": 34.4427575,
+    "lng": 135.3718998,
+    "suggestedArea": "senshu",
+    "matchedWard": "貝塚市"
+  },
+  "344": {
+    "name": "中華料理 若水",
+    "address": "日本、〒532-0003 大阪府大阪市淀川区宮原５丁目３−４１",
+    "placeName": "中華料理 若水",
+    "lat": 34.7396415,
+    "lng": 135.49685689999998,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "345": {
+    "name": "あなごと日本酒 なかむら",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋３丁目３−１４",
+    "placeName": "あなごと日本酒 なかむら",
+    "lat": 34.700534499999996,
+    "lng": 135.5112752,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "346": {
+    "name": "日本酒 かんき",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル Ｂ１-５４",
+    "placeName": "日本酒 かんき",
+    "lat": 34.6985922,
+    "lng": 135.49922519999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "347": {
+    "name": "かがやきダイナー",
+    "address": "日本、〒531-0075 大阪府大阪市北区大淀南１丁目３−１７ 第２柴田ビル 1階",
+    "placeName": "かがやきダイナー",
+    "lat": 34.703834199999996,
+    "lng": 135.490733,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "351": {
+    "name": "鉄板焼肉 ホルモンまきの",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル B2",
+    "placeName": "鉄板焼肉 ホルモンまきの",
+    "lat": 34.6989944,
+    "lng": 135.4987682,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "353": {
+    "name": "居酒屋 ながほり",
+    "address": "日本、〒540-0005 大阪府大阪市中央区上町１丁目３−９",
+    "placeName": "居酒屋 ながほり",
+    "lat": 34.676547299999996,
+    "lng": 135.5257584,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "354": {
+    "name": "南越谷SUSHI WORKS",
+    "address": "日本、〒343-0845 埼玉県越谷市南越谷１丁目１−６４ 駐車場なし",
+    "placeName": "南越谷SUSHI WORKS",
+    "lat": 35.8757482,
+    "lng": 139.79361129999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "356": {
+    "name": "にんにくバル ザ・ガーリック中野",
+    "address": "日本、〒164-0001 東京都中野区中野５丁目３２−５ 神谷ビル 102",
+    "placeName": "にんにくバル ザ・ガーリック中野",
+    "lat": 35.7062992,
+    "lng": 139.66777969999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "357": {
+    "name": "小料理 おばんざい 小よし",
+    "address": "日本、〒534-0024 大阪府大阪市都島区東野田町３丁目１１−１８",
+    "placeName": "小料理 おばんざい 小よし",
+    "lat": 34.6985105,
+    "lng": 135.5338477,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "358": {
+    "name": "湯どうふ うえ川 南店",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋５丁目４−１１ 魚徳 2階",
+    "placeName": "湯どうふ うえ川 南店",
+    "lat": 34.7087265,
+    "lng": 135.5118644,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "361": {
+    "name": "ぎょうざの焼吉",
+    "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋２丁目７−１１ Nippo ロイヤルビル 1F",
+    "placeName": "ぎょうざ処だいきち",
+    "lat": 34.6705146,
+    "lng": 135.50096249999999,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "362": {
+    "name": "新宿焼肉 牛たんの檸檬 大阪本店",
+    "address": "日本、〒542-0074 大阪府大阪市中央区千日前２丁目５−２ 日本一歯科センタービル 1F",
+    "placeName": "新宿焼肉 牛たんの檸檬 大阪本店",
+    "lat": 34.666698,
+    "lng": 135.5051149,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "363": {
+    "name": "TACOS 3HERMANOS HARAJUKU",
+    "address": null,
+    "suggestedArea": null,
+    "error": "no_results"
+  },
+  "364": {
+    "name": "黒羊羊肉串店 BLACK SHEEP",
+    "address": "日本、〒530-0033 大阪府大阪市北区池田町７−８ 冨士マンション",
+    "placeName": "黒羊羊肉串店 BLACK SHEEP",
+    "lat": 34.7074496,
+    "lng": 135.5127592,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "365": {
+    "name": "たこ焼き&BAR プルプ takoyaki&bar poulpe",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目３−１ 大阪駅前第一ビル B2F",
+    "placeName": "たこ焼き&BAR プルプ takoyaki&bar poulpe",
+    "lat": 34.6988134,
+    "lng": 135.4964973,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "367": {
+    "name": "立ち喰い寿司 ゲンヤ倶楽部",
+    "address": "日本、〒532-0023 大阪府大阪市淀川区十三東３丁目２８−４",
+    "placeName": "立ち喰い寿司 ゲンヤ倶楽部",
+    "lat": 34.720783499999996,
+    "lng": 135.4829872,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "369": {
+    "name": "卵かけめし 肉すい専門 やまや",
+    "address": "日本、〒590-0808 大阪府堺市堺区旭ヶ丘中町１丁５−１７ シャトー旭ヶ丘 1階",
+    "placeName": "大阪 堺 肉すい専門やまや",
+    "lat": 34.5586698,
+    "lng": 135.4735923,
+    "suggestedArea": "senshu",
+    "matchedWard": "堺市"
+  },
+  "370": {
+    "name": "しゃぶ長",
+    "address": "日本、〒542-0083 大阪府大阪市中央区東心斎橋１丁目１５−２５",
+    "placeName": "しゃぶ長",
+    "lat": 34.672668,
+    "lng": 135.503416,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "372": {
+    "name": "按田餃子 代々木上原店",
+    "address": "日本、〒151-0066 東京都渋谷区西原３丁目２１−２",
+    "placeName": "按田餃子 代々木上原 本店",
+    "lat": 35.670593499999995,
+    "lng": 139.6819028,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "373": {
+    "name": "田舎の大鵬",
+    "address": "日本、〒559-0034 大阪府大阪市住之江区南港北１丁目５−１０２ インテックス大阪 6 号館A",
+    "placeName": "大鵬",
+    "lat": 34.6376371,
+    "lng": 135.4215078,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住之江区"
+  },
+  "374": {
+    "name": "貝鮮浜焼きバイキング あみ浜食堂",
+    "address": "日本、〒781-1165 高知県土佐市宇佐町竜５１３−１",
+    "placeName": "貝鮮浜焼きバイキング あみ浜食堂",
+    "lat": 33.431704599999996,
+    "lng": 133.4532262,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "375": {
+    "name": "なにわ而楽",
+    "address": "日本、〒530-0012 大阪府大阪市北区芝田２丁目８−１１ 1階",
+    "placeName": "なにわ而楽",
+    "lat": 34.7073378,
+    "lng": 135.49561699999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "376": {
+    "name": "御幸町ONO",
+    "address": "日本、〒604-8044 京都府京都市中京区大日町御幸町通り四条上ル大日町４２３",
+    "placeName": "御幸町ONO",
+    "lat": 35.004185,
+    "lng": 135.766272,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "377": {
+    "name": "炭炉まん",
+    "address": "日本、〒530-0011 大阪府大阪市北区大深町１−１ LINKS UMEDA 8F",
+    "placeName": "炭炉まん リンクス梅田店",
+    "lat": 34.7045068,
+    "lng": 135.496178,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "378": {
+    "name": "立ち飲みやみー",
+    "address": "日本、〒542-0075 大阪府大阪市中央区難波千日前５−３０ 三陽グリーンハイツ 1階",
+    "placeName": "SAYAMISTYLE(サヤミスタイル) 難波の立ち飲み",
+    "lat": 34.6639949,
+    "lng": 135.5053313,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "379": {
+    "name": "野菜酒場あしおと",
+    "address": "日本、〒600-8073 京都府京都市下京区永原町１５３−１４",
+    "placeName": "野菜酒場あしおと",
+    "lat": 35.0020194,
+    "lng": 135.7634707,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "381": {
+    "name": "鮨かぜのぎ",
+    "address": "日本、〒542-0081 大阪府大阪市中央区南船場３丁目８−２ 心斎橋ビル 一階 尚 善",
+    "placeName": "鮨かぜのぎ",
+    "lat": 34.6778601,
+    "lng": 135.50232499999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "382": {
+    "name": "鮨あさひ",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島８丁目１９−１",
+    "placeName": "鮨あさひ",
+    "lat": 34.697744,
+    "lng": 135.48318940000001,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "384": {
+    "name": "セアブラノ神 伏見剛力",
+    "address": "日本、〒612-8432 京都府京都市伏見区深草柴田屋敷町２３−２７",
+    "placeName": "セアブラノ神 伏見剛力",
+    "lat": 34.9463291,
+    "lng": 135.7618939,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "386": {
+    "name": "海鮮工房 はしだて物産 松葉蟹直売・かに飯・かに寿司・焼鯖寿司",
+    "address": "日本、〒626-0001 京都府宮津市文珠６４０−１８",
+    "placeName": "海鮮工房 はしだて物産 松葉蟹直売・かに飯・かに寿司・焼鯖寿司",
+    "lat": 35.557963,
+    "lng": 135.182803,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "389": {
+    "name": "阿蘇溶岩石焼 といとい 穴座",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎１丁目７−１０",
+    "placeName": "阿蘇溶岩石焼 といとい 穴座",
+    "lat": 34.6994391,
+    "lng": 135.5025431,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "390": {
+    "name": "にほんしゅ屋しゅうろく",
+    "address": "日本、〒600-8047 京都府京都市下京区石不動之町６８２−３ もみじ小路H 7",
+    "placeName": "にほんしゅ屋しゅうろく",
+    "lat": 34.998728899999996,
+    "lng": 135.7659747,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "391": {
+    "name": "メキシコ食堂 オラレ！",
+    "address": "日本、〒550-0015 大阪府大阪市西区南堀江３丁目１３−１１ 1階",
+    "placeName": "Écle.Osaka エクレオオサカ",
+    "lat": 34.6723962,
+    "lng": 135.4874589,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "393": {
+    "name": "タマゴのイザカヤ Atama",
+    "address": "日本、〒532-0024 大阪府大阪市淀川区十三本町１丁目２−１０",
+    "placeName": "タマゴのイザカヤ Atama",
+    "lat": 34.7204581,
+    "lng": 135.4818277,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "394": {
+    "name": "XEX WEST Salvatore Cuomo Bros.／The BAR",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田２丁目２−２２ ハービスエント 7F",
+    "placeName": "XEX WEST Salvatore Cuomo Bros.／The BAR",
+    "lat": 34.6995837,
+    "lng": 135.49408309999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "395": {
+    "name": "朝呑み 楽酒",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１１−４ 大阪駅前第4ビル B1-33",
+    "placeName": "楽酒 きたがわ",
+    "lat": 34.6997122,
+    "lng": 135.4989143,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "396": {
+    "name": "炉端焼き 亀清",
+    "address": "日本、〒638-0431 奈良県吉野郡天川村洞川２４０",
+    "placeName": "炉端焼き 亀清",
+    "lat": 34.266945799999995,
+    "lng": 135.8778884,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "399": {
+    "name": "つけ麺 ひらの",
+    "address": "日本、〒537-0024 大阪府大阪市東成区東小橋１丁目１−６",
+    "placeName": "つけ麺 ひらの",
+    "lat": 34.674265,
+    "lng": 135.5338329,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "402": {
+    "name": "ノドボトケ、上ル",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋４丁目５−７",
+    "placeName": "ノドボトケ、上ル",
+    "lat": 34.7046123,
+    "lng": 135.5115588,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "406": {
+    "name": "とんかつ七兵衛 三宮店",
+    "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通１丁目３０−３２",
+    "placeName": "とんかつ七兵衛 三宮店",
+    "lat": 34.6922287,
+    "lng": 135.1917846,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "409": {
+    "name": "料理が上手?な嫁の店",
+    "address": "日本、〒657-0027 兵庫県神戸市灘区永手町４丁目２−２−１",
+    "placeName": "料理が上手?な嫁の店",
+    "lat": 34.7156466,
+    "lng": 135.23831900000002,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "410": {
+    "name": "京 菓る茶cafe",
+    "address": "日本、〒604-0831 京都府京都市中京区松屋町５１",
+    "placeName": "京 菓る茶cafe",
+    "lat": 35.0137122,
+    "lng": 135.76179639999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "411": {
+    "name": "UWASASTORE",
+    "address": "日本、〒530-0018 大阪府大阪市北区小松原町１−２０ 2F",
+    "placeName": "UWASASTORE",
+    "lat": 34.7024379,
+    "lng": 135.5011881,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "412": {
+    "name": "ロンパル",
+    "address": "日本、〒551-0003 大阪府大阪市大正区千島１丁目２３−１１５",
+    "placeName": "ロンパル",
+    "lat": 34.6516382,
+    "lng": 135.4748583,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "大正区"
+  },
+  "414": {
+    "name": "ビストロリアン",
+    "address": "日本、〒535-0031 大阪府大阪市旭区高殿７丁目７−３",
+    "placeName": "ビストロリアン",
+    "lat": 34.716024499999996,
+    "lng": 135.5470704,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "旭区"
+  },
+  "415": {
+    "name": "カチャトーレ ヤマガミ",
+    "address": "日本、〒531-0072 大阪府大阪市北区豊崎４丁目３−１",
+    "placeName": "カチャトーレ ヤマガミ",
+    "lat": 34.7116541,
+    "lng": 135.5011687,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "417": {
+    "name": "MAKIBI",
+    "address": "日本、〒530-0047 大阪府大阪市北区西天満３丁目１−２７ Mebius 西天満 Bldg. １F",
+    "placeName": "MAKIBI",
+    "lat": 34.6942937,
+    "lng": 135.5091802,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "420": {
+    "name": "比良山荘",
+    "address": "日本、〒520-0475 滋賀県大津市葛川坊村町９４",
+    "placeName": "比良山荘",
+    "lat": 35.2468024,
+    "lng": 135.8683308,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "422": {
+    "name": "KITASHINCHI 鉄板焼 sia",
+    "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地1−１１−４ 山大ビル 1F",
+    "placeName": "KITASHINCHI 鉄板焼 sia",
+    "lat": 34.6980125,
+    "lng": 135.49904180000001,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "423": {
+    "name": "アニメバー たまりば",
+    "address": "日本、〒590-0061 大阪府堺市堺区翁橋町１丁４−１８ ロイヤルパレスビル 3F",
+    "placeName": "アニメバーたまりば",
+    "lat": 34.5737312,
+    "lng": 135.4786016,
+    "suggestedArea": "senshu",
+    "matchedWard": "堺市"
+  },
+  "426": {
+    "name": "ル・コントワ",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１０−１０ お初天神裏参道 第2あーけるびる1階",
+    "placeName": "ル・コントワ",
+    "lat": 34.7004472,
+    "lng": 135.50061309999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "427": {
+    "name": "まりお流らーめん",
+    "address": "日本、〒630-8021 奈良県奈良市尼辻町４３３−３",
+    "placeName": "まりお流らーめん",
+    "lat": 34.6780402,
+    "lng": 135.8001371,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "429": {
+    "name": "みちくさ能勢",
+    "address": "日本、〒563-0121 大阪府豊能郡能勢町地黄１０８６",
+    "placeName": "みちくさ能勢",
+    "lat": 34.9609658,
+    "lng": 135.4609059,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "430": {
+    "name": "グリル 太平",
+    "address": "日本、〒544-0001 大阪府大阪市生野区新今里３丁目２０−２６",
+    "placeName": "グリル 太平",
+    "lat": 34.6596459,
+    "lng": 135.5467693,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区"
+  },
+  "431": {
+    "name": "ダイナミックキッチン＆バー 燦－SUN－ OBPツインタワー店",
+    "address": "日本、〒540-0001 大阪府大阪市中央区城見２丁目１−６１ ツイン21MIDタワ 38F",
+    "placeName": "Dynamic Kitchen & Bar 燦 －SUN－ OBPツインタワー店",
+    "lat": 34.6929543,
+    "lng": 135.5313147,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "432": {
+    "name": "キャッスルカフェ(旧クリスタルカフェテリア)",
+    "address": "日本、〒540-0001 大阪府大阪市中央区城見１丁目２−２７",
+    "placeName": "キャッスルカフェ(旧クリスタルカフェテリア)",
+    "lat": 34.692198999999995,
+    "lng": 135.528429,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "433": {
+    "name": "Oh！マイステーキ",
+    "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋１丁目３−２９ ミヤプラザ心斎橋 B1",
+    "placeName": "Oh！マイステーキ Oh！My Steak",
+    "lat": 34.6742134,
+    "lng": 135.50198369999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "434": {
+    "name": "Back Street Coffee",
+    "address": "日本、〒536-0006 大阪府大阪市城東区野江１丁目１−１２",
+    "placeName": "Back Street Coffee",
+    "lat": 34.7006094,
+    "lng": 135.5368218,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "城東区"
+  },
+  "439": {
+    "name": "大阪大衆居酒屋 飯と酒と音 almalio",
+    "address": "日本、〒530-0056 大阪府大阪市北区兎我野町２−７ スプラザビル 1F2号",
+    "placeName": "大阪大衆居酒屋 飯と酒と音 almalio",
+    "lat": 34.7003243,
+    "lng": 135.5052307,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "441": {
+    "name": "饂飩工房 うばら",
+    "address": "日本、〒543-0021 大阪府大阪市天王寺区東高津町９−１９",
+    "placeName": "饂飩工房うばら",
+    "lat": 34.667006799999996,
+    "lng": 135.5226877,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "442": {
+    "name": "fried sandwich Age.3 GINZA",
+    "address": "日本、〒104-0061 東京都中央区銀座１丁目２４−１１ 杉浦ビル 1Ｆ",
+    "placeName": "揚げサンド専門店 Age.3",
+    "lat": 35.6727584,
+    "lng": 139.77129449999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "444": {
+    "name": "谷町 ふる里",
+    "address": "日本、〒542-0072 大阪府大阪市中央区高津３丁目２−３０",
+    "placeName": "谷町ふる里",
+    "lat": 34.6665425,
+    "lng": 135.5095277,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "445": {
+    "name": "鮨と天ぷら からす",
+    "address": "日本、〒556-0003 大阪府大阪市浪速区恵美須西３丁目３−２６ 3F",
+    "placeName": "鮨と天ぷら からす 新今宮店",
+    "lat": 34.650307,
+    "lng": 135.50292679999998,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "446": {
+    "name": "鮨 國松",
+    "address": "日本、〒581-0004 大阪府八尾市東本町５丁目１０−５",
+    "placeName": "鮨 國松",
+    "lat": 34.6286677,
+    "lng": 135.6062791,
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "八尾市"
+  },
+  "447": {
+    "name": "ニューハマヤ 瓦町店",
+    "address": "日本、〒541-0048 大阪府大阪市中央区瓦町４丁目３−１０",
+    "placeName": "ニューハマヤ 瓦町店",
+    "lat": 34.6859883,
+    "lng": 135.49972420000003,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "448": {
+    "name": "鮨 銀座おのでら 登龍門",
+    "address": "日本、〒530-0018 大阪府大阪市北区小松原町１−２７ 梅田エビスビル 101",
+    "placeName": "鮨 銀座おのでら 息子 梅田店",
+    "lat": 34.7022532,
+    "lng": 135.50157009999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "449": {
+    "name": "NEW YORK PIZZA TONY'S",
+    "address": "日本、〒542-0082 大阪府大阪市中央区島之内１丁目２−３",
+    "placeName": "​Tony's(トニーズ)l テイクアウト＆デリバリー",
+    "lat": 34.6720293,
+    "lng": 135.5104973,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "450": {
+    "name": "SEA & FARM by YANMAR MARCHÉ",
+    "address": "日本、〒530-8311 大阪府大阪市北区茶屋町１−３２ ヤンマー本社ビル 12階",
+    "placeName": "SEA & FARM by YANMAR MARCHÉ",
+    "lat": 34.7053351,
+    "lng": 135.4994342,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "451": {
+    "name": "だし巻き玉子専門店 百花",
+    "address": "日本、〒543-0051 大阪府大阪市天王寺区四天王寺１丁目１４−２７",
+    "placeName": "だし巻き玉子専門店 百花",
+    "lat": 34.6545811,
+    "lng": 135.51395689999998,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "452": {
+    "name": "大衆酒場かど升",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１４−１３ 河合ビル 1~3階",
+    "placeName": "大衆酒場かど升",
+    "lat": 34.7009057,
+    "lng": 135.5005678,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "454": {
+    "name": "洋食の店 もなみ",
+    "address": "日本、〒542-0012 大阪府大阪市中央区谷町６丁目３−１４",
+    "placeName": "洋食の店 もなみ",
+    "lat": 34.6734692,
+    "lng": 135.5172311,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "456": {
+    "name": "スタンド比嘉くん。",
+    "address": "日本、〒534-0024 大阪府大阪市都島区東野田町５丁目８−１９ 富士ビル 1F",
+    "placeName": "スタンド比嘉くん。",
+    "lat": 34.699872299999996,
+    "lng": 135.5335888,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "457": {
+    "name": "千早川マス釣り場",
+    "address": "日本、〒585-0051 大阪府南河内郡千早赤阪村千早１２６２−４",
+    "placeName": "千早川マス釣り場",
+    "lat": 34.4114424,
+    "lng": 135.6530032,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "458": {
+    "name": "立呑みビストロやまもと",
+    "address": "日本、〒530-0033 大阪府大阪市北区池田町１０−１０",
+    "placeName": "立呑みビストロやまもと",
+    "lat": 34.7077491,
+    "lng": 135.5138432,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "459": {
+    "name": "魚籠屋",
+    "address": "日本、〒370-3341 群馬県高崎市榛名山町３６０",
+    "placeName": "魚籠屋",
+    "lat": 36.4440083,
+    "lng": 138.8433502,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "462": {
+    "name": "手造りうどん 楽々",
+    "address": "日本、〒576-0054 大阪府交野市幾野６丁目６−１",
+    "placeName": "手造りうどん 楽々",
+    "lat": 34.8015531,
+    "lng": 135.6750121,
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "交野市"
+  },
+  "463": {
+    "name": "中華そば 光洋軒",
+    "address": "日本、〒537-0002 大阪府大阪市東成区深江南３丁目２０−１４",
+    "placeName": "中華そば 光洋軒 本店",
+    "lat": 34.66898870000001,
+    "lng": 135.5611264,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "467": {
+    "name": "洋食屋 グリルこっこ",
+    "address": "日本、〒561-0881 大阪府豊中市中桜塚２丁目１８−１２",
+    "placeName": "洋食屋 グリルこっこ",
+    "lat": 34.7801215,
+    "lng": 135.4678611,
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "豊中市"
+  },
+  "468": {
+    "name": "やむなし松濤",
+    "address": "日本、〒150-0042 東京都渋谷区宇田川町３７−１２",
+    "placeName": "やむなし松濤",
+    "lat": 35.662276299999995,
+    "lng": 139.6954093,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "469": {
+    "name": "Guzman y Gomez - Shibuya",
+    "address": "日本、〒150-0041 東京都渋谷区神南１丁目１１−３ 第二大外ビル 1階",
+    "placeName": "Guzman y Gomez - Shibuya",
+    "lat": 35.6623293,
+    "lng": 139.7010075,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "471": {
+    "name": "Wine shop Lami",
+    "address": "日本、〒530-0023 大阪府大阪市北区黒崎町２−２ ファミール浪速 1F",
+    "placeName": "Wine shop Lami",
+    "lat": 34.7065397,
+    "lng": 135.50895649999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "472": {
+    "name": "今池飯店",
+    "address": "日本、〒464-0850 愛知県名古屋市千種区今池１丁目６−１１ プロスパービル",
+    "placeName": "今池飯店",
+    "lat": 35.1690237,
+    "lng": 136.93521579999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "473": {
+    "name": "平和樓",
+    "address": "日本、〒530-0017 大阪府大阪市北区角田町９−２６ 新梅田食道街",
+    "placeName": "平和樓",
+    "lat": 34.7036155,
+    "lng": 135.4981599,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "477": {
+    "name": "セイロンカリー",
+    "address": "日本、〒542-0081 大阪府大阪市中央区南船場１丁目１３−４ フロントラインビル 1F",
+    "placeName": "セイロンカリー",
+    "lat": 34.677184,
+    "lng": 135.508163,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "481": {
+    "name": "レストラン菊水 屋上ビアガーデン",
+    "address": "日本、〒605-0076 京都府京都市東山区川端町１８７",
+    "placeName": "レストラン菊水 屋上ビアガーデン",
+    "lat": 35.004008899999995,
+    "lng": 135.7722914,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "482": {
+    "name": "富士喜商店 新宿総本店",
+    "address": "日本、〒160-0023 東京都新宿区西新宿７丁目５−５ プラザ西新宿 B1",
+    "placeName": "富士喜商店 新宿総本店",
+    "lat": 35.696394999999995,
+    "lng": 139.6982099,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "484": {
+    "name": "リンカーン食堂",
+    "address": "日本、〒534-0024 大阪府大阪市都島区東野田町２丁目２−２",
+    "placeName": "リンカーン食堂",
+    "lat": 34.6965881,
+    "lng": 135.5305618,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "486": {
+    "name": "スタンドミヤコ 立ち呑み",
+    "address": "日本、〒542-0081 大阪府大阪市中央区南船場１丁目１−６ 吉田ビル",
+    "placeName": "スタンドミヤコ 立ち呑み",
+    "lat": 34.6771996,
+    "lng": 135.5106295,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "488": {
+    "name": "おのみち屋",
+    "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地１丁目９−８",
+    "placeName": "お好み焼き おのみち屋",
+    "lat": 34.6977508,
+    "lng": 135.49895569999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "490": {
+    "name": "谷町 一味禅",
+    "address": "日本、〒540-0012 大阪府大阪市中央区谷町５丁目６−４",
+    "placeName": "谷町 一味禅",
+    "lat": 34.6778896,
+    "lng": 135.516867,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "491": {
+    "name": "福井",
+    "address": "日本、〒541-0048 大阪府大阪市中央区瓦町２丁目２−１４",
+    "placeName": "福井県大阪事務所",
+    "lat": 34.6856521,
+    "lng": 135.5063949,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "492": {
+    "name": "スタミナいちばん",
+    "address": "日本、〒544-0025 大阪府大阪市生野区生野東４丁目７−１２",
+    "placeName": "スタミナいちばん",
+    "lat": 34.646063999999996,
+    "lng": 135.5358467,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "生野区"
+  },
+  "493": {
+    "name": "肉しょうがうどんTaiyo",
+    "address": "日本、〒542-0083 大阪府大阪市中央区東心斎橋１丁目１６−７",
+    "placeName": "肉しょうがうどんTaiyo 心斎橋本店",
+    "lat": 34.672179899999996,
+    "lng": 135.50326669999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "502": {
+    "name": "炭焼き成吉思汗 やまか",
+    "address": "日本、〒550-0003 大阪府大阪市西区京町堀１丁目９−１９ 粂ビル 1階",
+    "placeName": "炭焼ジンギスカン浅鞍",
+    "lat": 34.687679599999996,
+    "lng": 135.49539339999998,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "503": {
+    "name": "立呑旬鮮 すーさん",
+    "address": "日本、〒569-0071 大阪府高槻市城北町２丁目２−１ 小路ビル D",
+    "placeName": "立呑旬鮮 すーさん",
+    "lat": 34.8489566,
+    "lng": 135.62205290000003,
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "高槻市"
+  },
+  "504": {
+    "name": "舞鶴湾かき小屋 美味星",
+    "address": "日本、〒624-0914 京都府舞鶴市下安久無番地",
+    "placeName": "舞鶴湾かき小屋 美味星",
+    "lat": 35.4633848,
+    "lng": 135.3273739,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "505": {
+    "name": "海鮮ブッフェダイニング 銀座八芳",
+    "address": "日本、〒104-0061 東京都中央区銀座８丁目６−１０ B1",
+    "placeName": "海鮮ブッフェダイニング 銀座八芳",
+    "lat": 35.667212299999996,
+    "lng": 139.76182029999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "506": {
+    "name": "すし楽",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋３丁目４−７",
+    "placeName": "鮨 らくみ",
+    "lat": 34.7000167,
+    "lng": 135.5118726,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "507": {
+    "name": "焼肉 味楽園(みらくえん)",
+    "address": "日本、〒660-0875 兵庫県尼崎市南竹谷町２丁目１ 焼肉・冷麺味楽園",
+    "placeName": "焼肉・冷麺味楽園",
+    "lat": 34.7175148,
+    "lng": 135.4051595,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "508": {
+    "name": "東亞食堂 黒龍天神樓",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋４丁目２−１２",
+    "placeName": "天満 黒龍天神樓",
+    "lat": 34.7045046,
+    "lng": 135.512499,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "509": {
+    "name": "らーめんコーさん 本店",
+    "address": "日本、〒551-0003 大阪府大阪市大正区千島３丁目４−１",
+    "placeName": "らーめんコーさん 本店",
+    "lat": 34.6521616,
+    "lng": 135.47181709999998,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "大正区"
+  },
+  "510": {
+    "name": "ぶたのほし",
+    "address": "日本、〒660-0807 兵庫県尼崎市長洲西通１丁目１６−７",
+    "placeName": "ぶたのほし",
+    "lat": 34.7275281,
+    "lng": 135.428401,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "512": {
+    "name": "麺匠 柳",
+    "address": "日本、〒658-0014 兵庫県神戸市東灘区北青木２丁目９−２５",
+    "placeName": "麺匠 柳 神戸東灘店",
+    "lat": 34.7207753,
+    "lng": 135.282632,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "514": {
+    "name": "焼肉 味吉園",
+    "address": "日本、〒572-0811 大阪府寝屋川市楠根南町１３−１０",
+    "placeName": "焼肉 味吉園",
+    "lat": 34.753740799999996,
+    "lng": 135.63111659999998,
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "寝屋川市"
+  },
+  "515": {
+    "name": "鮮魚 魚豊",
+    "address": "日本、〒542-0073 大阪府大阪市中央区日本橋２丁目１１−２１",
+    "placeName": "鮮魚 魚豊",
+    "lat": 34.6645257,
+    "lng": 135.5067158,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "516": {
+    "name": "うどんちり本家 にし家本店",
+    "address": "日本、〒542-0085 大阪府大阪市中央区東心斎橋１丁目１８−１８",
+    "placeName": "うどんちり本家 にし家本店",
+    "lat": 34.673743099999996,
+    "lng": 135.5024223,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "517": {
+    "name": "餃子てんほう！",
+    "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地１丁目８−１２",
+    "placeName": "天平 北新地本店",
+    "lat": 34.6975221,
+    "lng": 135.500042,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "518": {
+    "name": "まる尾水産",
+    "address": "日本、〒530-0017 大阪府大阪市北区角田町９−２６",
+    "placeName": "活魚・鮮魚・おでん 丸",
+    "lat": 34.7037458,
+    "lng": 135.49795,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "519": {
+    "name": "もつ焼きのりちゃん",
+    "address": "日本、〒553-0007 大阪府大阪市福島区大開１丁目２０−４",
+    "placeName": "もつ焼きのりちゃん",
+    "lat": 34.6943069,
+    "lng": 135.4735708,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "520": {
+    "name": "焼売のジョー大阪駅前第三ビル店",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 地下2階 29号室",
+    "placeName": "焼売のジョー大阪駅前第三ビル店",
+    "lat": 34.699069099999996,
+    "lng": 135.4990126,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "521": {
+    "name": "高円寺肉合戦",
+    "address": null,
+    "suggestedArea": null,
+    "error": "no_results"
+  },
+  "522": {
+    "name": "牛丼 ホルモン きつねや",
+    "address": "日本、〒104-0045 東京都中央区築地４丁目９−１２",
+    "placeName": "きつねや",
+    "lat": 35.665770699999996,
+    "lng": 139.76994829999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "524": {
+    "name": "三軒茶屋一丁目食堂",
+    "address": "日本、〒154-0024 東京都世田谷区三軒茶屋１丁目２７−３１",
+    "placeName": "三軒茶屋一丁目食堂",
+    "lat": 35.640915899999996,
+    "lng": 139.6724376,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "525": {
+    "name": "らーめん 極 総本店",
+    "address": "日本、〒545-0051 大阪府大阪市阿倍野区旭町１丁目１−２６ ＮＯ３２ウエムラあべのビル 1F",
+    "placeName": "らーめん 極 総本店",
+    "lat": 34.6478152,
+    "lng": 135.5093241,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "528": {
+    "name": "肉ホルモン てつ腕",
+    "address": "日本、〒556-0011 大阪府大阪市浪速区難波中１丁目１７−１６",
+    "placeName": "肉ホルモン てつ腕",
+    "lat": 34.6632423,
+    "lng": 135.5001831,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "530": {
+    "name": "しまながし",
+    "address": "日本、〒530-0003 大阪府大阪市北区堂島１丁目５−３５ 堂島レジャービル 4F",
+    "placeName": "深夜食堂 しまながし",
+    "lat": 34.696362199999996,
+    "lng": 135.4969245,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "531": {
+    "name": "元祖 モダン焼 ねぎ焼 あべとん",
+    "address": "日本、〒543-0056 大阪府大阪市天王寺区堀越町１３−１３ アベノ地下街 あべの横丁 B1F",
+    "placeName": "元祖モダン ねぎ焼き あべとん",
+    "lat": 34.6488687,
+    "lng": 135.5134139,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "533": {
+    "name": "たこつぼ 本店",
+    "address": "日本、〒545-0052 大阪府大阪市阿倍野区阿倍野筋２丁目４−４８ 金村ビル 1F",
+    "placeName": "たこつぼ 本店",
+    "lat": 34.6436966,
+    "lng": 135.5128454,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "534": {
+    "name": "海鮮酒場 うおぷく",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町４−１２ 白馬車Bld. ３F",
+    "placeName": "海鮮酒場 うおぷく",
+    "lat": 34.70254200000001,
+    "lng": 135.5021224,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "535": {
+    "name": "勇すし",
+    "address": "日本、〒557-0033 大阪府大阪市西成区梅南１丁目２−１７ 勇すし",
+    "placeName": "勇すし",
+    "lat": 34.6420338,
+    "lng": 135.4953075,
+    "suggestedArea": "shinsekai",
+    "matchedWard": "西成区"
+  },
+  "536": {
+    "name": "Panel cafe京都",
+    "address": "日本、〒605-0079 京都府京都市東山区常盤町165番地 ジェイ・プライド祇園白川 1階",
+    "placeName": "Panel cafe京都",
+    "lat": 35.0051395,
+    "lng": 135.77263399999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "538": {
+    "name": "CAFE Bar ONE PEACE",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町６−１０ 第二名門ビル ５F",
+    "placeName": "CAFE Bar ONE PEACE",
+    "lat": 34.703094899999996,
+    "lng": 135.5027392,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "539": {
+    "name": "ときすし 本店",
+    "address": "日本、〒542-0075 大阪府大阪市中央区難波千日前４−２１",
+    "placeName": "ときすし 本店 難波でおすすめの炙り寿司ランチ",
+    "lat": 34.664411799999996,
+    "lng": 135.5040694,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "540": {
+    "name": "焼豚ラーメン三條",
+    "address": "日本、〒501-6064 岐阜県羽島郡笠松町北及６５８ メゾンＧ5 1F",
+    "placeName": "焼豚ラーメン三條",
+    "lat": 35.3495432,
+    "lng": 136.7488693,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "541": {
+    "name": "Viande wood ヴィアンド ウッド",
+    "address": "日本、〒557-0044 大阪府大阪市西成区玉出中２丁目１６−６",
+    "placeName": "わさび食堂",
+    "lat": 34.6235269,
+    "lng": 135.4912608,
+    "suggestedArea": "shinsekai",
+    "matchedWard": "西成区"
+  },
+  "543": {
+    "name": "寿司処 松の",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１６−２２ 7F",
+    "placeName": "鮨 まつ井 大阪梅田店",
+    "lat": 34.7018269,
+    "lng": 135.500517,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "545": {
+    "name": "豚まん専門店龍福 駒川店",
+    "address": "日本、〒546-0043 大阪府大阪市東住吉区駒川５丁目７−１８",
+    "placeName": "豚まん専門店龍福 駒川店",
+    "lat": 34.6184522,
+    "lng": 135.5316698,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住吉区"
+  },
+  "547": {
+    "name": "回転すし さかえ",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町３−１２ 4階",
+    "placeName": "回転すし さかえ",
+    "lat": 34.7027374,
+    "lng": 135.5028414,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "548": {
+    "name": "廻鮮鮨 喜十郎",
+    "address": "日本、〒590-0525 大阪府泉南市馬場２丁目１３−２８２−１",
+    "placeName": "廻鮮鮨 喜十郎",
+    "lat": 34.3609765,
+    "lng": 135.2615724,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "549": {
+    "name": "元禄寿司 本店",
+    "address": "日本、〒577-0841 大阪府東大阪市足代１丁目１２−１",
+    "placeName": "元禄寿司 本店",
+    "lat": 34.6638006,
+    "lng": 135.56198,
+    "suggestedArea": "higashiosaka",
+    "matchedWard": "東大阪市"
+  },
+  "550": {
+    "name": "洋食 ヨシカミ",
+    "address": "日本、〒530-0047 大阪府大阪市北区西天満４丁目９−２０ 東興ビル 1F",
+    "placeName": "洋食 泉",
+    "lat": 34.697210999999996,
+    "lng": 135.50383600000004,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "552": {
+    "name": "ヒポポパパ",
+    "address": "日本、〒673-0036 兵庫県明石市松江６０",
+    "placeName": "ヒポポパパ",
+    "lat": 34.65053270000001,
+    "lng": 134.96155539999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "553": {
+    "name": "SAKImoto bakery 大阪初號本店",
+    "address": "日本、〒556-0011 大阪府大阪市浪速区難波中２丁目３−１８ １階",
+    "placeName": "SAKImoto bakery 大阪初號本店",
+    "lat": 34.6627235,
+    "lng": 135.5035545,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "556": {
+    "name": "鮨と酒悠久 名駅柳橋店",
+    "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目１５−１５ 名古屋綜合市場ビル 1F",
+    "placeName": "鮨と酒悠久 名駅柳橋店",
+    "lat": 35.1696782,
+    "lng": 136.88814299999999,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "557": {
+    "name": "満ち汐のロマンス",
+    "address": "日本、〒550-0012 大阪府大阪市西区立売堀１丁目６−２",
+    "placeName": "満ち汐のロマンス",
+    "lat": 34.680253,
+    "lng": 135.4966752,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "558": {
+    "name": "ワインダイニング U/ (ウー)",
+    "address": "日本、〒541-0052 大阪府大阪市中央区安土町１丁目６−２２ グランドメゾン船場 103",
+    "placeName": "ワインダイニング U/ (ウー)",
+    "lat": 34.6842542,
+    "lng": 135.5083497,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "559": {
+    "name": "uoyaki temma",
+    "address": "日本、〒530-0033 大阪府大阪市北区池田町５−３",
+    "placeName": "uoyaki temma",
+    "lat": 34.706607399999996,
+    "lng": 135.5123405,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "560": {
+    "name": "コメダ珈琲店 高岳店",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田２丁目１−３ 桜橋御幸ビル 1F",
+    "placeName": "コメダ珈琲店 西梅田店",
+    "lat": 34.698777299999996,
+    "lng": 135.495108,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "561": {
+    "name": "コメダ珈琲店 今池店",
+    "address": "日本、〒550-0023 大阪府大阪市西区千代崎３丁目13−１ イオンモール大阪ドームシティ 1F",
+    "placeName": "コメダ珈琲店 イオンモール大阪ドームシティ店",
+    "lat": 34.6699009,
+    "lng": 135.47843029999999,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "562": {
+    "name": "イタリア大衆食堂 堂島グラッチェ本店",
+    "address": "日本、〒530-0003 大阪府大阪市北区堂島２丁目２−３８ 宝寿ビル 1F",
+    "placeName": "イタリア大衆食堂 堂島グラッチェ本店",
+    "lat": 34.697256599999996,
+    "lng": 135.4951934,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "563": {
+    "name": "天ぷら定食専門 寅ノすみか",
+    "address": "日本、〒556-0011 大阪府大阪市浪速区難波中２丁目６−１ 壽ビル 1F",
+    "placeName": "天ぷら定食専門 寅ノすみか",
+    "lat": 34.6623563,
+    "lng": 135.50388999999998,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "565": {
+    "name": "川越 / KAWAKOSHI",
+    "address": "日本、〒550-0003 大阪府大阪市西区京町堀３丁目４−１３",
+    "placeName": "川越 / KAWAKOSHI",
+    "lat": 34.683911,
+    "lng": 135.487317,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "567": {
+    "name": "BEER STAND molto!! 阪急三番街店",
+    "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目１−３ 阪急三番街南館 1階",
+    "placeName": "BEER STAND molto!! 阪急三番街店",
+    "lat": 34.704981599999996,
+    "lng": 135.4979538,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "568": {
+    "name": "egg cafe KURAGARI",
+    "address": "日本、〒630-0236 奈良県生駒市西畑町８８０−２",
+    "placeName": "Egg café KURAGARI",
+    "lat": 34.6662994,
+    "lng": 135.6753556,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "569": {
+    "name": "グリルロン 阪急三番街店",
+    "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目１−３",
+    "placeName": "グリルロン 阪急三番街店",
+    "lat": 34.7049938,
+    "lng": 135.4980326,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "570": {
+    "name": "ニューとん助",
+    "address": "日本、〒559-0017 大阪府大阪市住之江区中加賀屋３丁目１−２２",
+    "placeName": "ニューとん助",
+    "lat": 34.616779699999995,
+    "lng": 135.48126539999998,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住之江区"
+  },
+  "571": {
+    "name": "王道家直系 我道家 OSAKA本店",
+    "address": "日本、〒556-0017 大阪府大阪市浪速区湊町１丁目３−１ B1F",
+    "placeName": "王道家直系 我道家 OSAKA本店",
+    "lat": 34.6679335,
+    "lng": 135.4962898,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "573": {
+    "name": "焼肉 こてつ",
+    "address": "日本、〒545-0001 大阪府大阪市阿倍野区天王寺町北２丁目２−５",
+    "placeName": "ホルモン こてつ",
+    "lat": 34.6472848,
+    "lng": 135.52529769999998,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "574": {
+    "name": "もつ煮本舗 まるさん食堂 水戸本店",
+    "address": "日本、〒310-0827 茨城県水戸市吉沼町７０９−２",
+    "placeName": "もつ煮本舗 まるさん食堂 水戸本店",
+    "lat": 36.3653969,
+    "lng": 140.51159959999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "575": {
+    "name": "無鉄砲 大阪本店",
+    "address": "日本、〒556-0013 大阪府大阪市浪速区戎本町１丁目５−２１",
+    "placeName": "無鉄砲 大阪店",
+    "lat": 34.6546002,
+    "lng": 135.5002183,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "577": {
+    "name": "丹波篠山囲炉裏料理 いわや",
+    "address": "日本、〒669-2301 兵庫県丹波篠山市火打岩４９５−１",
+    "placeName": "いわや",
+    "lat": 35.1115768,
+    "lng": 135.2651751,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "578": {
+    "name": "ゴメンネJIRO",
+    "address": "日本、〒530-0033 大阪府大阪市北区池田町８−９",
+    "placeName": "洋食堂 ゴメンネJIRO",
+    "lat": 34.7073712,
+    "lng": 135.5131773,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "581": {
+    "name": "空堀トーストカフェ",
+    "address": "日本、〒542-0067 大阪府大阪市中央区松屋町５−５",
+    "placeName": "空堀トーストカフェ",
+    "lat": 34.673820000000006,
+    "lng": 135.511637,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "582": {
+    "name": "天ぷら 三定（さんさだ）浅草雷門",
+    "address": "日本、〒111-0032 東京都台東区浅草１丁目２−２",
+    "placeName": "天ぷら 三定（さんさだ）浅草雷門",
+    "lat": 35.7109887,
+    "lng": 139.7966179,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "583": {
+    "name": "大衆焼肉こたろう 三宮店",
+    "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通１丁目５−１０ ミカドビル 5F",
+    "placeName": "焼肉ホルモンこたろう 三ノ宮店",
+    "lat": 34.6937115,
+    "lng": 135.1923665,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "584": {
+    "name": "十月二日",
+    "address": "日本、〒553-0002 大阪府大阪市福島区鷺洲２丁目１１−１",
+    "placeName": "居酒屋十月二日 福島区",
+    "lat": 34.6979927,
+    "lng": 135.4819317,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "585": {
+    "name": "鮨処 いこう",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町１１−１４ 那由多ビル 2F",
+    "placeName": "梅田 海鮮居酒屋いこう",
+    "lat": 34.703776,
+    "lng": 135.50446349999999,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "586": {
+    "name": "実乃里 de バル（大阪グランベルホテル内）",
+    "address": "日本、〒541-0057 大阪府大阪市中央区北久宝寺町２丁目６−７ 大阪グランベルホテル 20F 1F・2F",
+    "placeName": "実乃里 de バル",
+    "lat": 34.6797973,
+    "lng": 135.503704,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "587": {
+    "name": "薪鳥新神戸 MAKITORI SHINKOBE",
+    "address": "日本、〒533-0014 大阪府大阪市東淀川区豊新３丁目２１−１０",
+    "placeName": "焼鳥とピッツァの店薪窯",
+    "lat": 34.7451601,
+    "lng": 135.53328109999998,
+    "suggestedArea": "nishinakajima",
+    "matchedWard": "淀川区"
+  },
+  "590": {
+    "name": "エクチュア からほり",
+    "address": "日本、〒540-0012 大阪府大阪市中央区谷町６丁目１７−４３ からほり御屋敷再生複合ショップ練（LEN",
+    "placeName": "エクチュア からほり",
+    "lat": 34.6752335,
+    "lng": 135.512646,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "591": {
+    "name": "月山祐寿司(大阪で一番旨い安い店)",
+    "address": "日本、〒554-0013 大阪府大阪市此花区梅香３丁目３３−１０",
+    "placeName": "月山祐寿司",
+    "lat": 34.684794,
+    "lng": 135.4584327,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "此花区"
+  },
+  "593": {
+    "name": "The old bridge",
+    "address": "日本、〒543-0024 大阪府大阪市天王寺区舟橋町２０−２１",
+    "placeName": "The old bridge",
+    "lat": 34.6668473,
+    "lng": 135.5307686,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "594": {
+    "name": "麺家獅子丸",
+    "address": "日本、〒541-0054 大阪府大阪市中央区南本町１丁目５−４ 東洋ビル",
+    "placeName": "緊急事態製麺 #金獅子",
+    "lat": 34.682783199999996,
+    "lng": 135.5083469,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "595": {
+    "name": "新川にしや",
+    "address": "日本、〒556-0011 大阪府大阪市浪速区難波中１丁目１７−１６",
+    "placeName": "新川にしや",
+    "lat": 34.663186599999996,
+    "lng": 135.500201,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "597": {
+    "name": "めん処 竹ちゃん",
+    "address": "日本、〒542-0066 大阪府大阪市中央区瓦屋町２丁目１０−１４",
+    "placeName": "めん処 竹ちゃん",
+    "lat": 34.669868799999996,
+    "lng": 135.511765,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "598": {
+    "name": "新ちゃん",
+    "address": "日本、〒530-0011 大阪府大阪市北区大深町１−１ LINKS UMEDA B1F",
+    "placeName": "餃子とセアブラおでん 梅田のしんちゃん",
+    "lat": 34.7045068,
+    "lng": 135.496178,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "599": {
+    "name": "MAKE ONE TWO (メイクワンツー）",
+    "address": "日本、〒541-0046 大阪府大阪市中央区平野町２丁目２−１２ 生駒ビルヂング 1F",
+    "placeName": "MAKE ONE TWO (メイクワンツー）",
+    "lat": 34.68750920000001,
+    "lng": 135.5063601,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "601": {
+    "name": "一口いなりむろや 本店",
+    "address": "日本、〒550-0015 大阪府大阪市西区南堀江２丁目１−１７",
+    "placeName": "一口いなりむろや 本店",
+    "lat": 34.6725056,
+    "lng": 135.49240039999998,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "602": {
+    "name": "カンティーナリマ",
+    "address": "日本、〒530-0021 大阪府大阪市北区浮田２丁目６−１３ メゾンまさみ",
+    "placeName": "カンティーナリマ",
+    "lat": 34.709355099999996,
+    "lng": 135.5071707,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "603": {
+    "name": "酒房 ワビスケ ルシアス店",
+    "address": "日本、〒545-0052 大阪府大阪市阿倍野区阿倍野筋１丁目５−１ ルシアスビル B1F",
+    "placeName": "酒房 ワビスケ ルシアス店",
+    "lat": 34.646524,
+    "lng": 135.511063,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "604": {
+    "name": "十枡",
+    "address": "日本、〒545-0052 大阪府大阪市阿倍野区阿倍野筋２丁目４−４８",
+    "placeName": "本家 十枡（とおます）",
+    "lat": 34.64355690000001,
+    "lng": 135.51279979999998,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "606": {
+    "name": "大衆焼肉ホルモン にくさわ 本店",
+    "address": "日本、〒542-0074 大阪府大阪市中央区千日前２丁目５−７",
+    "placeName": "大衆焼肉ホルモン にくさわ 本店",
+    "lat": 34.6664209,
+    "lng": 135.5049104,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "607": {
+    "name": "焼き鳥 小松",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島４丁目２−６５",
+    "placeName": "焼き鳥 小松",
+    "lat": 34.6929696,
+    "lng": 135.48397459999998,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "608": {
+    "name": "鯛専門店 徳ます",
+    "address": "Art Lab. 1971, １丁目-１７-4 江戸堀 西区 大阪市 大阪府 550-0002 日本",
+    "placeName": "鯛専門店 徳ます",
+    "lat": 34.6906898,
+    "lng": 135.4947928,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "609": {
+    "name": "海鮮丼専門店 木津 魚市食堂",
+    "address": "日本、〒556-0012 大阪府大阪市浪速区敷津東２丁目２−８",
+    "placeName": "海鮮丼専門店 木津 魚市食堂",
+    "lat": 34.657045499999995,
+    "lng": 135.4996569,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "610": {
+    "name": "焼肉 藤もと 大吉商店",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島７丁目１２−１４",
+    "placeName": "焼肉 藤もと 大吉商店",
+    "lat": 34.6986774,
+    "lng": 135.48692910000003,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "614": {
+    "name": "グリル一平 三宮店",
+    "address": "日本、〒651-0094 兵庫県神戸市中央区琴ノ緒町５丁目５−２６ サンハイツ三宮 1F",
+    "placeName": "グリル一平 三宮店",
+    "lat": 34.69591,
+    "lng": 135.19495469999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "616": {
+    "name": "ステーキファイブと寿司六 大阪駅前第2ビル店",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第2ビル B1",
+    "placeName": "ステーキファイブと寿司六 大阪駅前第2ビル店",
+    "lat": 34.699036,
+    "lng": 135.4981335,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "617": {
+    "name": "ぐあぽす guapos",
+    "address": "日本、〒543-0021 大阪府大阪市天王寺区東高津町３−１３ 天川ビル 1F",
+    "placeName": "ぐあぽす guapos",
+    "lat": 34.667730399999996,
+    "lng": 135.5225867,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "618": {
+    "name": "ホルモン ジビエ 明星",
+    "address": "日本、〒542-0074 大阪府大阪市中央区千日前１丁目２−９ 千日前ビル １Ａ ＳＴ",
+    "placeName": "ホルモン ジビエ 明星",
+    "lat": 34.6678105,
+    "lng": 135.505279,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "619": {
+    "name": "お料理だいち",
+    "address": "日本、〒550-0015 大阪府大阪市西区南堀江１丁目２０−２３ １０５",
+    "placeName": "お料理だいち",
+    "lat": 34.6716502,
+    "lng": 135.4939483,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "621": {
+    "name": "Dal Donnaiolo",
+    "address": "日本、〒530-0047 大阪府大阪市北区西天満５丁目１３−１２ 東梅田レジデンス 1F",
+    "placeName": "Dal Donnaiolo （Pizza Napoletana）",
+    "lat": 34.699734,
+    "lng": 135.50659439999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "622": {
+    "name": "アルデンテ大山",
+    "address": "日本、〒530-0047 大阪府大阪市北区西天満３丁目８−１８ 西天満ビューハイツ 101",
+    "placeName": "アルデンテ大山",
+    "lat": 34.6952314,
+    "lng": 135.50783049999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "623": {
+    "name": "ムラタ料理店",
+    "address": "日本、〒545-0004 大阪府大阪市阿倍野区文の里３丁目２−１５",
+    "placeName": "ムラタ料理店",
+    "lat": 34.6371432,
+    "lng": 135.5207844,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "624": {
+    "name": "ル・プログレ",
+    "address": "日本、〒530-0004 大阪府大阪市北区堂島浜２丁目１−１３ 日宝堂島浜ビル １階",
+    "placeName": "ル・プログレ",
+    "lat": 34.6946655,
+    "lng": 135.4942766,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "625": {
+    "name": "レストランヴァリエ",
+    "address": "日本、〒530-0005 大阪府大阪市北区中之島３丁目３−２３ 2F",
+    "placeName": "レストランヴァリエ",
+    "lat": 34.6931156,
+    "lng": 135.4935985,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "626": {
+    "name": "Jean-Georges at The Shinmonzen",
+    "address": "日本、〒605-0088 京都府京都市東山区西之町２３５",
+    "placeName": "The Shinmonzen",
+    "lat": 35.0062555,
+    "lng": 135.7746924,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "627": {
+    "name": "SINAE シナエ",
+    "address": "日本、〒541-0044 大阪府大阪市中央区伏見町２丁目４−１２ クスノキビル 2.3階",
+    "placeName": "SINAE シナエ",
+    "lat": 34.6892907,
+    "lng": 135.5047059,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "628": {
+    "name": "なにわ麺次郎",
+    "address": "日本、〒530-8224 大阪府大阪市北区梅田１丁目１３−１３ 阪神梅田本店 B2",
+    "placeName": "なにわ麺次郎 然",
+    "lat": 34.701260999999995,
+    "lng": 135.4975746,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "629": {
+    "name": "創作料理 アランチャ",
+    "address": "日本、〒540-0013 大阪府大阪市中央区中央区内久宝寺町３丁目１ 内久宝寺町3ｰ１−１０ キャナルコート内久宝寺 1F",
+    "placeName": "オステリア アランチャ",
+    "lat": 34.679134999999995,
+    "lng": 135.515738,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "631": {
+    "name": "サントリー白州蒸溜所",
+    "address": "日本、〒530-0011 大阪府大阪市北区大深町３−１ グランフロント大阪北館 ナレッジキャピタル 2F",
+    "placeName": "サントリーウイスキーハウス",
+    "lat": 34.706459699999996,
+    "lng": 135.49417309999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "633": {
+    "name": "ぬる燗佐藤 大坂",
+    "address": "日本、〒530-0011 大阪府大阪市北区大深町４−２０ グランフロント大阪南館 ７Ｆ",
+    "placeName": "ぬる燗佐藤 大坂",
+    "lat": 34.7040851,
+    "lng": 135.4951759,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "634": {
+    "name": "餃子のさんくみ",
+    "address": "日本、〒553-0006 大阪府大阪市福島区吉野２丁目１３−８",
+    "placeName": "餃子 さんかく",
+    "lat": 34.6924889,
+    "lng": 135.4751815,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "642": {
+    "name": "風靡",
+    "address": "日本、〒530-0003 大阪府大阪市北区堂島１丁目３−４０",
+    "placeName": "ステーキハウス風靡",
+    "lat": 34.696509999999996,
+    "lng": 135.4985894,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "647": {
+    "name": "焼肉ごりちゃん",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町８−２１ 石本ビル B1",
+    "placeName": "黒毛和牛タンとハラミ焼肉ごりちゃん梅田本店",
+    "lat": 34.7037239,
+    "lng": 135.5032994,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "652": {
+    "name": "本家松浦酒造 ナルトタイの店 sake brewery shop",
+    "address": "日本、〒779-0303 徳島県鳴門市大麻町池谷柳の本１９−１９",
+    "placeName": "鳴門鯛",
+    "lat": 34.1587725,
+    "lng": 134.537694,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "653": {
+    "name": "西端手打 上戸うどん",
+    "address": "日本、〒769-1604 香川県観音寺市豊浜町箕浦９７４−１",
+    "placeName": "西端手打 上戸うどん",
+    "lat": 34.04800000000001,
+    "lng": 133.6189,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "654": {
+    "name": "谷川米殻店",
+    "address": "日本、〒766-0203 香川県仲多度郡まんのう町川東１４９０",
+    "placeName": "谷川米殻店",
+    "lat": 34.111362199999995,
+    "lng": 133.9763583,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "655": {
+    "name": "山越うどん",
+    "address": "日本、〒761-2207 香川県綾歌郡綾川町羽床上６０２−２",
+    "placeName": "山越うどん",
+    "lat": 34.2257801,
+    "lng": 133.92820949999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "659": {
+    "name": "麺屋 帆のるHonolu",
+    "address": "日本、〒556-0016 大阪府大阪市浪速区元町２丁目５−２７",
+    "placeName": "Halal Restaurant Honolu, Osaka Namba",
+    "lat": 34.6622801,
+    "lng": 135.49557769999998,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "660": {
+    "name": "HICARU COFFEE ROASTER Osaka",
+    "address": "日本、〒542-0064 大阪府大阪市中央区上汐１丁目１−２３",
+    "placeName": "HICARU COFFEE ROASTER",
+    "lat": 34.671589499999996,
+    "lng": 135.51837229999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "661": {
+    "name": "うなぎ 和友",
+    "address": "日本、〒530-0047 大阪府大阪市北区西天満２丁目７−１７ 寿ビル １Ｆ",
+    "placeName": "名代 宇奈とと 梅田店",
+    "lat": 34.696315,
+    "lng": 135.50156959999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "665": {
+    "name": "BENJAMIN STEAKHOUSE KYOTO",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田３丁目２−２ 5F",
+    "placeName": "ベンジャミンステーキハウス ＫＩＴＴＥ大阪 (BENJAMIN STEAK HOUSE KITTE OSAKA)",
+    "lat": 34.7006219,
+    "lng": 135.4941733,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "669": {
+    "name": "鮨 惣五郎",
+    "address": "日本、〒530-0002 大阪府大阪市北区曽根崎新地１丁目３−３２ 新地リバティービル 1Ｆ",
+    "placeName": "北新地 鮨 惣五郎(sushi sougoro)",
+    "lat": 34.6975177,
+    "lng": 135.496995,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "670": {
+    "name": "ミンモアハウス",
+    "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地１丁目１１−９ 京屋ビル",
+    "placeName": "ミンモアハウス",
+    "lat": 34.697945,
+    "lng": 135.498549,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "671": {
+    "name": "L’occas - bar à vin - ワインバー ロカス",
+    "address": "日本、〒530-0047 大阪府大阪市北区西天満４丁目１２−３ エスキュート西天満 2 5F",
+    "placeName": "L'occas bar à vin ワインバー ロカス 西天満",
+    "lat": 34.6968898,
+    "lng": 135.5026131,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "672": {
+    "name": "江戸前にぎり寿し 春駒 本店",
+    "address": "日本、〒530-0041 大阪府大阪市北区天神橋５丁目５−２",
+    "placeName": "春駒 本店",
+    "lat": 34.707733999999995,
+    "lng": 135.5116005,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "673": {
+    "name": "ニュールーブル",
+    "address": "日本、〒558-0031 大阪府大阪市住吉区沢之町２丁目８−１８ 眉山マンション",
+    "placeName": "ニュールーブル",
+    "lat": 34.6020641,
+    "lng": 135.4971193,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住吉区"
+  },
+  "674": {
+    "name": "いわむら Chez Deuxieme（イワムラ シェ ドゥジェーム）",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 駅前第2ビル B2",
+    "placeName": "いわむら Chez Deuxieme（イワムラ シェ ドゥジェーム）",
+    "lat": 34.6984789,
+    "lng": 135.4984131,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "676": {
+    "name": "コＮＯコＮＯコ",
+    "address": "日本、〒542-0076 大阪府大阪市中央区難波１丁目５−２１",
+    "placeName": "コノコノコ(konokonoko)",
+    "lat": 34.6676563,
+    "lng": 135.5019134,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "677": {
+    "name": "クレープス・ド・アンヌ",
+    "address": "日本、〒453-0015 愛知県名古屋市中村区椿町１０−４ サン・タウン名駅椿 本館 北館１階",
+    "placeName": "クレープス・ド・アンヌ～Crepes de Anne～",
+    "lat": 35.1689705,
+    "lng": 136.8786153,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "681": {
+    "name": "鮨実紀 Sushi Minoki",
+    "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地１丁目２−６ 新松リンデンビル 曽根崎新地１－２－６新松リンデンビル１階",
+    "placeName": "鮨 実紀",
+    "lat": 34.697134999999996,
+    "lng": 135.4981456,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "682": {
+    "name": "うを勢 総本店",
+    "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地１丁目６−２９",
+    "placeName": "寿し 魚瀬",
+    "lat": 34.697448,
+    "lng": 135.499424,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "684": {
+    "name": "釜山",
+    "address": "大阪 - 釜山",
+    "placeName": "大阪 - 釜山",
+    "lat": 34.0019008,
+    "lng": 132.7574667,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "685": {
+    "name": "どんたく堂山店",
+    "address": "日本、〒530-0027 大阪府大阪市北区堂山町１６−１２",
+    "placeName": "お好み焼 どんたく 堂山店",
+    "lat": 34.7041172,
+    "lng": 135.5027682,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "687": {
+    "name": "鮨仙酢 本店 大阪駅前",
+    "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目３−７",
+    "placeName": "鮨仙酢 本店 大阪駅前",
+    "lat": 34.705965,
+    "lng": 135.4974399,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "689": {
+    "name": "鉄板料理 Rakuda 安城店",
+    "address": "日本、〒446-0042 愛知県安城市大山町１丁目１０−９",
+    "placeName": "鉄板料理らくだ安城店",
+    "lat": 34.9486752,
+    "lng": 137.0851931,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "690": {
+    "name": "ゑんどう寿司 中央市場店",
+    "address": "日本、〒553-0005 大阪府大阪市福島区野田１丁目１−８６",
+    "placeName": "ゑんどう寿司 中央市場店",
+    "lat": 34.6842148,
+    "lng": 135.4795332,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "692": {
+    "name": "ベトコンラーメン 新京 中川店",
+    "address": "日本、〒454-0985 愛知県名古屋市中川区春田５丁目１２０",
+    "placeName": "ベトコンラーメン 新京 中川店",
+    "lat": 35.1405836,
+    "lng": 136.8119882,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "694": {
+    "name": "焼肉 安萬 安城本店",
+    "address": "日本、〒446-0056 愛知県安城市三河安城町１丁目４−５",
+    "placeName": "焼肉 安萬 安城本店",
+    "lat": 34.9667015,
+    "lng": 137.0640989,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "695": {
+    "name": "虎連坊 ヒルトンプラザウエスト店",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田２丁目２−２ ヒルトンプラザウエスト B2F",
+    "placeName": "虎連坊 ヒルトンプラザウエスト店",
+    "lat": 34.6998354,
+    "lng": 135.4952185,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "698": {
+    "name": "イタリア料理 casa bianca(カーサビアンカ)",
+    "address": "日本、〒538-0053 大阪府大阪市鶴見区鶴見３丁目５−３０",
+    "placeName": "trattoRia e Bar BiaNca ビアンカ",
+    "lat": 34.7015665,
+    "lng": 135.5610833,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "鶴見区"
+  },
+  "699": {
+    "name": "中華 味一 目黒",
+    "address": "日本、〒543-0025 大阪府大阪市天王寺区下味原町１−２０",
+    "placeName": "中華レストラン 味一",
+    "lat": 34.6658912,
+    "lng": 135.529854,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "700": {
+    "name": "寿司と天ぷら ニューツルマツ",
+    "address": "日本、〒542-0074 大阪府大阪市中央区千日前２丁目７−２２",
+    "placeName": "寿司と天ぷら ニューツルマツ",
+    "lat": 34.666328299999996,
+    "lng": 135.5044824,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "701": {
+    "name": "わらまさ",
+    "address": "日本、〒556-0011 大阪府大阪市浪速区難波中１丁目９−１０",
+    "placeName": "わらまさ",
+    "lat": 34.6641414,
+    "lng": 135.4982446,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "702": {
+    "name": "SAKE NERD (サケナード)",
+    "address": "日本、〒556-0021 大阪府大阪市浪速区幸町１丁目２−８ 3F",
+    "placeName": "SAKE NERD",
+    "lat": 34.6683093,
+    "lng": 135.4943901,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "703": {
+    "name": "カウンター焼肉うしすき",
+    "address": "日本、〒530-0002 大阪府大阪市北区曽根崎新地１丁目８−３ 遅ビル 3階",
+    "placeName": "カウンター焼肉うしすき",
+    "lat": 34.6973485,
+    "lng": 135.5003439,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "704": {
+    "name": "中国菜 OIL(オイル)",
+    "address": "日本、〒553-0003 大阪府大阪市福島区福島６丁目１９−１２",
+    "placeName": "中国菜オイル",
+    "lat": 34.701537,
+    "lng": 135.4890091,
+    "suggestedArea": "fukushima",
+    "matchedWard": "福島区"
+  },
+  "705": {
+    "name": "餃子工房 ユーミン",
+    "address": "日本、〒543-0012 大阪府大阪市天王寺区空堀町６−１",
+    "placeName": "ギョウザ工房 ラーメン『ユーミン』",
+    "lat": 34.674551199999996,
+    "lng": 135.52787170000002,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "707": {
+    "name": "中華そば ひふみ",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎新地１丁目６−２８",
+    "placeName": "中華そば ひふみ 北新地店",
+    "lat": 34.6975277,
+    "lng": 135.4992895,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "708": {
+    "name": "喫茶ルプラ｜Lupra's Roasting Factory & café",
+    "address": "日本、〒543-0028 大阪府大阪市天王寺区小橋町８−１５",
+    "placeName": "喫茶ルプラ｜Lupra's Roasting Factory & café",
+    "lat": 34.6672849,
+    "lng": 135.5248365,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "711": {
+    "name": "焼鳥エナミ",
+    "address": "日本、〒530-0047 大阪府大阪市北区西天満５丁目６−８",
+    "placeName": "エナミ",
+    "lat": 34.6989401,
+    "lng": 135.5077786,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "712": {
+    "name": "bistro & wine 苑（én)",
+    "address": "日本、〒606-8344 京都府京都市左京区岡崎円勝寺町５７−８",
+    "placeName": "﻿﻿bistro&wine 苑 én",
+    "lat": 35.0109092,
+    "lng": 135.781914,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "713": {
+    "name": "ひつまぶし 鰻伸",
+    "address": "日本、〒530-0011 大阪府大阪市北区大深町５−５４ グラングリーン大阪 南館 3F",
+    "placeName": "炭焼 うな富士 大阪梅田店",
+    "lat": 34.7024837,
+    "lng": 135.4922118,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "716": {
+    "name": "くろしを",
+    "address": "日本、〒551-0001 大阪府大阪市大正区三軒家西１丁目１７−２",
+    "placeName": "酒処 くろしを",
+    "lat": 34.6654303,
+    "lng": 135.4783045,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "大正区"
+  },
+  "717": {
+    "name": "桜もみじ",
+    "address": "日本、〒547-0033 大阪府大阪市平野区平野西５丁目９−２８ コーポ神田 1階",
+    "placeName": "桜もみじ",
+    "lat": 34.6194619,
+    "lng": 135.5482975,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "平野区"
+  },
+  "719": {
+    "name": "ずいき",
+    "address": "日本、〒530-0056 大阪府大阪市北区兎我野町１３−６",
+    "placeName": "スタンド酒場ずいき",
+    "lat": 34.7004057,
+    "lng": 135.50274679999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "721": {
+    "name": "かすうどん うのたけ",
+    "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目９−５ 2F 日宝三ッ寺会館",
+    "placeName": "かすうどん うのたけ",
+    "lat": 34.670552,
+    "lng": 135.4993024,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "724": {
+    "name": "にくさぶろう",
+    "address": "日本、〒540-0007 大阪府大阪市中央区馬場町３−４３",
+    "placeName": "浪華焼肉さぶろう -なノにわ-",
+    "lat": 34.6818288,
+    "lng": 135.5219759,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "725": {
+    "name": "焼肉ホルモン 万千",
+    "address": "日本、〒542-0082 大阪府大阪市中央区島之内２丁目１３−９ 右田ビル",
+    "placeName": "焼肉ホルモン 万千",
+    "lat": 34.6711866,
+    "lng": 135.5071523,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "726": {
+    "name": "グリル 末松",
+    "address": "日本、〒650-0001 兵庫県神戸市中央区加納町２丁目１−９",
+    "placeName": "グリル 末松",
+    "lat": 34.699100300000005,
+    "lng": 135.1935559,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "727": {
+    "name": "グリル小宝",
+    "address": "日本、〒606-8336 京都府京都市左京区岡崎北御所町４６",
+    "placeName": "グリル小宝",
+    "lat": 35.015848999999996,
+    "lng": 135.7847674,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "730": {
+    "name": "牛もつどて鍋 まつい亭",
+    "address": "日本、〒534-0024 大阪府大阪市都島区東野田町３丁目１３−６",
+    "placeName": "牛もつどて鍋 まつい亭",
+    "lat": 34.6987388,
+    "lng": 135.5355609,
+    "suggestedArea": "kyobashi",
+    "matchedWard": "都島区"
+  },
+  "731": {
+    "name": "バルコラメント",
+    "address": "日本、〒530-0013 大阪府大阪市北区茶屋町１４−７",
+    "placeName": "バルコラメント",
+    "lat": 34.707417,
+    "lng": 135.498688,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "733": {
+    "name": "饂飩とお酒 からほり きぬ川",
+    "address": "日本、〒540-0012 大阪府大阪市中央区谷町７丁目６−３５",
+    "placeName": "饂飩とお酒 からほり きぬ川",
+    "lat": 34.6734678,
+    "lng": 135.5152589,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "734": {
+    "name": "大阪うどん いなの路",
+    "address": "日本、〒542-0074 大阪府大阪市中央区千日前１丁目８−２",
+    "placeName": "大阪うどん いなの路",
+    "lat": 34.6678125,
+    "lng": 135.50421649999998,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "736": {
+    "name": "魚太郎 浜焼きバーベキュー",
+    "address": "日本、〒470-2414 愛知県知多郡美浜町豊丘原子32−１",
+    "placeName": "魚太郎 浜焼きバーベキュー",
+    "lat": 34.756228,
+    "lng": 136.92843159999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "738": {
+    "name": "豚足のかどや",
+    "address": "日本、〒556-0011 大阪府大阪市浪速区難波中１丁目４−１５ 南松竹マンション",
+    "placeName": "豚足のかどや",
+    "lat": 34.6653026,
+    "lng": 135.49852429999999,
+    "suggestedArea": "namba",
+    "matchedWard": "浪速区"
+  },
+  "739": {
+    "name": "焼肉ギャング",
+    "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１０−２１ 日宝曽根崎イースト １階",
+    "placeName": "和牛焼肉食べ放題 ヤキニクギャング 梅田店",
+    "lat": 34.700730899999996,
+    "lng": 135.5010546,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "740": {
+    "name": "Macauda",
+    "address": "日本、〒540-0028 大阪府大阪市中央区常盤町２丁目１−３ ハイネス常磐 101",
+    "placeName": "Macauda",
+    "lat": 34.6824414,
+    "lng": 135.5143061,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "741": {
+    "name": "と木と",
+    "address": "日本、〒542-0066 大阪府大阪市中央区瓦屋町１丁目２−１１ からほりかわらやえん101",
+    "placeName": "と木と(tokito)",
+    "lat": 34.6731249,
+    "lng": 135.5137406,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "743": {
+    "name": "縁 il legame",
+    "address": "日本、〒537-0002 大阪府大阪市東成区深江南３丁目１６−１",
+    "placeName": "縁 il le game イルレガーメ",
+    "lat": 34.6701172,
+    "lng": 135.5602765,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "745": {
+    "name": "鴨と醸し 鼓道",
+    "address": "日本、〒565-0851 大阪府吹田市千里山西４丁目３７−３ 1F",
+    "placeName": "鴨と醸し 鼓道 緑地公園店",
+    "lat": 34.7779747,
+    "lng": 135.4966187,
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "吹田市"
+  },
+  "746": {
+    "name": "テキ亭",
+    "address": "日本、〒537-0024 大阪府大阪市東成区東小橋１丁目１−１１",
+    "placeName": "お好み焼き 鉄板焼き テキ亭 / Tekitei - Okonomiyaki & Teppanyaki",
+    "lat": 34.6738126,
+    "lng": 135.53354679999998,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "747": {
+    "name": "日々是好日",
+    "address": "日本、〒540-0039 大阪府大阪市中央区東高麗橋５−３ 高麗橋双葉ビル 2F",
+    "placeName": "日日是好日",
+    "lat": 34.689099899999995,
+    "lng": 135.5100522,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "748": {
+    "name": "滋賀県醒井養鱒場",
+    "address": "日本、〒521-0033 滋賀県米原市上丹生",
+    "placeName": "滋賀県醒井養鱒場",
+    "lat": 35.3000159,
+    "lng": 136.33921089999998,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "749": {
+    "name": "マガザン ド エクラ",
+    "address": "日本、〒569-0082 大阪府高槻市明野町１５−２８",
+    "placeName": "マガザン ド エクラ",
+    "lat": 34.8484341,
+    "lng": 135.63420639999998,
+    "suggestedArea": "hokusetsu",
+    "matchedWard": "高槻市"
+  },
+  "750": {
+    "name": "いしもん",
+    "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目３−１ B2F",
+    "placeName": "酒菜や いしもん",
+    "lat": 34.6985673,
+    "lng": 135.4966997,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "751": {
+    "name": "大滝茶屋",
+    "address": "日本、〒639-3543 奈良県吉野郡川上村大滝４２０−１",
+    "placeName": "大滝茶屋",
+    "lat": 34.355780599999996,
+    "lng": 135.9242562,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "753": {
+    "name": "中華そば カドヤ食堂 総本店",
+    "address": "日本、〒550-0013 大阪府大阪市西区新町４丁目１６−１３",
+    "placeName": "中華そば カドヤ食堂 総本店",
+    "lat": 34.676095100000005,
+    "lng": 135.4838409,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "西区"
+  },
+  "757": {
+    "name": "燻製スギヤ商店",
+    "address": "日本、〒542-0076 大阪府大阪市中央区難波１丁目７−１８ 4F",
+    "placeName": "燻製スギヤ商店",
+    "lat": 34.668071499999996,
+    "lng": 135.5011282,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "758": {
+    "name": "天ぷらとナチュールMETA",
+    "address": "日本、〒542-0075 大阪府大阪市中央区難波千日前１３−７ 2階",
+    "placeName": "天ぷらとナチュールMETA",
+    "lat": 34.6641581,
+    "lng": 135.5028958,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "759": {
+    "name": "キッチンpemaru",
+    "address": "日本、〒546-0033 大阪府大阪市東住吉区南田辺１丁目４−４１",
+    "placeName": "キッチン マル",
+    "lat": 34.6222759,
+    "lng": 135.524017,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "住吉区"
+  },
+  "760": {
+    "name": "お食事処 すゑひろ",
+    "address": "日本、〒543-0055 大阪府大阪市天王寺区悲田院町９−１８",
+    "placeName": "すゑひろ",
+    "lat": 34.647929,
+    "lng": 135.514658,
+    "suggestedArea": "abeno",
+    "matchedWard": "天王寺区"
+  },
+  "764": {
+    "name": "手打蕎麦 守破離",
+    "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地２丁目１−９ 1階",
+    "placeName": "手打蕎麦 守破離 堂島店",
+    "lat": 34.697531999999995,
+    "lng": 135.49466619999998,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "765": {
+    "name": "創作酒房そうそう",
+    "address": "日本、〒530-0023 大阪府大阪市北区黒崎町８−３ １F",
+    "placeName": "創作酒房 そうそう",
+    "lat": 34.7076012,
+    "lng": 135.5087236,
+    "suggestedArea": "umeda",
+    "matchedWard": "北区"
+  },
+  "770": {
+    "name": "やすきよ",
+    "address": "日本、〒537-0024 大阪府大阪市東成区東小橋１丁目２−１９",
+    "placeName": "居酒屋 やすきよ",
+    "lat": 34.6738143,
+    "lng": 135.5340732,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "771": {
+    "name": "大衆酒場 タムヤ",
+    "address": "日本、〒537-0024 大阪府大阪市東成区東小橋１丁目１８−３２",
+    "placeName": "タムヤ",
+    "lat": 34.6716978,
+    "lng": 135.53294599999998,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "774": {
+    "name": "ビッグジョー",
+    "address": "日本、〒583-0014 大阪府藤井寺市野中２丁目６６",
+    "placeName": "ビッグジョー 藤井寺店",
+    "lat": 34.5611057,
+    "lng": 135.605236,
+    "suggestedArea": "senshu",
+    "matchedWard": "藤井寺市"
+  },
+  "776": {
+    "name": "膳處漢ぽっちり",
+    "address": "日本、〒604-8221 京都府京都市中京区天神山町２８３−２",
+    "placeName": "膳處漢 ぽっちり",
+    "lat": 35.0050027,
+    "lng": 135.7574227,
+    "suggestedArea": null,
+    "matchedWard": null
+  },
+  "778": {
+    "name": "島之内フジマル醸造所",
+    "address": "日本、〒542-0082 大阪府大阪市中央区島之内１丁目１−１４ 三和ビル 1階",
+    "placeName": "島之内フジマル醸造所",
+    "lat": 34.6746157,
+    "lng": 135.5106432,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "779": {
+    "name": "焼鳥 サイヒ",
+    "address": "日本、〒542-0081 大阪府大阪市中央区南船場４丁目１０−２２",
+    "placeName": "焼鳥 サイヒ",
+    "lat": 34.6773942,
+    "lng": 135.4984494,
+    "suggestedArea": "shinsaibashi",
+    "matchedWard": "中央区"
+  },
+  "781": {
+    "name": "鉄板焼ホルモン やまき",
+    "address": "日本、〒557-0004 大阪府大阪市西成区萩之茶屋２丁目２−７",
+    "placeName": "鉄板焼ホルモン やまき",
+    "lat": 34.6453449,
+    "lng": 135.5022118,
+    "suggestedArea": "shinsekai",
+    "matchedWard": "西成区"
+  },
+  "784": {
+    "name": "居魚家 ぎんた",
+    "address": "日本、〒537-0022 大阪府大阪市東成区中本５丁目２２−１２",
+    "placeName": "居魚家 ぎんた",
+    "lat": 34.6777017,
+    "lng": 135.54390039999998,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "785": {
+    "name": "ふく玄",
+    "address": "日本、〒537-0021 大阪府大阪市東成区東中本１丁目１５−３５ 中原ハイツ",
+    "placeName": "ふく玄",
+    "lat": 34.6807411,
+    "lng": 135.54619259999998,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "786": {
+    "name": "串揚げ料理 みや田",
+    "address": "日本、〒537-0021 大阪府大阪市東成区東中本２丁目２−１０ ノバカネイチ緑橋 １０４号",
+    "placeName": "串揚げ料理 みや田",
+    "lat": 34.6803221,
+    "lng": 135.54629789999998,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "787": {
+    "name": "銀座鮨 緑橋店",
+    "address": "日本、〒537-0021 大阪府大阪市東成区東中本２丁目１−２１ ナカムラビル",
+    "placeName": "銀座鮨 緑橋店",
+    "lat": 34.6796076,
+    "lng": 135.54458,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "788": {
+    "name": "炭火焼酒楼 おいしかよ。",
+    "address": "日本、〒545-0014 大阪府大阪市阿倍野区西田辺町２丁目８−１０",
+    "placeName": "炭火焼酒楼 おいしかよ。",
+    "lat": 34.6176883,
+    "lng": 135.5144297,
+    "suggestedArea": "abeno",
+    "matchedWard": "阿倍野区"
+  },
+  "789": {
+    "name": "パティスリールヴィジテ",
+    "address": "日本、〒537-0021 大阪府大阪市東成区東中本３丁目１６−１５ サニーハイツ緑橋 108",
+    "placeName": "パティスリールヴィジテ",
+    "lat": 34.6759686,
+    "lng": 135.5442678,
+    "suggestedArea": "tsuruhashi",
+    "matchedWard": "東成区"
+  },
+  "790": {
+    "name": "イタリアン・バール・イゾラ",
+    "address": "日本、〒536-0004 大阪府大阪市城東区今福西１丁目５−２",
+    "placeName": "バールISOLA",
+    "lat": 34.6988749,
+    "lng": 135.54651149999998,
+    "suggestedArea": "osakacity-other",
+    "matchedWard": "城東区"
+  }
+}
