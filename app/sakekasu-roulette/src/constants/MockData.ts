@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-05-28T06:48:04.726Z';
+export const MOCK_DATA_UPDATED_AT = '2026-05-28T06:51:13.920Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
@@ -63,7 +63,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%A5%E3%81%86",
     "comment": "いづう 4.2(1,246) 高級 · 寿司",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -76,7 +76,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%A3%9F%E5%A0%82%20Necco",
     "comment": "イタリア食堂 Necco 4.2(101) お手頃 · イタリア料理",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -206,7 +206,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8A%98%E9%B6%B4%E4%BC%9A%E9%A4%A8",
     "comment": "折鶴会館 4.3(35) 商業地",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -414,7 +414,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.2,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=GODIVA%20Bakery%20%E3%82%B4%E3%83%87%E3%82%A3%E3%83%91%E3%83%B3%20%E4%BA%AC%E9%83%BD%E5%9B%9B%E6%9D%A1%E5%BA%97",
     "comment": "GODIVA Bakery ゴディパン 京都四条店 3.2(61) ￥1,000～2,000 · ベーカリー",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": false
@@ -427,7 +427,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AC%E3%82%B8%E3%83%A3%E3%83%AB%E3%83%87%E3%82%A3%E3%83%BC%E3%83%8E",
     "comment": "フィオーレジャルディーノ 4.1(90) イタリア料理",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -752,7 +752,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9E%E8%BB%A2%E5%AF%BF%E5%8F%B8%20%E5%8A%9B%E4%B8%B8%20JR%E5%A7%AB%E8%B7%AF%E9%A7%85%E5%BA%97",
     "comment": "回転寿司 力丸 JR姫路駅店 3.8(671) ￥2,000～3,000 · 寿司",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -769,7 +769,7 @@ export const MOCK_SHOPS: Shop[] = [
     "lunchBudgetMax": 4999,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A7%AB%E8%B7%AF%E6%A8%AA%E4%B8%81%E9%85%92%E5%A0%B4%20%E5%AF%BA%E5%B0%BE%E5%95%86%E5%BA%97",
     "comment": "姫路横丁酒場 寺尾商店 3.8(17) ￥3,000～4,000 · 居酒屋",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -782,7 +782,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E5%A0%82%E3%81%82%E3%82%80%E3%81%99",
     "comment": "食堂あむす 4.4(19) モダン居酒屋レストラン",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -795,7 +795,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8B%B1%E6%B4%8B%E8%BB%92%20%E5%A7%AB%E8%B7%AF%E9%A7%85%E5%89%8D%E5%BA%97",
     "comment": "英洋軒 姫路駅前店 4.1(560) ￥1,000～2,000 · 中華料理",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -808,7 +808,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.9,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E9%85%92%E5%A0%B4%20%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%A0%E3%82%B9%E5%90%89%E7%94%B0%E5%B1%8B%20%E5%A7%AB%E8%B7%AF%E9%A7%85%E5%89%8D%E5%BA%97",
     "comment": "魚酒場 ジェームス吉田屋 姫路駅前店 3.9(75) ￥4,000～5,000 · 居酒屋",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -821,7 +821,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%E3%81%8D%20And's%20(%20%E3%81%82%E3%82%93%E3%81%9A%20)",
     "comment": "炭火焼き And's ( あんず ) 4.0(4) ￥2,000～3,000 · 鶏料理",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -849,7 +849,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E5%90%8D%E4%BB%A3%20%E5%90%89%E5%A1%9A%E3%81%86%E3%81%AA%E3%81%8E%E5%B1%8B",
     "comment": "博多名代 吉塚うなぎ屋 4.4(8,947) 高級 · うなぎ料理店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -940,7 +940,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%B5%E3%81%8B%E3%81%91%E3%81%94%E9%A3%AF%E5%B0%82%E9%96%80%E5%BA%97%20%E4%BD%86%E7%86%8A",
     "comment": "卵かけご飯専門店 但熊 4.1(2,005) ￥1～1,000 · 定食屋",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -1018,7 +1018,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E5%AD%90%E7%84%BC%20%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E6%B3%89%E5%B1%8B",
     "comment": "玉子焼 中華そば 泉屋 4.3(489) ￥1,000～2,000 · 定食屋",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -1271,7 +1271,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E3%82%88%E3%81%8B%E3%81%9F%E3%82%93%20(%E9%81%93%E3%81%AE%E9%A7%85%20%E3%82%88%E3%81%8B%E3%82%8F)",
     "comment": "吉川温泉 よかたん (道の駅 よかわ) 4.0(1,958) 日帰り温泉",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -1401,7 +1401,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%B7%9D%E5%86%85%E6%B8%A9%E6%B3%89%E3%81%8B%E3%81%98%E3%81%8B%E8%8D%98",
     "comment": "湯川内温泉かじか荘 4.6(41) 温泉",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -1544,7 +1544,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.1,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AA%E3%81%94%E3%82%84%E3%81%8B%E4%BA%AD%20%E5%AE%88%E5%B1%B1%E3%81%88%E3%82%93%E3%81%BE%E5%A0%82%E5%BA%97",
     "comment": "なごやか亭 守山えんま堂店 4.1(816) ￥3,000～4,000 · 寿司",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -1791,7 +1791,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%BF%91%E6%B1%9F%E7%89%9B%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%81%A8%E3%81%8C%E3%81%B6%E9%A3%B2%E3%81%BF%E3%83%AF%E3%82%A4%E3%83%B3%20%E3%83%8B%E3%82%AF%E3%83%90%E3%83%AB%E3%83%A2%E3%83%80%E3%83%B3%E3%83%9F%E3%83%BC%E3%83%AB%20%E5%A4%A7%E6%B4%A5%E5%BA%97",
     "comment": "近江牛ステーキとがぶ飲みワイン ニクバルモダンミール 大津店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -1804,7 +1804,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E6%89%93%E8%95%8E%E9%BA%A6%E9%B6%B4%E3%90%82",
     "comment": "手打蕎麦鶴㐂",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -1843,7 +1843,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E8%8C%B8%E5%B1%8B%20%E9%AD%9A%E6%9D%BE%20%E6%9C%AC%E5%BA%97",
     "comment": "松茸屋 魚松 本店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -1947,7 +1947,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E9%A3%9F%20%E3%81%8A%E3%81%8C%E3%81%9F",
     "comment": "洋食 おがた",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -2064,7 +2064,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E6%B9%AF%E6%B8%A9%E6%B3%89%20%E4%BB%99%E4%BA%BA%E9%A2%A8%E5%91%82%EF%BC%88%E5%86%AC%E5%AD%A3%E3%81%AE%E3%81%BF%EF%BC%89",
     "comment": "川湯温泉 仙人風呂（冬季のみ）",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2155,7 +2155,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E5%89%B1ROCK%20%E4%BA%BA%E7%94%9F%E9%A4%83%E5%AD%90",
     "comment": "八剱ROCK 人生餃子",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -2168,7 +2168,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A6%E3%82%A8%E3%82%B9%E3%83%88%E3%81%86%E3%81%A9%E3%82%93%20%E7%A5%97%E5%9C%92%E5%BA%97",
     "comment": "ウエストうどん 祗園店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -2181,7 +2181,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%A7%E3%81%AE%E3%81%86%E3%81%A9%E3%82%93%20%E5%8D%9A%E5%A4%9A%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E5%BA%97",
     "comment": "牧のうどん 博多バスターミナル店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -2194,7 +2194,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%81%86%E3%81%A9%E3%82%93%E9%85%92%E5%A0%B4%20%E5%92%8C%E5%85%AB%E3%82%8F%E3%81%A3%E3%81%B1%E3%81%A1%20%E5%8D%9A%E5%A4%9A%E9%A7%85%E3%81%8F%E3%81%86%E3%81%A6%E3%82%93%E5%BA%97",
     "comment": "博多うどん酒場 和八わっぱち 博多駅くうてん店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -2233,7 +2233,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E7%82%8A%E3%81%8D%E9%A4%83%E5%AD%90%20%E6%B1%A0%E3%81%BD%E3%82%93",
     "comment": "博多炊き餃子 池ぽん",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -2246,7 +2246,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%20%E9%B4%A8%E3%81%99%E3%81%8D%20%E9%B4%A8%E3%81%97%E3%82%83%E3%81%B6%20%E3%81%AA%E3%81%8B%E3%82%82%E3%81%90%E3%82%8D",
     "comment": "博多 鴨すき 鴨しゃぶ なかもぐろ",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2259,7 +2259,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E3%81%AE%E6%98%8E%E5%A4%AA%E5%AD%90%E3%81%B5%E3%81%8F%E3%82%84%20%E5%8D%9A%E5%A4%9A%E3%83%87%E3%82%A4%E3%83%88%E3%82%B9%E5%A3%B2%E5%BA%97",
     "comment": "味の明太子ふくや 博多デイトス売店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2571,7 +2571,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E9%B0%BB%E6%96%99%E7%90%86%20%E3%81%86%E3%81%AA%E3%81%8E%E9%8C%A6%20%E5%B0%BC%E5%B4%8E%E6%AD%A6%E5%BA%AB%E4%B9%8B%E8%8D%98%E5%BA%97",
     "comment": "大衆鰻料理 うなぎ錦 尼崎武庫之荘店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2832,7 +2832,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ntown%20-Onigiri%20shop-",
     "comment": "Ntown -Onigiri shop- 4.6(10) ￥1,000～2,000 · レストラン",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2923,7 +2923,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E7%A9%BA%E6%B5%B7%E6%B8%A9%E6%B3%89",
     "comment": "山空海温泉",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -2936,7 +2936,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%81%B2%E3%81%A0%E3%81%BE%E3%82%8A%20%E9%81%93%E3%81%AE%E9%A7%85%20%E8%83%BD%E5%8B%A2%EF%BC%88%E3%81%8F%E3%82%8A%E3%81%AE%E9%83%B7%EF%BC%89",
     "comment": "レストランひだまり 道の駅 能勢（くりの郷）",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -3209,7 +3209,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%92%E3%81%AB%E3%82%8F%20%E6%B2%B3%E5%8E%9F%E7%94%BA%E5%BA%97",
     "comment": "をにわ 河原町店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -3222,7 +3222,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%A1%E8%9B%8E%E5%87%A6%20%E6%A1%9D%E6%94%BF%20%E5%AE%A4%E6%B4%A5%E6%9C%AC%E5%BA%97",
     "comment": "牡蛎処 桝政 室津本店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -3235,7 +3235,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%80%AC%E8%B6%8A%E6%B5%B7%E7%94%A3",
     "comment": "瀬越海産",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -3300,7 +3300,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grill%20Cafe%20Excellent",
     "comment": "Grill Cafe Excellent",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -3586,7 +3586,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=209%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89",
     "comment": "209スタンド",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -3911,7 +3911,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%BB%E8%A3%BD%E5%B7%A5%E6%88%BF%20%E3%83%9B%E3%82%A4%E3%82%B3%E3%83%83%E3%82%B1%E3%83%B3",
     "comment": "燻製工房 ホイコッケン",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4041,7 +4041,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E7%94%B0%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%AF%BF%E3%83%8E%E6%B9%AF",
     "comment": "三田天然温泉 寿ノ湯 4.0(1,653) 日帰り温泉",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4262,7 +4262,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EF%BC%98Seas%20Sauna%20HIRA",
     "comment": "８Seas Sauna HIRA",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4288,7 +4288,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=y%2FOU%20donut%EF%BC%88%E3%83%A6%E3%83%BC%E3%83%89%E3%83%BC%E3%83%8A%E3%83%83%E3%83%84%EF%BC%89",
     "comment": "y/OU donut（ユードーナッツ）",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4340,7 +4340,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E3%81%9F%E3%81%BE%E5%AE%B6%20%E5%A4%9A%E6%91%A9%E6%9C%AC%E5%BA%97",
     "comment": "らーめん たま家 多摩本店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -4444,7 +4444,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=casa%20di%20kudos",
     "comment": "casa di kudos",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4613,7 +4613,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E8%B6%8A%E8%B0%B7SUSHI%20WORKS",
     "comment": "南越谷SUSHI WORKS",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4639,7 +4639,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AB%E3%82%93%E3%81%AB%E3%81%8F%E3%83%90%E3%83%AB%20%E3%82%B6%E3%83%BB%E3%82%AC%E3%83%BC%E3%83%AA%E3%83%83%E3%82%AF%E4%B8%AD%E9%87%8E",
     "comment": "にんにくバル ザ・ガーリック中野",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4730,7 +4730,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=TACOS%203HERMANOS%20HARAJUKU",
     "comment": "TACOS 3HERMANOS HARAJUKU",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4847,7 +4847,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8C%89%E7%94%B0%E9%A4%83%E5%AD%90%20%E4%BB%A3%E3%80%85%E6%9C%A8%E4%B8%8A%E5%8E%9F%E5%BA%97",
     "comment": "按田餃子 代々木上原店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -4873,7 +4873,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%9D%E9%AE%AE%E6%B5%9C%E7%84%BC%E3%81%8D%E3%83%90%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%20%E3%81%82%E3%81%BF%E6%B5%9C%E9%A3%9F%E5%A0%82",
     "comment": "貝鮮浜焼きバイキング あみ浜食堂",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -4899,7 +4899,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%B9%B8%E7%94%BAONO",
     "comment": "御幸町ONO",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -4938,7 +4938,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E8%8F%9C%E9%85%92%E5%A0%B4%E3%81%82%E3%81%97%E3%81%8A%E3%81%A8",
     "comment": "野菜酒場あしおと",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5003,7 +5003,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%82%A2%E3%83%96%E3%83%A9%E3%83%8E%E7%A5%9E%20%E4%BC%8F%E8%A6%8B%E5%89%9B%E5%8A%9B",
     "comment": "セアブラノ神 伏見剛力",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5029,7 +5029,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%AE%AE%E5%B7%A5%E6%88%BF%20%E3%81%AF%E3%81%97%E3%81%A0%E3%81%A6%E7%89%A9%E7%94%A3%20%E6%9D%BE%E8%91%89%E8%9F%B9%E7%9B%B4%E5%A3%B2%E3%83%BB%E3%81%8B%E3%81%AB%E9%A3%AF%E3%83%BB%E3%81%8B%E3%81%AB%E5%AF%BF%E5%8F%B8%E3%83%BB%E7%84%BC%E9%AF%96%E5%AF%BF%E5%8F%B8",
     "comment": "海鮮工房 はしだて物産 松葉蟹直売・かに飯・かに寿司・焼鯖寿司",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -5081,7 +5081,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AB%E3%81%BB%E3%82%93%E3%81%97%E3%82%85%E5%B1%8B%E3%81%97%E3%82%85%E3%81%86%E3%82%8D%E3%81%8F",
     "comment": "にほんしゅ屋しゅうろく",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5159,7 +5159,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%89%E7%AB%AF%E7%84%BC%E3%81%8D%20%E4%BA%80%E6%B8%85",
     "comment": "炉端焼き 亀清",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5328,7 +5328,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%99%E7%90%86%E3%81%8C%E4%B8%8A%E6%89%8B%3F%E3%81%AA%E5%AB%81%E3%81%AE%E5%BA%97",
     "comment": "料理が上手?な嫁の店 4.5(10) ￥1,000～2,000 · 居酒屋",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5341,7 +5341,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%20%E8%8F%93%E3%82%8B%E8%8C%B6cafe",
     "comment": "京 菓る茶cafe 4.6(387) ￥1,000～2,000 · カフェ・喫茶",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5471,7 +5471,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.6,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AF%94%E8%89%AF%E5%B1%B1%E8%8D%98",
     "comment": "比良山荘 4.6(384) 贅沢 · 会席・懐石料理店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5562,7 +5562,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%8A%E3%81%8A%E6%B5%81%E3%82%89%E3%83%BC%E3%82%81%E3%82%93",
     "comment": "まりお流らーめん",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -5588,7 +5588,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BF%E3%81%A1%E3%81%8F%E3%81%95%E8%83%BD%E5%8B%A2",
     "comment": "みちくさ能勢",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5952,7 +5952,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%97%A9%E5%B7%9D%E3%83%9E%E3%82%B9%E9%87%A3%E3%82%8A%E5%A0%B4",
     "comment": "千早川マス釣り場",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -5978,7 +5978,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E7%B1%A0%E5%B1%8B",
     "comment": "魚籠屋",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -6095,7 +6095,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%84%E3%82%80%E3%81%AA%E3%81%97%E6%9D%BE%E6%BF%A4",
     "comment": "やむなし松濤",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -6108,7 +6108,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Guzman%20y%20Gomez%20-%20Shibuya",
     "comment": "Guzman y Gomez - Shibuya",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -6147,7 +6147,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%8A%E6%B1%A0%E9%A3%AF%E5%BA%97",
     "comment": "今池飯店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -6264,7 +6264,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E8%8F%8A%E6%B0%B4%20%E5%B1%8B%E4%B8%8A%E3%83%93%E3%82%A2%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3",
     "comment": "レストラン菊水 屋上ビアガーデン",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -6277,7 +6277,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E5%A3%AB%E5%96%9C%E5%95%86%E5%BA%97%20%E6%96%B0%E5%AE%BF%E7%B7%8F%E6%9C%AC%E5%BA%97",
     "comment": "富士喜商店 新宿総本店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -6563,7 +6563,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%9E%E9%B6%B4%E6%B9%BE%E3%81%8B%E3%81%8D%E5%B0%8F%E5%B1%8B%20%E7%BE%8E%E5%91%B3%E6%98%9F",
     "comment": "舞鶴湾かき小屋 美味星",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -6602,7 +6602,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E5%91%B3%E6%A5%BD%E5%9C%92(%E3%81%BF%E3%82%89%E3%81%8F%E3%81%88%E3%82%93)",
     "comment": "焼肉 味楽園(みらくえん)",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -6641,7 +6641,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B6%E3%81%9F%E3%81%AE%E3%81%BB%E3%81%97",
     "comment": "ぶたのほし",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -6667,7 +6667,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E5%8C%A0%20%E6%9F%B3",
     "comment": "麺匠 柳",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -6784,7 +6784,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E5%86%86%E5%AF%BA%E8%82%89%E5%90%88%E6%88%A6",
     "comment": "高円寺肉合戦",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -6823,7 +6823,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E8%BB%92%E8%8C%B6%E5%B1%8B%E4%B8%80%E4%B8%81%E7%9B%AE%E9%A3%9F%E5%A0%82",
     "comment": "三軒茶屋一丁目食堂",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -6979,7 +6979,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Panel%20cafe%E4%BA%AC%E9%83%BD",
     "comment": "Panel cafe京都",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": false,
     "hasDinner": true
@@ -7031,7 +7031,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%B1%9A%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E4%B8%89%E6%A2%9D",
     "comment": "焼豚ラーメン三條",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-03-31",
     "hasLunch": true,
     "hasDinner": true
@@ -7135,7 +7135,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%BB%E9%AE%AE%E9%AE%A8%20%E5%96%9C%E5%8D%81%E9%83%8E",
     "comment": "廻鮮鮨 喜十郎 4.0(785) ￥1,000～2,000 · 寿司",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -7187,7 +7187,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 3.8,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%92%E3%83%9D%E3%83%9D%E3%83%91%E3%83%91",
     "comment": "ヒポポパパ 3.8(520) ￥1,000～2,000 · カフェ・喫茶",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -7239,7 +7239,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.5,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%A8%E9%85%92%E6%82%A0%E4%B9%85%20%E5%90%8D%E9%A7%85%E6%9F%B3%E6%A9%8B%E5%BA%97",
     "comment": "鮨と酒悠久 名駅柳橋店 4.5(57) ￥1,000～6,000 · 寿司",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -7395,7 +7395,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=egg%20cafe%20KURAGARI",
     "comment": "egg cafe KURAGARI",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -7473,7 +7473,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 4.3,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%82%E3%81%A4%E7%85%AE%E6%9C%AC%E8%88%97%20%E3%81%BE%E3%82%8B%E3%81%95%E3%82%93%E9%A3%9F%E5%A0%82%20%E6%B0%B4%E6%88%B8%E6%9C%AC%E5%BA%97",
     "comment": "もつ煮本舗 まるさん食堂 水戸本店 4.3(416) ￥1～1,000 · 定食屋",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -7512,7 +7512,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B9%E6%B3%A2%E7%AF%A0%E5%B1%B1%E5%9B%B2%E7%82%89%E8%A3%8F%E6%96%99%E7%90%86%20%E3%81%84%E3%82%8F%E3%82%84",
     "comment": "丹波篠山囲炉裏料理 いわや",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -7577,7 +7577,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E3%81%B7%E3%82%89%20%E4%B8%89%E5%AE%9A%EF%BC%88%E3%81%95%E3%82%93%E3%81%95%E3%81%A0%EF%BC%89%E6%B5%85%E8%8D%89%E9%9B%B7%E9%96%80",
     "comment": "天ぷら 三定（さんさだ）浅草雷門 3.5(1,269) ￥2,000～3,000 · 天ぷら",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -8149,7 +8149,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jean-Georges%20at%20The%20Shinmonzen",
     "comment": "Jean-Georges at The Shinmonzen",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -8487,7 +8487,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AC%E5%AE%B6%E6%9D%BE%E6%B5%A6%E9%85%92%E9%80%A0%20%E3%83%8A%E3%83%AB%E3%83%88%E3%82%BF%E3%82%A4%E3%81%AE%E5%BA%97%20sake%20brewery%20shop",
     "comment": "本家松浦酒造 ナルトタイの店 sake brewery shop",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -8500,7 +8500,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E7%AB%AF%E6%89%8B%E6%89%93%20%E4%B8%8A%E6%88%B8%E3%81%86%E3%81%A9%E3%82%93",
     "comment": "西端手打 上戸うどん",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -8513,7 +8513,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B0%B7%E5%B7%9D%E7%B1%B3%E6%AE%BB%E5%BA%97",
     "comment": "谷川米殻店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -8526,7 +8526,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E8%B6%8A%E3%81%86%E3%81%A9%E3%82%93",
     "comment": "山越うどん",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -8812,7 +8812,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%97%E3%82%B9%E3%83%BB%E3%83%89%E3%83%BB%E3%82%A2%E3%83%B3%E3%83%8C",
     "comment": "クレープス・ド・アンヌ",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": false
@@ -8903,7 +8903,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%9C%E5%B1%B1",
     "comment": "釜山",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -8968,7 +8968,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%89%84%E6%9D%BF%E6%96%99%E7%90%86%20Rakuda%20%E5%AE%89%E5%9F%8E%E5%BA%97",
     "comment": "鉄板料理 Rakuda 安城店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -9007,7 +9007,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%99%E3%83%88%E3%82%B3%E3%83%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E6%96%B0%E4%BA%AC%20%E4%B8%AD%E5%B7%9D%E5%BA%97",
     "comment": "ベトコンラーメン 新京 中川店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -9033,7 +9033,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E5%AE%89%E8%90%AC%20%E5%AE%89%E5%9F%8E%E6%9C%AC%E5%BA%97",
     "comment": "焼肉 安萬 安城本店",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": true,
     "hasDinner": true
@@ -9267,7 +9267,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=bistro%20%26%20wine%20%E8%8B%91%EF%BC%88%C3%A9n)",
     "comment": "bistro & wine 苑（én)",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -9462,7 +9462,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%AA%E3%83%AB%E5%B0%8F%E5%AE%9D",
     "comment": "グリル小宝",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -9579,7 +9579,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E5%A4%AA%E9%83%8E%20%E6%B5%9C%E7%84%BC%E3%81%8D%E3%83%90%E3%83%BC%E3%83%99%E3%82%AD%E3%83%A5%E3%83%BC",
     "comment": "魚太郎 浜焼きバーベキュー",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -9735,7 +9735,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BB%8B%E8%B3%80%E7%9C%8C%E9%86%92%E4%BA%95%E9%A4%8A%E9%B1%92%E5%A0%B4",
     "comment": "滋賀県醒井養鱒場",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -9774,7 +9774,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BB%9D%E8%8C%B6%E5%B1%8B",
     "comment": "大滝茶屋",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
@@ -10099,7 +10099,7 @@ export const MOCK_SHOPS: Shop[] = [
     "rating": 0,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%86%B3%E8%99%95%E6%BC%A2%E3%81%BD%E3%81%A3%E3%81%A1%E3%82%8A",
     "comment": "膳處漢ぽっちり",
-    "isActive": true,
+    "isActive": false,
     "createdAt": "2026-05-07",
     "hasLunch": false,
     "hasDinner": true
