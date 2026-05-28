@@ -1,0 +1,58 @@
+name: Run Node.js Script Manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      script_path:
+        description: '実行するスクリプトのパス（例: app/sakekasu-roulette/scripts/fix_hasDinner.js）'
+        required: true
+        type: string
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # プロジェクトに合わせたバージョン
+          cache: 'npm'
+          # npm install を app/sakekasu-roulette 等で行う場合を考慮
+          cache-dependency-path: '**/package-lock.json'
+
+      - name: Determine Project Directory and Install Dependencies
+        run: |
+          # スクリプトのパスからディレクトリを推定してnpm installを実行
+          SCRIPT_PATH="${{ github.event.inputs.script_path }}"
+          
+          if [[ $SCRIPT_PATH == app/sakekasu-roulette/* ]]; then
+            cd app/sakekasu-roulette
+            npm ci || npm install
+            cd ../../
+          else
+            npm ci || npm install
+          fi
+
+      - name: Execute Script
+        run: |
+          echo "Running script: ${{ github.event.inputs.script_path }}"
+          node "${{ github.event.inputs.script_path }}"
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add .
+            git commit -m "Auto-update data by ${{ github.event.inputs.script_path }} [skip ci]"
+            git push
+            echo "✅ Changes committed and pushed successfully."
+          else
+            echo "ℹ️ No changes to commit."
+          fi

@@ -1,7 +1,7 @@
 // [目的] 開発用のモック店舗データ（将来的にFirestoreに移行）
 import { Shop } from './Types';
 
-export const MOCK_DATA_UPDATED_AT = '2026-05-08T01:26:01.769Z';
+export const MOCK_DATA_UPDATED_AT = '2026-05-28T06:48:04.726Z';
 export const MOCK_SHOPS: Shop[] = [
   {
     "id": "1",
