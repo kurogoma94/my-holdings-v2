@@ -8827,7 +8827,7 @@ export const MOCK_SHOPS: Shop[] = [
     "comment": "さぁみな！ 二郎系ラーメン 東花園",
     "isActive": true,
     "createdAt": "2026-05-07",
-    "hasLunch": false,
+    "hasLunch": true,
     "hasDinner": true
   },
   {
